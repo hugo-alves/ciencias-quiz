@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ciências 5.º — Unidade 1 (Estrita v2)</title>
+<meta name="description" content="Flashcards + Teste com distratores plausíveis — A Terra, planeta especial (PT‑PT)" />
+<style>
+  :root{
+    --bg:#0f172a; --card:#111827; --card-2:#0b1224; --fg:#e5e7eb; --muted:#94a3b8;
+    --accent:#22c55e; --warn:#f59e0b; --danger:#ef4444; --link:#38bdf8; --border:#1f2937;
+    --ok:#10b981; --bad:#ef4444; --btn:#1e293b; --btn-hover:#243447;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f8fafc; --card:#ffffff; --card-2:#f1f5f9; --fg:#0f172a; --muted:#475569; --border:#e2e8f0; --btn:#e2e8f0; --btn-hover:#cbd5e1; }
+  }
+  *{box-sizing:border-box}
+  body{ margin:0; background:var(--bg); color:var(--fg); font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji" }
+  header{ position:sticky; top:0; z-index:5; backdrop-filter:saturate(180%) blur(8px);
+    background:linear-gradient(to bottom, rgba(2,6,23,.9), rgba(2,6,23,.6)); border-bottom:1px solid var(--border) }
+  .wrap{ max-width:1100px; margin:0 auto; padding:1rem }
+  h1{ margin:.2rem 0 0; font-size:clamp(1.1rem,2.2vw,1.5rem) }
+  .subtitle{ color:var(--muted); font-size:.95rem }
+  nav{ margin-top:.7rem; display:flex; gap:.5rem; flex-wrap:wrap }
+  nav button{ background:var(--btn); color:var(--fg); border:1px solid var(--border); padding:.5rem .8rem; border-radius:.6rem; cursor:pointer }
+  nav button.active{ outline:2px solid var(--link) }
+  main{ padding:1rem 0 2rem }
+  .grid{ display:grid; grid-template-columns: 1.1fr .9fr; gap:1rem; align-items:start }
+  @media (max-width: 1000px){ .grid{ grid-template-columns:1fr } }
+  .panel{ background:var(--card); border:1px solid var(--border); border-radius:.9rem; padding:1rem }
+  .toolbar{ display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin-bottom:.6rem }
+  .toolbar select, .toolbar input[type="number"]{ background:var(--card-2); color:var(--fg); border:1px solid var(--border); padding:.45rem .6rem; border-radius:.6rem }
+  .btn{ background:var(--btn); color:var(--fg); border:1px solid var(--border); padding:.6rem .9rem; border-radius:.7rem; cursor:pointer; transition:.15s transform }
+  .btn:hover{ background:var(--btn-hover); transform: translateY(-1px) }
+  .btn.primary{ background:linear-gradient(135deg,#2563eb,#06b6d4); border:none }
+  .btn.good{ background:linear-gradient(135deg,#16a34a,#22c55e); border:none }
+  .btn.bad{ background:linear-gradient(135deg,#ef4444,#f97316); border:none }
+  .btn.warn{ background:linear-gradient(135deg,#f59e0b,#f97316); border:none }
+  .muted{ color:var(--muted) } .small{ font-size:.9rem }
+  .pill{ display:inline-flex; align-items:center; gap:.35rem; padding:.2rem .5rem; border:1px solid var(--border); border-radius:999px; background:var(--card-2); color:var(--muted); font-size:.8rem }
+  .progress{ height:10px; background:var(--card-2); border:1px solid var(--border); border-radius:999px; overflow:hidden }
+  .bar{ height:100%; background:linear-gradient(90deg,#06b6d4,#22c55e) }
+  .flashcard{ background: radial-gradient(1200px 600px at 50% -200px, rgba(59,130,246,.25), transparent 60%), var(--card);
+    border:1px solid var(--border); border-radius:1rem; padding:1.2rem; min-height:210px; display:flex; flex-direction:column; justify-content:space-between }
+  .flash-q{ font-size:1.1rem }
+  .flash-a{ margin-top:.8rem; padding:.8rem; border-radius:.7rem; border:1px dashed var(--border); background:var(--card-2) }
+  .two-col{ display:grid; grid-template-columns:1fr 1fr; gap:.5rem }
+  .two-col>.btn{ width:100% }
+  .stack{ display:flex; flex-direction:column; gap:.5rem }
+  .list{ display:flex; flex-direction:column; gap:.5rem; max-height:420px; overflow:auto }
+  .item{ border:1px solid var(--border); border-radius:.6rem; padding:.6rem .7rem; display:flex; justify-content:space-between; align-items:center; gap:.6rem; background:var(--card-2) }
+  .foot{ display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; justify-content:space-between; margin-top:1rem; padding-top:1rem; border-top:1px dashed var(--border); color:var(--muted) }
+  .score{ font-weight:700 }
+  .hidden{ display:none !important }
+  .tag{ font-size:.78rem; padding:.15rem .45rem; border-radius:.45rem; border:1px solid var(--border); background:var(--card-2); color:var(--muted) }
+  details[open] summary{ margin-bottom:.5rem }
+  summary{ cursor:pointer }
+  .print-all{ max-height:55vh; overflow:auto; border:1px dashed var(--border); padding:.6rem; border-radius:.6rem; background:var(--card-2) }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Ciências Naturais 5.º — Unidade 1 <span class="muted">A Terra, planeta especial</span></h1>
+    <div class="subtitle">VERSÃO ESTRITA v2 — distratores plausíveis • progresso local • <span class="muted" title="Baseado exclusivamente nos documentos do projeto">Fonte confirmada</span></div>
+    <nav aria-label="Modos">
+      <button class="tabbtn active" data-tab="flash">Cartões</button>
+      <button class="tabbtn" data-tab="quiz">Teste Rápido</button>
+      <button class="tabbtn" data-tab="vf">Verdadeiro/Falso</button>
+      <button class="tabbtn" data-tab="painel">Painel</button>
+      <button class="tabbtn" data-tab="def">Imprimir Cartões</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- CARTÕES -->
+  <section id="flash" class="grid tab">
+    <div class="panel">
+      <div class="toolbar">
+        <label> Tema:
+          <select id="temaSelect"></select>
+        </label>
+        <span class="pill" id="duePill">Devidos hoje: <strong id="dueCount">0</strong></span>
+        <span class="pill">Domínio: <strong id="masteryPct">0%</strong></span>
+        <span class="pill">Sessão: <strong id="sessStats">0/0</strong></span>
+        <span class="pill">⏱ <span id="timer">00:00</span></span>
+        <span class="small muted">Atalhos: <span class="tag">Espaço</span> Revelar • <span class="tag">A</span> Acertei • <span class="tag">E</span> Errei</span>
+      </div>
+
+      <div class="flashcard" aria-live="polite">
+        <div>
+          <div class="small muted" id="fcMeta"></div>
+          <div class="flash-q" id="fcQ">Carregar em “Novo cartão”.</div>
+          <div class="flash-a hidden" id="fcA"></div>
+        </div>
+        <div class="two-col">
+          <button id="revealBtn" class="btn primary"><strong>Revelar</strong></button>
+          <button id="nextBtn" class="btn">Novo cartão</button>
+        </div>
+        <div class="two-col">
+          <button id="wrongBtn" class="btn bad" disabled><strong>Errei</strong></button>
+          <button id="rightBtn" class="btn good" disabled><strong>Acertei</strong></button>
+        </div>
+      </div>
+      <div class="foot small">
+        <div>Revisão espaçada: <span class="muted">Leitner (caixas 1→3: ~1/3/7 dias)</span></div>
+        <div class="muted">Progresso guarda em <code>localStorage</code>.</div>
+      </div>
+    </div>
+
+    <aside class="panel stack">
+      <h3 style="margin:0 0 .2rem">Resumo</h3>
+      <div class="progress"><div id="globalBar" class="bar" style="width:0%"></div></div>
+      <div class="list" id="temaList"></div>
+
+      <details>
+        <summary class="muted">Exportar / Importar / Repor</summary>
+        <div class="stack">
+          <button class="btn" id="exportBtn">Exportar progresso (JSON)</button>
+          <input type="file" id="importFile" accept="application/json" />
+          <button class="btn warn" id="resetBtn">Repor tudo</button>
+        </div>
+      </details>
+      <p class="small muted">Conteúdo estritamente alinhado com o documento do projeto.</p>
+    </aside>
+  </section>
+
+  <!-- TESTE RÁPIDO -->
+  <section id="quiz" class="grid tab hidden">
+    <div class="panel">
+      <div class="toolbar">
+        <label> Nº de perguntas:
+          <input type="number" id="quizN" min="5" max="25" value="10" />
+        </label>
+        <label> Tema:
+          <select id="quizTema"></select>
+        </label>
+        <label> Nível:
+          <select id="quizLvl">
+            <option value="medio" selected>Médio</option>
+            <option value="dificil">Difícil</option>
+            <option value="facil">Fácil</option>
+          </select>
+        </label>
+        <button class="btn primary" id="startQuiz">Começar teste</button>
+        <span class="pill">Pontuação: <strong id="quizScore">0</strong></span>
+        <span class="small muted">Clique nas opções para responder</span>
+      </div>
+      <div id="quizBox" class="stack"></div>
+    </div>
+    <aside class="panel">
+      <h3 style="margin:0 0 .3rem">Histórico</h3>
+      <div id="quizHistory" class="stack small"></div>
+    </aside>
+  </section>
+
+  <!-- VERDADEIRO / FALSO -->
+  <section id="vf" class="grid tab hidden">
+    <div class="panel">
+      <div class="toolbar">
+        <button class="btn primary" id="vfNew">Nova afirmação</button>
+        <span class="pill">Corretas na sessão: <strong id="vfSess">0</strong></span>
+        <span class="small muted">Atalhos: <span class="tag">V</span> Verdadeiro • <span class="tag">F</span> Falso • <span class="tag">Espaço</span> Nova</span>
+      </div>
+      <div class="flashcard">
+        <div>
+          <div class="small muted" id="vfMeta"></div>
+          <div class="flash-q" id="vfText">Clique em “Nova afirmação”.</div>
+          <div class="flash-a hidden" id="vfExp"></div>
+        </div>
+        <div class="two-col">
+          <button class="btn bad" id="vfF">Falso</button>
+          <button class="btn good" id="vfV">Verdadeiro</button>
+        </div>
+      </div>
+    </div>
+    <aside class="panel">
+      <h3 style="margin:0 0 .3rem">Dica</h3>
+      <p class="muted small">As opções foram escritas para “enganar” de forma justa. Lê com atenção palavras‑chave e compara com os cartões.</p>
+    </aside>
+  </section>
+
+  <!-- PAINEL -->
+  <section id="painel" class="tab hidden">
+    <div class="panel">
+      <h3 style="margin-top:0">Painel de Progresso</h3>
+      <div class="grid" style="grid-template-columns: .9fr 1.1fr">
+        <div class="stack">
+          <div class="item"><span>Total de cartões</span><strong id="pTotal">0</strong></div>
+          <div class="item"><span>Vistos (alguma vez)</span><strong id="pVistos">0</strong></div>
+          <div class="item"><span>Domínio (caixa 3)</span><strong id="pDom">0</strong></div>
+          <div class="item"><span>Devidos hoje</span><strong id="pDueToday">0</strong></div>
+          <div class="item"><span>Tempo total de estudo</span><strong id="pTime">0 min</strong></div>
+          <div class="item"><span>Streak diário (≥10 cartões)</span><strong id="pStreak">0 🔥</strong></div>
+        </div>
+        <div class="panel" style="background:var(--card-2)">
+          <h4 style="margin-top:0">Revisões próximas (14 dias)</h4>
+          <div id="calendar" class="stack small"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPRIMIR -->
+  <section id="def" class="tab hidden">
+    <div class="panel">
+      <h3 style="margin-top:0">Imprimir / Rever todos os cartões</h3>
+      <div id="printAll" class="print-all small"></div>
+      <button class="btn" onclick="window.print()">Imprimir</button>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap small muted" style="padding-bottom:2rem">
+  <div>Conteúdo **estrito** retirado do documento do projeto (Unidade 1). Para uso educativo.</div>
+</footer>
+
+<script>
+/* =======================================================
+   DADOS (VERSÃO ESTRITA) — exclusivamente do documento
+   Unidade 1 — A Terra, planeta especial
+   ======================================================= */
+const CARDS = [
+  // A Terra
+  {id:1, tema:"A Terra", curto:false, q:"Porque é que a Terra reúne condições para a vida?", a:"Distância ao Sol (temperaturas amenas), água nos três estados, atmosfera que protege e regula a temperatura, e solo/rochas que suportam a vida."},
+  {id:2, tema:"A Terra", curto:true,  q:"Porque é importante a distância da Terra ao Sol?", a:"Porque permite temperaturas amenas, compatíveis com água líquida e com a vida."},
+  {id:3, tema:"A Terra", curto:true,  q:"Quais são as quatro esferas estudadas nesta unidade?", a:"Atmosfera, Hidrosfera, Geosfera e Biosfera."},
+
+  // Hidrosfera
+  {id:10, tema:"Hidrosfera", curto:false, q:"O que é a hidrosfera?", a:"Conjunto de todas as águas do planeta: oceanos, mares, rios, lagos, aquíferos, gelo e vapor de água."},
+  {id:11, tema:"Hidrosfera", curto:true,  q:"Quais são os três estados físicos da água?", a:"Sólido, líquido e gasoso."},
+  {id:12, tema:"Hidrosfera", curto:true,  q:"Define evaporação.", a:"Passagem de líquido a gasoso."},
+  {id:13, tema:"Hidrosfera", curto:true,  q:"Define condensação.", a:"Passagem de gasoso a líquido."},
+  {id:14, tema:"Hidrosfera", curto:true,  q:"Define fusão.", a:"Passagem de sólido a líquido."},
+  {id:15, tema:"Hidrosfera", curto:true,  q:"Define solidificação.", a:"Passagem de líquido a sólido."},
+  {id:16, tema:"Hidrosfera", curto:true,  q:"Define sublimação.", a:"Passagem direta de sólido a gasoso."},
+  {id:17, tema:"Hidrosfera", curto:false, q:"O que é o ciclo da água? Indica as etapas.", a:"Circulação da água na Natureza: evaporação → condensação → precipitação → escoamento e infiltração."},
+  {id:18, tema:"Hidrosfera", curto:false, q:"Indica duas importâncias da água para os seres vivos.", a:"A água é solvente e meio de transporte de substâncias; regula a temperatura; é habitat de muitos seres vivos."},
+
+  // Águas (salinidade e ambientes de transição)
+  {id:20, tema:"Águas", curto:false, q:"O que é água doce? Dá exemplos.", a:"Água com baixa salinidade. Exemplos: rios, ribeiras e lagos."},
+  {id:21, tema:"Águas", curto:false, q:"O que é água salgada? Onde ocorre?", a:"Água com elevada salinidade. Ocorre em mares e oceanos."},
+  {id:22, tema:"Águas", curto:false, q:"O que é água salobra? Onde é típica?", a:"Mistura de água doce e salgada, típica de estuários e sapais."},
+  {id:23, tema:"Águas", curto:true,  q:"O que são ambientes de transição? Dá dois exemplos.", a:"Zonas entre o terrestre e o aquático; exemplos: estuários e sapais."},
+
+  // Atmosfera
+  {id:30, tema:"Atmosfera", curto:true,  q:"O que é a atmosfera?", a:"Camada gasosa que envolve a Terra."},
+  {id:31, tema:"Atmosfera", curto:false, q:"Qual é a composição aproximada do ar?", a:"Azoto ~78%, oxigénio ~21% e outros gases (CO₂, vapor de água, gases raros)."},
+  {id:32, tema:"Atmosfera", curto:false, q:"Indica três funções da atmosfera.", a:"Permite a respiração, protege das radiações solares (ozono estratosférico) e regula a temperatura (efeito de estufa natural); possibilita meteorologia (vento, nuvens, precipitação)."},
+  {id:33, tema:"Atmosfera", curto:true,  q:"Indica duas propriedades do ar.", a:"O ar ocupa espaço, tem massa e exerce pressão."},
+
+  // Geosfera
+  {id:40, tema:"Geosfera", curto:true,  q:"O que é a geosfera?", a:"Parte sólida da Terra: rochas, minerais e o solo."},
+  {id:41, tema:"Geosfera", curto:false, q:"O que são rochas? Refere uma propriedade observável.", a:"Materiais sólidos da geosfera; propriedades como dureza relativa, cor e granulação."},
+  {id:42, tema:"Geosfera", curto:false, q:"Como se forma o solo e porque é importante?", a:"Forma-se pela meteorização das rochas e pela matéria orgânica; é importante para plantas e muitos seres vivos."},
+  {id:43, tema:"Geosfera", curto:true,  q:"Refere uma medida de conservação do solo.", a:"Evitar a erosão e usar o solo de forma sustentável."},
+
+  // Biosfera
+  {id:50, tema:"Biosfera", curto:false, q:"O que é a biosfera?", a:"Conjunto de todos os seres vivos e as zonas onde a vida existe."},
+  {id:51, tema:"Biosfera", curto:false, q:"Como se relaciona a biosfera com as outras esferas?", a:"Os seres vivos dependem de ar (atmosfera), água (hidrosfera) e rochas/solo (geosfera)."},
+
+  // Ambientes naturais
+  {id:60, tema:"Ambientes", curto:true,  q:"Dá exemplos de ambientes terrestres.", a:"Florestas, montanhas, desertos e planícies."},
+  {id:61, tema:"Ambientes", curto:true,  q:"Dá exemplos de ambientes aquáticos.", a:"Rios, lagos, oceanos e lagoas."},
+  {id:62, tema:"Ambientes", curto:false, q:"O que caracteriza os ambientes de transição?", a:"Variação de salinidade e influência das marés; organismos adaptados (ex.: estuários e sapais)."},
+  {id:63, tema:"Ambientes", curto:false, q:"Indica quatro fatores do meio que variam entre ambientes.", a:"Luz, temperatura, água/salinidade e tipo de solo/rocha."},
+
+  // Síntese (Recordo)
+  {id:70, tema:"Síntese", curto:true,  q:"Qual é o único planeta conhecido com vida?", a:"A Terra (até ao momento, a única com vida confirmada)."},
+  {id:71, tema:"Síntese", curto:true,  q:"Em que estados existe a água e como circula?", a:"Existe nos três estados (sólido, líquido, gasoso) e circula no ciclo da água."},
+  {id:72, tema:"Síntese", curto:true,  q:"Porque é essencial a atmosfera?", a:"Porque protege e permite a vida (respiração, regulação térmica)."},
+  {id:73, tema:"Síntese", curto:true,  q:"O que fornece a geosfera aos ecossistemas terrestres?", a:"Rochas e solo — base dos ecossistemas terrestres."}
+];
+
+/* =======================================================
+   Distratores PONDERADOS (feitos à mão por conceito)
+   — Todos baseados apenas em termos dos documentos
+   ======================================================= */
+const DIST = {
+  // A Terra
+  1: [
+    "Porque está muito perto do Sol, sem atmosfera e sem necessidade de água.",
+    "Porque não precisa de água líquida nem de atmosfera para existir vida.",
+    "Porque o solo e as rochas não influenciam a existência de vida."
+  ],
+  2: [
+    "Porque impede a precipitação e torna os rios sempre de água salgada.",
+    "Porque elimina a necessidade de atmosfera protetora.",
+    "Porque garante que a Terra não tem variações de temperatura."
+  ],
+  3: [
+    "Vento, água, rochas e seres vivos.",
+    "Hidrosfera, Geosfera e Atmosfera (apenas três esferas).",
+    "Ambientes terrestres, aquáticos e de transição."
+  ],
+
+  // Hidrosfera
+  10: [
+    "Parte sólida da Terra: rochas, minerais e o solo.",
+    "Camada gasosa que envolve a Terra.",
+    "Conjunto de todos os seres vivos e as zonas onde a vida existe."
+  ],
+  11: [
+    "Fusão, condensação e evaporação.",
+    "Sólido, líquido e precipitação.",
+    "Evaporação, condensação e precipitação."
+  ],
+  12: [
+    "Passagem de gasoso a líquido.",
+    "Queda de água sob a forma de precipitação.",
+    "Passagem de líquido a sólido."
+  ],
+  13: [
+    "Passagem de líquido a gasoso.",
+    "Passagem de sólido a líquido.",
+    "Queda de água sob a forma de precipitação."
+  ],
+  14: [
+    "Passagem de líquido a sólido.",
+    "Passagem direta de sólido a gasoso.",
+    "Passagem de gasoso a líquido."
+  ],
+  15: [
+    "Passagem de sólido a líquido.",
+    "Passagem de líquido a gasoso.",
+    "Queda de água sob a forma de precipitação."
+  ],
+  16: [
+    "Passagem de gasoso a líquido.",
+    "Passagem de líquido a sólido.",
+    "Passagem de sólido a líquido."
+  ],
+  17: [
+    "Condensação → evaporação → precipitação → infiltração.",
+    "Precipitação → infiltração → evaporação (e termina aqui).",
+    "Evaporação → precipitação → condensação → escoamento."
+  ],
+  18: [
+    "A água não transporta substâncias nem regula a temperatura.",
+    "A água só é importante como habitat; não tem outras funções.",
+    "A água não é solvente e não participa no ciclo da água."
+  ],
+
+  // Águas (salinidade)
+  20: [
+    "Água com elevada salinidade; mares e oceanos.",
+    "Mistura de água doce e salgada; estuários e sapais.",
+    "Água sem sais dissolvidos; mar aberto."
+  ],
+  21: [
+    "Água com baixa salinidade; rios, ribeiras e lagos.",
+    "Mistura de água doce e salgada; estuários e sapais.",
+    "Água sem sal; oceano e mar."
+  ],
+  22: [
+    "Água com baixa salinidade; rios e lagos.",
+    "Água com elevada salinidade; mares e oceanos.",
+    "Água doce que se transforma em salgada nos rios."
+  ],
+  23: [
+    "Zonas de mar aberto longe da costa.",
+    "Zonas secas do deserto sem influência de marés.",
+    "Zonas apenas terrestres (florestas e montanhas)."
+  ],
+
+  // Atmosfera
+  30: [
+    "Parte sólida da Terra (rochas e solo).",
+    "Conjunto de todas as águas do planeta.",
+    "Conjunto de todos os seres vivos e os seus habitats."
+  ],
+  31: [
+    "Oxigénio ~78%, azoto ~21% e outros gases.",
+    "Azoto ~70%, oxigénio ~29% e outros gases.",
+    "Azoto ~80%, oxigénio ~19% e outros gases."
+  ],
+  32: [
+    "Aumenta as radiações perigosas e impede a respiração.",
+    "Não influencia a temperatura nem a meteorologia.",
+    "Serve apenas para formar vento, sem outras funções."
+  ],
+  33: [
+    "O ar não ocupa espaço nem exerce pressão.",
+    "O ar tem apenas temperatura; não tem massa.",
+    "O ar só existe acima das nuvens."
+  ],
+
+  // Geosfera
+  40: [
+    "Camada gasosa que envolve a Terra.",
+    "Conjunto de todas as águas do planeta.",
+    "Conjunto de todos os seres vivos e as zonas onde vivem."
+  ],
+  41: [
+    "Materiais gasosos da atmosfera; propriedades como pressão e vento.",
+    "Materiais líquidos dos mares e rios; propriedades como salinidade.",
+    "Materiais vivos da biosfera; propriedades como respiração."
+  ],
+  42: [
+    "Forma-se pela solidificação da água do mar; não depende de rochas.",
+    "É produzido diretamente pelas plantas, sem meteorização.",
+    "Não resulta da meteorização; é apenas areia acumulada."
+  ],
+  43: [
+    "Remover a vegetação para acelerar a erosão.",
+    "Usar o solo sem limites, pois não se degrada.",
+    "Aumentar a erosão para renovar rapidamente o solo."
+  ],
+
+  // Biosfera
+  50: [
+    "Camada gasosa que envolve a Terra.",
+    "Conjunto de todas as águas do planeta.",
+    "Parte sólida da Terra (rochas e solo)."
+  ],
+  51: [
+    "Os seres vivos não dependem das outras esferas.",
+    "Dependem apenas da atmosfera; não precisam de água nem de solo.",
+    "Dependem só da hidrosfera; o ar e o solo não são necessários."
+  ],
+
+  // Ambientes
+  60: [
+    "Rios, lagos, oceanos e lagoas.",
+    "Estuários e sapais.",
+    "Mar aberto e zona costeira."
+  ],
+  61: [
+    "Florestas, montanhas, desertos e planícies.",
+    "Planícies e montanhas.",
+    "Estuários e sapais (apenas)."
+  ],
+  62: [
+    "Ausência de variação de salinidade e de marés.",
+    "Zonas apenas terrestres sem influência do mar.",
+    "Zonas apenas marinhas longe da costa."
+  ],
+  63: [
+    "Vento, nuvens e precipitação.",
+    "Pressão do ar, oxigénio e dióxido de carbono.",
+    "Rochas, seres vivos e energia solar."
+  ],
+
+  // Síntese
+  70: [
+    "Existem vários planetas com vida confirmada.",
+    "Não se sabe se existe vida em qualquer planeta, incluindo a Terra.",
+    "A existência de vida não depende de água nem de atmosfera."
+  ],
+  71: [
+    "Existe em sólido e líquido; não existe em gasoso.",
+    "Circula sem mudanças de estado (sem evaporação nem condensação).",
+    "Só existe como líquido e move-se apenas nos rios."
+  ],
+  72: [
+    "Porque aumenta as radiações perigosas e impede a respiração.",
+    "Porque não influencia a temperatura do planeta.",
+    "Porque apenas permite vento; não tem outras funções."
+  ],
+  73: [
+    "Água doce e salgada — base dos ecossistemas.",
+    "Ar atmosférico — único suporte dos ecossistemas terrestres.",
+    "Solo não tem importância para as plantas."
+  ]
+};
+
+/* =======================================================
+   Afirmações V/F — iguais à versão estrita
+   ======================================================= */
+const VF = [
+  {t:"A hidrosfera inclui apenas oceanos.", v:false, e:"Inclui oceanos/mares, mas também rios, lagos, gelo e vapor de água."},
+  {t:"A água salobra ocorre tipicamente em estuários e sapais.", v:true, e:"São ambientes de transição."},
+  {t:"A atmosfera é composta maioritariamente por oxigénio (~78%).", v:false, e:"O gás mais abundante é o azoto (~78%); oxigénio ~21%."},
+  {t:"O ar tem massa e pode exercer pressão.", v:true, e:"Propriedades do ar."},
+  {t:"O ciclo da água inclui evaporação, condensação e precipitação.", v:true, e:"Com escoamento e infiltração."},
+  {t:"A geosfera é a parte gasosa da Terra.", v:false, e:"É a parte sólida."},
+  {t:"Rios e lagos têm água doce (baixa salinidade).", v:true, e:"Água doce: rios, ribeiras e lagos."},
+  {t:"O ozono estratosférico ajuda a proteger das radiações solares perigosas.", v:true, e:"Função da atmosfera."},
+  {t:"O solo forma-se por meteorização das rochas e matéria orgânica.", v:true, e:"Descrito no documento."},
+  {t:"Estuário é o encontro do rio com o mar.", v:true, e:"Definição indicada no glossário."},
+  {t:"Sapal é uma zona alagada costeira com vegetação adaptada.", v:true, e:"Definição do glossário."},
+  {t:"Água doce tem elevada salinidade.", v:false, e:"É baixa salinidade."},
+  {t:"Os seres vivos não dependem de ar, água, rochas e solo.", v:false, e:"Dependem das outras esferas."},
+  {t:"A distância da Terra ao Sol contribui para temperaturas amenas.", v:true, e:"Condição essencial para a vida."},
+  {t:"O azoto é o gás mais abundante na atmosfera.", v:true, e:"Cerca de 78%."},
+  {t:"Evaporação é passagem de líquido a gasoso.", v:true, e:"Mudança de estado."},
+  {t:"Condensação é passagem de gasoso a líquido.", v:true, e:"Mudança de estado."},
+  {t:"Fusão é passagem de líquido a sólido.", v:false, e:"Fusão: sólido → líquido."},
+  {t:"Solidificação é passagem de líquido a sólido.", v:true, e:"Mudança de estado."},
+  {t:"O efeito de estufa natural ajuda a regular a temperatura da Terra.", v:true, e:"Função da atmosfera."},
+  {t:"A hidrosfera não inclui gelo.", v:false, e:"Inclui gelo (calotes, glaciares)."},
+  {t:"Água salobra tem salinidade superior à água do mar.", v:false, e:"É intermédia entre doce e salgada."},
+  {t:"Ambientes de transição incluem estuários e sapais.", v:true, e:"Tal como referido nos documentos."},
+  {t:"Fatores do meio incluem luz, temperatura, água/salinidade e tipo de solo/rocha.", v:true, e:"Listados na unidade."}
+];
+
+/* =======================================================
+   Persistência e utilitários
+   ======================================================= */
+const KEY = "EC5_U1_STRICT_progress_v2";
+const STATS_KEY = "EC5_U1_STRICT_stats_v2";
+const now = () => new Date();
+const todayStr = () => new Date().toISOString().slice(0,10);
+const addDays = (d,n)=>{const t=new Date(d); t.setDate(t.getDate()+n); return t.toISOString().slice(0,10);};
+const clamp=(v,a,b)=>Math.min(b,Math.max(a,v));
+
+function loadProgress(){ try{ return JSON.parse(localStorage.getItem(KEY)||"{}"); }catch(e){ return {}; } }
+function saveProgress(p){ localStorage.setItem(KEY, JSON.stringify(p)); }
+function loadStats(){ try{ return JSON.parse(localStorage.getItem(STATS_KEY)||JSON.stringify({timeSec:0,streak:0,lastDay:null,quiz:[]})); }catch(e){ return {timeSec:0,streak:0,lastDay:null,quiz:[]}; } }
+function saveStats(s){ localStorage.setItem(STATS_KEY, JSON.stringify(s)); }
+
+let PROG = loadProgress();
+let STATS = loadStats();
+
+/* =======================================================
+   UI (temas, listas, impressão)
+   ======================================================= */
+const temas = ["Todos","A Terra","Hidrosfera","Águas","Atmosfera","Geosfera","Biosfera","Ambientes","Síntese"];
+const temaSelect = document.getElementById('temaSelect');
+const quizTema = document.getElementById('quizTema');
+temas.forEach(t=>{ const o=document.createElement('option'); o.value=t; o.textContent=t; temaSelect.appendChild(o); quizTema.appendChild(o.cloneNode(true)); });
+
+const temaList = document.getElementById('temaList');
+function buildTemaList(){
+  temaList.innerHTML="";
+  const byTema = Object.fromEntries(temas.filter(t=>t!=="Todos").map(t=>[t, CARDS.filter(c=>c.tema===t)]));
+  Object.entries(byTema).forEach(([t, cards])=>{
+    const dom = cards.filter(c=> (PROG[c.id]?.box||0)>=3).length;
+    const vistos = cards.filter(c=> PROG[c.id]).length;
+    const pct = cards.length? Math.round(dom/cards.length*100) : 0;
+    const div = document.createElement('div'); div.className="item";
+    div.innerHTML = `<div><div><strong>${t}</strong> <span class="tag">${cards.length} cartões</span></div>
+      <div class="progress" style="margin-top:.3rem;width:260px"><div class="bar" style="width:${pct}%"></div></div>
+      <div class="small muted">${dom} dominados • ${vistos} vistos</div></div>
+      <button class="btn" data-gotema="${t}">Estudar</button>`;
+    temaList.appendChild(div);
+  });
+  temaList.querySelectorAll('button[data-gotema]').forEach(b=> b.onclick=()=>{ temaSelect.value=b.dataset.gotema; pickNextCard(); switchTab('flash'); });
+}
+buildTemaList();
+
+function buildPrintAll(){
+  const box = document.getElementById('printAll');
+  box.innerHTML = CARDS.map(c=> `<details><summary><strong>${c.tema}</strong> — ${c.q}</summary><div class="small">${c.a}</div></details>`).join("");
+}
+buildPrintAll();
+
+/* =======================================================
+   Cartões: lógica (Leitner 1/3/7 dias)
+   ======================================================= */
+const dueCountEl=document.getElementById('dueCount');
+const masteryPctEl=document.getElementById('masteryPct');
+const globalBar=document.getElementById('globalBar');
+const sessStatsEl=document.getElementById('sessStats');
+let sessRight=0, sessTotal=0;
+let sessionStart=Date.now();
+const timerEl=document.getElementById('timer');
+function tickTimer(){ const sec=Math.floor((Date.now()-sessionStart)/1000); timerEl.textContent=new Date(sec*1000).toISOString().slice(14,19); }
+setInterval(tickTimer,1000);
+
+function cardState(id){ return PROG[id] || {box:0, seen:0, right:0, wrong:0, next:todayStr(), last:null}; }
+function schedule(id, correct){
+  const s = cardState(id); s.seen++; s.last=todayStr();
+  if(correct){ s.right++; s.box=clamp(s.box+1,1,3); } else { s.wrong++; s.box=1; }
+  const interval = s.box===1?1:(s.box===2?3:7);
+  s.next = correct? addDays(todayStr(), interval) : todayStr();
+  PROG[id]=s; saveProgress(PROG);
+  sessTotal++; if(correct) sessRight++;
+  updateDashboard();
+  // streak: conta dia em que faz ≥10 cartões
+  const day=todayStr();
+  if(sessTotal>=10){
+    if(STATS.lastDay!==day){ STATS.streak=(STATS.lastDay===addDays(day,-1))? (STATS.streak||0)+1 : 1; STATS.lastDay=day; saveStats(STATS); }
+  }
+}
+function dueCards(filterTema){
+  const day=todayStr();
+  return CARDS.filter(c=>{
+    const s=cardState(c.id);
+    const temaOK=(filterTema==="Todos" || c.tema===filterTema);
+    return temaOK && (!s.seen || s.next<=day);
+  });
+}
+function updateDashboard(){
+  const total=CARDS.length;
+  const dom=CARDS.filter(c=> (cardState(c.id).box)>=3).length;
+  const vistos=CARDS.filter(c=> cardState(c.id).seen>0).length;
+  const dueToday=dueCards(temaSelect.value).length;
+  const pct=Math.round(dom/total*100);
+  masteryPctEl.textContent=pct+"%"; globalBar.style.width=pct+"%"; dueCountEl.textContent=dueToday; sessStatsEl.textContent=`${sessRight}/${sessTotal}`;
+  document.getElementById('pTotal').textContent=total;
+  document.getElementById('pVistos').textContent=vistos;
+  document.getElementById('pDom').textContent=dom;
+  document.getElementById('pDueToday').textContent=dueCards("Todos").length;
+  const elapsed=Math.floor((Date.now()-sessionStart)/1000); const prev=STATS.timeSec||0;
+  document.getElementById('pTime').textContent=Math.floor((prev+elapsed)/60)+" min";
+  document.getElementById('pStreak').textContent=(STATS.streak||0)+" 🔥";
+  // calendário de revisões
+  const cal=document.getElementById('calendar');
+  const counts={};
+  CARDS.forEach(c=>{ const s=cardState(c.id); counts[s.next]=(counts[s.next]||0)+1; });
+  cal.innerHTML="";
+  for(let i=0;i<14;i++){
+    const d=addDays(todayStr(),i); const n=counts[d]||0; const barw=clamp(n*4,0,100);
+    const div=document.createElement('div'); div.className="item";
+    div.innerHTML=`<span>${d}</span><div class="progress" style="width:200px"><div class="bar" style="width:${barw}%"></div></div><strong>${n}</strong>`;
+    cal.appendChild(div);
+  }
+}
+updateDashboard();
+
+const fcQ=document.getElementById('fcQ');
+const fcA=document.getElementById('fcA');
+const fcMeta=document.getElementById('fcMeta');
+let currentCard=null;
+function renderCard(c){
+  currentCard=c; fcQ.textContent=c.q; fcA.textContent=c.a; fcA.classList.add('hidden');
+  document.getElementById('revealBtn').disabled=false;
+  document.getElementById('rightBtn').disabled=true;
+  document.getElementById('wrongBtn').disabled=true;
+  const s=cardState(c.id);
+  fcMeta.innerHTML=`<span class="tag">${c.tema}</span> <span class="tag">Caixa ${Math.max(1,s.box||1)}</span> <span class="tag">Vistos: ${s.seen||0}</span>`;
+}
+function pickNextCard(){
+  const filterTema=temaSelect.value;
+  const pool=dueCards(filterTema);
+  if(pool.length>0){ renderCard(pool[Math.floor(Math.random()*pool.length)]); return; }
+  const alt=CARDS.filter(c=> (filterTema==="Todos" || c.tema===filterTema))
+                 .sort((a,b)=> (cardState(a.id).box||0)-(cardState(b.id).box||0));
+  renderCard(alt[0]);
+}
+
+document.getElementById('revealBtn').onclick=()=>{ fcA.classList.remove('hidden'); document.getElementById('rightBtn').disabled=false; document.getElementById('wrongBtn').disabled=false; document.getElementById('revealBtn').disabled=true; };
+document.getElementById('rightBtn').onclick=()=>{ if(!currentCard) return; schedule(currentCard.id,true); pickNextCard(); };
+document.getElementById('wrongBtn').onclick=()=>{ if(!currentCard) return; schedule(currentCard.id,false); pickNextCard(); };
+document.getElementById('nextBtn').onclick=pickNextCard;
+temaSelect.onchange=()=>{ updateDashboard(); pickNextCard(); };
+
+// --- Atalhos de teclado globais ---
+window.addEventListener('keydown', (e) => {
+  if (currentTab === "flash") {
+    if (e.code === "Space") { e.preventDefault(); document.getElementById('revealBtn').click(); }
+    if (e.key.toLowerCase() === 'a') { document.getElementById('rightBtn').click(); }
+    if (e.key.toLowerCase() === 'e') { document.getElementById('wrongBtn').click(); }
+  } else if (currentTab === "vf") {
+    const key = e.key.toLowerCase();
+    if (key === "v") { document.getElementById("vfV").click(); }
+    else if (key === "f") { document.getElementById("vfF").click(); }
+    else if (e.code === "Space") { e.preventDefault(); document.getElementById("vfNew").click(); }
+  }
+});
+
+/* Exportar / importar / repor */
+document.getElementById('exportBtn').onclick=()=>{
+  const payload={progress:PROG, stats:STATS, exportedAt:new Date().toISOString()};
+  const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});
+  const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download="progresso_ciencias_u1_estrita_v2.json"; a.click(); URL.revokeObjectURL(url);
+};
+document.getElementById('importFile').onchange=(ev)=>{
+  const file=ev.target.files[0]; if(!file) return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      if(data.progress){ PROG=data.progress; saveProgress(PROG); }
+      if(data.stats){ STATS=data.stats; saveStats(STATS); }
+      alert("Importação concluída!");
+      updateDashboard(); buildTemaList(); pickNextCard();
+    }catch(e){ alert("Ficheiro inválido."); }
+  };
+  reader.readAsText(file);
+};
+document.getElementById('resetBtn').onclick=()=>{
+  if(confirm("Apagar TODO o progresso?")){ localStorage.removeItem(KEY); localStorage.removeItem(STATS_KEY);
+    PROG={}; STATS={timeSec:0,streak:0,lastDay:null,quiz:[]}; updateDashboard(); buildTemaList(); alert("Progresso reposto."); }
+};
+
+/* =======================================================
+   Teste Rápido — distratores plausíveis e níveis
+   ======================================================= */
+const quizBox=document.getElementById('quizBox');
+const startQuizBtn=document.getElementById('startQuiz');
+const quizScoreEl=document.getElementById('quizScore');
+const quizHistory=document.getElementById('quizHistory');
+const quizLvlSel=document.getElementById('quizLvl');
+
+function normalizeEnd(s){
+  s = s.trim();
+  if(/[.;]$/.test(s)) return s;
+  return s + ".";
+}
+function similarLengthFilter(cands, targetLen, tol=0.35){
+  return cands.filter(t=> Math.abs(t.length - targetLen)/Math.max(1,targetLen) <= tol);
+}
+function unique(arr){ return Array.from(new Set(arr)); }
+
+function handcraftedDistractors(card){
+  const list = DIST[card.id] || [];
+  return list.map(normalizeEnd);
+}
+
+function sample(arr, k){
+  const a=arr.slice(); const out=[];
+  while(a.length && out.length<k){
+    const i=Math.floor(Math.random()*a.length);
+    out.push(a.splice(i,1)[0]);
+  }
+  return out;
+}
+
+function smartThemeDistractors(correctCard, tema, targetLen){
+  // Fallback: respostas de cartões do mesmo tema (ou globais) com tamanho semelhante e sem coincidência literal
+  const pool = CARDS.filter(c=> c.id!==correctCard.id && (!tema || c.tema===tema));
+  let texts = pool.map(c=> c.a).filter(x=> x && x.length>2 && x!==correctCard.a);
+  texts = texts.map(normalizeEnd);
+  let out = similarLengthFilter(texts, targetLen, 0.35);
+  if(out.length<6) out = texts; // se curto, relaxa
+  return unique(out);
+}
+
+function buildDistractors(card, tema, level){
+  const targetLen = card.a.length;
+  let ds = [];
+  // 1) Feitos à mão
+  ds = handcraftedDistractors(card);
+  // 2) Adaptação ao nível
+  if(level==="facil"){
+    // completa com outros do tema, sem filtro apertado
+    if(ds.length<3){
+      const extras = smartThemeDistractors(card, (tema==="Todos"?null:tema), targetLen);
+      ds = unique(ds.concat(extras));
+    }
+  } else if(level==="medio"){
+    // usa os feitos à mão; se faltar, junta opções de tamanho semelhante
+    if(ds.length<3){
+      const extras = smartThemeDistractors(card, (tema==="Todos"?null:tema), targetLen);
+      const near = similarLengthFilter(extras, targetLen, 0.25);
+      ds = unique(ds.concat(near));
+    }
+  } else { // difícil
+    // prioriza feitos à mão + opções muito próximas em comprimento
+    const extras = smartThemeDistractors(card, (tema==="Todos"?null:tema), targetLen);
+    const near = similarLengthFilter(extras, targetLen, 0.18);
+    ds = unique(ds.concat(near));
+  }
+  // limpa iguais ao correto e garante variedade
+  ds = ds.filter(x=> x !== card.a);
+  // se ainda faltar, completa com qualquer outro texto plausível
+  if(ds.length<3){
+    const extras = smartThemeDistractors(card, null, targetLen);
+    ds = unique(ds.concat(extras)).filter(x=> x!==card.a);
+  }
+  // corta a 3 finais
+  return sample(ds, 3);
+}
+
+function renderQuizHistory(){
+  quizHistory.innerHTML="";
+  (STATS.quiz||[]).forEach(r=>{
+    const d=new Date(r.date).toLocaleString();
+    const row=document.createElement('div'); row.className="item";
+    row.innerHTML=`<span>${d} • <span class="muted">${r.tema}</span></span> <strong>${r.score}/${r.n} (${r.acc}%)</strong>`;
+    quizHistory.appendChild(row);
+  });
+}
+renderQuizHistory();
+
+function buildQuiz(n, tema, level){
+  const pool=CARDS.filter(c=> tema==="Todos"? true : c.tema===tema);
+  const chosen=[]; const used=new Set();
+  while(chosen.length<n && used.size<pool.length){
+    const i=Math.floor(Math.random()*pool.length); if(used.has(i)) continue; used.add(i); chosen.push(pool[i]);
+  }
+  let score=0, index=0; quizBox.innerHTML="";
+  function renderQ(){
+    const c=chosen[index];
+    const ds=buildDistractors(c, tema, level);
+    const opts=[...ds, normalizeEnd(c.a)].sort(()=>Math.random()-0.5);
+
+    const div=document.createElement('div');
+    div.className="panel"; div.style.marginBottom=".8rem";
+    div.innerHTML=`<div class="small muted"><span class="tag">${c.tema}</span> Pergunta ${index+1} de ${chosen.length}</div>
+                   <div style="font-size:1.05rem;margin:.4rem 0 .6rem">${c.q}</div>`;
+
+    const exp = document.createElement('div');
+    exp.className = "small muted";
+    exp.style.marginTop = ".4rem";
+
+    opts.forEach((txt)=>{
+      const b=document.createElement('button');
+      b.className="btn";
+      b.style.display="block"; b.style.width="100%"; b.style.textAlign="left"; b.style.marginBottom=".4rem";
+      b.textContent=txt;
+      b.onclick=()=>{
+        Array.from(div.querySelectorAll('button')).forEach(x=>x.disabled=true);
+        const correct = (txt===normalizeEnd(c.a));
+        if(correct){ b.classList.add('good'); score++; exp.innerHTML = "✅ Correto — " + normalizeEnd(c.a); }
+        else{ b.classList.add('bad'); exp.innerHTML = "❌ Incorrecto — Resposta certa: " + normalizeEnd(c.a); }
+        quizScoreEl.textContent=score;
+        div.appendChild(exp);
+
+        if(index<chosen.length-1){
+          // pequena pausa para ler a explicação
+          setTimeout(()=>{ index++; renderQ(); }, 600);
+        } else {
+          const acc=Math.round(score/chosen.length*100);
+          const res=document.createElement('div'); res.className="item"; res.innerHTML=`<span>Resultado final</span> <strong>${score}/${chosen.length} (${acc}%)</strong>`;
+          quizBox.appendChild(res);
+          STATS.quiz=STATS.quiz||[]; STATS.quiz.unshift({date:new Date().toISOString(), tema, n:chosen.length, score, acc}); STATS.quiz=STATS.quiz.slice(0,10); saveStats(STATS); renderQuizHistory();
+        }
+      };
+      div.appendChild(b);
+    });
+    quizBox.appendChild(div);
+  }
+  renderQ();
+}
+
+startQuizBtn.onclick=()=>{
+  const n=clamp(parseInt(document.getElementById('quizN').value||"10",10),5,25);
+  const tema=document.getElementById('quizTema').value;
+  const level = quizLvlSel.value;
+  quizScoreEl.textContent="0";
+  buildQuiz(n, tema, level);
+};
+
+/* =======================================================
+   Verdadeiro/Falso (igual)
+   ======================================================= */
+let vfSess=0; const vfSessEl=document.getElementById('vfSess');
+function newVF(){
+  const i=Math.floor(Math.random()*VF.length); const v=VF[i];
+  document.getElementById('vfText').textContent=v.t; document.getElementById('vfText').dataset.idx=i;
+  document.getElementById('vfExp').classList.add('hidden'); document.getElementById('vfMeta').textContent="Marque a opção correta e veja a explicação.";
+}
+document.getElementById('vfNew').onclick=newVF;
+function answerVF(ans){
+  const idx=+document.getElementById('vfText').dataset.idx; if(isNaN(idx)) return; const v=VF[idx];
+  const ok=(ans===v.v); const exp=document.getElementById('vfExp');
+  exp.textContent=(ok?"✅ Correto. ":"❌ Incorrecto. ")+(v.e||""); exp.classList.remove('hidden'); if(ok){ vfSess++; vfSessEl.textContent=vfSess; }
+}
+document.getElementById('vfV').onclick=()=>answerVF(true);
+document.getElementById('vfF').onclick=()=>answerVF(false);
+
+/* =======================================================
+   Tabs + init
+   ======================================================= */
+let currentTab="flash";
+function switchTab(id){
+  document.querySelectorAll('.tab').forEach(el=>el.classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+  document.querySelectorAll('.tabbtn').forEach(b=> b.classList.toggle('active', b.dataset.tab===id));
+  currentTab=id;
+  if(id==="flash"){ pickNextCard(); }
+  if(id==="painel"){ updateDashboard(); }
+}
+document.querySelectorAll('.tabbtn').forEach(b=> b.onclick=()=> switchTab(b.dataset.tab));
+switchTab("flash");
+
+/* Guardar tempo ao sair */
+window.addEventListener('beforeunload', ()=>{
+  const elapsed=Math.floor((Date.now()-sessionStart)/1000);
+  STATS.timeSec=(STATS.timeSec||0)+elapsed; saveStats(STATS);
+});
+</script>
+</body>
+</html>
