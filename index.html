@@ -632,11 +632,13 @@ const fcQ=document.getElementById('fcQ');
 const fcA=document.getElementById('fcA');
 const fcMeta=document.getElementById('fcMeta');
 let currentCard=null;
+let flashAnswered=false; // Track if current card has been answered
 function renderCard(c){
   currentCard=c; fcQ.textContent=c.q; fcA.textContent=c.a; fcA.classList.add('hidden');
   document.getElementById('revealBtn').disabled=false;
   document.getElementById('rightBtn').disabled=true;
   document.getElementById('wrongBtn').disabled=true;
+  flashAnswered=false; // Reset answered flag
   const s=cardState(c.id);
   fcMeta.innerHTML=`<span class="tag">${c.tema}</span> <span class="tag">Caixa ${Math.max(1,s.box||1)}</span> <span class="tag">Vistos: ${s.seen||0}</span>`;
 }
@@ -650,8 +652,8 @@ function pickNextCard(){
 }
 
 document.getElementById('revealBtn').onclick=()=>{ fcA.classList.remove('hidden'); document.getElementById('rightBtn').disabled=false; document.getElementById('wrongBtn').disabled=false; document.getElementById('revealBtn').disabled=true; };
-document.getElementById('rightBtn').onclick=()=>{ if(!currentCard) return; schedule(currentCard.id,true); pickNextCard(); };
-document.getElementById('wrongBtn').onclick=()=>{ if(!currentCard) return; schedule(currentCard.id,false); pickNextCard(); };
+document.getElementById('rightBtn').onclick=()=>{ if(!currentCard || flashAnswered) return; flashAnswered=true; schedule(currentCard.id,true); pickNextCard(); };
+document.getElementById('wrongBtn').onclick=()=>{ if(!currentCard || flashAnswered) return; flashAnswered=true; schedule(currentCard.id,false); pickNextCard(); };
 document.getElementById('nextBtn').onclick=pickNextCard;
 temaSelect.onchange=()=>{ updateDashboard(); pickNextCard(); };
 
@@ -659,12 +661,12 @@ temaSelect.onchange=()=>{ updateDashboard(); pickNextCard(); };
 window.addEventListener('keydown', (e) => {
   if (currentTab === "flash") {
     if (e.code === "Space") { e.preventDefault(); document.getElementById('revealBtn').click(); }
-    if (e.key.toLowerCase() === 'a') { document.getElementById('rightBtn').click(); }
-    if (e.key.toLowerCase() === 'e') { document.getElementById('wrongBtn').click(); }
+    if (e.key.toLowerCase() === 'a' && !flashAnswered) { document.getElementById('rightBtn').click(); }
+    if (e.key.toLowerCase() === 'e' && !flashAnswered) { document.getElementById('wrongBtn').click(); }
   } else if (currentTab === "vf") {
     const key = e.key.toLowerCase();
-    if (key === "v") { document.getElementById("vfV").click(); }
-    else if (key === "f") { document.getElementById("vfF").click(); }
+    if (key === "v" && !vfAnswered) { document.getElementById("vfV").click(); }
+    else if (key === "f" && !vfAnswered) { document.getElementById("vfF").click(); }
     else if (e.code === "Space") { e.preventDefault(); document.getElementById("vfNew").click(); }
   }
 });
@@ -847,16 +849,25 @@ startQuizBtn.onclick=()=>{
    Verdadeiro/Falso (igual)
    ======================================================= */
 let vfSess=0; const vfSessEl=document.getElementById('vfSess');
+let vfAnswered=false; // Track if current question has been answered
 function newVF(){
   const i=Math.floor(Math.random()*VF.length); const v=VF[i];
   document.getElementById('vfText').textContent=v.t; document.getElementById('vfText').dataset.idx=i;
   document.getElementById('vfExp').classList.add('hidden'); document.getElementById('vfMeta').textContent="Marque a opção correta e veja a explicação.";
+  vfAnswered=false; // Reset answered flag
+  document.getElementById('vfV').disabled=false; // Re-enable buttons
+  document.getElementById('vfF').disabled=false;
 }
 document.getElementById('vfNew').onclick=newVF;
 function answerVF(ans){
+  if(vfAnswered) return; // Prevent multiple answers
   const idx=+document.getElementById('vfText').dataset.idx; if(isNaN(idx)) return; const v=VF[idx];
   const ok=(ans===v.v); const exp=document.getElementById('vfExp');
-  exp.textContent=(ok?"✅ Correto. ":"❌ Incorrecto. ")+(v.e||""); exp.classList.remove('hidden'); if(ok){ vfSess++; vfSessEl.textContent=vfSess; }
+  exp.textContent=(ok?"✅ Correto. ":"❌ Incorrecto. ")+(v.e||""); exp.classList.remove('hidden'); 
+  if(ok){ vfSess++; vfSessEl.textContent=vfSess; }
+  vfAnswered=true; // Mark as answered
+  document.getElementById('vfV').disabled=true; // Disable buttons
+  document.getElementById('vfF').disabled=true;
 }
 document.getElementById('vfV').onclick=()=>answerVF(true);
 document.getElementById('vfF').onclick=()=>answerVF(false);
