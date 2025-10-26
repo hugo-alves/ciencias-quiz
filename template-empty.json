@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "Seu Título Aqui",
+    "subtitle": "Subtítulo ou tema",
+    "description": "Descrição adicional (pode incluir HTML)",
+    "unit": "UNIDADE_ID",
+    "version": "v1",
+    "footer": "Texto do rodapé (opcional)"
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Tema 1",
+      "curto": false,
+      "q": "Sua primeira pergunta?",
+      "a": "A resposta correspondente."
+    },
+    {
+      "id": 2,
+      "tema": "Tema 1",
+      "curto": true,
+      "q": "Pergunta curta?",
+      "a": "Resposta breve."
+    },
+    {
+      "id": 3,
+      "tema": "Tema 2",
+      "curto": false,
+      "q": "Outra pergunta sobre tema diferente?",
+      "a": "Resposta mais detalhada com explicação completa."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Distrator 1 - resposta incorreta mas plausível",
+      "Distrator 2 - outra opção errada",
+      "Distrator 3 - mais uma alternativa incorreta"
+    ],
+    "2": [
+      "Opção errada A",
+      "Opção errada B",
+      "Opção errada C"
+    ],
+    "3": [
+      "Resposta que parece certa mas está errada",
+      "Outra opção confusa",
+      "Alternativa baseada em erro comum"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Esta é uma afirmação verdadeira sobre o tema",
+      "v": true,
+      "e": "Explicação: por isso é verdadeira."
+    },
+    {
+      "t": "Esta afirmação é falsa",
+      "v": false,
+      "e": "Explicação: o correto seria..."
+    },
+    {
+      "t": "Outra afirmação para testar conhecimento",
+      "v": true,
+      "e": "Justificação da resposta correta."
+    }
+  ]
+}
+
+

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Quiz de Estudo - Seleção de Conteúdo</title>
+<style>
+  :root{
+    --bg:#0f172a; --card:#111827; --fg:#e5e7eb; --muted:#94a3b8;
+    --accent:#22c55e; --border:#1f2937; --btn:#1e293b; --btn-hover:#243447;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f8fafc; --card:#ffffff; --fg:#0f172a; --muted:#475569; --border:#e2e8f0; --btn:#e2e8f0; --btn-hover:#cbd5e1; }
+  }
+  *{box-sizing:border-box}
+  body{ 
+    margin:0; 
+    background:var(--bg); 
+    color:var(--fg); 
+    font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial; 
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:1rem;
+  }
+  .container{
+    max-width:800px;
+    width:100%;
+  }
+  .header{
+    text-align:center;
+    margin-bottom:2rem;
+  }
+  h1{
+    font-size:2.5rem;
+    margin:0 0 0.5rem;
+    background:linear-gradient(135deg,#06b6d4,#22c55e);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+  }
+  .subtitle{
+    color:var(--muted);
+    font-size:1.1rem;
+  }
+  .content-list{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+  }
+  .content-card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:1rem;
+    padding:1.5rem;
+    cursor:pointer;
+    transition:all 0.2s;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:1rem;
+  }
+  .content-card:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 16px rgba(0,0,0,0.3);
+    border-color:var(--accent);
+  }
+  .content-info h2{
+    margin:0 0 0.3rem;
+    font-size:1.3rem;
+  }
+  .content-info p{
+    margin:0;
+    color:var(--muted);
+    font-size:0.95rem;
+  }
+  .badge{
+    background:var(--btn);
+    padding:0.3rem 0.7rem;
+    border-radius:0.5rem;
+    font-size:0.85rem;
+    color:var(--muted);
+    border:1px solid var(--border);
+  }
+  .custom-section{
+    margin-top:2rem;
+    padding:1.5rem;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:1rem;
+  }
+  .custom-section h3{
+    margin:0 0 1rem;
+    font-size:1.2rem;
+  }
+  .input-group{
+    display:flex;
+    gap:0.5rem;
+    margin-bottom:0.8rem;
+  }
+  input[type="text"]{
+    flex:1;
+    background:var(--bg);
+    color:var(--fg);
+    border:1px solid var(--border);
+    padding:0.7rem;
+    border-radius:0.5rem;
+    font-size:1rem;
+  }
+  button{
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    color:white;
+    border:none;
+    padding:0.7rem 1.5rem;
+    border-radius:0.5rem;
+    cursor:pointer;
+    font-size:1rem;
+    font-weight:500;
+    transition:transform 0.15s;
+  }
+  button:hover{
+    transform:translateY(-1px);
+  }
+  .small{
+    font-size:0.9rem;
+    color:var(--muted);
+    margin-top:0.5rem;
+  }
+  .arrow{
+    font-size:1.5rem;
+    color:var(--accent);
+  }
+  @media (max-width: 600px){
+    h1{ font-size:1.8rem; }
+    .content-card{ flex-direction:column; align-items:flex-start; }
+    .arrow{ display:none; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>📚 Quiz de Estudo</h1>
+    <p class="subtitle">Selecione o conteúdo que deseja estudar</p>
+  </div>
+
+  <div class="content-list">
+    <div class="content-card" onclick="loadQuiz('ciencias-u1-content.json')">
+      <div class="content-info">
+        <h2>Ciências Naturais 5.º — Unidade 1</h2>
+        <p>A Terra, planeta especial • 34 cartões • Versão estrita v2</p>
+      </div>
+      <div>
+        <span class="badge">Ciências</span>
+        <span class="arrow">→</span>
+      </div>
+    </div>
+
+    <div class="content-card" onclick="loadQuiz('example-historia.json')">
+      <div class="content-info">
+        <h2>História 5.º — Unidade 1</h2>
+        <p>A Península Ibérica na Europa e no Mundo • 10 cartões • Exemplo</p>
+      </div>
+      <div>
+        <span class="badge">História</span>
+        <span class="arrow">→</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="custom-section">
+    <h3>🔧 Carregar Ficheiro Personalizado</h3>
+    <div class="input-group">
+      <input 
+        type="text" 
+        id="customPath" 
+        placeholder="caminho-do-ficheiro.json"
+        value=""
+      />
+      <button onclick="loadCustomQuiz()">Carregar</button>
+    </div>
+    <div class="small">
+      Digite o nome do ficheiro JSON (ex: <code>meu-conteudo.json</code>) ou caminho completo.
+      <br>Para criar novo conteúdo, consulte o <code>README.md</code>.
+    </div>
+  </div>
+
+  <div style="text-align:center; margin-top:2rem; color:var(--muted); font-size:0.9rem;">
+    Sistema genérico de quiz • Basta criar um JSON para adicionar novo conteúdo
+    <br>
+    <a href="README.md" style="color:var(--accent); text-decoration:none;">📖 Ver documentação</a>
+  </div>
+</div>
+
+<script>
+function loadQuiz(contentFile) {
+  window.location.href = `quiz-template.html?content=${encodeURIComponent(contentFile)}`;
+}
+
+function loadCustomQuiz() {
+  const path = document.getElementById('customPath').value.trim();
+  if (!path) {
+    alert('Por favor, insira o caminho do ficheiro JSON.');
+    return;
+  }
+  if (!path.endsWith('.json')) {
+    alert('O ficheiro deve ter extensão .json');
+    return;
+  }
+  loadQuiz(path);
+}
+
+// Allow Enter key in input
+document.getElementById('customPath').addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') {
+    loadCustomQuiz();
+  }
+});
+</script>
+</body>
+</html>
+
+
