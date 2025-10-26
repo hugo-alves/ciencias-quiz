@@ -130,3 +130,4 @@ cp template-empty.json meu-quiz.json
 
 **Dica**: Comece pequeno! Um quiz com 5 cartões bem feitos é melhor que 50 cartões apressados. Pode sempre adicionar mais depois! 🚀
 
+

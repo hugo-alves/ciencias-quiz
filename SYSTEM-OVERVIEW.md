@@ -427,3 +427,4 @@ This is a **content-driven learning system** where:
 
 The architecture is **simple, maintainable, and effective** for creating educational flashcard systems! 🎓
 
+
