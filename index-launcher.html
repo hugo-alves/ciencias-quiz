@@ -171,17 +171,33 @@
 
   <div class="custom-section">
     <h3>🔧 Carregar Ficheiro Personalizado</h3>
+    
+    <!-- File Upload -->
+    <div style="margin-bottom: 1rem;">
+      <input 
+        type="file" 
+        id="fileUpload" 
+        accept=".json"
+        style="display: none;"
+      />
+      <button onclick="document.getElementById('fileUpload').click()" style="width: 100%; margin-bottom: 0.5rem;">
+        📁 Upload JSON File
+      </button>
+      <div id="uploadStatus" class="small" style="min-height: 1.5rem;"></div>
+    </div>
+    
+    <!-- Text Input for Existing Files -->
     <div class="input-group">
       <input 
         type="text" 
         id="customPath" 
-        placeholder="caminho-do-ficheiro.json"
+        placeholder="ou digite nome do ficheiro (ex: meu-conteudo.json)"
         value=""
       />
       <button onclick="loadCustomQuiz()">Carregar</button>
     </div>
     <div class="small">
-      Digite o nome do ficheiro JSON (ex: <code>meu-conteudo.json</code>) ou caminho completo.
+      Escolha um ficheiro JSON do seu computador ou digite o nome de um ficheiro já no servidor.
       <br>Para criar novo conteúdo, consulte o <code>README.md</code>.
     </div>
   </div>
@@ -210,6 +226,56 @@ function loadCustomQuiz() {
   }
   loadQuiz(path);
 }
+
+// File upload handler
+document.getElementById('fileUpload').addEventListener('change', function(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  
+  const status = document.getElementById('uploadStatus');
+  status.textContent = '⏳ A carregar...';
+  
+  const reader = new FileReader();
+  reader.onload = function(event) {
+    try {
+      const data = JSON.parse(event.target.result);
+      
+      // Validate JSON structure
+      if (!data.metadata || !data.cards || !data.distractors || !data.trueFalse) {
+        throw new Error('JSON inválido: faltam campos obrigatórios');
+      }
+      
+      // Store in localStorage temporarily
+      const timestamp = Date.now();
+      const storageKey = `uploaded_quiz_${timestamp}`;
+      localStorage.setItem(storageKey, event.target.result);
+      
+      status.innerHTML = `<span style="color: var(--accent);">✓ File carregado!</span>`;
+      
+      // Show a button to load it
+      setTimeout(() => {
+        const loadBtn = document.createElement('button');
+        loadBtn.textContent = '▶️ Abrir Quiz Carregado';
+        loadBtn.style.width = '100%';
+        loadBtn.style.marginTop = '0.5rem';
+        loadBtn.onclick = () => {
+          // Pass the data to quiz-template via localStorage key
+          window.location.href = `quiz-template.html?from_storage=${storageKey}`;
+        };
+        status.appendChild(loadBtn);
+      }, 500);
+      
+    } catch (error) {
+      status.innerHTML = `<span style="color: #ef4444;">✗ Erro: ${error.message}</span>`;
+    }
+  };
+  
+  reader.onerror = function() {
+    status.innerHTML = '<span style="color: #ef4444;">✗ Erro ao ler ficheiro</span>';
+  };
+  
+  reader.readAsText(file);
+});
 
 // Allow Enter key in input
 document.getElementById('customPath').addEventListener('keypress', function(e) {

@@ -265,11 +265,24 @@ let CONTENT_KEY = ""; // Will be set based on loaded content
    ======================================================= */
 async function loadContent(jsonPath) {
   try {
-    const response = await fetch(jsonPath);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+    let data;
+    
+    // Check if loading from localStorage (uploaded file)
+    if (jsonPath.startsWith('from_storage:')) {
+      const storageKey = jsonPath.replace('from_storage:', '');
+      const storedData = localStorage.getItem(storageKey);
+      if (!storedData) {
+        throw new Error('Dados do ficheiro não encontrados no localStorage');
+      }
+      data = JSON.parse(storedData);
+    } else {
+      // Load from file
+      const response = await fetch(jsonPath);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      data = await response.json();
     }
-    const data = await response.json();
     
     // Validate required fields
     if (!data.metadata || !data.cards || !data.distractors || !data.trueFalse) {
@@ -313,6 +326,14 @@ async function loadContent(jsonPath) {
    ======================================================= */
 function getContentPath() {
   const params = new URLSearchParams(window.location.search);
+  
+  // Check for uploaded file from localStorage
+  const fromStorage = params.get('from_storage');
+  if (fromStorage) {
+    return `from_storage:${fromStorage}`;
+  }
+  
+  // Check for regular content file
   return params.get('content') || 'ciencias-u1-content.json';
 }
 
