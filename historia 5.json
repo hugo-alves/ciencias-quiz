@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "title": "História e Geografia de Portugal 5.º ano — Unidade 1",
+    "subtitle": "A presença romana em Portugal e a invasão muçulmana e Reconquista Cristã",
+    "description": "Nesta unidade serão abordados os acontecimentos da romanização do território que hoje é Portugal e, em seguida, a invasão muçulmana da Península Ibérica e o início da Reconquista Cristã. Serão explorados os fatores, as consequências e os vestígios históricos desses períodos.",
+    "unit": "U1",
+    "version": "v1",
+    "footer": ""
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Romanização",
+      "curto": true,
+      "q": "O que significa 'romanização' no contexto da Península Ibérica?",
+      "a": "A romanização é o processo através do qual os romanos impuseram (ou integraram) a sua língua, cultura, administração e modo de vida nos territórios conquistados."
+    },
+    {
+      "id": 2,
+      "tema": "Romanização",
+      "curto": true,
+      "q": "Qual era a província romana em que se incluía grande parte do território do actual Portugal?",
+      "a": "A província romana era a Lusitânia."
+    },
+    {
+      "id": 3,
+      "tema": "Romanização",
+      "curto": true,
+      "q": "Indica dois vestígios romanos ainda visíveis em Portugal.",
+      "a": "Por exemplo: o Templo de Diana em Évora e a Ponte de Trajano em Chaves."
+    },
+    {
+      "id": 4,
+      "tema": "Romanização",
+      "curto": false,
+      "q": "Como a romanização contribuiu para a agricultura e economia no território que hoje é Portugal?",
+      "a": "Os romanos introduziram técnicas agrícolas melhoradas, cultivos como trigo, vinho e azeite, e criaram infra-estruturas como estradas e povoados que facilitaram o comércio."
+    },
+    {
+      "id": 5,
+      "tema": "Romanização",
+      "curto": true,
+      "q": "Que língua se tornou predominante durante o domínio romano e influenciou o português?",
+      "a": "O latim tornou-se a língua predominante."
+    },
+    {
+      "id": 6,
+      "tema": "Romanização",
+      "curto": false,
+      "q": "Quem eram os agentes da romanização e como contribuíram para o processo?",
+      "a": "Os agentes incluíam as legiões romanas (exército e administração), colonos e mercadores que traziam cultura, língua e comércio. Eles facilitaram a integração do território e da população no sistema romano."
+    },
+    {
+      "id": 7,
+      "tema": "Invasão Muçulmana",
+      "curto": true,
+      "q": "Em que ano iniciou-se a invasão muçulmana da Península Ibérica?",
+      "a": "Iniciou-se em 711."
+    },
+    {
+      "id": 8,
+      "tema": "Invasão Muçulmana",
+      "curto": true,
+      "q": "Qual batalha é considerada decisiva na invasão muçulmana da Península Ibérica?",
+      "a": "A batalha de Guadalete (711)."
+    },
+    {
+      "id": 9,
+      "tema": "Invasão Muçulmana",
+      "curto": false,
+      "q": "Explique o que era o Al‑Andalus e a sua importância.",
+      "a": "Al-Andalus foi o nome dado às terras da Península Ibérica sob domínio muçulmano. Teve enorme influência cultural, científica e linguística, deixando marcas profundas nas línguas, arquitetura e sociedade."
+    },
+    {
+      "id": 10,
+      "tema": "Reconquista Cristã",
+      "curto": true,
+      "q": "Que evento é considerado o início da Reconquista Cristã?",
+      "a": "A vitória cristã na batalha de Covadonga em 722 é muitas vezes considerada o início da Reconquista."
+    },
+    {
+      "id": 11,
+      "tema": "Reconquista Cristã",
+      "curto": false,
+      "q": "Por que é que o território norte da Península Ibérica se tornou em bastião cristão durante a Reconquista?",
+      "a": "As regiões montanhosas do norte permitiram resistência dos cristãos visigodos refugiados após a invasão muçulmana. A partir daí formaram-se reinos cristãos que lutaram para reconquistar as terras ocupadas."
+    },
+    {
+      "id": 12,
+      "tema": "Reconquista Cristã",
+      "curto": true,
+      "q": "Indica uma consequência da presença muçulmana na Península Ibérica que se reflete na língua portuguesa.",
+      "a": "Várias palavras do português derivam do árabe."
+    },
+    {
+      "id": 13,
+      "tema": "Invasão Muçulmana",
+      "curto": true,
+      "q": "Que sistema de governo e sociedade encontraram os muçulmanos ao invadirem a Península Ibérica?",
+      "a": "Encontraram um reino visigodo em crise, com divisões internas e pouca resistência organizada."
+    },
+    {
+      "id": 14,
+      "tema": "Romanização",
+      "curto": true,
+      "q": "Como as estradas romanas contribuíram para o processo de romanização?",
+      "a": "Facilitaram a comunicação, o comércio e a circulação de pessoas e ideias entre regiões, reforçando a influência romana."
+    },
+    {
+      "id": 15,
+      "tema": "Romanização",
+      "curto": false,
+      "q": "Explique como a romanização influenciou a organização urbana no território português.",
+      "a": "Os romanos criaram cidades planeadas, com fóruns, termas, ruas e praças; introduziram o direito romano e as instituições administrativas que marcaram o desenvolvimento urbano."
+    },
+    {
+      "id": 16,
+      "tema": "Invasão Muçulmana",
+      "curto": false,
+      "q": "Descreva o impacto económico da presença muçulmana na Península Ibérica.",
+      "a": "A presença muçulmana introduziu novas técnicas agrícolas, comércio mediterrânico e a circulação de bens e conhecimento entre o Norte de África e a Península Ibérica."
+    },
+    {
+      "id": 17,
+      "tema": "Reconquista Cristã",
+      "curto": false,
+      "q": "Explique como se desenvolveu o processo da Reconquista no território que hoje é Portugal.",
+      "a": "O processo envolveu a conquista gradual de territórios ocupados pelos muçulmanos, a formação do Condado Portucalense e o avanço para sul até à consolidação do Reino de Portugal."
+    },
+    {
+      "id": 18,
+      "tema": "Romanização",
+      "curto": true,
+      "q": "Qual era o principal rio usado pelos romanos no território da Lusitânia para transporte e comunicação?",
+      "a": "O rio Tejo foi uma via importante de transporte no território romano da Lusitânia."
+    },
+    {
+      "id": 19,
+      "tema": "Invasão Muçulmana",
+      "curto": true,
+      "q": "Os muçulmanos cruzaram o estreito de Gibraltar para invadir a Península Ibérica. Verdadeiro ou falso?",
+      "a": "Verdadeiro."
+    },
+    {
+      "id": 20,
+      "tema": "Reconquista Cristã",
+      "curto": true,
+      "q": "A Reconquista durou cerca de 300 anos na Península Ibérica. Verdadeiro ou falso?",
+      "a": "Falso — durou vários séculos, aproximadamente oito séculos em algumas zonas."
+    },
+    {
+      "id": 21,
+      "tema": "Romanização",
+      "curto": false,
+      "q": "Explique porque muitos vestígios romanos são ainda visíveis no território português.",
+      "a": "Porque os romanos construíram usando materiais duradouros, criaram infra-estruturas bem planeadas e tal legado foi preservado ou reutilizado ao longo da história."
+    },
+    {
+      "id": 22,
+      "tema": "Invasão Muçulmana",
+      "curto": false,
+      "q": "Como a cultura muçulmana influenciou a arquitetura e o urbanismo na Península Ibérica?",
+      "a": "Introduziu técnicas de irrigação, jardins, fontes, e formas arquitetónicas como arcos de ferradura que influenciaram os edifícios e cidades espanhóis e portugueses."
+    }
+  ],
+  "distractors": {
+    "1": ["Processo de industrialização do território","Migração de povos germânicos sem cultura romana","Divisão interna do império romano sem influência local"],
+    "2": ["Província da Britannia","Província da Gália","Província da Hispânia Ulterior"],
+    "3": ["Castelo medieval em Portugal","Catedral românica do século XII","Palácio manuelino do século XVI"],
+    "4": ["Introduziram apenas a caça e pesca tradicional","Eliminaram todas as culturas anteriores sem mudança","Construíram apenas estradas sem agricultura"],
+    "5": ["Grego antigo","Germânico vulgar","Latim vulgar tardio sem influência"],
+    "6": ["Só mercadores locais fizeram a romanização","Foram apenas os escravos que romanizaram o território","Não existiram legiões romanas no território"],
+    "7": ["720","650","800"],
+    "8": ["Batalha de Hastings","Batalha de Tours","Batalha de Hastings"],
+    "9": ["Um reino cristão independente","Nome de uma cidade visigoda","Uma aliança mercantil romana"],
+    "10": ["Batalha de Waterloo","Batalha de Trafalgar","Batalha de Hastings"],
+    "11": ["Porque os muçulmanos usaram apenas a costa","Porque o território se tornava inacessível","Porque não havia população cristã a norte"],
+    "12": ["Nenhuma palavra portuguesa tem origem árabe","Somente termos latinos influenciaram o português","Palavras de origem germânica dominam o português"],
+    "13": ["Encontraram um império romano forte","Encontraram um pequeno reino muçulmano","Encontraram uma civilização indígena isolada"],
+    "14": ["Estradas só para cavalos","Estradas que se usavam exclusivamente para festivais","Estradas construídas apenas pelos visigodos"],
+    "15": ["Organização urbana sem praças ou ruas","Cidades construídas só com madeira e palha","Cidades formadas apenas no século XX"],
+    "16": ["Não houve impacto económico","A economia decaiu sem efeitos positivos","A agricultura foi substituída apenas por pastoreio"],
+    "17": ["O processo começou num só dia","Não envolveu qualquer avanço territorial","Foi imposto apenas por reinos espanhóis"],
+    "18": ["Rio Douro","Rio Guadiana","Rio Tejo nunca foi usado"],
+    "19": ["Falso — nunca cruzaram o estreito","Falso — usaram navios vikings","Falso — surgiu depois do século XII"],
+    "20": ["Verdadeiro — durou apenas 300 anos","Verdadeiro — durou exactamente 500 anos","Verdadeiro — durou 1000 anos"],
+    "21": ["Porque todos os edifícios romanos desapareceram","Porque foram construídos de madeira","Porque a romanização impediu qualquer legado"],
+    "22": ["Sem nenhuma influência arquitectónica","Influenciou apenas a comida","Criou só edifícios de estilo gótico"]
+  },
+  "trueFalse": [
+    {
+      "t": "A romanização consistiu apenas na construção de estradas e não mexeu com a língua nem a cultura local.",
+      "v": false,
+      "e": "A romanização envolveu vários aspetos: língua, cultura, administração e infra-estrutura."
+    },
+    {
+      "t": "Os romanos introduziram o latim no território que hoje é Portugal.",
+      "v": true,
+      "e": "O latim tornou-se a língua predominante durante o domínio romano."
+    },
+    {
+      "t": "O território da atual Portugal correspondia totalmente à província romana da Gália.",
+      "v": false,
+      "e": "Na realidade, correspondia principalmente à província da Lusitânia."
+    },
+    {
+      "t": "Os muçulmanos invadiram a Península Ibérica em 711.",
+      "v": true,
+      "e": "A invasão muçulmana começou em 711."
+    },
+    {
+      "t": "A vitória na Batalha de Covadonga é considerada o início da Reconquista Cristã.",
+      "v": true,
+      "e": "A Batalha de Covadonga (722) é muitas vezes apontada como o início da Reconquista."
+    },
+    {
+      "t": "A presença muçulmana não deixou qualquer influência na língua portuguesa.",
+      "v": false,
+      "e": "Várias palavras portuguesas derivam do árabe, indicando influência."
+    },
+    {
+      "t": "As estradas romanas ajudaram a comunicação e a integração de vários territórios no império romano.",
+      "v": true,
+      "e": "As estradas facilitaram a circulação de pessoas, bens e ideias, reforçando a influência romana."
+    },
+    {
+      "t": "A romanização aboliu completamente todas as culturas anteriores sem deixar nenhum vestígio delas.",
+      "v": false,
+      "e": "As culturas anteriores foram integradas ou adaptadas, e muitos vestígios foram mantidos ou reinterpretados."
+    },
+    {
+      "t": "A formação do Condado Portucalense fez parte do processo de Reconquista no território que hoje é Portugal.",
+      "v": true,
+      "e": "O Condado Portucalense foi um dos passos no processo que levou à formação de Portugal e está inserido na Reconquista."
+    },
+    {
+      "t": "A conquista muçulmana da Península Ibérica foi rápida e quase sem resistência em algumas zonas.",
+      "v": true,
+      "e": "Em grande parte da península, a conquista foi relativamente rápida face à resistência visigoda enfraquecida."
+    },
+    {
+      "t": "Os vestígios romanos só começaram a ser estudados no século XXI e antes não eram conhecidos.",
+      "v": false,
+      "e": "Os vestígios romanos têm sido estudados há décadas, e muitos monumentos romanos em Portugal eram bem conhecidos antes do século XXI."
+    },
+    {
+      "t": "A língua latina teve influência no português, mas também o árabe teve impacto através da presença muçulmana.",
+      "v": true,
+      "e": "Tanto o latim como o árabe deixaram marcas linguísticas no português."
+    },
+    {
+      "t": "Os romanos não construíram nenhuma ponte no território que hoje é Portugal.",
+      "v": false,
+      "e": "Os romanos construíram pontes como a Ponte de Trajano em Chaves no actual território português."
+    },
+    {
+      "t": "A Reconquista terminou no século VIII na Península Ibérica.",
+      "v": false,
+      "e": "A Reconquista prolongou-se durante vários séculos, mais do que o século VIII."
+    },
+    {
+      "t": "A romanização contribuiu para a introdução do direito romano nas terras da Lusitânia.",
+      "v": true,
+      "e": "O direito romano foi um dos elementos da romanização que marcou a administração local."
+    },
+    {
+      "t": "Os muçulmanos governaram a Península Ibérica sob o nome de Al-Andalus.",
+      "v": true,
+      "e": "As terras ocupadas passaram a ser conhecidas como Al-Andalus."
+    },
+    {
+      "t": "A cultura muçulmana não usou técnicas de irrigação nem jardins na Península Ibérica.",
+      "v": false,
+      "e": "Na realidade, a cultura muçulmana introduziu técnicas de irrigação e jardins que influenciaram o urbanismo."
+    },
+    {
+      "t": "A romanização teve impacto apenas em cidades e não em zonas rurais.",
+      "v": false,
+      "e": "Também teve impacto em zonas rurais através das villae e da melhoria da agricultura."
+    },
+    {
+      "t": "Os cristãos que viviam em territórios muçulmanos ficaram sempre sem direitos e foram expulsos de imediato.",
+      "v": false,
+      "e": "Na maioria dos casos podiam conservar os seus direitos mediante pagamento de impostos, ou converter-se; não foram sempre expulsos de imediato."
+    }
+  ]
+}
