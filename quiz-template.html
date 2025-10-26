@@ -66,7 +66,6 @@
   .tag{ font-size:.78rem; padding:.15rem .45rem; border-radius:.45rem; border:1px solid var(--border); background:var(--card-2); color:var(--muted) }
   details[open] summary{ margin-bottom:.5rem }
   summary{ cursor:pointer }
-  .print-all{ max-height:55vh; overflow:auto; border:1px dashed var(--border); padding:.6rem; border-radius:.6rem; background:var(--card-2) }
   .loading{ text-align:center; padding:2rem; font-size:1.2rem }
   .error{ background:var(--danger); color:white; padding:1rem; border-radius:.6rem; margin:1rem 0 }
 </style>
@@ -81,7 +80,6 @@
       <button class="tabbtn" data-tab="quiz">Teste Rápido</button>
       <button class="tabbtn" data-tab="vf">Verdadeiro/Falso</button>
       <button class="tabbtn" data-tab="painel">Painel</button>
-      <button class="tabbtn" data-tab="def">Imprimir Cartões</button>
     </nav>
   </div>
 </header>
@@ -234,14 +232,6 @@
     </div>
   </section>
 
-  <!-- IMPRIMIR -->
-  <section id="def" class="tab hidden">
-    <div class="panel">
-      <h3 style="margin-top:0">Imprimir / Rever todos os cartões</h3>
-      <div id="printAll" class="print-all small"></div>
-      <button class="btn" onclick="window.print()">Imprimir</button>
-    </div>
-  </section>
 </main>
 
 <footer class="wrap small muted" style="padding-bottom:2rem">
@@ -402,7 +392,6 @@ function initializeQuiz() {
   });
 
   buildTemaList();
-  buildPrintAll();
   
   // Initialize UI
   updateDashboard();
@@ -437,11 +426,6 @@ function buildTemaList(){
     pickNextCard(); 
     switchTab('flash'); 
   });
-}
-
-function buildPrintAll(){
-  const box = document.getElementById('printAll');
-  box.innerHTML = CARDS.map(c=> `<details><summary><strong>${c.tema}</strong> — ${c.q}</summary><div class="small">${c.a}</div></details>`).join("");
 }
 
 /* =======================================================
