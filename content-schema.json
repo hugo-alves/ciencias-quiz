@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Quiz Content Schema",
+  "description": "Schema for quiz content files - use this as a reference when creating new content",
+  "type": "object",
+  "required": ["metadata", "cards", "distractors", "trueFalse"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["title", "subtitle", "description", "unit", "version"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Main title of the quiz (e.g., 'Ciências Naturais 5.º — Unidade 1')"
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Subtitle or topic (e.g., 'A Terra, planeta especial')"
+        },
+        "description": {
+          "type": "string",
+          "description": "Additional description shown in header"
+        },
+        "unit": {
+          "type": "string",
+          "description": "Unit identifier (e.g., 'U1')"
+        },
+        "version": {
+          "type": "string",
+          "description": "Content version (e.g., 'v2')"
+        },
+        "footer": {
+          "type": "string",
+          "description": "Optional footer text"
+        }
+      }
+    },
+    "cards": {
+      "type": "array",
+      "description": "Array of flashcard questions and answers",
+      "items": {
+        "type": "object",
+        "required": ["id", "tema", "curto", "q", "a"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Unique card ID"
+          },
+          "tema": {
+            "type": "string",
+            "description": "Theme/category (e.g., 'A Terra', 'Hidrosfera')"
+          },
+          "curto": {
+            "type": "boolean",
+            "description": "Whether this is a short-form card"
+          },
+          "q": {
+            "type": "string",
+            "description": "Question text"
+          },
+          "a": {
+            "type": "string",
+            "description": "Answer text"
+          }
+        }
+      }
+    },
+    "distractors": {
+      "type": "object",
+      "description": "Map of card IDs to arrays of distractor answers",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 5,
+          "description": "Array of plausible wrong answers for this card"
+        }
+      }
+    },
+    "trueFalse": {
+      "type": "array",
+      "description": "Array of true/false statements",
+      "items": {
+        "type": "object",
+        "required": ["t", "v", "e"],
+        "properties": {
+          "t": {
+            "type": "string",
+            "description": "Statement text"
+          },
+          "v": {
+            "type": "boolean",
+            "description": "Whether the statement is true (true) or false (false)"
+          },
+          "e": {
+            "type": "string",
+            "description": "Explanation for the answer"
+          }
+        }
+      }
+    }
+  }
+}
+

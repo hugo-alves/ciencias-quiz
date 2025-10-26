@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "title": "História 5.º — Unidade 1",
+    "subtitle": "A Península Ibérica na Europa e no Mundo",
+    "description": "Exemplo de conteúdo de História • progresso independente",
+    "unit": "HIST_U1",
+    "version": "v1",
+    "footer": "Exemplo demonstrativo para uso educativo."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Localização",
+      "curto": false,
+      "q": "Onde se localiza a Península Ibérica?",
+      "a": "No sudoeste da Europa, entre o Oceano Atlântico e o Mar Mediterrâneo."
+    },
+    {
+      "id": 2,
+      "tema": "Localização",
+      "curto": true,
+      "q": "Que países fazem parte da Península Ibérica?",
+      "a": "Portugal, Espanha e Andorra."
+    },
+    {
+      "id": 3,
+      "tema": "Geografia",
+      "curto": true,
+      "q": "Qual é o rio mais extenso da Península Ibérica?",
+      "a": "O rio Tejo."
+    },
+    {
+      "id": 4,
+      "tema": "Geografia",
+      "curto": false,
+      "q": "Quais são os principais sistemas montanhosos da Península?",
+      "a": "Pirenéus (fronteira com França), Sistema Central e Cordilheira Cantábrica."
+    },
+    {
+      "id": 5,
+      "tema": "Clima",
+      "curto": true,
+      "q": "Que tipo de clima predomina no sul da Península?",
+      "a": "Clima mediterrânico."
+    },
+    {
+      "id": 6,
+      "tema": "História",
+      "curto": false,
+      "q": "Que povos ocuparam a Península Ibérica na Antiguidade?",
+      "a": "Iberos, Celtas, Fenícios, Gregos, Cartagineses e Romanos."
+    },
+    {
+      "id": 7,
+      "tema": "História",
+      "curto": true,
+      "q": "Quando é que os Romanos conquistaram a Península Ibérica?",
+      "a": "Entre os séculos III a.C. e I a.C."
+    },
+    {
+      "id": 8,
+      "tema": "Cultura",
+      "curto": false,
+      "q": "Que línguas românicas são faladas na Península?",
+      "a": "Português, espanhol (castelhano), catalão e galego."
+    },
+    {
+      "id": 9,
+      "tema": "União Europeia",
+      "curto": true,
+      "q": "Em que ano Portugal aderiu à União Europeia?",
+      "a": "Em 1986."
+    },
+    {
+      "id": 10,
+      "tema": "União Europeia",
+      "curto": true,
+      "q": "Qual é a moeda oficial de Portugal?",
+      "a": "O euro (€)."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "No norte da Europa, entre o Mar do Norte e o Mar Báltico.",
+      "No sudeste da Europa, entre o Mar Negro e o Mar Egeu.",
+      "No centro da Europa, entre a Alemanha e a Polónia."
+    ],
+    "2": [
+      "Portugal, Espanha e França.",
+      "Apenas Portugal e Espanha.",
+      "Portugal, Espanha, França e Andorra."
+    ],
+    "3": [
+      "O rio Douro.",
+      "O rio Guadiana.",
+      "O rio Ebro."
+    ],
+    "4": [
+      "Alpes, Pirenéus e Apeninos.",
+      "Serra da Estrela, Serra do Gerês e Serra de Montejunto.",
+      "Apenas os Pirenéus."
+    ],
+    "5": [
+      "Clima continental.",
+      "Clima tropical.",
+      "Clima oceânico."
+    ],
+    "6": [
+      "Vikings, Normandos e Saxões.",
+      "Hunos, Mongóis e Tártaros.",
+      "Apenas Romanos e Gregos."
+    ],
+    "7": [
+      "No século XV d.C.",
+      "Entre os séculos V e VIII d.C.",
+      "No século I d.C."
+    ],
+    "8": [
+      "Francês, alemão e italiano.",
+      "Inglês, francês e alemão.",
+      "Apenas português e espanhol."
+    ],
+    "9": [
+      "Em 1992.",
+      "Em 1973.",
+      "Em 2002."
+    ],
+    "10": [
+      "O escudo.",
+      "A libra.",
+      "O franco."
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "A Península Ibérica localiza-se no sudoeste da Europa.",
+      "v": true,
+      "e": "Está entre o Oceano Atlântico e o Mar Mediterrâneo."
+    },
+    {
+      "t": "Andorra não faz parte da Península Ibérica.",
+      "v": false,
+      "e": "Andorra é um pequeno país nos Pirenéus, parte da Península."
+    },
+    {
+      "t": "O rio Tejo é o mais extenso da Península Ibérica.",
+      "v": true,
+      "e": "Com cerca de 1.007 km de comprimento."
+    },
+    {
+      "t": "Os Pirenéus separam a Península Ibérica de Itália.",
+      "v": false,
+      "e": "Os Pirenéus separam a Península de França."
+    },
+    {
+      "t": "O clima mediterrânico predomina no sul da Península.",
+      "v": true,
+      "e": "Caracteriza-se por verões quentes e secos, invernos suaves."
+    },
+    {
+      "t": "Os Romanos nunca conquistaram a Península Ibérica.",
+      "v": false,
+      "e": "Conquistaram entre os séculos III a.C. e I a.C."
+    },
+    {
+      "t": "O português é uma língua românica.",
+      "v": true,
+      "e": "Deriva do latim, trazido pelos Romanos."
+    },
+    {
+      "t": "Portugal aderiu à União Europeia em 1986.",
+      "v": true,
+      "e": "Juntamente com Espanha."
+    },
+    {
+      "t": "A moeda oficial de Portugal é o escudo.",
+      "v": false,
+      "e": "Desde 2002, a moeda é o euro (€)."
+    },
+    {
+      "t": "Os Celtas e Iberos foram povos que habitaram a Península.",
+      "v": true,
+      "e": "Antes da chegada dos Romanos."
+    }
+  ]
+}
+
