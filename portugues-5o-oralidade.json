@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "Português 5.º — Oralidade e Comunicação",
+    "subtitle": "Participação, escuta ativa e registos formais",
+    "description": "Consolida competências de interação oral e de compreensão em contexto escolar.",
+    "unit": "PT5_ORAL",
+    "version": "v1",
+    "footer": "Conteúdos alinhados com as Aprendizagens Essenciais de Português (5.º ano)."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Regras de comunicação",
+      "curto": false,
+      "q": "Indica duas atitudes essenciais para demonstrar escuta ativa numa apresentação oral.",
+      "a": "Manter contacto visual regular e reformular ideias-chave do orador para confirmar compreensão."
+    },
+    {
+      "id": 2,
+      "tema": "Registos de língua",
+      "curto": false,
+      "q": "Quando é apropriado usar um registo de língua formal numa intervenção oral?",
+      "a": "Em debates, apresentações ou pedidos dirigidos a professores e outros adultos em contexto académico."
+    },
+    {
+      "id": 3,
+      "tema": "Planificação",
+      "curto": false,
+      "q": "Quais são as três fases básicas para preparar uma exposição oral clara?",
+      "a": "Planificar tópicos principais, organizar suportes (cartaz ou diapositivos) e ensaiar a apresentação com tempo controlado."
+    },
+    {
+      "id": 4,
+      "tema": "Sinais paralinguísticos",
+      "curto": true,
+      "q": "Porque devemos variar a entoação ao apresentar ideias?",
+      "a": "Para destacar ideias-chave, evitar monotonia e manter a atenção do público."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Tomar notas apenas para ler em voz alta no final.",
+      "Olhar frequentemente para o telemóvel durante a apresentação.",
+      "Interromper o orador para acrescentar exemplos próprios."
+    ],
+    "2": [
+      "Quando conversamos com colegas no recreio.",
+      "Em mensagens instantâneas com amigos.",
+      "Ao escrever apontamentos pessoais."
+    ],
+    "3": [
+      "Começar a falar de improviso para soar natural.",
+      "Repetir o texto escrito exatamente como está sem ensaiar.",
+      "Focar apenas nos detalhes técnicos sem introdução."
+    ],
+    "4": [
+      "Para falar mais baixo e não se ouvir.",
+      "Para que todas as frases terminem com a mesma sonoridade.",
+      "Para evitar fazer pausas entre ideias."
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Numa discussão regrada, devemos esperar a nossa vez de falar e respeitar o tempo atribuído.",
+      "v": true,
+      "e": "A gestão do tempo e o respeito pelos turnos de fala são critérios de participação responsável."
+    },
+    {
+      "t": "É aceitável usar apenas notas visuais sem falar quando se apresenta um trabalho oral.",
+      "v": false,
+      "e": "O domínio da oralidade implica articular ideias em voz audível com apoio visual complementar."
+    },
+    {
+      "t": "Os gestos e a postura corporal podem reforçar a mensagem que transmitimos oralmente.",
+      "v": true,
+      "e": "Elementos não verbais ajudam a clarificar, sublinhar e tornar a comunicação mais eficaz."
+    }
+  ]
+}

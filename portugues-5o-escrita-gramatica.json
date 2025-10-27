@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "Português 5.º — Escrita e Gramática",
+    "subtitle": "Texto narrativo, pontuação e classes de palavras",
+    "description": "Apoia a produção escrita cuidada e o conhecimento explícito da língua.",
+    "unit": "PT5_ESCR",
+    "version": "v1",
+    "footer": "Baseado nas Aprendizagens Essenciais de Português (2.º ciclo)."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Processo de escrita",
+      "curto": false,
+      "q": "Quais são os passos essenciais para rever um texto narrativo antes de entregar?",
+      "a": "Verificar organização de parágrafos, coerência temporal, ortografia e pontuação, ajustando palavras repetidas."
+    },
+    {
+      "id": 2,
+      "tema": "Tipos de frase",
+      "curto": true,
+      "q": "Transforma a frase \"Fecha a janela, por favor\" noutro tipo frásico.",
+      "a": "Frase declarativa: \"Tu fechas a janela com cuidado.\""
+    },
+    {
+      "id": 3,
+      "tema": "Classes de palavras",
+      "curto": false,
+      "q": "Que papel desempenham os advérbios numa narrativa?",
+      "a": "Precisam circunstâncias da ação, como tempo, modo ou lugar, reforçando a descrição."
+    },
+    {
+      "id": 4,
+      "tema": "Pontuação",
+      "curto": false,
+      "q": "Em que situações deves usar dois-pontos num texto informativo?",
+      "a": "Antes de enumerações, citações diretas ou explicações que detalham a frase anterior."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Adicionar mais adjetivos em todas as frases.",
+      "Escrever novamente o texto sem ler.",
+      "Ignorar a pontuação para ganhar tempo."
+    ],
+    "2": [
+      "Frase interrogativa: \"Quem fechou a janela?\"",
+      "Frase exclamativa: \"Fecha a janela!\"",
+      "Frase exclamativa: \"Que janela tão aberta!\""
+    ],
+    "3": [
+      "Substituem automaticamente os verbos principais.",
+      "Marcam a concordância em género e número.",
+      "Servem apenas para indicar nomes próprios."
+    ],
+    "4": [
+      "Sempre que a frase termina com emoção.",
+      "Entre sujeito e predicado sem exceção.",
+      "No início de todas as falas das personagens."
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "O esboço de ideias (brainstorming) pode ser feito com palavras soltas ou esquemas.",
+      "v": true,
+      "e": "Qualquer técnica que organize ideias ajuda a planificar a escrita."
+    },
+    {
+      "t": "Só existem quatro classes de palavras em Português.",
+      "v": false,
+      "e": "Há várias classes: nome, verbo, adjetivo, advérbio, pronome, determinante, numeral, preposição, conjunção e interjeição."
+    },
+    {
+      "t": "Os conectores, como \"por isso\" ou \"no entanto\", reforçam a coesão textual.",
+      "v": true,
+      "e": "Estabelecem relações lógicas entre frases e parágrafos."
+    }
+  ]
+}

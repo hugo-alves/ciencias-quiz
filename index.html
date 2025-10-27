@@ -44,6 +44,15 @@
     color:var(--muted);
     font-size:1.1rem;
   }
+  .section{
+    margin-bottom:2.5rem;
+  }
+  .section-title{
+    font-size:1.4rem;
+    margin:0 0 1rem;
+    color:var(--accent);
+    letter-spacing:0.02em;
+  }
   .content-list{
     display:flex;
     flex-direction:column;
@@ -145,48 +154,127 @@
     <p class="subtitle">Selecione o conteúdo que deseja estudar</p>
   </div>
 
-  <div class="content-list">
-    <div class="content-card" onclick="loadQuiz('ciencias-u1-content.json')">
-      <div class="content-info">
-        <h2>Ciências Naturais 5.º — Unidade 1</h2>
-        <p>A Terra, planeta especial • 34 cartões • Versão estrita v2</p>
+  <div class="section">
+    <h2 class="section-title">Português 5.º ano</h2>
+    <div class="content-list">
+      <div class="content-card" onclick="loadQuiz('portugues-5o-oralidade.json')">
+        <div class="content-info">
+          <h2>Oralidade & Interação</h2>
+          <p>Debates, escuta ativa e apresentações guiadas • 4 cartões • v1</p>
+        </div>
+        <div>
+          <span class="badge">Português</span>
+          <span class="arrow">→</span>
+        </div>
       </div>
-      <div>
-        <span class="badge">Ciências</span>
-        <span class="arrow">→</span>
+
+      <div class="content-card" onclick="loadQuiz('portugues-5o-leitura.json')">
+        <div class="content-info">
+          <h2>Leitura & Educação Literária</h2>
+          <p>Estratégias de compreensão, poesia e obras recomendadas • 4 cartões • v1</p>
+        </div>
+        <div>
+          <span class="badge">Português</span>
+          <span class="arrow">→</span>
+        </div>
+      </div>
+
+      <div class="content-card" onclick="loadQuiz('portugues-5o-escrita-gramatica.json')">
+        <div class="content-info">
+          <h2>Escrita & Gramática</h2>
+          <p>Processo de revisão, pontuação e classes de palavras • 4 cartões • v1</p>
+        </div>
+        <div>
+          <span class="badge">Português</span>
+          <span class="arrow">→</span>
+        </div>
       </div>
     </div>
+  </div>
 
-    <div class="content-card" onclick="loadQuiz('example-historia.json')">
-      <div class="content-info">
-        <h2>História 5.º — Unidade 1</h2>
-        <p>A Península Ibérica na Europa e no Mundo • 10 cartões • Exemplo</p>
+  <div class="section">
+    <h2 class="section-title">História e Geografia de Portugal 5.º ano</h2>
+    <div class="content-list">
+      <div class="content-card" onclick="loadQuiz('hgp-5o-territorio.json')">
+        <div class="content-info">
+          <h2>Portugal: Território e Paisagens</h2>
+          <p>Localização, relevo e organização administrativa • 4 cartões • v1</p>
+        </div>
+        <div>
+          <span class="badge">HGP</span>
+          <span class="arrow">→</span>
+        </div>
       </div>
-      <div>
-        <span class="badge">História</span>
-        <span class="arrow">→</span>
+
+      <div class="content-card" onclick="loadQuiz('hgp-5o-formacao-reino.json')">
+        <div class="content-info">
+          <h2>Formação do Reino</h2>
+          <p>Reconquista, Tratado de Zamora e primeiras Cortes • 4 cartões • v1</p>
+        </div>
+        <div>
+          <span class="badge">HGP</span>
+          <span class="arrow">→</span>
+        </div>
+      </div>
+
+      <div class="content-card" onclick="loadQuiz('hgp-5o-expansao.json')">
+        <div class="content-info">
+          <h2>Expansão e Vida Quotidiana</h2>
+          <p>Viagens oceânicas, comércio atlântico e Restauração • 4 cartões • v1</p>
+        </div>
+        <div>
+          <span class="badge">HGP</span>
+          <span class="arrow">→</span>
+        </div>
       </div>
     </div>
+  </div>
 
-    <div class="content-card" onclick="loadQuiz('historia 5.json')">
-      <div class="content-info">
-        <h2>História e Geografia de Portugal 5.º — Unidade 1</h2>
-        <p>A presença romana em Portugal e a invasão muçulmana e Reconquista Cristã • 22 cartões</p>
+  <div class="section">
+    <h2 class="section-title">Outros Conteúdos Disponíveis</h2>
+    <div class="content-list">
+      <div class="content-card" onclick="loadQuiz('ciencias-u1-content.json')">
+        <div class="content-info">
+          <h2>Ciências Naturais 5.º — Unidade 1</h2>
+          <p>A Terra, planeta especial • 34 cartões • Versão estrita v2</p>
+        </div>
+        <div>
+          <span class="badge">Ciências</span>
+          <span class="arrow">→</span>
+        </div>
       </div>
-      <div>
-        <span class="badge">História</span>
-        <span class="arrow">→</span>
-      </div>
-    </div>
 
-    <div class="content-card" onclick="loadQuiz('ingles.json')">
-      <div class="content-info">
-        <h2>Inglês 5.º — Unidade 1</h2>
-        <p>Verbo to be, pronomes pessoais, vocabulário e informação pessoal • 50 cartões • Versão expandida</p>
+      <div class="content-card" onclick="loadQuiz('example-historia.json')">
+        <div class="content-info">
+          <h2>História 5.º — Unidade 1</h2>
+          <p>A Península Ibérica na Europa e no Mundo • 10 cartões • Exemplo</p>
+        </div>
+        <div>
+          <span class="badge">História</span>
+          <span class="arrow">→</span>
+        </div>
       </div>
-      <div>
-        <span class="badge">Inglês</span>
-        <span class="arrow">→</span>
+
+      <div class="content-card" onclick="loadQuiz('historia 5.json')">
+        <div class="content-info">
+          <h2>História e Geografia de Portugal 5.º — Unidade 1 (completa)</h2>
+          <p>A presença romana, invasão muçulmana e Reconquista Cristã • 22 cartões</p>
+        </div>
+        <div>
+          <span class="badge">História</span>
+          <span class="arrow">→</span>
+        </div>
+      </div>
+
+      <div class="content-card" onclick="loadQuiz('ingles.json')">
+        <div class="content-info">
+          <h2>Inglês 5.º — Unidade 1</h2>
+          <p>Verbo to be, pronomes pessoais, vocabulário e informação pessoal • 50 cartões • v1</p>
+        </div>
+        <div>
+          <span class="badge">Inglês</span>
+          <span class="arrow">→</span>
+        </div>
       </div>
     </div>
   </div>
@@ -308,5 +396,3 @@ document.getElementById('customPath').addEventListener('keypress', function(e) {
 </script>
 </body>
 </html>
-
-

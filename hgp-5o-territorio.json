@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "HGP 5.º — Portugal: Território e Paisagens",
+    "subtitle": "Localização, relevo e organização administrativa",
+    "description": "Explora mapas, regiões e diversidade natural de Portugal.",
+    "unit": "HGP5_TERR",
+    "version": "v1",
+    "footer": "Conteúdo alinhado com as Aprendizagens Essenciais de História e Geografia de Portugal."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Localização",
+      "curto": false,
+      "q": "Onde se localiza Portugal Continental relativamente à Península Ibérica?",
+      "a": "No extremo sudoeste da Península Ibérica, com fronteira a leste e norte com Espanha e costa atlântica a oeste e sul."
+    },
+    {
+      "id": 2,
+      "tema": "Regiões",
+      "curto": true,
+      "q": "Quantas regiões autónomas compõem o território português?",
+      "a": "Duas: Região Autónoma dos Açores e Região Autónoma da Madeira."
+    },
+    {
+      "id": 3,
+      "tema": "Relevo",
+      "curto": false,
+      "q": "Que características distinguem o relevo a norte e a sul do rio Tejo?",
+      "a": "A norte predominam serras e planaltos acidentados; a sul existem planícies extensas e relevo mais suave."
+    },
+    {
+      "id": 4,
+      "tema": "Administração",
+      "curto": false,
+      "q": "Qual é a função de uma freguesia na organização administrativa portuguesa?",
+      "a": "É a unidade administrativa mais pequena, responsável por serviços locais e representação da população da sua área."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "No centro da Península Itálica.",
+      "No norte da Península Balcânica.",
+      "Entre o mar Mediterrâneo e o mar Báltico."
+    ],
+    "2": [
+      "Três: Açores, Madeira e Algarve.",
+      "Nenhuma, são apenas distritos.",
+      "Quatro: Açores, Madeira, Estremadura e Minho."
+    ],
+    "3": [
+      "A norte há desertos arenosos e a sul montanhas geladas.",
+      "A norte encontramos apenas planícies costeiras.",
+      "A sul predominam serras de altitude elevada."
+    ],
+    "4": [
+      "Escolher o Presidente da República.",
+      "Definir tratados internacionais.",
+      "Administrar apenas a rede ferroviária nacional."
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Os arquipélagos dos Açores e da Madeira situam-se no oceano Atlântico.",
+      "v": true,
+      "e": "Ambos pertencem à Macaronésia e localizam-se em diferentes latitudes atlânticas."
+    },
+    {
+      "t": "Os rios Douro, Tejo e Guadiana nascem em território português.",
+      "v": false,
+      "e": "Estes rios têm nascente em Espanha e atravessam Portugal antes de desaguarem no Atlântico."
+    },
+    {
+      "t": "Os distritos são subdivisões tradicionais que agrupam vários concelhos.",
+      "v": true,
+      "e": "Cada distrito integra múltiplos municípios, embora a gestão autárquica dependa dos concelhos e freguesias."
+    }
+  ]
+}

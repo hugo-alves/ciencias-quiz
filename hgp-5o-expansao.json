@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "HGP 5.º — Expansão e Vida Quotidiana",
+    "subtitle": "Séculos XV-XVII e sociedade portuguesa",
+    "description": "Destaca viagens, comércio atlântico e transformações sociais do reino.",
+    "unit": "HGP5_EXP",
+    "version": "v1",
+    "footer": "Segmento inspirado nas Aprendizagens Essenciais e no Perfil do Aluno."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Motivações",
+      "curto": false,
+      "q": "Quais foram dois motivos principais para o início das viagens portuguesas no século XV?",
+      "a": "A procura de novas rotas para o ouro e especiarias e o desejo de expandir o cristianismo."
+    },
+    {
+      "id": 2,
+      "tema": "Navegadores",
+      "curto": true,
+      "q": "Que feito é atribuído a Bartolomeu Dias em 1488?",
+      "a": "Dobrou o Cabo da Boa Esperança, abrindo caminho marítimo para o Índico."
+    },
+    {
+      "id": 3,
+      "tema": "Cidadania",
+      "curto": false,
+      "q": "Que mudanças trouxe o comércio atlântico para os portos portugueses?",
+      "a": "Maior circulação de mercadorias, crescimento urbano e novas profissões ligadas à navegação."
+    },
+    {
+      "id": 4,
+      "tema": "Restauração",
+      "curto": false,
+      "q": "Que evento marca o início da dinastia de Bragança em 1640?",
+      "a": "A Restauração da Independência com o golpe de 1 de dezembro e a aclamação de D. João IV."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Encontrar locais para instalar moinhos de vento.",
+      "Evitar o pagamento de impostos nas feiras locais.",
+      "Descobrir novas rotas terrestres através dos Alpes."
+    ],
+    "2": [
+      "Descobriu o caminho marítimo para o Brasil.",
+      "Fundou a cidade de Goa na Índia.",
+      "Foi o primeiro capitão a atravessar o Atlântico Norte."
+    ],
+    "3": [
+      "Fechou os portos ao comércio estrangeiro.",
+      "Impediu o surgimento de artesãos especializados.",
+      "Diminuiu a importância das cidades costeiras."
+    ],
+    "4": [
+      "A morte de D. Sebastião na batalha de Alcácer-Quibir.",
+      "A assinatura do Tratado de Methuen.",
+      "A subida ao trono de D. Manuel I."
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "O Infante D. Henrique criou a Escola de Sagres para reunir conhecimentos náuticos.",
+      "v": true,
+      "e": "Sagres tornou-se um centro de cartografia, construção naval e formação de pilotos."
+    },
+    {
+      "t": "As viagens portuguesas não provocaram impacto na vida quotidiana das populações.",
+      "v": false,
+      "e": "Geraram novas mercadorias, contactos culturais e desafios sociais, como o tráfico de escravizados."
+    },
+    {
+      "t": "Após a Restauração de 1640, Portugal manteve uma guerra com Espanha até 1668.",
+      "v": true,
+      "e": "O conflito terminou com o Tratado de Lisboa, que reconheceu a independência portuguesa."
+    }
+  ]
+}

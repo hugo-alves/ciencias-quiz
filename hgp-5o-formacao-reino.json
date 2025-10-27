@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "HGP 5.º — Formação do Reino de Portugal",
+    "subtitle": "Da Reconquista à consolidação monárquica",
+    "description": "Revisa momentos-chave da independência portuguesa e das primeiras dinastias.",
+    "unit": "HGP5_REINO",
+    "version": "v1",
+    "footer": "Baseado nas Aprendizagens Essenciais de HGP (5.º ano)."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Conde D. Henrique",
+      "curto": false,
+      "q": "Que objetivo tinha o Condado Portucalense quando foi entregue a D. Henrique?",
+      "a": "Defender a fronteira oeste do reino de Leão e expandir o território cristão durante a Reconquista."
+    },
+    {
+      "id": 2,
+      "tema": "Batalha de São Mamede",
+      "curto": true,
+      "q": "Por que é importante a Batalha de São Mamede (1128) para a independência portuguesa?",
+      "a": "Porque consolidou o poder de D. Afonso Henriques, afastando a regência de D. Teresa."
+    },
+    {
+      "id": 3,
+      "tema": "Reconhecimento de Leão",
+      "curto": false,
+      "q": "Que tratado reconheceu Portugal como reino independente e em que ano?",
+      "a": "O Tratado de Zamora, assinado em 1143 entre D. Afonso Henriques e Afonso VII de Leão e Castela."
+    },
+    {
+      "id": 4,
+      "tema": "Primeira dinastia",
+      "curto": false,
+      "q": "Que medidas tomou D. Afonso III para consolidar o reino?",
+      "a": "Convocou as primeiras Cortes com representantes concelhios e promoveu o repovoamento do Algarve recém-conquistado."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Garantir o comércio entre Portugal e França.",
+      "Criar uma rota marítima para o norte da Europa.",
+      "Conquistar territórios muçulmanos na Ásia."
+    ],
+    "2": [
+      "Porque terminou a dinastia de Avis.",
+      "Porque expulsou os mouros do Algarve.",
+      "Porque permitiu a assinatura do Tratado de Tordesilhas."
+    ],
+    "3": [
+      "Tratado de Tordesilhas, em 1494.",
+      "Tratado de Alcáçovas, em 1479.",
+      "Tratado de Windsor, em 1386."
+    ],
+    "4": [
+      "Cancelou todas as Cortes para preservar o poder real.",
+      "Transferiu a capital para Coimbra e fechou os portos.",
+      "Mandou construir apenas castelos no norte do país."
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "A tomada de Lisboa em 1147 contou com o apoio de cruzados estrangeiros.",
+      "v": true,
+      "e": "Cruzados vindos do norte da Europa apoiaram o cerco liderado por D. Afonso Henriques."
+    },
+    {
+      "t": "O Tratado de Zamora foi mediado pelo legado papal Guido de Vico.",
+      "v": true,
+      "e": "A mediação papal ajudou a legitimar o novo reino perante Leão e a Igreja."
+    },
+    {
+      "t": "As Cortes de Leiria de 1254 foram convocadas por D. Dinis.",
+      "v": false,
+      "e": "Foram convocadas por D. Afonso III, marcando a participação dos representantes dos concelhos."
+    }
+  ]
+}

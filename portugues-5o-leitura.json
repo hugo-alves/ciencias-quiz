@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "Português 5.º — Leitura e Educação Literária",
+    "subtitle": "Narrativas, poemas e estratégias de compreensão",
+    "description": "Explora obras e textos recomendados no 5.º ano, com foco em interpretação e vocabulário.",
+    "unit": "PT5_LEIT",
+    "version": "v1",
+    "footer": "Inclui autores do Programa e Aprendizagens Essenciais de Português."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Estrutura narrativa",
+      "curto": false,
+      "q": "Que elementos identificas para resumir um conto lido em sala de aula?",
+      "a": "Situação inicial, conflito, clímax e desfecho, referindo personagens e espaço principais."
+    },
+    {
+      "id": 2,
+      "tema": "Estratégias de leitura",
+      "curto": false,
+      "q": "Como podes esclarecer uma palavra desconhecida durante a leitura?",
+      "a": "Usar pistas do contexto, consultar notas de rodapé ou recorrer ao dicionário escolar."
+    },
+    {
+      "id": 3,
+      "tema": "Poemas",
+      "curto": true,
+      "q": "O que distingue um verso de uma estrofe?",
+      "a": "O verso é cada linha do poema; a estrofe reúne vários versos segundo um ritmo ou ideia."
+    },
+    {
+      "id": 4,
+      "tema": "Obras de referência",
+      "curto": false,
+      "q": "Qual é a mensagem central em 'O Príncipe Nabo', de Ilse Losa?",
+      "a": "Valorizar a empatia e a humildade, mostrando que a aparência não define a dignidade de uma pessoa."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Tema, título, autor e moral.",
+      "Apenas as falas das personagens.",
+      "O número de páginas e o tipo de letra."
+    ],
+    "2": [
+      "Inventar qualquer significado para avançar.",
+      "Ignorar a palavra e continuar.",
+      "Apagar a palavra do texto."
+    ],
+    "3": [
+      "Um verso ocupa sempre quatro linhas.",
+      "A estrofe é uma palavra com acento tónico.",
+      "O verso só aparece em textos narrativos."
+    ],
+    "4": [
+      "Agradar sempre aos outros mesmo sem os conhecer.",
+      "Julgarmos alguém apenas pelo título que possui.",
+      "A importância das festas do reino."
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Fazer perguntas sobre o texto antes de o ler ajuda a definir objetivos de leitura.",
+      "v": true,
+      "e": "Ter questões orientadoras facilita a construção de sentido e a identificação de ideias principais."
+    },
+    {
+      "t": "Os textos literários do 5.º ano devem ser lidos apenas de forma silenciosa.",
+      "v": false,
+      "e": "A leitura em voz alta desenvolve fluência, entoação e compreensão do texto."
+    },
+    {
+      "t": "As ilustrações presentes em muitas obras juvenis são pistas úteis para interpretar personagens e ambientes.",
+      "v": true,
+      "e": "Elementos visuais complementam a informação textual e ajudam a inferir significados."
+    }
+  ]
+}
