@@ -4,6 +4,9 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Quiz de Estudo - Seleção de Conteúdo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#0f172a; --card:#111827; --fg:#e5e7eb; --muted:#94a3b8;
@@ -12,17 +15,23 @@
   @media (prefers-color-scheme: light){
     :root{ --bg:#f8fafc; --card:#ffffff; --fg:#0f172a; --muted:#475569; --border:#e2e8f0; --btn:#e2e8f0; --btn-hover:#cbd5e1; }
   }
+  /* Kid-Friendly Theme */
+  body[data-theme="kids"]{
+    --bg:#fff8f0; --card:#ffffff; --fg:#2c3e50; --muted:#7f8c8d;
+    --accent:#27ae60; --border:#e8dacc; --btn:#ecf0f1; --btn-hover:#dfe6e9;
+  }
   *{box-sizing:border-box}
-  body{ 
-    margin:0; 
-    background:var(--bg); 
-    color:var(--fg); 
-    font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial; 
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--fg);
+    font:18px/1.6 'Nunito',system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial;
     min-height:100vh;
     display:flex;
     align-items:center;
     justify-content:center;
     padding:1rem;
+    transition:background 0.3s, color 0.3s;
   }
   .container{
     max-width:800px;
@@ -60,19 +69,20 @@
   }
   .content-card{
     background:var(--card);
-    border:1px solid var(--border);
-    border-radius:1rem;
-    padding:1.5rem;
+    border:2px solid var(--border);
+    border-radius:1.2rem;
+    padding:1.8rem;
     cursor:pointer;
-    transition:all 0.2s;
+    transition:all 0.3s;
     display:flex;
     justify-content:space-between;
     align-items:center;
     gap:1rem;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
   }
   .content-card:hover{
-    transform:translateY(-2px);
-    box-shadow:0 8px 16px rgba(0,0,0,0.3);
+    transform:translateY(-4px) scale(1.01);
+    box-shadow:0 12px 24px rgba(0,0,0,0.3);
     border-color:var(--accent);
   }
   .content-info h2{
@@ -121,15 +131,20 @@
     background:linear-gradient(135deg,#2563eb,#06b6d4);
     color:white;
     border:none;
-    padding:0.7rem 1.5rem;
-    border-radius:0.5rem;
+    padding:0.9rem 1.8rem;
+    border-radius:1rem;
     cursor:pointer;
-    font-size:1rem;
-    font-weight:500;
-    transition:transform 0.15s;
+    font-size:1.05rem;
+    font-weight:600;
+    transition:transform 0.2s, box-shadow 0.2s;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
   }
   button:hover{
-    transform:translateY(-1px);
+    transform:translateY(-2px) scale(1.02);
+    box-shadow:0 6px 16px rgba(0,0,0,0.25);
+  }
+  button:active{
+    transform:translateY(0) scale(0.98);
   }
   .small{
     font-size:0.9rem;
@@ -144,6 +159,31 @@
     h1{ font-size:1.8rem; }
     .content-card{ flex-direction:column; align-items:flex-start; }
     .arrow{ display:none; }
+  }
+
+  /* Theme toggle button */
+  .theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 100;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .theme-toggle:hover {
+    transform: scale(1.1) rotate(10deg);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
   }
 </style>
 </head>
@@ -319,6 +359,9 @@
   </div>
 </div>
 
+<!-- Theme Toggle Button -->
+<button class="theme-toggle" id="themeToggle" title="Alternar tema para crianças" aria-label="Alternar tema">🎨</button>
+
 <script>
 function loadQuiz(contentFile) {
   window.location.href = `quiz-template.html?content=${encodeURIComponent(contentFile)}`;
@@ -392,6 +435,30 @@ document.getElementById('customPath').addEventListener('keypress', function(e) {
   if (e.key === 'Enter') {
     loadCustomQuiz();
   }
+});
+
+// Theme toggle functionality
+function toggleTheme() {
+  const body = document.body;
+  const currentTheme = body.getAttribute('data-theme');
+
+  if (currentTheme === 'kids') {
+    body.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'default');
+  } else {
+    body.setAttribute('data-theme', 'kids');
+    localStorage.setItem('theme', 'kids');
+  }
+}
+
+// Initialize theme on load
+document.addEventListener('DOMContentLoaded', function() {
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'kids') {
+    document.body.setAttribute('data-theme', 'kids');
+  }
+
+  document.getElementById('themeToggle').addEventListener('click', toggleTheme);
 });
 </script>
 </body>
