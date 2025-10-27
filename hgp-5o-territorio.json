@@ -35,6 +35,104 @@
       "curto": false,
       "q": "Qual é a função de uma freguesia na organização administrativa portuguesa?",
       "a": "É a unidade administrativa mais pequena, responsável por serviços locais e representação da população da sua área."
+    },
+    {
+      "id": 5,
+      "tema": "Localização",
+      "curto": true,
+      "q": "Que oceano banha a costa portuguesa?",
+      "a": "O Oceano Atlântico."
+    },
+    {
+      "id": 6,
+      "tema": "Regiões",
+      "curto": false,
+      "q": "Quantas ilhas compõem o arquipélago dos Açores?",
+      "a": "Nove ilhas: São Miguel, Terceira, São Jorge, Pico, Faial, Flores, Corvo, Graciosa e Santa Maria."
+    },
+    {
+      "id": 7,
+      "tema": "Relevo",
+      "curto": true,
+      "q": "Qual é o ponto mais alto de Portugal Continental?",
+      "a": "A Serra da Estrela, com 1993 metros na Torre."
+    },
+    {
+      "id": 8,
+      "tema": "Rios",
+      "curto": false,
+      "q": "Indica três rios importantes que atravessam Portugal Continental.",
+      "a": "Rio Douro, Rio Tejo e Rio Guadiana."
+    },
+    {
+      "id": 9,
+      "tema": "Clima",
+      "curto": false,
+      "q": "Como se caracteriza o clima de Portugal Continental?",
+      "a": "Clima temperado mediterrâneo, com verões quentes e secos e invernos suaves e chuvosos."
+    },
+    {
+      "id": 10,
+      "tema": "Administração",
+      "curto": true,
+      "q": "Qual é a capital de Portugal?",
+      "a": "Lisboa."
+    },
+    {
+      "id": 11,
+      "tema": "Paisagens",
+      "curto": false,
+      "q": "Que tipo de paisagem predomina no Alentejo?",
+      "a": "Planície alentejana com campos de cereais, montados de sobreiros e azinheiras, e extensas áreas agrícolas."
+    },
+    {
+      "id": 12,
+      "tema": "Regiões",
+      "curto": false,
+      "q": "Que arquipélago português se localiza mais próximo de África?",
+      "a": "O arquipélago da Madeira, que inclui as ilhas da Madeira, Porto Santo e as ilhas Desertas e Selvagens."
+    },
+    {
+      "id": 13,
+      "tema": "Costa",
+      "curto": false,
+      "q": "Que características tem a costa portuguesa?",
+      "a": "Extensa linha costeira com praias, falésias, estuários e portos naturais, importante para pesca e turismo."
+    },
+    {
+      "id": 14,
+      "tema": "Administração",
+      "curto": false,
+      "q": "Como se organiza o território português em termos administrativos?",
+      "a": "Divide-se em distritos (no Continente), regiões autónomas, concelhos (municípios) e freguesias."
+    },
+    {
+      "id": 15,
+      "tema": "Relevo",
+      "curto": true,
+      "q": "O que são serras?",
+      "a": "Elevações do terreno, cadeias montanhosas com altitudes significativas."
+    },
+    {
+      "id": 16,
+      "tema": "Rios",
+      "curto": true,
+      "q": "Onde nasce o Rio Tejo?",
+      "a": "Em Espanha, na Serra de Albarracín."
+    },
+    {
+      "id": 17,
+      "tema": "Clima",
+      "curto": false,
+      "q": "Que diferenças climáticas existem entre o Norte e o Sul de Portugal Continental?",
+      "a": "O Norte é mais chuvoso e fresco; o Sul é mais seco e quente, especialmente no verão."
+    },
+    {
+      "id": 18,
+      "tema": "Localização",
+      "curto": false,
+      "q": "Em que continente se localiza Portugal?",
+      "a": "Na Europa, mais especificamente no sudoeste do continente europeu."
     }
   ],
   "distractors": {
@@ -57,6 +155,76 @@
       "Escolher o Presidente da República.",
       "Definir tratados internacionais.",
       "Administrar apenas a rede ferroviária nacional."
+    ],
+    "5": [
+      "O Mar Mediterrâneo.",
+      "O Oceano Índico.",
+      "O Mar do Norte."
+    ],
+    "6": [
+      "Cinco ilhas principais.",
+      "Doze ilhas habitadas.",
+      "Sete ilhas e dois ilhéus."
+    ],
+    "7": [
+      "O Monte Pico, nos Açores.",
+      "A Serra de Montejunto.",
+      "A Serra de Sintra."
+    ],
+    "8": [
+      "Rio Mondego, Rio Lima e Rio Sado.",
+      "Rio Zêzere, Rio Cávado e Rio Ave.",
+      "Rio Minho, Rio Vouga e Rio Tâmega."
+    ],
+    "9": [
+      "Clima polar, com invernos muito frios e neve abundante.",
+      "Clima tropical, com chuvas intensas todo o ano.",
+      "Clima continental, com grandes amplitudes térmicas."
+    ],
+    "10": [
+      "Porto.",
+      "Coimbra.",
+      "Faro."
+    ],
+    "11": [
+      "Montanhas cobertas de neve durante todo o ano.",
+      "Vales profundos com florestas densas.",
+      "Praias rochosas e falésias altas."
+    ],
+    "12": [
+      "O arquipélago dos Açores.",
+      "As Ilhas Canárias (que são espanholas).",
+      "Não há arquipélagos próximos de África."
+    ],
+    "13": [
+      "Costa sem praias, apenas rochas.",
+      "Costa muito curta, com apenas 50 km.",
+      "Costa fechada, sem acesso ao mar."
+    ],
+    "14": [
+      "Apenas em regiões e cidades.",
+      "Só em províncias e aldeias.",
+      "Em estados federados e cantões."
+    ],
+    "15": [
+      "São rios muito largos.",
+      "São planícies junto ao mar.",
+      "São lagos de montanha."
+    ],
+    "16": [
+      "Em Portugal, na Serra da Estrela.",
+      "Em França, nos Pirenéus.",
+      "No Oceano Atlântico."
+    ],
+    "17": [
+      "O Norte é mais quente e o Sul mais frio.",
+      "Não há diferenças climáticas significativas.",
+      "O Norte é desértico e o Sul tropical."
+    ],
+    "18": [
+      "Na Ásia Oriental.",
+      "Na América do Sul.",
+      "Em África."
     ]
   },
   "trueFalse": [
@@ -74,6 +242,41 @@
       "t": "Os distritos são subdivisões tradicionais que agrupam vários concelhos.",
       "v": true,
       "e": "Cada distrito integra múltiplos municípios, embora a gestão autárquica dependa dos concelhos e freguesias."
+    },
+    {
+      "t": "Portugal Continental tem fronteira terrestre com França.",
+      "v": false,
+      "e": "Portugal Continental apenas tem fronteira terrestre com Espanha, a leste e a norte."
+    },
+    {
+      "t": "A Serra da Estrela é o ponto mais alto de todo o território português.",
+      "v": false,
+      "e": "O ponto mais alto de Portugal é o Monte Pico, nos Açores, com 2351 metros de altitude."
+    },
+    {
+      "t": "O clima mediterrâneo caracteriza-se por verões quentes e secos.",
+      "v": true,
+      "e": "Este tipo de clima, típico de Portugal Continental, apresenta verões quentes e secos e invernos suaves e chuvosos."
+    },
+    {
+      "t": "As regiões autónomas têm governo próprio e competências específicas.",
+      "v": true,
+      "e": "Os Açores e a Madeira possuem órgãos de governo regional e autonomia administrativa."
+    },
+    {
+      "t": "Todo o território português se localiza no hemisfério sul.",
+      "v": false,
+      "e": "Portugal situa-se no hemisfério norte, acima da linha do Equador."
+    },
+    {
+      "t": "A planície alentejana é uma das principais regiões agrícolas de Portugal.",
+      "v": true,
+      "e": "O Alentejo destaca-se pela produção de cereais, azeite, cortiça e vinho, aproveitando as extensas planícies."
+    },
+    {
+      "t": "Portugal não tem ilhas no Oceano Atlântico.",
+      "v": false,
+      "e": "Portugal possui dois arquipélagos atlânticos: os Açores (9 ilhas) e a Madeira (2 ilhas habitadas e ilhéus)."
     }
   ]
 }

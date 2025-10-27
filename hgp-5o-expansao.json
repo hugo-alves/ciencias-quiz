@@ -4,76 +4,59 @@
     "subtitle": "Séculos XV-XVII e sociedade portuguesa",
     "description": "Destaca viagens, comércio atlântico e transformações sociais do reino.",
     "unit": "HGP5_EXP",
-    "version": "v1",
-    "footer": "Segmento inspirado nas Aprendizagens Essenciais e no Perfil do Aluno."
+    "version": "v2",
+    "footer": "Segmento inspirado nas Aprendizagens Essenciais e no Perfil do Aluno. Conteúdo expandido."
   },
   "cards": [
-    {
-      "id": 1,
-      "tema": "Motivações",
-      "curto": false,
-      "q": "Quais foram dois motivos principais para o início das viagens portuguesas no século XV?",
-      "a": "A procura de novas rotas para o ouro e especiarias e o desejo de expandir o cristianismo."
-    },
-    {
-      "id": 2,
-      "tema": "Navegadores",
-      "curto": true,
-      "q": "Que feito é atribuído a Bartolomeu Dias em 1488?",
-      "a": "Dobrou o Cabo da Boa Esperança, abrindo caminho marítimo para o Índico."
-    },
-    {
-      "id": 3,
-      "tema": "Cidadania",
-      "curto": false,
-      "q": "Que mudanças trouxe o comércio atlântico para os portos portugueses?",
-      "a": "Maior circulação de mercadorias, crescimento urbano e novas profissões ligadas à navegação."
-    },
-    {
-      "id": 4,
-      "tema": "Restauração",
-      "curto": false,
-      "q": "Que evento marca o início da dinastia de Bragança em 1640?",
-      "a": "A Restauração da Independência com o golpe de 1 de dezembro e a aclamação de D. João IV."
-    }
+    {"id": 1, "tema": "Motivações", "curto": false, "q": "Quais foram dois motivos principais para o início das viagens portuguesas no século XV?", "a": "A procura de novas rotas para o ouro e especiarias e o desejo de expandir o cristianismo."},
+    {"id": 2, "tema": "Navegadores", "curto": true, "q": "Que feito é atribuído a Bartolomeu Dias em 1488?", "a": "Dobrou o Cabo da Boa Esperança, abrindo caminho marítimo para o Índico."},
+    {"id": 3, "tema": "Cidadania", "curto": false, "q": "Que mudanças trouxe o comércio atlântico para os portos portugueses?", "a": "Maior circulação de mercadorias, crescimento urbano e novas profissões ligadas à navegação."},
+    {"id": 4, "tema": "Restauração", "curto": false, "q": "Que evento marca o início da dinastia de Bragança em 1640?", "a": "A Restauração da Independência com o golpe de 1 de dezembro e a aclamação de D. João IV."},
+    {"id": 5, "tema": "Descobrimentos", "curto": true, "q": "Quem descobriu o caminho marítimo para a Índia?", "a": "Vasco da Gama, em 1498."},
+    {"id": 6, "tema": "Infante D. Henrique", "curto": false, "q": "Qual foi o papel do Infante D. Henrique nos Descobrimentos?", "a": "Impulsionou as explorações da costa africana, reuniu conhecimentos náuticos e apoiou expedições marítimas."},
+    {"id": 7, "tema": "Brasil", "curto": false, "q": "Quem chegou ao Brasil em 1500 e que nome lhe foi dado inicialmente?", "a": "Pedro Álvares Cabral chegou ao Brasil, inicialmente chamado Terra de Vera Cruz."},
+    {"id": 8, "tema": "Império", "curto": false, "q": "Que territórios compunham o Império Português no século XVI?", "a": "Territórios em África (Angola, Moçambique), Ásia (Goa, Malaca), Brasil e feitorias diversas."},
+    {"id": 9, "tema": "Comércio", "curto": false, "q": "Que produtos traziam os portugueses do Oriente?", "a": "Especiarias (pimenta, canela, cravo), sedas, porcelanas e pedras preciosas."},
+    {"id": 10, "tema": "Navegação", "curto": true, "q": "Que instrumento ajudava os navegadores a orientarem-se pelas estrelas?", "a": "O astrolábio."},
+    {"id": 11, "tema": "Sociedade", "curto": false, "q": "Como estava organizada a sociedade portuguesa nos séculos XV-XVI?", "a": "Dividida em três ordens: clero (rezava), nobreza (lutava) e povo (trabalhava)."},
+    {"id": 12, "tema": "União Ibérica", "curto": false, "q": "O que foi a União Ibérica (1580-1640)?", "a": "Período em que Portugal esteve sob o domínio dos reis espanhóis Filipes, perdendo temporariamente a independência."},
+    {"id": 13, "tema": "Vida quotidiana", "curto": false, "q": "Como era a alimentação do povo no século XVI?", "a": "Baseada em pão, legumes, peixe salgado e, ocasionalmente, carne; os ricos tinham acesso a especiarias e açúcar."},
+    {"id": 14, "tema": "Cultura", "curto": false, "q": "Que obras literárias marcaram o século XVI português?", "a": "Os Lusíadas de Luís de Camões, que celebram os feitos marítimos portugueses."},
+    {"id": 15, "tema": "Revolução de 1640", "curto": false, "q": "Quais foram as causas da Restauração da Independência?", "a": "Descontentamento com o domínio espanhol, perda de territórios coloniais e aumento de impostos."},
+    {"id": 16, "tema": "Tráfico", "curto": false, "q": "Qual foi o papel de Portugal no tráfico de escravizados?", "a": "Portugal participou ativamente no comércio de pessoas escravizadas entre África e as Américas, causando sofrimento imenso."},
+    {"id": 17, "tema": "Arquitetura", "curto": false, "q": "Que estilo arquitetónico se desenvolveu em Portugal no século XVI?", "a": "O estilo manuelino, que combina elementos góticos com motivos marítimos e orientais."},
+    {"id": 18, "tema": "Tratados", "curto": false, "q": "O que foi o Tratado de Tordesilhas (1494)?", "a": "Acordo entre Portugal e Espanha que dividiu as terras descobertas e por descobrir entre os dois reinos."}
   ],
   "distractors": {
-    "1": [
-      "Encontrar locais para instalar moinhos de vento.",
-      "Evitar o pagamento de impostos nas feiras locais.",
-      "Descobrir novas rotas terrestres através dos Alpes."
-    ],
-    "2": [
-      "Descobriu o caminho marítimo para o Brasil.",
-      "Fundou a cidade de Goa na Índia.",
-      "Foi o primeiro capitão a atravessar o Atlântico Norte."
-    ],
-    "3": [
-      "Fechou os portos ao comércio estrangeiro.",
-      "Impediu o surgimento de artesãos especializados.",
-      "Diminuiu a importância das cidades costeiras."
-    ],
-    "4": [
-      "A morte de D. Sebastião na batalha de Alcácer-Quibir.",
-      "A assinatura do Tratado de Methuen.",
-      "A subida ao trono de D. Manuel I."
-    ]
+    "1": ["Encontrar locais para instalar moinhos de vento.", "Evitar o pagamento de impostos nas feiras locais.", "Descobrir novas rotas terrestres através dos Alpes."],
+    "2": ["Descobriu o caminho marítimo para o Brasil.", "Fundou a cidade de Goa na Índia.", "Foi o primeiro capitão a atravessar o Atlântico Norte."],
+    "3": ["Fechou os portos ao comércio estrangeiro.", "Impediu o surgimento de artesãos especializados.", "Diminuiu a importância das cidades costeiras."],
+    "4": ["A morte de D. Sebastião na batalha de Alcácer-Quibir.", "A assinatura do Tratado de Methuen.", "A subida ao trono de D. Manuel I."],
+    "5": ["Cristóvão Colombo, em 1492.", "Fernando de Magalhães, em 1519.", "Pedro Álvares Cabral, em 1500."],
+    "6": ["Foi o primeiro a navegar até à Índia.", "Descobriu o Brasil pessoalmente.", "Conquistou territórios no norte de África."],
+    "7": ["Vasco da Gama, chamada Terra Santa.", "Cristóvão Colombo, chamada Ilha de Vera Cruz.", "Bartolomeu Dias, chamada Nova Lusitânia."],
+    "8": ["Apenas territórios em África.", "Só o Brasil e ilhas atlânticas.", "Territórios na Europa e América do Norte."],
+    "9": ["Apenas ouro e prata.", "Cereais e vinho.", "Madeiras e pedras de construção."],
+    "10": ["A bússola magnética exclusivamente.", "O sextante moderno.", "O GPS náutico."],
+    "11": ["Todos eram iguais perante a lei.", "Dividida em trabalhadores e patrões.", "Organizada por profissões apenas."],
+    "12": ["Aliança comercial entre Portugal e Espanha.", "União de todos os reinos ibéricos contra os mouros.", "Casamento real entre famílias portuguesas e espanholas."],
+    "13": ["Dieta rica em carnes exóticas e frutas tropicais.", "Alimentação exclusivamente vegetariana.", "Refeições baseadas em arroz e especiarias orientais."],
+    "14": ["O Pai Goriot de Balzac.", "Dom Quixote de Cervantes.", "A Divina Comédia de Dante."],
+    "15": ["Desejo de conquistar Espanha.", "Pressão da Inglaterra para separação.", "Vontade de criar uma república."],
+    "16": ["Portugal opôs-se sempre ao tráfico de pessoas.", "Não teve qualquer envolvimento nesse comércio.", "Apenas transportava mercadorias, não pessoas."],
+    "17": ["Estilo barroco italiano.", "Estilo gótico tradicional puro.", "Estilo neoclássico francês."],
+    "18": ["Tratado de paz com os mouros.", "Acordo comercial com a Índia.", "Tratado de aliança militar com França."]
   },
   "trueFalse": [
-    {
-      "t": "O Infante D. Henrique criou a Escola de Sagres para reunir conhecimentos náuticos.",
-      "v": true,
-      "e": "Sagres tornou-se um centro de cartografia, construção naval e formação de pilotos."
-    },
-    {
-      "t": "As viagens portuguesas não provocaram impacto na vida quotidiana das populações.",
-      "v": false,
-      "e": "Geraram novas mercadorias, contactos culturais e desafios sociais, como o tráfico de escravizados."
-    },
-    {
-      "t": "Após a Restauração de 1640, Portugal manteve uma guerra com Espanha até 1668.",
-      "v": true,
-      "e": "O conflito terminou com o Tratado de Lisboa, que reconheceu a independência portuguesa."
-    }
+    {"t": "O Infante D. Henrique criou a Escola de Sagres para reunir conhecimentos náuticos.", "v": true, "e": "Sagres tornou-se um centro de cartografia, construção naval e formação de pilotos."},
+    {"t": "As viagens portuguesas não provocaram impacto na vida quotidiana das populações.", "v": false, "e": "Geraram novas mercadorias, contactos culturais e desafios sociais, como o tráfico de escravizados."},
+    {"t": "Após a Restauração de 1640, Portugal manteve uma guerra com Espanha até 1668.", "v": true, "e": "O conflito terminou com o Tratado de Lisboa, que reconheceu a independência portuguesa."},
+    {"t": "Vasco da Gama foi o primeiro europeu a chegar à Índia por mar.", "v": true, "e": "Em 1498, chegou a Calicut, estabelecendo a rota marítima para o Oriente."},
+    {"t": "O comércio de especiarias era pouco lucrativo para Portugal.", "v": false, "e": "As especiarias eram extremamente valiosas na Europa, gerando grandes lucros para a Coroa."},
+    {"t": "A sociedade portuguesa era igualitária, sem divisão de classes.", "v": false, "e": "Estava dividida em ordens com privilégios distintos: clero, nobreza e povo."},
+    {"t": "Durante a União Ibérica, Portugal perdeu territórios coloniais para holandeses e ingleses.", "v": true, "e": "A fraqueza durante o domínio espanhol levou a perdas de feitorias e territórios."},
+    {"t": "Os Lusíadas foram escritos por Gil Vicente.", "v": false, "e": "Foram escritos por Luís de Camões, poeta maior da língua portuguesa."},
+    {"t": "O Tratado de Tordesilhas foi assinado apenas por Portugal, sem participação espanhola.", "v": false, "e": "Foi um acordo bilateral entre Portugal e Castela, mediado pelo Papa."},
+    {"t": "A arquitetura manuelina é exclusiva de Portugal e reflete a época dos Descobrimentos.", "v": true, "e": "Este estilo único incorpora elementos náuticos e ornamentação rica, símbolo da época dourada portuguesa."}
   ]
 }

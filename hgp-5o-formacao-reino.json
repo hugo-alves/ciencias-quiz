@@ -4,76 +4,59 @@
     "subtitle": "Da Reconquista à consolidação monárquica",
     "description": "Revisa momentos-chave da independência portuguesa e das primeiras dinastias.",
     "unit": "HGP5_REINO",
-    "version": "v1",
-    "footer": "Baseado nas Aprendizagens Essenciais de HGP (5.º ano)."
+    "version": "v2",
+    "footer": "Baseado nas Aprendizagens Essenciais de HGP (5.º ano). Conteúdo expandido."
   },
   "cards": [
-    {
-      "id": 1,
-      "tema": "Conde D. Henrique",
-      "curto": false,
-      "q": "Que objetivo tinha o Condado Portucalense quando foi entregue a D. Henrique?",
-      "a": "Defender a fronteira oeste do reino de Leão e expandir o território cristão durante a Reconquista."
-    },
-    {
-      "id": 2,
-      "tema": "Batalha de São Mamede",
-      "curto": true,
-      "q": "Por que é importante a Batalha de São Mamede (1128) para a independência portuguesa?",
-      "a": "Porque consolidou o poder de D. Afonso Henriques, afastando a regência de D. Teresa."
-    },
-    {
-      "id": 3,
-      "tema": "Reconhecimento de Leão",
-      "curto": false,
-      "q": "Que tratado reconheceu Portugal como reino independente e em que ano?",
-      "a": "O Tratado de Zamora, assinado em 1143 entre D. Afonso Henriques e Afonso VII de Leão e Castela."
-    },
-    {
-      "id": 4,
-      "tema": "Primeira dinastia",
-      "curto": false,
-      "q": "Que medidas tomou D. Afonso III para consolidar o reino?",
-      "a": "Convocou as primeiras Cortes com representantes concelhios e promoveu o repovoamento do Algarve recém-conquistado."
-    }
+    {"id": 1, "tema": "Conde D. Henrique", "curto": false, "q": "Que objetivo tinha o Condado Portucalense quando foi entregue a D. Henrique?", "a": "Defender a fronteira oeste do reino de Leão e expandir o território cristão durante a Reconquista."},
+    {"id": 2, "tema": "Batalha de São Mamede", "curto": true, "q": "Por que é importante a Batalha de São Mamede (1128) para a independência portuguesa?", "a": "Porque consolidou o poder de D. Afonso Henriques, afastando a regência de D. Teresa."},
+    {"id": 3, "tema": "Reconhecimento de Leão", "curto": false, "q": "Que tratado reconheceu Portugal como reino independente e em que ano?", "a": "O Tratado de Zamora, assinado em 1143 entre D. Afonso Henriques e Afonso VII de Leão e Castela."},
+    {"id": 4, "tema": "Primeira dinastia", "curto": false, "q": "Que medidas tomou D. Afonso III para consolidar o reino?", "a": "Convocou as primeiras Cortes com representantes concelhios e promoveu o repovoamento do Algarve recém-conquistado."},
+    {"id": 5, "tema": "D. Afonso Henriques", "curto": true, "q": "Quem foi o primeiro rei de Portugal?", "a": "D. Afonso Henriques, proclamado rei em 1139 após a Batalha de Ourique."},
+    {"id": 6, "tema": "Reconquista", "curto": false, "q": "O que foi a Reconquista Cristã na Península Ibérica?", "a": "Foi o processo de recuperação dos territórios ocupados pelos muçulmanos, que durou vários séculos."},
+    {"id": 7, "tema": "Tomada de Lisboa", "curto": false, "q": "Em que ano foi conquistada Lisboa e qual a sua importância?", "a": "Em 1147. A conquista foi estratégica, tornando Lisboa capital e fortalecendo o reino a sul."},
+    {"id": 8, "tema": "D. Dinis", "curto": false, "q": "Por que é D. Dinis conhecido como o Rei Lavrador?", "a": "Porque promoveu a agricultura, plantou o pinhal de Leiria, e desenvolveu feiras e comércio."},
+    {"id": 9, "tema": "Primeira dinastia", "curto": true, "q": "Qual é o nome da primeira dinastia portuguesa?", "a": "Dinastia Afonsina ou de Borgonha."},
+    {"id": 10, "tema": "Cortes", "curto": false, "q": "O que eram as Cortes medievais?", "a": "Assembleias onde o rei reunia com representantes do clero, nobreza e concelhos para discutir assuntos do reino."},
+    {"id": 11, "tema": "Conquistas", "curto": true, "q": "Quando foi conquistado o Algarve, completando as fronteiras?", "a": "Em 1249, durante o reinado de D. Afonso III."},
+    {"id": 12, "tema": "Castelos", "curto": false, "q": "Qual era a função dos castelos medievais?", "a": "Defesa do território, proteção da população em caso de ataque e afirmação do poder senhorial."},
+    {"id": 13, "tema": "Igreja", "curto": false, "q": "Que papel desempenhou a Igreja na formação do reino?", "a": "Legitimou o poder real, forneceu apoio político e cultural, e organizou a administração através de dioceses."},
+    {"id": 14, "tema": "D. Sancho I", "curto": false, "q": "Que obras realizou D. Sancho I, o Povoador?", "a": "Promoveu o povoamento do território, concedeu forais a vilas e incentivou a vinda de colonos."},
+    {"id": 15, "tema": "Forais", "curto": true, "q": "O que era um foral?", "a": "Documento que estabelecia direitos, deveres e regalias de uma povoação."},
+    {"id": 16, "tema": "Monarquia", "curto": false, "q": "Como era transmitido o poder real em Portugal medieval?", "a": "Por sucessão hereditária, geralmente do pai para o filho primogénito (lei da primogenitura)."},
+    {"id": 17, "tema": "Fronteiras", "curto": false, "q": "Que tratado definiu as fronteiras entre Portugal e Castela?", "a": "O Tratado de Alcanizes, assinado em 1297 por D. Dinis."},
+    {"id": 18, "tema": "Economia", "curto": false, "q": "Quais eram as principais atividades económicas no Portugal medieval?", "a": "Agricultura, pecuária, pesca, artesanato e comércio em feiras e mercados."}
   ],
   "distractors": {
-    "1": [
-      "Garantir o comércio entre Portugal e França.",
-      "Criar uma rota marítima para o norte da Europa.",
-      "Conquistar territórios muçulmanos na Ásia."
-    ],
-    "2": [
-      "Porque terminou a dinastia de Avis.",
-      "Porque expulsou os mouros do Algarve.",
-      "Porque permitiu a assinatura do Tratado de Tordesilhas."
-    ],
-    "3": [
-      "Tratado de Tordesilhas, em 1494.",
-      "Tratado de Alcáçovas, em 1479.",
-      "Tratado de Windsor, em 1386."
-    ],
-    "4": [
-      "Cancelou todas as Cortes para preservar o poder real.",
-      "Transferiu a capital para Coimbra e fechou os portos.",
-      "Mandou construir apenas castelos no norte do país."
-    ]
+    "1": ["Garantir o comércio entre Portugal e França.", "Criar uma rota marítima para o norte da Europa.", "Conquistar territórios muçulmanos na Ásia."],
+    "2": ["Porque terminou a dinastia de Avis.", "Porque expulsou os mouros do Algarve.", "Porque permitiu a assinatura do Tratado de Tordesilhas."],
+    "3": ["Tratado de Tordesilhas, em 1494.", "Tratado de Alcáçovas, em 1479.", "Tratado de Windsor, em 1386."],
+    "4": ["Cancelou todas as Cortes para preservar o poder real.", "Transferiu a capital para Coimbra e fechou os portos.", "Mandou construir apenas castelos no norte do país."],
+    "5": ["D. João I, fundador da dinastia de Avis.", "D. Dinis, o Rei Lavrador.", "D. Henrique, conde de Portucale."],
+    "6": ["Foi a conquista de territórios cristãos pelos muçulmanos.", "Foi a descoberta de novas terras além-mar.", "Foi uma guerra entre reinos cristãos."],
+    "7": ["Em 1385, após a Batalha de Aljubarrota.", "Em 1249, com a conquista do Algarve.", "Em 1143, com o Tratado de Zamora."],
+    "8": ["Porque gostava de trabalhar nos campos pessoalmente.", "Porque era agricultor antes de ser rei.", "Porque conquistou muitas terras lavradas."],
+    "9": ["Dinastia de Avis.", "Dinastia Filipina.", "Dinastia de Bragança."],
+    "10": ["Eram tribunais para julgar criminosos.", "Eram festas religiosas anuais.", "Eram exércitos permanentes do rei."],
+    "11": ["Em 1143, com a independência.", "Em 1385, após Aljubarrota.", "Em 1147, com a tomada de Lisboa."],
+    "12": ["Servir de residência luxuosa para os reis.", "Armazenar cereais e produtos agrícolas.", "Realizar feiras e mercados regionais."],
+    "13": ["Opôs-se sempre à criação do reino.", "Não teve qualquer influência política.", "Apenas se dedicou a assuntos religiosos."],
+    "14": ["Construiu apenas igrejas e mosteiros.", "Vendeu terras a outros reinos.", "Abandonou territórios conquistados."],
+    "15": ["Um tipo de castelo medieval.", "Uma moeda usada no comércio.", "Um imposto pago ao rei."],
+    "16": ["Por eleição democrática dos concelhos.", "Por nomeação da Igreja Católica.", "Por sorteio entre os nobres."],
+    "17": ["O Tratado de Zamora, em 1143.", "O Tratado de Tordesilhas, em 1494.", "O Tratado de Windsor, em 1386."],
+    "18": ["Apenas comércio marítimo e navegação.", "Exploração mineira e metalurgia.", "Indústria têxtil e exportação."]
   },
   "trueFalse": [
-    {
-      "t": "A tomada de Lisboa em 1147 contou com o apoio de cruzados estrangeiros.",
-      "v": true,
-      "e": "Cruzados vindos do norte da Europa apoiaram o cerco liderado por D. Afonso Henriques."
-    },
-    {
-      "t": "O Tratado de Zamora foi mediado pelo legado papal Guido de Vico.",
-      "v": true,
-      "e": "A mediação papal ajudou a legitimar o novo reino perante Leão e a Igreja."
-    },
-    {
-      "t": "As Cortes de Leiria de 1254 foram convocadas por D. Dinis.",
-      "v": false,
-      "e": "Foram convocadas por D. Afonso III, marcando a participação dos representantes dos concelhos."
-    }
+    {"t": "A tomada de Lisboa em 1147 contou com o apoio de cruzados estrangeiros.", "v": true, "e": "Cruzados vindos do norte da Europa apoiaram o cerco liderado por D. Afonso Henriques."},
+    {"t": "O Tratado de Zamora foi mediado pelo legado papal Guido de Vico.", "v": true, "e": "A mediação papal ajudou a legitimar o novo reino perante Leão e a Igreja."},
+    {"t": "As Cortes de Leiria de 1254 foram convocadas por D. Dinis.", "v": false, "e": "Foram convocadas por D. Afonso III, marcando a participação dos representantes dos concelhos."},
+    {"t": "Portugal foi o primeiro reino da Península Ibérica a completar a Reconquista.", "v": true, "e": "Com a conquista do Algarve em 1249, Portugal terminou a Reconquista antes de Castela e Aragão."},
+    {"t": "D. Afonso Henriques proclamou-se rei após a Batalha de Ourique em 1139.", "v": true, "e": "Esta vitória contra os muçulmanos levou à sua autoproclamação como rei de Portugal."},
+    {"t": "A capital de Portugal foi sempre Lisboa desde a independência.", "v": false, "e": "Antes de Lisboa, a capital foi Coimbra, e ainda antes Guimarães e depois Braga tiveram importância."},
+    {"t": "Os forais concediam privilégios e estabeleciam obrigações das populações.", "v": true, "e": "Estes documentos régios organizavam a vida local e atraíam povoadores."},
+    {"t": "D. Teresa, mãe de D. Afonso Henriques, apoiou totalmente a independência portuguesa.", "v": false, "e": "D. Teresa mantinha ligações com o reino de Leão, o que gerou conflito com o filho."},
+    {"t": "O Tratado de Alcanizes fixou definitivamente as fronteiras entre Portugal e Castela.", "v": true, "e": "Assinado em 1297, este tratado estabeleceu os limites que se mantêm até hoje."},
+    {"t": "Na Idade Média, o poder do rei era absoluto e não dependia de ninguém.", "v": false, "e": "O rei dependia do apoio da nobreza e do clero, e as Cortes representavam consulta aos três estados."}
   ]
 }

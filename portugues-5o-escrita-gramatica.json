@@ -35,6 +35,104 @@
       "curto": false,
       "q": "Em que situações deves usar dois-pontos num texto informativo?",
       "a": "Antes de enumerações, citações diretas ou explicações que detalham a frase anterior."
+    },
+    {
+      "id": 5,
+      "tema": "Classes de palavras",
+      "curto": true,
+      "q": "O que é um nome?",
+      "a": "É a palavra que designa seres, objetos, lugares, sentimentos ou conceitos."
+    },
+    {
+      "id": 6,
+      "tema": "Classes de palavras",
+      "curto": true,
+      "q": "Identifica o verbo na frase: «A Maria lê um livro.»",
+      "a": "Lê (indica a ação que a Maria realiza)."
+    },
+    {
+      "id": 7,
+      "tema": "Classes de palavras",
+      "curto": false,
+      "q": "Qual é a função dos adjetivos numa descrição?",
+      "a": "Caracterizar e qualificar os nomes, acrescentando detalhes sobre forma, cor, tamanho ou qualidade."
+    },
+    {
+      "id": 8,
+      "tema": "Pontuação",
+      "curto": true,
+      "q": "Quando usamos vírgula numa frase?",
+      "a": "Para separar elementos de uma enumeração, isolar vocativos ou marcar pausas breves."
+    },
+    {
+      "id": 9,
+      "tema": "Tipos de frase",
+      "curto": false,
+      "q": "Distingue frase interrogativa de frase exclamativa.",
+      "a": "Interrogativa faz uma pergunta e termina com (?); exclamativa expressa emoção forte e termina com (!)."
+    },
+    {
+      "id": 10,
+      "tema": "Processo de escrita",
+      "curto": false,
+      "q": "Por que é importante planificar antes de escrever um texto?",
+      "a": "Ajuda a organizar ideias, definir estrutura e garantir que não esquecemos informação importante."
+    },
+    {
+      "id": 11,
+      "tema": "Classes de palavras",
+      "curto": false,
+      "q": "O que são determinantes e dá dois exemplos.",
+      "a": "Palavras que acompanham o nome, indicando género, número ou posse. Exemplos: o, uma, meu, aquele."
+    },
+    {
+      "id": 12,
+      "tema": "Conectores",
+      "curto": false,
+      "q": "Que tipo de relação estabelece o conector «por isso»?",
+      "a": "Relação de consequência ou conclusão entre duas ideias."
+    },
+    {
+      "id": 13,
+      "tema": "Pontuação",
+      "curto": true,
+      "q": "Quando se usa ponto de exclamação?",
+      "a": "Para expressar admiração, surpresa, entusiasmo ou ordem enfática."
+    },
+    {
+      "id": 14,
+      "tema": "Classes de palavras",
+      "curto": false,
+      "q": "Identifica os pronomes pessoais que conheces.",
+      "a": "Eu, tu, ele/ela, nós, vós, eles/elas."
+    },
+    {
+      "id": 15,
+      "tema": "Processo de escrita",
+      "curto": false,
+      "q": "O que significa «rever o texto»?",
+      "a": "Reler e corrigir erros de ortografia, pontuação, coerência e melhorar a clareza das ideias."
+    },
+    {
+      "id": 16,
+      "tema": "Conectores",
+      "curto": true,
+      "q": "Dá um exemplo de conector de adição ou enumeração.",
+      "a": "«E», «também», «além disso», «ainda»."
+    },
+    {
+      "id": 17,
+      "tema": "Tipos de frase",
+      "curto": false,
+      "q": "Transforma em frase imperativa: «Tu vais estudar.»",
+      "a": "«Vai estudar!» ou «Estuda!»"
+    },
+    {
+      "id": 18,
+      "tema": "Classes de palavras",
+      "curto": false,
+      "q": "Qual é a diferença entre nome comum e nome próprio?",
+      "a": "Nome comum designa seres de forma geral (rapaz, cidade); nome próprio identifica seres específicos com maiúscula (João, Lisboa)."
     }
   ],
   "distractors": {
@@ -57,6 +155,76 @@
       "Sempre que a frase termina com emoção.",
       "Entre sujeito e predicado sem exceção.",
       "No início de todas as falas das personagens."
+    ],
+    "5": [
+      "É uma palavra que substitui o verbo.",
+      "É apenas a primeira palavra de cada frase.",
+      "É o sinónimo de adjetivo."
+    ],
+    "6": [
+      "Maria (é o sujeito da frase).",
+      "Um (é o determinante artigo).",
+      "Livro (é o complemento direto)."
+    ],
+    "7": [
+      "Substituir os nomes para evitar repetição.",
+      "Indicar a ação que as personagens realizam.",
+      "Ligar frases para formar parágrafos."
+    ],
+    "8": [
+      "Apenas no final das frases interrogativas.",
+      "Para substituir o ponto final sempre que possível.",
+      "Quando queremos escrever números."
+    ],
+    "9": [
+      "Interrogativa expressa emoção e exclamativa faz perguntas.",
+      "Ambas terminam com ponto de interrogação.",
+      "Não há diferença, são sinónimos."
+    ],
+    "10": [
+      "Porque o professor obriga.",
+      "Para escrever textos mais longos.",
+      "Planificar é perder tempo antes de escrever."
+    ],
+    "11": [
+      "São palavras que indicam a ação.",
+      "São sempre palavras com mais de 5 letras.",
+      "São sinónimos de pronomes."
+    ],
+    "12": [
+      "Relação de oposição ou contraste.",
+      "Relação temporal de simultaneidade.",
+      "Relação espacial de proximidade."
+    ],
+    "13": [
+      "Apenas em títulos de textos.",
+      "Para fazer perguntas muito importantes.",
+      "Sempre que escrevemos em letra maiúscula."
+    ],
+    "14": [
+      "Este, esse, aquele, meu, teu.",
+      "Rapidamente, devagar, bem, mal.",
+      "O, a, os, as, um, uma."
+    ],
+    "15": [
+      "Copiar o texto num caderno novo.",
+      "Pedir a outra pessoa para escrever.",
+      "Adicionar imagens coloridas ao texto."
+    ],
+    "16": [
+      "«Mas», «porém», «contudo».",
+      "«Quando», «enquanto», «logo que».",
+      "«Embora», «ainda que», «mesmo que»."
+    ],
+    "17": [
+      "«Ele vai estudar muito bem!»",
+      "«Tu estudaste ontem.»",
+      "«Estudar é importante para todos.»"
+    ],
+    "18": [
+      "Nome comum escreve-se com maiúscula e próprio com minúscula.",
+      "Nome próprio é mais importante que o comum.",
+      "Não há diferença entre eles."
     ]
   },
   "trueFalse": [
@@ -74,6 +242,41 @@
       "t": "Os conectores, como \"por isso\" ou \"no entanto\", reforçam a coesão textual.",
       "v": true,
       "e": "Estabelecem relações lógicas entre frases e parágrafos."
+    },
+    {
+      "t": "A pontuação não afeta o sentido de uma frase.",
+      "v": false,
+      "e": "A pontuação pode alterar completamente o significado, o ritmo e a clareza do texto."
+    },
+    {
+      "t": "Numa frase imperativa, damos ordens, pedidos ou conselhos.",
+      "v": true,
+      "e": "A frase imperativa é usada para influenciar o comportamento do interlocutor."
+    },
+    {
+      "t": "Os nomes próprios escrevem-se sempre com letra maiúscula inicial.",
+      "v": true,
+      "e": "Nomes de pessoas, lugares específicos e marcas começam com maiúscula."
+    },
+    {
+      "t": "Escrever rascunhos é perder tempo, devemos escrever logo a versão final.",
+      "v": false,
+      "e": "Os rascunhos permitem experimentar, organizar e melhorar ideias antes da versão final."
+    },
+    {
+      "t": "Os adjetivos variam em género e número para concordar com o nome.",
+      "v": true,
+      "e": "Por exemplo: rapaz alto (masculino singular), rapariga alta (feminino singular), rapazes altos (masculino plural)."
+    },
+    {
+      "t": "Numa frase interrogativa, fazemos sempre uma afirmação.",
+      "v": false,
+      "e": "Numa frase interrogativa fazemos uma pergunta e terminamos com ponto de interrogação (?)."
+    },
+    {
+      "t": "Rever e corrigir o texto é uma fase importante do processo de escrita.",
+      "v": true,
+      "e": "A revisão permite detetar e corrigir erros, melhorando a qualidade final do texto."
     }
   ]
 }

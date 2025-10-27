@@ -35,6 +35,104 @@
       "curto": true,
       "q": "Porque devemos variar a entoação ao apresentar ideias?",
       "a": "Para destacar ideias-chave, evitar monotonia e manter a atenção do público."
+    },
+    {
+      "id": 5,
+      "tema": "Regras de comunicação",
+      "curto": true,
+      "q": "O que significa «respeitar o turno de fala» numa conversa ou debate?",
+      "a": "Aguardar que o interlocutor termine a sua intervenção antes de falar."
+    },
+    {
+      "id": 6,
+      "tema": "Compreensão oral",
+      "curto": false,
+      "q": "Como podes verificar se compreendeste corretamente uma instrução oral?",
+      "a": "Repetindo ou reformulando com as tuas palavras, fazendo perguntas de esclarecimento ou pedindo exemplos."
+    },
+    {
+      "id": 7,
+      "tema": "Registos de língua",
+      "curto": true,
+      "q": "Dá um exemplo de expressão do registo informal.",
+      "a": "«Tá fixe!», «Bora lá!» ou «tipo assim»."
+    },
+    {
+      "id": 8,
+      "tema": "Planificação",
+      "curto": false,
+      "q": "Que elementos deve conter um guião para uma apresentação oral?",
+      "a": "Introdução, tópicos principais organizados por ordem, exemplos ou dados de apoio e conclusão resumida."
+    },
+    {
+      "id": 9,
+      "tema": "Sinais paralinguísticos",
+      "curto": true,
+      "q": "Que papel desempenham os gestos numa apresentação oral?",
+      "a": "Reforçam a mensagem, ilustram conceitos e ajudam a captar a atenção."
+    },
+    {
+      "id": 10,
+      "tema": "Apresentação oral",
+      "curto": false,
+      "q": "Qual é a importância de falar com ritmo adequado numa exposição?",
+      "a": "Permite que o público acompanhe, compreenda e tome notas, evitando confusão ou perda de informação."
+    },
+    {
+      "id": 11,
+      "tema": "Regras de comunicação",
+      "curto": false,
+      "q": "Que atitude deves ter quando discordas da opinião de um colega num debate?",
+      "a": "Apresentar argumentos fundamentados com respeito, sem interromper ou desvalorizar a opinião alheia."
+    },
+    {
+      "id": 12,
+      "tema": "Compreensão oral",
+      "curto": true,
+      "q": "Indica uma estratégia para recordar informação ouvida numa palestra.",
+      "a": "Tomar notas de palavras-chave, datas ou nomes principais."
+    },
+    {
+      "id": 13,
+      "tema": "Apresentação oral",
+      "curto": false,
+      "q": "Por que é importante manter contacto visual com o público durante uma apresentação?",
+      "a": "Cria ligação com os ouvintes, demonstra confiança e ajuda a perceber se a mensagem está a ser compreendida."
+    },
+    {
+      "id": 14,
+      "tema": "Sinais paralinguísticos",
+      "curto": true,
+      "q": "Que significa «tom de voz»?",
+      "a": "A forma como pronunciamos as palavras, podendo ser calma, entusiasmada, séria ou interrogativa."
+    },
+    {
+      "id": 15,
+      "tema": "Planificação",
+      "curto": true,
+      "q": "Para que serve ensaiar antes de uma apresentação?",
+      "a": "Para ganhar confiança, controlar o tempo e identificar partes que precisam de melhoramento."
+    },
+    {
+      "id": 16,
+      "tema": "Registos de língua",
+      "curto": false,
+      "q": "Transforma esta frase do registo informal para o formal: «Tou a dizer que não vai dar.»",
+      "a": "«Estou a afirmar que não será possível.»"
+    },
+    {
+      "id": 17,
+      "tema": "Compreensão oral",
+      "curto": false,
+      "q": "Como podes identificar as ideias principais de um discurso oral?",
+      "a": "Prestando atenção a repetições, ênfases, exemplos dados e sinais como «o mais importante é» ou «em conclusão»."
+    },
+    {
+      "id": 18,
+      "tema": "Apresentação oral",
+      "curto": false,
+      "q": "Que cuidados deves ter ao usar suportes visuais (cartaz ou PowerPoint)?",
+      "a": "Usar letra legível, não sobrecarregar com texto, incluir imagens relevantes e apontar para os elementos enquanto falas."
     }
   ],
   "distractors": {
@@ -57,6 +155,76 @@
       "Para falar mais baixo e não se ouvir.",
       "Para que todas as frases terminem com a mesma sonoridade.",
       "Para evitar fazer pausas entre ideias."
+    ],
+    "5": [
+      "Começar a falar logo quando temos uma ideia.",
+      "Interromper sempre que discordamos.",
+      "Falar ao mesmo tempo que o outro."
+    ],
+    "6": [
+      "Fingir que percebeste para não parecer distraído.",
+      "Ignorar a instrução e perguntar a um colega depois.",
+      "Aceitar sem questionar mesmo com dúvidas."
+    ],
+    "7": [
+      "«Solicito a vossa atenção para este assunto.»",
+      "«Venho por este meio apresentar os meus cumprimentos.»",
+      "«Agradeço antecipadamente a vossa compreensão.»"
+    ],
+    "8": [
+      "Apenas o título e a data.",
+      "Frases completas escritas exatamente como vamos dizer.",
+      "Imagens sem qualquer texto orientador."
+    ],
+    "9": [
+      "Servem apenas para encher o tempo da apresentação.",
+      "Devem ser evitados a todo o custo.",
+      "Substituem completamente a fala."
+    ],
+    "10": [
+      "Falar o mais rápido possível para terminar depressa.",
+      "Fazer pausas longas entre cada palavra.",
+      "Manter sempre o mesmo ritmo sem variação."
+    ],
+    "11": [
+      "Levantar a voz e insistir até convencer.",
+      "Ignorar completamente a opinião do colega.",
+      "Interromper imediatamente para corrigir."
+    ],
+    "12": [
+      "Decorar tudo palavra por palavra.",
+      "Não registar nada e confiar na memória.",
+      "Escrever frases completas de tudo o que é dito."
+    ],
+    "13": [
+      "Para parecer mais sério e profissional.",
+      "Porque é obrigatório em todas as situações.",
+      "Para controlar melhor o tempo de apresentação."
+    ],
+    "14": [
+      "É a altura ou volume da voz apenas.",
+      "É uma técnica de respiração durante a fala.",
+      "É o idioma que usamos ao comunicar."
+    ],
+    "15": [
+      "Para memorizar o texto palavra por palavra.",
+      "Porque é obrigatório fazer no mínimo três ensaios.",
+      "Para impressionar o professor com perfeição."
+    ],
+    "16": [
+      "«Tá a dizer que não dá, pá.»",
+      "«Acho que isto não vai rolar.»",
+      "«Tipo, não vai dar para fazer.»"
+    ],
+    "17": [
+      "Escrevendo tudo palavra por palavra.",
+      "Memorizando apenas os nomes difíceis.",
+      "Focando apenas nos detalhes secundários."
+    ],
+    "18": [
+      "Colocar o máximo de texto possível em cada slide.",
+      "Usar cores muito claras que não se veem ao longe.",
+      "Dar as costas ao público para ler os slides."
     ]
   },
   "trueFalse": [
@@ -74,6 +242,41 @@
       "t": "Os gestos e a postura corporal podem reforçar a mensagem que transmitimos oralmente.",
       "v": true,
       "e": "Elementos não verbais ajudam a clarificar, sublinhar e tornar a comunicação mais eficaz."
+    },
+    {
+      "t": "Numa apresentação formal, podemos usar gírias e expressões muito informais para soar mais natural.",
+      "v": false,
+      "e": "O registo formal exige vocabulário adequado ao contexto académico, evitando gírias e expressões coloquiais."
+    },
+    {
+      "t": "Fazer perguntas de esclarecimento demonstra atenção e interesse pelo que estamos a ouvir.",
+      "v": true,
+      "e": "Questionar adequadamente revela escuta ativa e vontade de compreender corretamente a mensagem."
+    },
+    {
+      "t": "O volume de voz deve manter-se sempre igual durante toda a apresentação.",
+      "v": false,
+      "e": "Variar o volume ajuda a enfatizar pontos importantes e manter o interesse do público."
+    },
+    {
+      "t": "Ler diretamente do papel ou do ecrã sem olhar para o público prejudica a comunicação.",
+      "v": true,
+      "e": "A falta de contacto visual reduz o envolvimento e dificulta a perceção de como a mensagem está a ser recebida."
+    },
+    {
+      "t": "Durante um debate, interromper o adversário é aceitável se tivermos um argumento muito forte.",
+      "v": false,
+      "e": "Respeitar o turno de palavra é fundamental, independentemente da força do nosso argumento."
+    },
+    {
+      "t": "Um guião de apresentação deve incluir todas as palavras que vamos dizer, escritas na íntegra.",
+      "v": false,
+      "e": "O guião deve conter tópicos-chave, palavras essenciais e estrutura, não um texto completo para ler."
+    },
+    {
+      "t": "As pausas estratégicas ajudam o orador a respirar e o público a processar a informação.",
+      "v": true,
+      "e": "Pausar em momentos adequados melhora a clareza e permite que as ideias sejam melhor compreendidas."
     }
   ]
 }

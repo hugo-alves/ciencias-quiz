@@ -35,6 +35,104 @@
       "curto": false,
       "q": "Qual é a mensagem central em 'O Príncipe Nabo', de Ilse Losa?",
       "a": "Valorizar a empatia e a humildade, mostrando que a aparência não define a dignidade de uma pessoa."
+    },
+    {
+      "id": 5,
+      "tema": "Personagens",
+      "curto": true,
+      "q": "Que diferença existe entre personagem principal e personagem secundária?",
+      "a": "A principal é central na ação e no conflito; a secundária apoia ou complementa a história."
+    },
+    {
+      "id": 6,
+      "tema": "Narrador",
+      "curto": false,
+      "q": "Como identificas um narrador na primeira pessoa?",
+      "a": "Usa pronomes «eu» ou «nós» e conta a história da sua própria perspetiva, como participante."
+    },
+    {
+      "id": 7,
+      "tema": "Poemas",
+      "curto": true,
+      "q": "O que é a rima num poema?",
+      "a": "É a repetição de sons finais em versos, criando musicalidade e ritmo."
+    },
+    {
+      "id": 8,
+      "tema": "Estratégias de leitura",
+      "curto": false,
+      "q": "Por que é importante fazer previsões antes e durante a leitura?",
+      "a": "Ativa conhecimentos prévios, mantém a atenção e ajuda a construir sentido do texto."
+    },
+    {
+      "id": 9,
+      "tema": "Espaço narrativo",
+      "curto": true,
+      "q": "O que é o espaço físico numa narrativa?",
+      "a": "É o local onde a ação decorre (cidade, casa, floresta, escola, etc.)."
+    },
+    {
+      "id": 10,
+      "tema": "Tempo narrativo",
+      "curto": false,
+      "q": "Que diferença há entre tempo cronológico e tempo psicológico?",
+      "a": "Cronológico segue a ordem natural (horas, dias); psicológico reflete perceções e memórias das personagens."
+    },
+    {
+      "id": 11,
+      "tema": "Obras de referência",
+      "curto": false,
+      "q": "Que valores encontramos em 'A Fada Oriana', de Sophia de Mello Breyner?",
+      "a": "Responsabilidade, solidariedade e a importância de cuidar dos outros e da natureza."
+    },
+    {
+      "id": 12,
+      "tema": "Compreensão leitora",
+      "curto": false,
+      "q": "Como podes verificar se compreendeste bem um texto narrativo?",
+      "a": "Resumindo com as tuas palavras, identificando personagens, ação principal e mensagem do texto."
+    },
+    {
+      "id": 13,
+      "tema": "Poemas",
+      "curto": false,
+      "q": "Que recursos poéticos tornam um poema expressivo?",
+      "a": "Rima, ritmo, metáforas, comparações e repetições que criam imagens e emoções."
+    },
+    {
+      "id": 14,
+      "tema": "Ação narrativa",
+      "curto": true,
+      "q": "O que é o clímax numa história?",
+      "a": "É o momento de maior tensão ou emoção, onde o conflito atinge o ponto máximo."
+    },
+    {
+      "id": 15,
+      "tema": "Estratégias de leitura",
+      "curto": false,
+      "q": "Para que serve sublinhar ou destacar informação durante a leitura?",
+      "a": "Para identificar ideias principais, facilitar a revisão e apoiar a compreensão global."
+    },
+    {
+      "id": 16,
+      "tema": "Narrador",
+      "curto": false,
+      "q": "Que vantagem tem um narrador não participante (terceira pessoa)?",
+      "a": "Pode conhecer pensamentos de várias personagens e apresentar diferentes pontos de vista."
+    },
+    {
+      "id": 17,
+      "tema": "Obras de referência",
+      "curto": false,
+      "q": "Qual é o tema principal de 'A Viúva e o Papagaio', de Virginia Woolf?",
+      "a": "Ganância, solidão e a descoberta de que a bondade pode ser recompensada de formas inesperadas."
+    },
+    {
+      "id": 18,
+      "tema": "Compreensão leitora",
+      "curto": false,
+      "q": "Como distingues um facto de uma opinião num texto?",
+      "a": "Facto pode ser verificado e provado; opinião expressa um ponto de vista pessoal ou julgamento."
     }
   ],
   "distractors": {
@@ -57,6 +155,76 @@
       "Agradar sempre aos outros mesmo sem os conhecer.",
       "Julgarmos alguém apenas pelo título que possui.",
       "A importância das festas do reino."
+    ],
+    "5": [
+      "A principal tem sempre nome próprio e a secundária não.",
+      "A secundária aparece mais vezes no texto.",
+      "A principal é sempre o narrador da história."
+    ],
+    "6": [
+      "Quando o narrador usa muitos adjetivos.",
+      "Quando a história é contada por animais.",
+      "Quando usa a terceira pessoa mas conhece tudo."
+    ],
+    "7": [
+      "É o número de versos que tem uma estrofe.",
+      "É a linha mais importante do poema.",
+      "É quando todas as palavras começam com a mesma letra."
+    ],
+    "8": [
+      "Para adivinhar o final exato da história.",
+      "Porque é obrigatório em todos os textos.",
+      "Para ler mais depressa e terminar cedo."
+    ],
+    "9": [
+      "É o tempo que demora a ler o texto.",
+      "É a idade das personagens.",
+      "É o tema principal da narrativa."
+    ],
+    "10": [
+      "Cronológico é rápido e psicológico é lento.",
+      "Não há diferença, são sinónimos.",
+      "Cronológico reflete emoções e psicológico conta horas."
+    ],
+    "11": [
+      "A importância de ter poderes mágicos.",
+      "Obedecer sempre sem questionar.",
+      "Viver sozinha na floresta."
+    ],
+    "12": [
+      "Decorando todas as frases do texto.",
+      "Copiando o texto palavra por palavra.",
+      "Lendo apenas o título e a primeira frase."
+    ],
+    "13": [
+      "Usar palavras difíceis e rebuscadas.",
+      "Escrever sempre em letras maiúsculas.",
+      "Fazer textos muito longos com muitos versos."
+    ],
+    "14": [
+      "É a apresentação das personagens.",
+      "É a conclusão da história.",
+      "É o título mais emocionante."
+    ],
+    "15": [
+      "Para decorar o texto todo.",
+      "Porque os professores obrigam.",
+      "Para copiar nas fichas de avaliação."
+    ],
+    "16": [
+      "Pode mudar o final conforme preferir.",
+      "Tem sempre de ser uma personagem animal.",
+      "Conhece menos do que os narradores participantes."
+    ],
+    "17": [
+      "A importância de ter papagaios como animais de estimação.",
+      "Como herdar grandes fortunas.",
+      "A descrição de uma casa antiga."
+    ],
+    "18": [
+      "Facto usa muitos adjetivos e opinião não.",
+      "Opinião aparece sempre no início do texto.",
+      "Não há diferença entre facto e opinião."
     ]
   },
   "trueFalse": [
@@ -74,6 +242,41 @@
       "t": "As ilustrações presentes em muitas obras juvenis são pistas úteis para interpretar personagens e ambientes.",
       "v": true,
       "e": "Elementos visuais complementam a informação textual e ajudam a inferir significados."
+    },
+    {
+      "t": "Numa narrativa, o narrador e o autor são sempre a mesma pessoa.",
+      "v": false,
+      "e": "O autor cria a história; o narrador é a voz que a conta e pode ser uma personagem fictícia."
+    },
+    {
+      "t": "Um poema pode não ter rima e continuar a ser poesia.",
+      "v": true,
+      "e": "A rima é um recurso opcional; o que define poesia inclui também ritmo, imagens e emoção expressa."
+    },
+    {
+      "t": "Reler partes do texto ajuda a esclarecer dúvidas e aprofundar a compreensão.",
+      "v": true,
+      "e": "A releitura permite captar detalhes, fazer conexões e construir interpretações mais completas."
+    },
+    {
+      "t": "O desfecho de uma história deve sempre ser feliz.",
+      "v": false,
+      "e": "O desfecho pode ser feliz, triste, aberto ou surpreendente, dependendo da intenção do autor."
+    },
+    {
+      "t": "Relacionar o que lês com experiências pessoais facilita a compreensão e o envolvimento.",
+      "v": true,
+      "e": "Fazer conexões pessoais torna o texto mais significativo e memorável."
+    },
+    {
+      "t": "Todas as personagens de uma narrativa têm de ser humanas.",
+      "v": false,
+      "e": "Personagens podem ser animais, objetos personificados ou seres fantásticos."
+    },
+    {
+      "t": "Ler regularmente em casa melhora o vocabulário e a fluência de leitura.",
+      "v": true,
+      "e": "A prática regular expõe a novos vocábulos, estruturas e aumenta a rapidez e compreensão leitoras."
     }
   ]
 }
