@@ -41,14 +41,14 @@
       "tema": "Fatores Climáticos",
       "curto": false,
       "q": "Como a latitude influencia os biomas?",
-      "a": "Latitudes baixas recebem mais energia solar (biomas quentes e húmidos); latitudes altas recebem menos (biomas frios e secos)."
+      "a": "A latitude determina a quantidade de energia solar recebida: regiões próximas do equador (baixa latitude) recebem mais energia e são mais quentes, originando biomas quentes como floresta tropical; latitudes altas (perto dos polos) recebem menos energia e são mais frias, originando biomas frios como tundra."
     },
     {
       "id": 206,
       "tema": "Fatores Climáticos",
       "curto": true,
       "q": "De que forma a altitude pode alterar um bioma?",
-      "a": "Aumenta a altitude, diminui a temperatura; podem surgir biomas de clima mais frio em montanhas."
+      "a": "Aumenta a altitude, diminui a temperatura (cerca de 6,5°C por cada 1000 metros); podem surgir biomas de clima mais frio em montanhas, mesmo em regiões temperadas."
     },
     {
       "id": 207,
@@ -76,14 +76,14 @@
       "tema": "Biomas do Mundo",
       "curto": true,
       "q": "Como é a vegetação típica das pradarias/estepes?",
-      "a": "Predominam ervas altas ou baixas, poucas árvores devido a pouca água/incêndios."
+      "a": "Predominam ervas e gramíneas. Há poucas árvores porque a água disponível é limitada e os incêndios naturais frequentes dificultam o estabelecimento de árvores."
     },
     {
       "id": 211,
       "tema": "Floresta Tropical",
       "curto": false,
       "q": "Caracteriza o clima e a biodiversidade da floresta tropical húmida.",
-      "a": "Clima quente e muito chuvoso todo o ano; biodiversidade elevadíssima com muitas espécies de plantas e animais."
+      "a": "Clima quente e muito chuvoso todo o ano (sem estação seca). Possui a maior biodiversidade terrestre do planeta com milhares de espécies de plantas, animais e insetos coexindo devido ao clima constante e recursos abundantes."
     },
     {
       "id": 212,
@@ -118,7 +118,7 @@
       "tema": "Pradaria/Estepe",
       "curto": false,
       "q": "Indica duas adaptações comuns das plantas de pradaria.",
-      "a": "Raízes profundas para alcançar água e crescimento rápido após incêndios."
+      "a": "Raízes muito profundas que alcançam lençóis de água subterrâneos e permitem resistir à seca. Capacidade de rebrotar rapidamente após incêndios naturais que limpam a vegetação morta."
     },
     {
       "id": 217,
@@ -146,21 +146,21 @@
       "tema": "Adaptações",
       "curto": true,
       "q": "Dá um exemplo de adaptação de animais do deserto.",
-      "a": "Atividade noturna e poupança de água (urina concentrada)."
+      "a": "Muitos são ativos à noite para evitar o calor extremo do dia, economizando água e energia. Outros produzem urina muito concentrada para poupar água."
     },
     {
       "id": 221,
       "tema": "Adaptações",
       "curto": true,
       "q": "Que adaptação ajuda os cactos a sobreviver no deserto?",
-      "a": "Armazenam água nos caules e têm espinhos no lugar de folhas."
+      "a": "Armazenam água nos caules suculentos quando chove e têm espinhos no lugar de folhas para reduzir a superfície exposta e minimizar a perda de água por transpiração."
     },
     {
       "id": 222,
       "tema": "Adaptações",
       "curto": false,
       "q": "Como as plantas da tundra suportam o frio e o vento?",
-      "a": "Crescem baixas junto ao solo e têm ciclos de vida curtos no verão."
+      "a": "Crescem baixas junto ao solo, protegidas pelo microclima onde há menos vento e temperaturas ligeiramente mais altas. Têm ciclos de vida curtos, completando crescimento e reprodução durante o curto verão."
     },
     {
       "id": 223,
@@ -174,21 +174,21 @@
       "tema": "Impactos e Conservação",
       "curto": false,
       "q": "Refere duas ameaças humanas aos biomas.",
-      "a": "Desflorestação, poluição, sobrepastoreio, introdução de espécies invasoras e alterações climáticas."
+      "a": "Desflorestação destrói habitats e altera o clima local; poluição contamina solos e águas; sobrepastoreio degrada solos; espécies invasoras competem com nativas; alterações climáticas alteram condições dos biomas."
     },
     {
       "id": 225,
       "tema": "Impactos e Conservação",
       "curto": true,
       "q": "Porque é importante proteger os biomas?",
-      "a": "Mantêm a biodiversidade, fornecem recursos e regulam o clima e a água."
+      "a": "Mantêm a biodiversidade que garante a estabilidade dos ecossistemas, fornecem recursos essenciais como água e alimento, e regulam o clima e o ciclo da água no planeta."
     },
     {
       "id": 226,
       "tema": "Impactos e Conservação",
       "curto": false,
       "q": "Dá dois exemplos de ações que ajudam a conservar biomas.",
-      "a": "Criação de áreas protegidas, reflorestação e uso sustentável dos recursos."
+      "a": "Áreas protegidas mantêm habitats intactos; reflorestação restaura a vegetação que suporta a cadeia alimentar e regula o clima; uso sustentável dos recursos evita a sobreexploração."
     },
     {
       "id": 227,
@@ -202,7 +202,7 @@
       "tema": "Biomas Aquáticos",
       "curto": false,
       "q": "O que condiciona a vida nos biomas marinhos costeiros?",
-      "a": "Variação de salinidade, marés, luz e nutrientes."
+      "a": "Variação de salinidade com entrada de água doce; marés que expõem zonas intertides; disponibilidade de luz nas zonas superficiais; nutrientes transportados pelos rios e correntes."
     },
     {
       "id": 229,
@@ -216,7 +216,7 @@
       "tema": "Mapas de Biomas",
       "curto": false,
       "q": "Como podes relacionar um clima com o bioma esperado numa região?",
-      "a": "Se o clima é quente e chuvoso, espera‑se floresta tropical; se é seco, desertos; se é frio extremo, tundra, etc."
+      "a": "Clima quente e muito chuvoso → floresta tropical; clima quente e seco → deserto; clima com estações secas e chuvosas → savana; clima frio extremo → tundra; clima temperado húmido → floresta temperada."
     },
     {
       "id": 231,
@@ -258,7 +258,7 @@
       "tema": "Comparações",
       "curto": false,
       "q": "Porque as árvores são raras nas pradarias, comparando com florestas?",
-      "a": "Água limitada e incêndios frequentes dificultam o crescimento de árvores."
+      "a": "A água disponível é limitada e as árvores precisam de muita água para crescer; os incêndios naturais frequentes matam rebentos jovens de árvores antes de estas se estabelecerem. As ervas e gramíneas rebrotam rapidamente após incêndios."
     },
     {
       "id": 237,
@@ -272,7 +272,7 @@
       "tema": "Portugal",
       "curto": false,
       "q": "Indica uma razão ecológica para valorizar o montado de sobro.",
-      "a": "Suporta elevada biodiversidade e protege o solo da erosão, além de recursos como a cortiça."
+      "a": "Suporta grande biodiversidade incluindo aves, mamíferos e plantas raras; protege o solo da erosão devido à cobertura vegetal; contribui para o ciclo da água através da evapotranspiração; além de recursos económicos como a cortiça."
     }
   ],
   "distractors": {
@@ -471,122 +471,122 @@
     {
       "t": "Biomas são grandes áreas com clima e vida típicos.",
       "v": true,
-      "e": "Definição simples de bioma."
+      "e": "Um bioma é uma grande região caracterizada por condições climáticas específicas, tipos de solo semelhantes e uma comunidade de plantas e animais adaptados a essas condições."
     },
     {
       "t": "A precipitação e a temperatura ajudam a distinguir biomas.",
       "v": true,
-      "e": "Fatores climáticos principais."
+      "e": "Estes são os dois fatores climáticos mais importantes: a temperatura determina quais organismos podem sobreviver e a precipitação define a disponibilidade de água."
     },
     {
       "t": "Os desertos são definidos por temperaturas altas, não pela falta de chuva.",
       "v": false,
-      "e": "O critério central é a baixa precipitação."
+      "e": "A definição principal de deserto é a baixa precipitação anual. Por exemplo, existem desertos frios como a Antártida que têm baixa precipitação mas temperaturas muito baixas."
     },
     {
       "t": "Na savana há ervas e poucas árvores dispersas.",
       "v": true,
-      "e": "Paisagem característica."
+      "e": "A savana caracteriza-se por ervas altas que dominam a paisagem, com árvores ou arbustos espaçados, adaptados a chuvas sazonais e possíveis incêndios."
     },
     {
       "t": "A taiga é dominada por coníferas adaptadas ao frio.",
       "v": true,
-      "e": "Pinheiros, abetos."
+      "e": "Pinheiros, abetos e outras coníferas dominam porque têm folhas em forma de agulha com cutícula espessa que reduz a perda de água e lhes permite resistir ao frio e à neve."
     },
     {
       "t": "O permafrost é típico da tundra.",
       "v": true,
-      "e": "Solo permanentemente gelado."
+      "e": "Permafrost é solo que permanece congelado durante todo o ano, descongelando apenas uma camada superficial no verão curto, o que limita o crescimento das raízes das plantas."
     },
     {
       "t": "A floresta tropical tem baixa biodiversidade.",
       "v": false,
-      "e": "Tem biodiversidade muito elevada."
+      "e": "A floresta tropical húmida possui a maior biodiversidade terrestre do planeta, com milhares de espécies de plantas, animais e insetos coexistindo devido ao clima constante e recursos abundantes."
     },
     {
       "t": "Pradarias têm muitas árvores altas devido à água abundante.",
       "v": false,
-      "e": "Poucas árvores; dominam ervas."
+      "e": "As pradarias têm poucas árvores porque a água disponível é limitada e os incêndios frequentes dificultam o estabelecimento de árvores. Dominam ervas e gramíneas."
     },
     {
       "t": "O bioma mediterrânico tem verões secos e invernos chuvosos.",
       "v": true,
-      "e": "Clima típico do Mediterrâneo."
+      "e": "Este padrão climático é único: verões quentes e secos quando as plantas precisam de conservar água, e invernos suaves com chuva suficiente para suportar o crescimento durante a estação húmida."
     },
     {
       "t": "Cactos armazenam água nos caules.",
       "v": true,
-      "e": "Adaptação ao deserto."
+      "e": "Os cactos têm caules suculentos que armazenam água quando esta está disponível, e espinhos no lugar de folhas para reduzir a superfície exposta e minimizar a perda de água por transpiração."
     },
     {
       "t": "Animais do deserto são muitas vezes noturnos.",
       "v": true,
-      "e": "Para evitar calor extremo."
+      "e": "Muitos animais do deserto são ativos à noite para evitar o calor extremo do dia, economizando água e energia, e encontram alimento durante as horas mais frescas."
     },
     {
       "t": "A latitude não influencia a distribuição dos biomas.",
       "v": false,
-      "e": "Influencia a energia solar recebida."
+      "e": "A latitude determina a quantidade de energia solar recebida: regiões próximas do equador (baixa latitude) recebem mais energia e são mais quentes, enquanto latitudes altas (perto dos polos) recebem menos energia e são mais frias."
     },
     {
       "t": "Maior altitude tende a significar temperaturas mais baixas.",
       "v": true,
-      "e": "Gradiente térmico vertical."
+      "e": "Quando subimos em altitude, a temperatura diminui em média 6,5°C por cada 1000 metros devido à menor densidade do ar e menor retenção de calor. Por isso, encontramos biomas mais frios em montanhas."
     },
     {
       "t": "Os biomas marinhos não existem porque o mar é igual em todo o lado.",
       "v": false,
-      "e": "Existem biomas aquáticos com condições diferentes."
+      "e": "Os oceanos têm grande variação: zonas costeiras com mais luz e nutrientes suportam mais vida que zonas abissais; águas tropicais são diferentes de polares; há recifes de coral, florestas de algas e comunidades abissais únicas."
     },
     {
       "t": "Espécies endémicas só existem numa região específica.",
       "v": true,
-      "e": "Vulneráveis à perda de habitat."
+      "e": "As espécies endémicas evoluíram isoladamente numa área particular. Se o habitat dessa região for destruído, estas espécies podem extinguir-se completamente porque não existem noutro lugar."
     },
     {
       "t": "Desflorestação e poluição podem ameaçar biomas.",
       "v": true,
-      "e": "Impactos humanos."
+      "e": "A desflorestação destrói habitats e altera o clima local; a poluição contamina solos e águas, reduzindo a capacidade de suporte para plantas e animais nativos."
     },
     {
       "t": "Reflorestar e criar áreas protegidas ajudam a conservar biomas.",
       "v": true,
-      "e": "Medidas de conservação."
+      "e": "As áreas protegidas mantêm habitats intactos e a reflorestação restaura a vegetação que suporta a cadeia alimentar e regula o clima e a água."
     },
     {
       "t": "O montado de sobro é irrelevante para a biodiversidade.",
       "v": false,
-      "e": "É habitat valioso em Portugal."
+      "e": "O montado de sobro em Portugal suporta grande biodiversidade, incluindo aves, mamíferos e plantas raras, além de proteger o solo da erosão e contribuir para o ciclo da água."
     },
     {
       "t": "Na tundra, as plantas crescem baixas para evitar o vento e o frio.",
       "v": true,
-      "e": "Adaptação comum."
+      "e": "As plantas baixas ficam protegidas pelo microclima junto ao solo, onde há menos vento e temperaturas ligeiramente mais altas. Também completam o ciclo de vida rapidamente durante o curto verão."
     },
     {
       "t": "A floresta tropical localiza‑se sobretudo em latitudes altas.",
       "v": false,
-      "e": "Predomina em latitudes baixas (próximo do equador)."
+      "e": "As florestas tropicais húmidas localizam-se principalmente em latitudes baixas (perto do equador), onde há energia solar constante e chuva abundante todo o ano que suporta o crescimento exuberante."
     },
     {
       "t": "Pradarias podem sofrer incêndios naturais que renovam a vegetação.",
       "v": true,
-      "e": "Parte da dinâmica ecológica."
+      "e": "Os incêndios naturais nas pradarias limpam vegetação morta, liberam nutrientes no solo e criam espaço para novas plantas crescerem, sendo parte do ciclo ecológico normal."
     },
     {
       "t": "No mediterrânico, muitas plantas têm folhas espessas e coriáceas.",
       "v": true,
-      "e": "Reduzem perda de água."
+      "e": "Estas folhas têm uma cutícula espessa que reduz a transpiração, ajudando as plantas a conservar água durante os verões secos característicos deste bioma."
     },
     {
       "t": "Os desertos ocorrem apenas em África.",
       "v": false,
-      "e": "Existem desertos em vários continentes."
+      "e": "Os desertos existem em todos os continentes: Sahara e Kalahari em África, Gobi na Ásia, Atacama na América do Sul, Mojave na América do Norte, e até deserto de gelo na Antártida."
     },
     {
       "t": "Os biomas ajudam a compreender onde vivem certos animais e plantas.",
       "v": true,
-      "e": "Ligam clima, solo e vida."
+      "e": "Os biomas fornecem uma estrutura para organizar a geografia biológica, mostrando como clima, solo e adaptações das espécies se relacionam para explicar padrões de distribuição da vida."
     }
   ]
 }

@@ -9,6 +9,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+<script src="firebase-config.js"></script>
+
 <style>
   :root{
     --bg:#0f172a; --card:#111827; --card-2:#0b1224; --fg:#e5e7eb; --muted:#94a3b8;
@@ -174,6 +180,94 @@
   }
   .sound-toggle.muted {
     opacity: 0.5;
+  }
+
+  /* Leaderboard Modal */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(4px);
+  }
+  .modal {
+    background: var(--card);
+    border: 2px solid var(--border);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    max-width: 500px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  .modal h2 {
+    margin: 0 0 1rem;
+    color: var(--accent);
+  }
+  .modal input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid var(--border);
+    border-radius: 0.6rem;
+    background: var(--card-2);
+    color: var(--fg);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  .modal input:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .modal-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .modal-buttons .btn {
+    flex: 1;
+  }
+  .leaderboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .leaderboard-entry {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem;
+    background: var(--card-2);
+    border: 1px solid var(--border);
+    border-radius: 0.6rem;
+  }
+  .leaderboard-entry.current {
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(6, 182, 212, 0.1));
+    border-color: var(--accent);
+  }
+  .leaderboard-rank {
+    font-size: 1.2rem;
+    font-weight: 700;
+    min-width: 2rem;
+    text-align: center;
+  }
+  .leaderboard-rank.gold { color: #fbbf24; }
+  .leaderboard-rank.silver { color: #94a3b8; }
+  .leaderboard-rank.bronze { color: #d97706; }
+  .leaderboard-name {
+    flex: 1;
+    font-weight: 600;
+  }
+  .leaderboard-score {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent);
   }
 </style>
 </head>
@@ -983,11 +1077,16 @@ function buildQuiz(n, tema, level){
           res.className="item"; 
           res.innerHTML=`<span>Resultado final</span> <strong>${score}/${chosen.length} (${acc}%)</strong>`;
           quizBox.appendChild(res);
-          STATS.quiz=STATS.quiz||[]; 
-          STATS.quiz.unshift({date:new Date().toISOString(), tema, n:chosen.length, score, acc}); 
-          STATS.quiz=STATS.quiz.slice(0,10); 
-          saveStats(STATS); 
+          STATS.quiz=STATS.quiz||[];
+          STATS.quiz.unshift({date:new Date().toISOString(), tema, n:chosen.length, score, acc});
+          STATS.quiz=STATS.quiz.slice(0,10);
+          saveStats(STATS);
           renderQuizHistory();
+
+          // Show leaderboard modal if Firebase is configured
+          if (database && METADATA.unit) {
+            showLeaderboardModal(score, chosen.length, METADATA.title, METADATA.unit);
+          }
         }
       };
       div.appendChild(b);
@@ -1218,10 +1317,278 @@ function switchTab(id){
 document.querySelectorAll('.tabbtn').forEach(b=> b.onclick=()=> switchTab(b.dataset.tab));
 
 /* =======================================================
+   LEADERBOARD - Firebase Integration
+   ======================================================= */
+let firebaseApp = null;
+let database = null;
+
+// Initialize Firebase
+function initFirebase() {
+  try {
+    if (firebaseConfig && firebaseConfig.apiKey !== "YOUR_API_KEY_HERE") {
+      firebaseApp = firebase.initializeApp(firebaseConfig);
+      database = firebase.database();
+      console.log('✅ Firebase initialized');
+      return true;
+    } else {
+      console.log('ℹ️ Firebase not configured - leaderboard disabled');
+      return false;
+    }
+  } catch (error) {
+    console.error('Firebase initialization error:', error);
+    return false;
+  }
+}
+
+// Submit score to leaderboard
+async function submitToLeaderboard(name, score, totalQuestions, quizTitle, quizUnit) {
+  if (!database) {
+    console.log('Firebase not initialized');
+    return false;
+  }
+
+  try {
+    const percentage = Math.round((score / totalQuestions) * 100);
+    const timestamp = Date.now();
+
+    const scoreData = {
+      name: name.trim(),
+      score: score,
+      total: totalQuestions,
+      percentage: percentage,
+      timestamp: timestamp,
+      date: new Date().toISOString(),
+      quizTitle: quizTitle
+    };
+
+    // Save to Firebase under quiz-specific path
+    const leaderboardRef = database.ref(`leaderboards/${quizUnit}`);
+    await leaderboardRef.push(scoreData);
+
+    console.log('✅ Score submitted to leaderboard');
+    return true;
+  } catch (error) {
+    console.error('Error submitting score:', error);
+    return false;
+  }
+}
+
+// Get top scores for a quiz
+async function getLeaderboard(quizUnit, limit = 10) {
+  if (!database) return [];
+
+  try {
+    const leaderboardRef = database.ref(`leaderboards/${quizUnit}`);
+    const snapshot = await leaderboardRef
+      .orderByChild('percentage')
+      .limitToLast(limit * 2) // Get more than needed since we'll sort
+      .once('value');
+
+    const scores = [];
+    snapshot.forEach(child => {
+      scores.push({
+        id: child.key,
+        ...child.val()
+      });
+    });
+
+    // Sort by percentage (desc), then by score (desc), then by timestamp (asc for ties)
+    scores.sort((a, b) => {
+      if (b.percentage !== a.percentage) return b.percentage - a.percentage;
+      if (b.score !== a.score) return b.score - a.score;
+      return a.timestamp - b.timestamp;
+    });
+
+    return scores.slice(0, limit);
+  } catch (error) {
+    console.error('Error fetching leaderboard:', error);
+    return [];
+  }
+}
+
+// Show leaderboard modal after quiz completion
+function showLeaderboardModal(score, totalQuestions, quizTitle, quizUnit) {
+  const percentage = Math.round((score / totalQuestions) * 100);
+
+  const modalHTML = `
+    <div class="modal-overlay" id="leaderboardModal">
+      <div class="modal">
+        <h2>🏆 Parabéns!</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 1rem;">
+          <strong>${score}/${totalQuestions}</strong> respostas corretas
+          <span class="muted">(${percentage}%)</span>
+        </p>
+        <p style="margin-bottom: 1rem;">Quer guardar o teu resultado no quadro de honra?</p>
+        <input
+          type="text"
+          id="playerName"
+          placeholder="O teu nome"
+          maxlength="30"
+          autocomplete="off"
+        />
+        <div class="modal-buttons">
+          <button class="btn" onclick="closeLeaderboardModal()">Não, obrigado</button>
+          <button class="btn primary" onclick="submitAndShowLeaderboard()">Sim, guardar!</button>
+        </div>
+        <div id="leaderboardDisplay"></div>
+      </div>
+    </div>
+  `;
+
+  document.body.insertAdjacentHTML('beforeend', modalHTML);
+
+  // Focus on input
+  setTimeout(() => {
+    const input = document.getElementById('playerName');
+    if (input) {
+      input.focus();
+      // Submit on Enter key
+      input.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+          submitAndShowLeaderboard();
+        }
+      });
+    }
+  }, 100);
+
+  // Store quiz data for submission
+  window._currentQuizData = { score, totalQuestions, quizTitle, quizUnit };
+}
+
+// Submit score and display leaderboard
+async function submitAndShowLeaderboard() {
+  const nameInput = document.getElementById('playerName');
+  const name = nameInput?.value?.trim();
+
+  if (!name || name.length < 2) {
+    nameInput?.classList.add('shake');
+    setTimeout(() => nameInput?.classList.remove('shake'), 500);
+    return;
+  }
+
+  const { score, totalQuestions, quizTitle, quizUnit } = window._currentQuizData || {};
+  if (!quizUnit) return;
+
+  // Disable button while submitting
+  const submitBtn = document.querySelector('.modal .primary');
+  if (submitBtn) {
+    submitBtn.textContent = 'A guardar...';
+    submitBtn.disabled = true;
+  }
+
+  // Submit to Firebase
+  const success = await submitToLeaderboard(name, score, totalQuestions, quizTitle, quizUnit);
+
+  if (success) {
+    // Load and display leaderboard
+    const leaderboard = await getLeaderboard(quizUnit, 10);
+    displayLeaderboard(leaderboard, name);
+
+    // Hide input section
+    nameInput.style.display = 'none';
+    document.querySelector('.modal-buttons').style.display = 'none';
+    document.querySelector('.modal p:first-of-type').style.display = 'none';
+
+    // Add close button
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'btn primary';
+    closeBtn.textContent = 'Fechar';
+    closeBtn.style.width = '100%';
+    closeBtn.style.marginTop = '1rem';
+    closeBtn.onclick = closeLeaderboardModal;
+    document.querySelector('.modal').appendChild(closeBtn);
+
+    // Confetti!
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 }
+    });
+  } else {
+    alert('Erro ao guardar pontuação. Tenta novamente!');
+    if (submitBtn) {
+      submitBtn.textContent = 'Sim, guardar!';
+      submitBtn.disabled = false;
+    }
+  }
+}
+
+// Display leaderboard in modal
+function displayLeaderboard(scores, currentPlayerName = null) {
+  const displayDiv = document.getElementById('leaderboardDisplay');
+  if (!displayDiv) return;
+
+  if (scores.length === 0) {
+    displayDiv.innerHTML = '<p class="muted">Ainda não há pontuações registadas.</p>';
+    return;
+  }
+
+  const title = document.createElement('h3');
+  title.textContent = '🏆 Top 10';
+  title.style.marginTop = '1.5rem';
+  title.style.marginBottom = '0.5rem';
+
+  const list = document.createElement('div');
+  list.className = 'leaderboard-list';
+
+  scores.forEach((entry, index) => {
+    const rank = index + 1;
+    const isCurrent = entry.name === currentPlayerName &&
+                      Math.abs(entry.timestamp - Date.now()) < 5000; // Within 5 seconds
+
+    const entryDiv = document.createElement('div');
+    entryDiv.className = 'leaderboard-entry' + (isCurrent ? ' current' : '');
+
+    const rankSpan = document.createElement('div');
+    rankSpan.className = 'leaderboard-rank';
+    if (rank === 1) rankSpan.classList.add('gold');
+    else if (rank === 2) rankSpan.classList.add('silver');
+    else if (rank === 3) rankSpan.classList.add('bronze');
+
+    if (rank <= 3) {
+      const medals = ['🥇', '🥈', '🥉'];
+      rankSpan.textContent = medals[rank - 1];
+    } else {
+      rankSpan.textContent = `#${rank}`;
+    }
+
+    const nameSpan = document.createElement('div');
+    nameSpan.className = 'leaderboard-name';
+    nameSpan.textContent = entry.name;
+    if (isCurrent) {
+      nameSpan.innerHTML += ' <span class="muted small">(tu!)</span>';
+    }
+
+    const scoreSpan = document.createElement('div');
+    scoreSpan.className = 'leaderboard-score';
+    scoreSpan.textContent = `${entry.percentage}%`;
+
+    entryDiv.appendChild(rankSpan);
+    entryDiv.appendChild(nameSpan);
+    entryDiv.appendChild(scoreSpan);
+    list.appendChild(entryDiv);
+  });
+
+  displayDiv.innerHTML = '';
+  displayDiv.appendChild(title);
+  displayDiv.appendChild(list);
+}
+
+// Close leaderboard modal
+function closeLeaderboardModal() {
+  const modal = document.getElementById('leaderboardModal');
+  if (modal) {
+    modal.remove();
+  }
+  delete window._currentQuizData;
+}
+
+/* =======================================================
    Initialize on page load
    ======================================================= */
 window.addEventListener('DOMContentLoaded', () => {
   initKidsFriendly();
+  initFirebase(); // Initialize Firebase for leaderboard
   const contentPath = getContentPath();
   loadContent(contentPath);
 });
