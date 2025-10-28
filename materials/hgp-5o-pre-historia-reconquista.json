@@ -1,162 +1,246 @@
 {
   "metadata": {
-    "title": "História e Geografia de Portugal 5.º ano — Unidade 1",
-    "subtitle": "A presença romana em Portugal e a invasão muçulmana e Reconquista Cristã",
-    "description": "Nesta unidade serão abordados os acontecimentos da romanização do território que hoje é Portugal e, em seguida, a invasão muçulmana da Península Ibérica e o início da Reconquista Cristã. Serão explorados os fatores, as consequências e os vestígios históricos desses períodos.",
-    "unit": "U1",
-    "version": "v1",
-    "footer": ""
+    "title": "HGP 5.º — Da Pré-História à Reconquista",
+    "subtitle": "Primeiros povos, Romanização, Invasão Muçulmana e Reconquista Cristã",
+    "description": "História da Península Ibérica desde os primeiros povoadores até à formação do Reino de Portugal.",
+    "unit": "HGP5_U1",
+    "version": "v2",
+    "footer": "Conteúdo consolidado alinhado com as Aprendizagens Essenciais de HGP."
   },
   "cards": [
     {
       "id": 1,
+      "tema": "Pré‑História",
+      "curto": false,
+      "q": "Distingue comunidades recoletoras de comunidades agro‑pastoris.",
+      "a": "Recoletoras eram nómadas, viviam da caça, pesca e recolha; agro‑pastoris eram sedentárias e praticavam agricultura e pastorícia."
+    },
+    {
+      "id": 2,
+      "tema": "Castreja",
+      "curto": true,
+      "q": "Que características identificas num castro?",
+      "a": "Povoado fortificado em elevação, com muralhas e casas circulares."
+    },
+    {
+      "id": 3,
+      "tema": "Povos",
+      "curto": false,
+      "q": "Quem eram os Lusitanos e que figura se destaca na sua resistência?",
+      "a": "Povo da fachada ocidental peninsular; destaca‑se Viriato na resistência a Roma."
+    },
+    {
+      "id": 4,
+      "tema": "Romanização",
+      "curto": true,
+      "q": "O que se entende por romanização?",
+      "a": "Processo de adoção de elementos romanos (língua, leis, cidades, vias, cultura) pelos povos locais."
+    },
+    {
+      "id": 5,
+      "tema": "Vias romanas",
+      "curto": false,
+      "q": "Para que serviam as vias romanas?",
+      "a": "Ligar cidades, facilitar deslocações de exércitos, comércio e administração."
+    },
+    {
+      "id": 6,
+      "tema": "Cidade romana",
+      "curto": true,
+      "q": "Indica dois elementos de uma cidade romana.",
+      "a": "Fórum e termas (entre outros: anfiteatro, aqueduto, templos)."
+    },
+    {
+      "id": 7,
+      "tema": "Língua e legado",
+      "curto": false,
+      "q": "Que legado romano permanece na cultura portuguesa?",
+      "a": "A língua portuguesa de base latina, direito romano, traçado de cidades e pontes, calendário."
+    },
+    {
+      "id": 8,
+      "tema": "Economia",
+      "curto": false,
+      "q": "Que atividades económicas eram comuns na Lusitânia romana?",
+      "a": "Agricultura (cereais, vinho, azeite), mineração e comércio."
+    },
+    {
+      "id": 9,
+      "tema": "Fontes históricas",
+      "curto": true,
+      "q": "Dá um exemplo de fonte histórica material romana em Portugal.",
+      "a": "Ponte de Chaves (Aquae Flaviae), ruínas de Conímbriga ou Milreu."
+    },
+    {
+      "id": 10,
+      "tema": "Religião",
+      "curto": false,
+      "q": "Como se relacionou a religião romana com as crenças locais?",
+      "a": "Houve sincretismo: deuses romanos associaram‑se a divindades locais."
+    },
+    {
+      "id": 11,
+      "tema": "Administração",
+      "curto": true,
+      "q": "Como se chamavam as grandes divisões administrativas romanas?",
+      "a": "Províncias (ex.: Lusitânia)."
+    },
+    {
+      "id": 12,
+      "tema": "Fim do Império",
+      "curto": false,
+      "q": "Quem foram os povos que se instalaram na Península após o declínio romano?",
+      "a": "Povos germânicos como Suevos e Visigodos."
+    },
+    {
+      "id": 13,
       "tema": "Romanização",
       "curto": true,
       "q": "O que significa 'romanização' no contexto da Península Ibérica?",
       "a": "A romanização é o processo através do qual os romanos impuseram (ou integraram) a sua língua, cultura, administração e modo de vida nos territórios conquistados."
     },
     {
-      "id": 2,
+      "id": 14,
       "tema": "Romanização",
       "curto": true,
       "q": "Qual era a província romana em que se incluía grande parte do território do actual Portugal?",
       "a": "A província romana era a Lusitânia."
     },
     {
-      "id": 3,
+      "id": 15,
       "tema": "Romanização",
       "curto": true,
       "q": "Indica dois vestígios romanos ainda visíveis em Portugal.",
       "a": "Por exemplo: o Templo de Diana em Évora e a Ponte de Trajano em Chaves."
     },
     {
-      "id": 4,
+      "id": 16,
       "tema": "Romanização",
       "curto": false,
       "q": "Como a romanização contribuiu para a agricultura e economia no território que hoje é Portugal?",
       "a": "Os romanos introduziram técnicas agrícolas melhoradas, cultivos como trigo, vinho e azeite, e criaram infra-estruturas como estradas e povoados que facilitaram o comércio."
     },
     {
-      "id": 5,
+      "id": 17,
       "tema": "Romanização",
       "curto": true,
       "q": "Que língua se tornou predominante durante o domínio romano e influenciou o português?",
       "a": "O latim tornou-se a língua predominante."
     },
     {
-      "id": 6,
+      "id": 18,
       "tema": "Romanização",
       "curto": false,
       "q": "Quem eram os agentes da romanização e como contribuíram para o processo?",
       "a": "Os agentes incluíam as legiões romanas (exército e administração), colonos e mercadores que traziam cultura, língua e comércio. Eles facilitaram a integração do território e da população no sistema romano."
     },
     {
-      "id": 7,
+      "id": 19,
       "tema": "Invasão Muçulmana",
       "curto": true,
       "q": "Em que ano iniciou-se a invasão muçulmana da Península Ibérica?",
       "a": "Iniciou-se em 711."
     },
     {
-      "id": 8,
+      "id": 20,
       "tema": "Invasão Muçulmana",
       "curto": true,
       "q": "Qual batalha é considerada decisiva na invasão muçulmana da Península Ibérica?",
       "a": "A batalha de Guadalete (711)."
     },
     {
-      "id": 9,
+      "id": 21,
       "tema": "Invasão Muçulmana",
       "curto": false,
       "q": "Explique o que era o Al‑Andalus e a sua importância.",
       "a": "Al-Andalus foi o nome dado às terras da Península Ibérica sob domínio muçulmano. Teve enorme influência cultural, científica e linguística, deixando marcas profundas nas línguas, arquitetura e sociedade."
     },
     {
-      "id": 10,
+      "id": 22,
       "tema": "Reconquista Cristã",
       "curto": true,
       "q": "Que evento é considerado o início da Reconquista Cristã?",
       "a": "A vitória cristã na batalha de Covadonga em 722 é muitas vezes considerada o início da Reconquista."
     },
     {
-      "id": 11,
+      "id": 23,
       "tema": "Reconquista Cristã",
       "curto": false,
       "q": "Por que é que o território norte da Península Ibérica se tornou em bastião cristão durante a Reconquista?",
       "a": "As regiões montanhosas do norte permitiram resistência dos cristãos visigodos refugiados após a invasão muçulmana. A partir daí formaram-se reinos cristãos que lutaram para reconquistar as terras ocupadas."
     },
     {
-      "id": 12,
+      "id": 24,
       "tema": "Reconquista Cristã",
       "curto": true,
       "q": "Indica uma consequência da presença muçulmana na Península Ibérica que se reflete na língua portuguesa.",
       "a": "Várias palavras do português derivam do árabe."
     },
     {
-      "id": 13,
+      "id": 25,
       "tema": "Invasão Muçulmana",
       "curto": true,
       "q": "Que sistema de governo e sociedade encontraram os muçulmanos ao invadirem a Península Ibérica?",
       "a": "Encontraram um reino visigodo em crise, com divisões internas e pouca resistência organizada."
     },
     {
-      "id": 14,
+      "id": 26,
       "tema": "Romanização",
       "curto": true,
       "q": "Como as estradas romanas contribuíram para o processo de romanização?",
       "a": "Facilitaram a comunicação, o comércio e a circulação de pessoas e ideias entre regiões, reforçando a influência romana."
     },
     {
-      "id": 15,
+      "id": 27,
       "tema": "Romanização",
       "curto": false,
       "q": "Explique como a romanização influenciou a organização urbana no território português.",
       "a": "Os romanos criaram cidades planeadas, com fóruns, termas, ruas e praças; introduziram o direito romano e as instituições administrativas que marcaram o desenvolvimento urbano."
     },
     {
-      "id": 16,
+      "id": 28,
       "tema": "Invasão Muçulmana",
       "curto": false,
       "q": "Descreva o impacto económico da presença muçulmana na Península Ibérica.",
       "a": "A presença muçulmana introduziu novas técnicas agrícolas, comércio mediterrânico e a circulação de bens e conhecimento entre o Norte de África e a Península Ibérica."
     },
     {
-      "id": 17,
+      "id": 29,
       "tema": "Reconquista Cristã",
       "curto": false,
       "q": "Explique como se desenvolveu o processo da Reconquista no território que hoje é Portugal.",
       "a": "O processo envolveu a conquista gradual de territórios ocupados pelos muçulmanos, a formação do Condado Portucalense e o avanço para sul até à consolidação do Reino de Portugal."
     },
     {
-      "id": 18,
+      "id": 30,
       "tema": "Romanização",
       "curto": true,
       "q": "Qual era o principal rio usado pelos romanos no território da Lusitânia para transporte e comunicação?",
       "a": "O rio Tejo foi uma via importante de transporte no território romano da Lusitânia."
     },
     {
-      "id": 19,
+      "id": 31,
       "tema": "Invasão Muçulmana",
       "curto": true,
       "q": "Os muçulmanos cruzaram o estreito de Gibraltar para invadir a Península Ibérica. Verdadeiro ou falso?",
       "a": "Verdadeiro."
     },
     {
-      "id": 20,
+      "id": 32,
       "tema": "Reconquista Cristã",
       "curto": true,
       "q": "A Reconquista durou cerca de 300 anos na Península Ibérica. Verdadeiro ou falso?",
       "a": "Falso — durou vários séculos, aproximadamente oito séculos em algumas zonas."
     },
     {
-      "id": 21,
+      "id": 33,
       "tema": "Romanização",
       "curto": false,
       "q": "Explique porque muitos vestígios romanos são ainda visíveis no território português.",
       "a": "Porque os romanos construíram usando materiais duradouros, criaram infra-estruturas bem planeadas e tal legado foi preservado ou reutilizado ao longo da história."
     },
     {
-      "id": 22,
+      "id": 34,
       "tema": "Invasão Muçulmana",
       "curto": false,
       "q": "Como a cultura muçulmana influenciou a arquitetura e o urbanismo na Península Ibérica?",
@@ -164,30 +248,218 @@
     }
   ],
   "distractors": {
-    "1": ["Processo de industrialização do território","Migração de povos germânicos sem cultura romana","Divisão interna do império romano sem influência local"],
-    "2": ["Província da Britannia","Província da Gália","Província da Hispânia Ulterior"],
-    "3": ["Castelo medieval em Portugal","Catedral românica do século XII","Palácio manuelino do século XVI"],
-    "4": ["Introduziram apenas a caça e pesca tradicional","Eliminaram todas as culturas anteriores sem mudança","Construíram apenas estradas sem agricultura"],
-    "5": ["Grego antigo","Germânico vulgar","Latim vulgar tardio sem influência"],
-    "6": ["Só mercadores locais fizeram a romanização","Foram apenas os escravos que romanizaram o território","Não existiram legiões romanas no território"],
-    "7": ["720","650","800"],
-    "8": ["Batalha de Hastings","Batalha de Tours","Batalha de Hastings"],
-    "9": ["Um reino cristão independente","Nome de uma cidade visigoda","Uma aliança mercantil romana"],
-    "10": ["Batalha de Waterloo","Batalha de Trafalgar","Batalha de Hastings"],
-    "11": ["Porque os muçulmanos usaram apenas a costa","Porque o território se tornava inacessível","Porque não havia população cristã a norte"],
-    "12": ["Nenhuma palavra portuguesa tem origem árabe","Somente termos latinos influenciaram o português","Palavras de origem germânica dominam o português"],
-    "13": ["Encontraram um império romano forte","Encontraram um pequeno reino muçulmano","Encontraram uma civilização indígena isolada"],
-    "14": ["Estradas só para cavalos","Estradas que se usavam exclusivamente para festivais","Estradas construídas apenas pelos visigodos"],
-    "15": ["Organização urbana sem praças ou ruas","Cidades construídas só com madeira e palha","Cidades formadas apenas no século XX"],
-    "16": ["Não houve impacto económico","A economia decaiu sem efeitos positivos","A agricultura foi substituída apenas por pastoreio"],
-    "17": ["O processo começou num só dia","Não envolveu qualquer avanço territorial","Foi imposto apenas por reinos espanhóis"],
-    "18": ["Rio Douro","Rio Guadiana","Rio Tejo nunca foi usado"],
-    "19": ["Falso — nunca cruzaram o estreito","Falso — usaram navios vikings","Falso — surgiu depois do século XII"],
-    "20": ["Verdadeiro — durou apenas 300 anos","Verdadeiro — durou exactamente 500 anos","Verdadeiro — durou 1000 anos"],
-    "21": ["Porque todos os edifícios romanos desapareceram","Porque foram construídos de madeira","Porque a romanização impediu qualquer legado"],
-    "22": ["Sem nenhuma influência arquitectónica","Influenciou apenas a comida","Criou só edifícios de estilo gótico"]
+    "1": [
+      "Recoletoras viviam em cidades grandes",
+      "Agro‑pastoris eram nómadas que não cultivavam",
+      "Recoletoras produziam vinho e azeite"
+    ],
+    "2": [
+      "Povoado aberto em planície",
+      "Vilas romanas com mosaicos",
+      "Cidade com arruamentos ortogonais"
+    ],
+    "3": [
+      "Povo romano do norte de África",
+      "Chefes cartagineses na Península",
+      "Guerreiro grego fundador de Lisboa"
+    ],
+    "4": [
+      "Conquista militar dos povos por Roma",
+      "Fuga dos romanos da Península",
+      "Adoção de costumes locais pelos romanos"
+    ],
+    "5": [
+      "Apenas para corridas de carros",
+      "Serviam só para condução de água",
+      "Eram templos religiosos"
+    ],
+    "6": [
+      "Arranha‑céus",
+      "Faróis modernos",
+      "Castelos medievais"
+    ],
+    "7": [
+      "Adoção do grego como língua oficial",
+      "Desaparecimento total das pontes romanas",
+      "Calendário lunar exclusivamente"
+    ],
+    "8": [
+      "Pesca da baleia em larga escala",
+      "Plantação de café",
+      "Exploração de petróleo"
+    ],
+    "9": [
+      "Capelas barrocas",
+      "Mosteiros medievais",
+      "Castelos templários"
+    ],
+    "10": [
+      "Proibição total de cultos locais",
+      "Religião única e imutável em todo o Império",
+      "Conversão imediata ao cristianismo em toda a Península"
+    ],
+    "11": [
+      "Concelhos medievais",
+      "Distritos portugueses atuais",
+      "Feudos da Idade Média"
+    ],
+    "12": [
+      "Árabes e Otomanos no século II",
+      "Mongóis e Hunos",
+      "Vikings em permanência no interior"
+    ],
+    "13": [
+      "Processo de industrialização do território",
+      "Migração de povos germânicos sem cultura romana",
+      "Divisão interna do império romano sem influência local"
+    ],
+    "14": [
+      "Província da Britannia",
+      "Província da Gália",
+      "Província da Hispânia Ulterior"
+    ],
+    "15": [
+      "Castelo medieval em Portugal",
+      "Catedral românica do século XII",
+      "Palácio manuelino do século XVI"
+    ],
+    "16": [
+      "Introduziram apenas a caça e pesca tradicional",
+      "Eliminaram todas as culturas anteriores sem mudança",
+      "Construíram apenas estradas sem agricultura"
+    ],
+    "17": [
+      "Grego antigo",
+      "Germânico vulgar",
+      "Latim vulgar tardio sem influência"
+    ],
+    "18": [
+      "Só mercadores locais fizeram a romanização",
+      "Foram apenas os escravos que romanizaram o território",
+      "Não existiram legiões romanas no território"
+    ],
+    "19": [
+      "720",
+      "650",
+      "800"
+    ],
+    "20": [
+      "Batalha de Hastings",
+      "Batalha de Tours",
+      "Batalha de Hastings"
+    ],
+    "21": [
+      "Um reino cristão independente",
+      "Nome de uma cidade visigoda",
+      "Uma aliança mercantil romana"
+    ],
+    "22": [
+      "Batalha de Waterloo",
+      "Batalha de Trafalgar",
+      "Batalha de Hastings"
+    ],
+    "23": [
+      "Porque os muçulmanos usaram apenas a costa",
+      "Porque o território se tornava inacessível",
+      "Porque não havia população cristã a norte"
+    ],
+    "24": [
+      "Nenhuma palavra portuguesa tem origem árabe",
+      "Somente termos latinos influenciaram o português",
+      "Palavras de origem germânica dominam o português"
+    ],
+    "25": [
+      "Encontraram um império romano forte",
+      "Encontraram um pequeno reino muçulmano",
+      "Encontraram uma civilização indígena isolada"
+    ],
+    "26": [
+      "Estradas só para cavalos",
+      "Estradas que se usavam exclusivamente para festivais",
+      "Estradas construídas apenas pelos visigodos"
+    ],
+    "27": [
+      "Organização urbana sem praças ou ruas",
+      "Cidades construídas só com madeira e palha",
+      "Cidades formadas apenas no século XX"
+    ],
+    "28": [
+      "Não houve impacto económico",
+      "A economia decaiu sem efeitos positivos",
+      "A agricultura foi substituída apenas por pastoreio"
+    ],
+    "29": [
+      "O processo começou num só dia",
+      "Não envolveu qualquer avanço territorial",
+      "Foi imposto apenas por reinos espanhóis"
+    ],
+    "30": [
+      "Rio Douro",
+      "Rio Guadiana",
+      "Rio Tejo nunca foi usado"
+    ],
+    "31": [
+      "Falso — nunca cruzaram o estreito",
+      "Falso — usaram navios vikings",
+      "Falso — surgiu depois do século XII"
+    ],
+    "32": [
+      "Verdadeiro — durou apenas 300 anos",
+      "Verdadeiro — durou exactamente 500 anos",
+      "Verdadeiro — durou 1000 anos"
+    ],
+    "33": [
+      "Porque todos os edifícios romanos desapareceram",
+      "Porque foram construídos de madeira",
+      "Porque a romanização impediu qualquer legado"
+    ],
+    "34": [
+      "Sem nenhuma influência arquitectónica",
+      "Influenciou apenas a comida",
+      "Criou só edifícios de estilo gótico"
+    ]
   },
   "trueFalse": [
+    {
+      "t": "Os povos castrejos construíam povoados fortificados em elevações.",
+      "v": true,
+      "e": "Daí o nome «castros» e as muralhas."
+    },
+    {
+      "t": "A romanização implicou a adoção de hábitos, línguas e leis romanas.",
+      "v": true,
+      "e": "Processo cultural e administrativo."
+    },
+    {
+      "t": "As vias romanas tinham função apenas religiosa.",
+      "v": false,
+      "e": "Serviam sobretudo a administração, o comércio e o exército."
+    },
+    {
+      "t": "O português tem origem maioritariamente latina.",
+      "v": true,
+      "e": "É uma língua românica."
+    },
+    {
+      "t": "Após Roma, instalaram‑se na Península povos germânicos.",
+      "v": true,
+      "e": "Suevos e Visigodos, entre outros."
+    },
+    {
+      "t": "Viriato foi um líder romano na Lusitânia.",
+      "v": false,
+      "e": "Foi líder lusitano que resistiu aos romanos."
+    },
+    {
+      "t": "Conímbriga é um importante sítio arqueológico romano em Portugal.",
+      "v": true,
+      "e": "Conserva muralhas, casas e mosaicos."
+    },
+    {
+      "t": "A religião romana nunca se misturou com crenças locais.",
+      "v": false,
+      "e": "Houve sincretismo religioso."
+    },
     {
       "t": "A romanização consistiu apenas na construção de estradas e não mexeu com a língua nem a cultura local.",
       "v": false,

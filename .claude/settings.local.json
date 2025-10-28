@@ -1,17 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Read(//Users/hugoalves/Code/**)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "Bash(git push:*)",
-      "Bash(tree:*)",
-      "Bash(mkdir:*)",
-      "Bash(mv:*)",
-      "Bash(python3 -m http.server:*)",
-      "Bash(open:*)",
-      "Bash(python3:*)",
-      "Bash(curl:*)"
+      "Bash(echo \"$file | Error\" fi done)",
+      "Bash(ls:*)",
+      "Bash(awk '{print $9, \"\"\"\"(\"\"\"\" $5 \"\"\"\")\"\"\"\"}')",
+      "Bash(xargs ls:*)",
+      "Bash(awk '{print $NF, \"\"\"\"(\"\"\"\" $5 \"\"\"\")\"\"\"\"}')"
     ],
     "deny": [],
     "ask": []

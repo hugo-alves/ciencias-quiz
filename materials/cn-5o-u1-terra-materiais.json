@@ -1,11 +1,11 @@
 {
   "metadata": {
     "title": "Ciências Naturais 5.º — Unidade 1",
-    "subtitle": "A Terra, planeta especial",
-    "description": "VERSÃO ESTRITA v2 — distratores plausíveis • progresso local • <span class=\"muted\" title=\"Baseado exclusivamente nos documentos do projeto\">Fonte confirmada</span>",
-    "unit": "U1",
-    "version": "v2",
-    "footer": "Conteúdo **estrito** retirado do documento do projeto (Unidade 1). Para uso educativo."
+    "subtitle": "A Terra como planeta especial e os seus materiais",
+    "description": "Atmosfera, hidrosfera, geosfera e biosfera; rochas, minerais, solo e recursos naturais.",
+    "unit": "CN5_U1",
+    "version": "v3",
+    "footer": "Conteúdo consolidado para uso educativo, alinhado com as Aprendizagens Essenciais."
   },
   "cards": [
     {
@@ -245,6 +245,90 @@
       "curto": true,
       "q": "O que fornece a geosfera aos ecossistemas terrestres?",
       "a": "Rochas e solo — base dos ecossistemas terrestres."
+    },
+    {
+      "id": 74,
+      "tema": "Condições da vida",
+      "curto": false,
+      "q": "Que três características tornam a Terra um planeta favorável à vida?",
+      "a": "Presença de água líquida, atmosfera adequada e temperatura média amena."
+    },
+    {
+      "id": 75,
+      "tema": "Subsistemas",
+      "curto": true,
+      "q": "Quais são os principais subsistemas da Terra?",
+      "a": "Geosfera, hidrosfera, atmosfera e biosfera."
+    },
+    {
+      "id": 76,
+      "tema": "Rochas e minerais",
+      "curto": false,
+      "q": "Qual é a diferença entre mineral e rocha?",
+      "a": "Mineral é uma substância natural com composição definida; rocha é um agregado de um ou mais minerais."
+    },
+    {
+      "id": 77,
+      "tema": "Tipos de rochas",
+      "curto": true,
+      "q": "Indica um exemplo de cada grupo de rochas: magmáticas, sedimentares e metamórficas.",
+      "a": "Granito (magmática), arenito (sedimentar) e mármore (metamórfica)."
+    },
+    {
+      "id": 78,
+      "tema": "Solo",
+      "curto": false,
+      "q": "Como se forma o solo e que componentes o constituem?",
+      "a": "Forma-se pela meteorização de rochas e ação de seres vivos; inclui matéria mineral, matéria orgânica, água, ar e organismos."
+    },
+    {
+      "id": 79,
+      "tema": "Água",
+      "curto": true,
+      "q": "O que é o ciclo da água?",
+      "a": "Circulação contínua da água entre superfície e atmosfera: evaporação, condensação, precipitação e escoamento/infiltração."
+    },
+    {
+      "id": 80,
+      "tema": "Ar",
+      "curto": false,
+      "q": "Que gases predominam no ar atmosférico?",
+      "a": "Azoto (cerca de 78%), oxigénio (c. 21%) e outros gases em menor percentagem (argónio, dióxido de carbono, vapor de água…)."
+    },
+    {
+      "id": 81,
+      "tema": "Recursos",
+      "curto": false,
+      "q": "Porque são importantes as rochas, os minerais e o solo para as atividades humanas?",
+      "a": "Fornecem matérias‑primas (construção, metais, energia), sustentam a agricultura e condicionam paisagens e ocupação humana."
+    },
+    {
+      "id": 82,
+      "tema": "Sustentabilidade",
+      "curto": true,
+      "q": "Indica duas medidas para proteger o solo da erosão.",
+      "a": "Cobertura vegetal/matas e terraceamento/curvas de nível (entre outras)."
+    },
+    {
+      "id": 83,
+      "tema": "Trabalho de campo",
+      "curto": false,
+      "q": "O que deves registar numa saída de campo para estudar rochas e solos?",
+      "a": "Localização, fotografias/desenhos, tipo de rocha/solo, cores, textura, presença de água/vegetação e impactos humanos."
+    },
+    {
+      "id": 84,
+      "tema": "Ambientes",
+      "curto": true,
+      "q": "Dá um exemplo de ambiente aquático e um terrestre.",
+      "a": "Ambiente aquático: estuário do Tejo. Terrestre: planície alentejana."
+    },
+    {
+      "id": 85,
+      "tema": "Poluição",
+      "curto": false,
+      "q": "Que efeitos pode ter a poluição do ar na saúde e no ambiente?",
+      "a": "Problemas respiratórios, chuva ácida, agravamento do efeito de estufa e danos em ecossistemas."
     }
   ],
   "distractors": {
@@ -417,6 +501,66 @@
       "Água doce e salgada — base dos ecossistemas.",
       "Ar atmosférico — único suporte dos ecossistemas terrestres.",
       "Solo não tem importância para as plantas."
+    ],
+    "74": [
+      "Ausência total de água",
+      "Temperaturas extremas constantes",
+      "Falta de atmosfera"
+    ],
+    "75": [
+      "Litosfera, criosfera e magnetosfera apenas",
+      "Só geosfera e hidrosfera",
+      "Troposfera, estratosfera e mesosfera"
+    ],
+    "76": [
+      "Rochas são sempre líquidas",
+      "Minerais são rochas derretidas",
+      "Rochas e minerais são sinónimos"
+    ],
+    "77": [
+      "Basalto (sedimentar), calcário (metamórfica), quartzito (magmática)",
+      "Apenas granito em todas as categorias",
+      "Areia (metamórfica), granito (sedimentar), calcário (magmática)"
+    ],
+    "78": [
+      "Forma-se apenas por erupções vulcânicas",
+      "É composto só por pedras grandes",
+      "Não tem organismos vivos"
+    ],
+    "79": [
+      "Processo apenas subterrâneo",
+      "Movimento da água só nos rios",
+      "Fluxo único do mar para a terra"
+    ],
+    "80": [
+      "Oxigénio 90% e hidrogénio 10%",
+      "Apenas dióxido de carbono",
+      "Azoto 50%, hélio 50%"
+    ],
+    "81": [
+      "São inúteis para a economia",
+      "Servem apenas para decoração",
+      "Impedem a agricultura"
+    ],
+    "82": [
+      "Remover toda a vegetação",
+      "Arar encostas muito inclinadas",
+      "Dragagem de solos férteis sem controlo"
+    ],
+    "83": [
+      "Apenas a temperatura do ar",
+      "Somente a direção do vento",
+      "Número de carros vistos"
+    ],
+    "84": [
+      "Ambiente aquático: montanha; terrestre: oceano",
+      "Ambiente aquático: deserto; terrestre: mar alto",
+      "Ambiente aquático: céu; terrestre: nuvens"
+    ],
+    "85": [
+      "Aumenta a biodiversidade",
+      "Melhora a visibilidade urbana",
+      "Reduz o efeito de estufa"
     ]
   },
   "trueFalse": [
@@ -539,8 +683,46 @@
       "t": "Fatores do meio incluem luz, temperatura, água/salinidade e tipo de solo/rocha.",
       "v": true,
       "e": "Listados na unidade."
+    },
+    {
+      "t": "A água muda de estado físico no ciclo hidrológico.",
+      "v": true,
+      "e": "Evapora, condensa e precipita, alternando entre líquido, gás e sólido."
+    },
+    {
+      "t": "O solo é apenas material mineral sem vida.",
+      "v": false,
+      "e": "Inclui matéria orgânica e inúmeros organismos vivos."
+    },
+    {
+      "t": "O oxigénio é o gás mais abundante na atmosfera.",
+      "v": false,
+      "e": "O azoto é o mais abundante (~78%); o oxigénio ~21%."
+    },
+    {
+      "t": "Rochas sedimentares formam-se por deposição e compactação de sedimentos.",
+      "v": true,
+      "e": "Processos de sedimentação, compactação e cimentação."
+    },
+    {
+      "t": "A vegetação ajuda a reduzir a erosão do solo.",
+      "v": true,
+      "e": "As raízes fixam o solo e diminuem o escoamento."
+    },
+    {
+      "t": "A hidrosfera inclui águas superficiais, subterrâneas e atmosféricas.",
+      "v": true,
+      "e": "Abrange toda a água do planeta em diferentes reservatórios."
+    },
+    {
+      "t": "Minerais e rochas são exatamente a mesma coisa.",
+      "v": false,
+      "e": "Mineral é uma substância; rocha é um agregado de minerais."
+    },
+    {
+      "t": "A poluição do ar não interfere com a saúde humana.",
+      "v": false,
+      "e": "Pode causar doenças respiratórias e cardiovasculares."
     }
   ]
 }
-
-
