@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Matemática 5.º — Unidade 2",
+    "subtitle": "Geometria e Medida: figuras, ângulos, perímetro e área",
+    "description": "Identificação de polígonos, triângulos e quadriláteros; medições e conversões no SI.",
+    "unit": "MAT5_U2",
+    "version": "v1",
+    "footer": "Alinhado com as AE (revisão 2021) — Geometria e Medida."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Polígonos",
+      "curto": true,
+      "q": "O que é um polígono?",
+      "a": "Figura plana fechada formada por segmentos de reta."
+    },
+    {
+      "id": 2,
+      "tema": "Triângulos",
+      "curto": false,
+      "q": "Classifica o triângulo quanto aos lados e quanto aos ângulos.",
+      "a": "Quanto aos lados: equilátero, isósceles ou escaleno; quanto aos ângulos: acutângulo, retângulo ou obtusângulo."
+    },
+    {
+      "id": 3,
+      "tema": "Quadriláteros",
+      "curto": true,
+      "q": "Indica uma propriedade de um paralelogramo.",
+      "a": "Lados opostos paralelos e de igual comprimento."
+    },
+    {
+      "id": 4,
+      "tema": "Ângulos",
+      "curto": true,
+      "q": "Como se chamam os ângulos com 90°?",
+      "a": "Ângulos retos."
+    },
+    {
+      "id": 5,
+      "tema": "Medida de ângulos",
+      "curto": false,
+      "q": "Que instrumento usas para medir ângulos?",
+      "a": "Transferidor."
+    },
+    {
+      "id": 6,
+      "tema": "Perímetro",
+      "curto": false,
+      "q": "Define perímetro de uma figura plana.",
+      "a": "Comprimento da linha que delimita a figura (soma dos lados)."
+    },
+    {
+      "id": 7,
+      "tema": "Área",
+      "curto": false,
+      "q": "Qual é a fórmula da área do retângulo?",
+      "a": "Área = comprimento × largura."
+    },
+    {
+      "id": 8,
+      "tema": "Unidades",
+      "curto": true,
+      "q": "Converte 3,5 m em centímetros.",
+      "a": "350 cm."
+    },
+    {
+      "id": 9,
+      "tema": "Simetria",
+      "curto": true,
+      "q": "O que é um eixo de simetria?",
+      "a": "Reta que divide a figura em duas partes sobreponíveis."
+    },
+    {
+      "id": 10,
+      "tema": "Sólidos",
+      "curto": false,
+      "q": "Dá um exemplo de sólido geométrico e uma caraterística.",
+      "a": "Cubo: tem 6 faces quadradas, 12 arestas e 8 vértices."
+    },
+    {
+      "id": 11,
+      "tema": "Tempo",
+      "curto": true,
+      "q": "Quantos minutos tem 2 horas e meia?",
+      "a": "150 minutos."
+    },
+    {
+      "id": 12,
+      "tema": "Capacidade e massa",
+      "curto": false,
+      "q": "Converte 2,5 L em mililitros e 3 kg em gramas.",
+      "a": "2 500 mL e 3 000 g."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Figura aberta com curvas",
+      "Qualquer figura tridimensional",
+      "Linha curva fechada"
+    ],
+    "2": [
+      "Apenas equilátero e escaleno",
+      "Apenas retângulo e agudo",
+      "Apenas quanto aos ângulos"
+    ],
+    "3": [
+      "Tem todas as diagonais perpendiculares sempre",
+      "Tem quatro ângulos agudos sempre",
+      "Lados adjacentes iguais obrigatoriamente"
+    ],
+    "4": [
+      "Agudos",
+      "Obtusos",
+      "Reflexos"
+    ],
+    "5": [
+      "Régua",
+      "Esquadro",
+      "Compasso"
+    ],
+    "6": [
+      "Número de unidades quadradas",
+      "Produto dos lados",
+      "Apenas a distância entre dois vértices"
+    ],
+    "7": [
+      "Área = lado × lado (sempre)",
+      "Área = base + altura",
+      "Área = (perímetro)/2"
+    ],
+    "8": [
+      "0,35 cm",
+      "35 cm",
+      "3 500 cm"
+    ],
+    "9": [
+      "Segmento que mede a área",
+      "Ângulo de 180°",
+      "Circunferência inscrita"
+    ],
+    "10": [
+      "Pirâmide: não tem vértices",
+      "Esfera: tem faces planas",
+      "Cilindro: tem apenas faces quadradas"
+    ],
+    "11": [
+      "120 minutos",
+      "240 minutos",
+      "200 minutos"
+    ],
+    "12": [
+      "250 mL e 30 g",
+      "25 000 mL e 30 g",
+      "2 500 mL e 300 g"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Um triângulo equilátero tem três lados iguais.",
+      "v": true,
+      "e": "É a sua definição."
+    },
+    {
+      "t": "O perímetro mede a extensão do contorno de uma figura.",
+      "v": true,
+      "e": "Soma dos comprimentos dos lados."
+    },
+    {
+      "t": "A área mede-se em unidades lineares (m, cm).",
+      "v": false,
+      "e": "A área mede-se em unidades quadradas (m², cm²)."
+    },
+    {
+      "t": "Todo o quadrado é um retângulo.",
+      "v": true,
+      "e": "Porque tem ângulos retos e lados opostos paralelos."
+    },
+    {
+      "t": "Um ângulo de 120° é agudo.",
+      "v": false,
+      "e": "É obtuso (>90° e <180°)."
+    },
+    {
+      "t": "1 L é igual a 1 000 mL.",
+      "v": true,
+      "e": "Equivalência padrão de capacidade."
+    },
+    {
+      "t": "2,5 m = 250 cm.",
+      "v": true,
+      "e": "Multiplica-se por 100 para converter para centímetros."
+    },
+    {
+      "t": "Sólidos geométricos não têm faces.",
+      "v": false,
+      "e": "Têm faces, arestas e vértices (exceto a esfera, que não tem faces planas)."
+    }
+  ]
+}

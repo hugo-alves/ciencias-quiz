@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Ciências Naturais 5.º — Unidade 3",
+    "subtitle": "Função de Nutrição: digestão, respiração, circulação e excreção",
+    "description": "Órgãos, processos e hábitos de saúde — ensino prático-experimental.",
+    "unit": "CN5_U3",
+    "version": "v1",
+    "footer": "Alinhado com as Aprendizagens Essenciais."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Digestão",
+      "curto": false,
+      "q": "Qual a função principal do sistema digestivo?",
+      "a": "Transformar os alimentos em nutrientes simples para serem absorvidos."
+    },
+    {
+      "id": 2,
+      "tema": "Digestão",
+      "curto": true,
+      "q": "Onde se inicia a digestão química?",
+      "a": "Na boca, com a ação da saliva."
+    },
+    {
+      "id": 3,
+      "tema": "Digestão",
+      "curto": false,
+      "q": "Que órgãos compõem o tubo digestivo?",
+      "a": "Boca, faringe, esófago, estômago, intestino delgado e grosso, ânus."
+    },
+    {
+      "id": 4,
+      "tema": "Respiração",
+      "curto": false,
+      "q": "Qual a função dos alvéolos pulmonares?",
+      "a": "Realizar as trocas gasosas entre o ar e o sangue."
+    },
+    {
+      "id": 5,
+      "tema": "Respiração",
+      "curto": true,
+      "q": "Que gás o sangue entrega aos tecidos?",
+      "a": "Oxigénio."
+    },
+    {
+      "id": 6,
+      "tema": "Circulação",
+      "curto": false,
+      "q": "Que cavidades tem o coração humano?",
+      "a": "Duas aurículas e dois ventrículos."
+    },
+    {
+      "id": 7,
+      "tema": "Circulação",
+      "curto": true,
+      "q": "Que vasos levam o sangue do coração para os tecidos?",
+      "a": "Artérias."
+    },
+    {
+      "id": 8,
+      "tema": "Excreção",
+      "curto": false,
+      "q": "Que papel têm os rins?",
+      "a": "Filtrar o sangue e formar urina para eliminar resíduos."
+    },
+    {
+      "id": 9,
+      "tema": "Hábitos",
+      "curto": true,
+      "q": "Indica uma medida que protege o sistema respiratório.",
+      "a": "Evitar fumo do tabaco e praticar atividade física."
+    },
+    {
+      "id": 10,
+      "tema": "Hábitos",
+      "curto": false,
+      "q": "Por que é importante uma alimentação equilibrada?",
+      "a": "Fornece energia e nutrientes para o crescimento e funcionamento do organismo."
+    },
+    {
+      "id": 11,
+      "tema": "Respiração",
+      "curto": true,
+      "q": "Qual é o músculo principal na respiração?",
+      "a": "Diafragma."
+    },
+    {
+      "id": 12,
+      "tema": "Excreção",
+      "curto": false,
+      "q": "Que órgãos fazem parte do sistema urinário?",
+      "a": "Rins, ureteres, bexiga e uretra."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Produzir hormonas",
+      "Bombear sangue"
+    ],
+    "2": [
+      "No estômago apenas",
+      "No intestino grosso"
+    ],
+    "3": [
+      "Pulmões e traqueia",
+      "Rins e bexiga"
+    ],
+    "4": [
+      "Produzir glóbulos vermelhos",
+      "Bombear linfa"
+    ],
+    "5": [
+      "Dióxido de carbono",
+      "Azoto"
+    ],
+    "6": [
+      "Um único ventrículo",
+      "Três aurículas e um ventrículo"
+    ],
+    "7": [
+      "Veias",
+      "Capilares"
+    ],
+    "8": [
+      "Produzir bilis",
+      "Armazenar glicogénio"
+    ],
+    "9": [
+      "Comer muito sal",
+      "Beber pouca água"
+    ],
+    "10": [
+      "Apenas para ganhar massa muscular",
+      "Só para evitar sono"
+    ],
+    "11": [
+      "Bíceps",
+      "Gastrocnémio"
+    ],
+    "12": [
+      "Faringe e esófago",
+      "Pâncreas e vesícula biliar"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "A digestão começa na boca com ação enzimática da saliva.",
+      "v": true,
+      "e": "A amilase salivar inicia a digestão de amidos."
+    },
+    {
+      "t": "As artérias transportam sangue sempre rico em oxigénio.",
+      "v": false,
+      "e": "A artéria pulmonar leva sangue venoso para os pulmões."
+    },
+    {
+      "t": "Os alvéolos pulmonares aumentam a superfície de troca gasosa.",
+      "v": true,
+      "e": "Têm paredes finas e grande área."
+    },
+    {
+      "t": "Os rins regulam a composição do sangue e eliminam resíduos na urina.",
+      "v": true,
+      "e": "São órgãos do sistema excretor."
+    },
+    {
+      "t": "Beber água é irrelevante para a saúde dos rins.",
+      "v": false,
+      "e": "Hidratação adequada favorece a função renal."
+    },
+    {
+      "t": "Capilares são vasos muito finos onde ocorrem trocas entre sangue e tecidos.",
+      "v": true,
+      "e": "Ligam artérias e veias."
+    },
+    {
+      "t": "O coração possui três cavidades.",
+      "v": false,
+      "e": "Possui quatro cavidades em mamíferos."
+    },
+    {
+      "t": "A prática de exercício físico beneficia os sistemas respiratório e circulatório.",
+      "v": true,
+      "e": "Melhora capacidade pulmonar e saúde cardiovascular."
+    },
+    {
+      "t": "A urina forma-se nos pulmões.",
+      "v": false,
+      "e": "Forma-se nos rins e é armazenada na bexiga."
+    },
+    {
+      "t": "Respirar ar poluído pode agravar doenças respiratórias.",
+      "v": true,
+      "e": "Partículas e gases irritam as vias respiratórias."
+    }
+  ]
+}

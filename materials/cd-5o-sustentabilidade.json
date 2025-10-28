@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Cidadania e Desenvolvimento 5.º — Sustentabilidade",
+    "subtitle": "Reciclagem, consumo e clima",
+    "description": "Práticas de cidadania ambiental no dia a dia.",
+    "unit": "CD5_SUST",
+    "version": "v1",
+    "footer": "Dimensão ‘Educação Ambiental e Desenvolvimento Sustentável’."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Reciclagem",
+      "curto": true,
+      "q": "Que cor é o ecoponto do papel/cartão?",
+      "a": "Azul."
+    },
+    {
+      "id": 2,
+      "tema": "Consumo",
+      "curto": false,
+      "q": "O que é economia circular?",
+      "a": "Modelo que reduz, reutiliza e recicla materiais."
+    },
+    {
+      "id": 3,
+      "tema": "Clima",
+      "curto": true,
+      "q": "Que é pegada de carbono?",
+      "a": "Quantidade de emissões de CO₂ associadas às nossas ações."
+    },
+    {
+      "id": 4,
+      "tema": "Água",
+      "curto": false,
+      "q": "Como reduzir consumo de água?",
+      "a": "Reparar fugas e usar redutores de caudal."
+    },
+    {
+      "id": 5,
+      "tema": "Energia",
+      "curto": true,
+      "q": "Indica uma boa prática energética em casa.",
+      "a": "Desligar luzes e usar LED."
+    },
+    {
+      "id": 6,
+      "tema": "Mobilidade",
+      "curto": false,
+      "q": "Como tornar deslocações mais sustentáveis?",
+      "a": "Andar a pé, de bicicleta ou transporte público."
+    },
+    {
+      "id": 7,
+      "tema": "Resíduos",
+      "curto": true,
+      "q": "O que é compostagem?",
+      "a": "Transformar resíduos orgânicos em fertilizante."
+    },
+    {
+      "id": 8,
+      "tema": "Clima",
+      "curto": false,
+      "q": "Efeito de estufa é sempre mau?",
+      "a": "É natural e essencial; o problema é o excesso causado por humanos."
+    },
+    {
+      "id": 9,
+      "tema": "Consumo",
+      "curto": true,
+      "q": "Comprar local ajuda…",
+      "a": "A reduzir emissões e apoiar economia da região."
+    },
+    {
+      "id": 10,
+      "tema": "Cidadania",
+      "curto": false,
+      "q": "O que é voluntariado ambiental?",
+      "a": "Ações voluntárias para proteger ambiente."
+    },
+    {
+      "id": 11,
+      "tema": "Resíduos",
+      "curto": true,
+      "q": "Pilhas devem ser colocadas onde?",
+      "a": "Pilhões/recolha específica."
+    },
+    {
+      "id": 12,
+      "tema": "Clima",
+      "curto": false,
+      "q": "Que gás aumenta com a queima de combustíveis fósseis?",
+      "a": "CO₂ (dióxido de carbono)."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Verde",
+      "Amarelo"
+    ],
+    "2": [
+      "Modelo de gastar mais",
+      "Apenas reciclagem"
+    ],
+    "3": [
+      "Peso de uma pessoa",
+      "Calçado especial"
+    ],
+    "4": [
+      "Lavar carros com mangueira",
+      "Tomar banhos longos"
+    ],
+    "5": [
+      "Deixar TV ligada",
+      "Abrir janelas no inverno para aquecer"
+    ],
+    "6": [
+      "Usar carro individual sempre",
+      "Acelerar mais"
+    ],
+    "7": [
+      "Queimar lixo",
+      "Congelar restos"
+    ],
+    "8": [
+      "É sempre bom",
+      "Não existe"
+    ],
+    "9": [
+      "A aumentar embalagens",
+      "A gastar mais energia"
+    ],
+    "10": [
+      "Trabalho obrigatório",
+      "Atividade paga por empresas"
+    ],
+    "11": [
+      "Lixo indiferenciado",
+      "Ecoponto azul"
+    ],
+    "12": [
+      "Oxigénio",
+      "Hélio"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Economia circular incentiva reduzir e reutilizar.",
+      "v": true,
+      "e": "Menos resíduos."
+    },
+    {
+      "t": "Compostagem transforma resíduos orgânicos em adubo.",
+      "v": true,
+      "e": "Processo biológico."
+    },
+    {
+      "t": "Comprar local aumenta sempre emissões.",
+      "v": false,
+      "e": "Pode reduzi-las."
+    },
+    {
+      "t": "Pilhas podem ir para o lixo comum.",
+      "v": false,
+      "e": "Precisam de recolha específica."
+    },
+    {
+      "t": "LED consome menos energia que lâmpadas incandescentes.",
+      "v": true,
+      "e": "Maior eficiência."
+    },
+    {
+      "t": "O efeito de estufa natural permite vida na Terra.",
+      "v": true,
+      "e": "Mantém temperatura média adequada."
+    },
+    {
+      "t": "Banhos longos são uma forma de poupar água.",
+      "v": false,
+      "e": "Aumentam o consumo."
+    },
+    {
+      "t": "A bicicleta é uma mobilidade sustentável.",
+      "v": true,
+      "e": "Zero emissões diretas."
+    },
+    {
+      "t": "Reciclar papel poupa árvores e água.",
+      "v": true,
+      "e": "Reduz consumo de recursos."
+    },
+    {
+      "t": "Aquecimento global não está relacionado com CO₂.",
+      "v": false,
+      "e": "Está diretamente ligado às emissões."
+    }
+  ]
+}

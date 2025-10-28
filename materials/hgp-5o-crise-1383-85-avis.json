@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "HGP 5.º — Crise de 1383‑85 e Dinastia de Avis",
+    "subtitle": "Do interregno à afirmação de D. João I",
+    "description": "Causas, acontecimentos e consequências da crise, e a consolidação da dinastia de Avis.",
+    "unit": "HGP5_1383",
+    "version": "v1",
+    "footer": "Alinhado com as Aprendizagens Essenciais de HGP."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Contexto",
+      "curto": false,
+      "q": "O que desencadeou a crise de 1383‑85?",
+      "a": "A morte de D. Fernando sem herdeiro varão e a pretensão castelhana ao trono português."
+    },
+    {
+      "id": 2,
+      "tema": "Protagonistas",
+      "curto": true,
+      "q": "Quem foi o Mestre de Avis?",
+      "a": "D. João, filho ilegítimo de D. Pedro I, líder da resistência e futuro D. João I."
+    },
+    {
+      "id": 3,
+      "tema": "Batalhas",
+      "curto": false,
+      "q": "Que importância teve a Batalha de Aljubarrota (1385)?",
+      "a": "Consolidou a independência, derrotando as forças castelhanas."
+    },
+    {
+      "id": 4,
+      "tema": "Aliados",
+      "curto": true,
+      "q": "Que reino europeu se aliou a Portugal na crise?",
+      "a": "Inglaterra."
+    },
+    {
+      "id": 5,
+      "tema": "Cidades",
+      "curto": false,
+      "q": "Que papel tiveram as cidades e burgueses?",
+      "a": "Apoiaram o Mestre de Avis, procurando estabilidade e autonomia económica."
+    },
+    {
+      "id": 6,
+      "tema": "Heróis",
+      "curto": true,
+      "q": "Quem foi Nuno Álvares Pereira?",
+      "a": "Condestável de Portugal e estratega decisivo nas vitórias portuguesas."
+    },
+    {
+      "id": 7,
+      "tema": "Consequências",
+      "curto": false,
+      "q": "O que garantiu a aclamação de D. João I?",
+      "a": "O início da Dinastia de Avis e o reforço do poder régio com apoio burguês."
+    },
+    {
+      "id": 8,
+      "tema": "Diplomacia",
+      "curto": true,
+      "q": "Que tratado reforçou a aliança luso‑inglesa?",
+      "a": "Tratado de Windsor (1386)."
+    },
+    {
+      "id": 9,
+      "tema": "Estratégia",
+      "curto": false,
+      "q": "Que tática contribuiu para a vitória em Aljubarrota?",
+      "a": "Posicionamento defensivo e uso do terreno favorável pela infantaria."
+    },
+    {
+      "id": 10,
+      "tema": "Cultura",
+      "curto": true,
+      "q": "Que rei de Avis incentivou a cultura e obras como o Mosteiro da Batalha?",
+      "a": "D. João I."
+    },
+    {
+      "id": 11,
+      "tema": "Economia",
+      "curto": false,
+      "q": "Como a crise influenciou a classe mercantil?",
+      "a": "Fortaleceu o papel dos mercadores na governação e economia."
+    },
+    {
+      "id": 12,
+      "tema": "Memória",
+      "curto": true,
+      "q": "Que monumento comemora Aljubarrota?",
+      "a": "Mosteiro de Santa Maria da Vitória (Batalha)."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "A invasão dos romanos",
+      "O fim da Reconquista"
+    ],
+    "2": [
+      "D. João IV",
+      "D. Nuno Álvares Pereira"
+    ],
+    "3": [
+      "Marcou o início da União Ibérica",
+      "Terminou a Restauração"
+    ],
+    "4": [
+      "França",
+      "Alemanha"
+    ],
+    "5": [
+      "Ficaram neutros",
+      "Apoiaram sempre Castela"
+    ],
+    "6": [
+      "Rei de Castela",
+      "Poeta galego"
+    ],
+    "7": [
+      "A união de Portugal a Castela",
+      "A queda de Lisboa"
+    ],
+    "8": [
+      "Tratado de Tordesilhas (1494)",
+      "Tratado de Zamora (1143)"
+    ],
+    "9": [
+      "Ataque naval",
+      "Uso de artilharia pesada"
+    ],
+    "10": [
+      "D. Manuel I",
+      "D. Afonso V"
+    ],
+    "11": [
+      "Eliminou a burguesia",
+      "Proibiu o comércio"
+    ],
+    "12": [
+      "Conímbriga",
+      "Torre de Belém"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "A Batalha de Aljubarrota ocorreu em 1385.",
+      "v": true,
+      "e": "Foi decisiva para a independência."
+    },
+    {
+      "t": "O Tratado de Windsor (1386) reforçou a aliança com França.",
+      "v": false,
+      "e": "Reforçou a aliança com Inglaterra."
+    },
+    {
+      "t": "D. João I foi o primeiro rei da Dinastia de Avis.",
+      "v": true,
+      "e": "Aclamado após a crise."
+    },
+    {
+      "t": "Nuno Álvares Pereira lutou ao lado de Castela.",
+      "v": false,
+      "e": "Foi condestável de Portugal."
+    },
+    {
+      "t": "A crise iniciou-se por falta de herdeiro varão.",
+      "v": true,
+      "e": "Após a morte de D. Fernando."
+    },
+    {
+      "t": "Aljubarrota foi travada contra tropas castelhanas.",
+      "v": true,
+      "e": "Castela pretendia o trono português."
+    },
+    {
+      "t": "A burguesia urbana apoiou maioritariamente o Mestre de Avis.",
+      "v": true,
+      "e": "Visava estabilidade e comércio."
+    },
+    {
+      "t": "O Mosteiro da Batalha celebra a vitória de 1385.",
+      "v": true,
+      "e": "Mandado erigir por D. João I."
+    },
+    {
+      "t": "A Dinastia de Avis terminou em 1640.",
+      "v": false,
+      "e": "A Restauração inicia a Dinastia de Bragança em 1640."
+    },
+    {
+      "t": "O Tratado de Tordesilhas foi assinado em 1386.",
+      "v": false,
+      "e": "Foi assinado em 1494."
+    }
+  ]
+}

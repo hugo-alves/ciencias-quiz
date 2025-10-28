@@ -1,0 +1,836 @@
+{
+  "metadata": {
+    "title": "Inglês 5.º — Present Simple Drills",
+    "subtitle": "60 exercícios de afirmativa, negativa e interrogativa",
+    "description": "Treino intensivo do Present Simple com verbos frequentes e vocabulário escolar.",
+    "unit": "EN5_U3_DRILLS",
+    "version": "v1",
+    "footer": "Baseado nas Aprendizagens Essenciais (nível A1)."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"He ___ go music.\"",
+      "a": "goes"
+    },
+    {
+      "id": 2,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"She ___ have music.\"",
+      "a": "has"
+    },
+    {
+      "id": 3,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"It ___ watch in a flat.\"",
+      "a": "watches"
+    },
+    {
+      "id": 4,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"He ___ have at school.\"",
+      "a": "has"
+    },
+    {
+      "id": 5,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"He ___ study tennis.\"",
+      "a": "studies"
+    },
+    {
+      "id": 6,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"It ___ live in Lisbon.\"",
+      "a": "lives"
+    },
+    {
+      "id": 7,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"She ___ live in a flat.\"",
+      "a": "lives"
+    },
+    {
+      "id": 8,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"It ___ play tennis.\"",
+      "a": "plays"
+    },
+    {
+      "id": 9,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"He ___ live in Lisbon.\"",
+      "a": "lives"
+    },
+    {
+      "id": 10,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"He ___ like music.\"",
+      "a": "likes"
+    },
+    {
+      "id": 11,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"You ___ go in a flat.\"",
+      "a": "go"
+    },
+    {
+      "id": 12,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"You ___ live maths.\"",
+      "a": "live"
+    },
+    {
+      "id": 13,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"We ___ have music.\"",
+      "a": "have"
+    },
+    {
+      "id": 14,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"I ___ have tennis.\"",
+      "a": "have"
+    },
+    {
+      "id": 15,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"I ___ go football.\"",
+      "a": "go"
+    },
+    {
+      "id": 16,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"I ___ like maths.\"",
+      "a": "like"
+    },
+    {
+      "id": 17,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"They ___ have in a flat.\"",
+      "a": "have"
+    },
+    {
+      "id": 18,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"You ___ live football.\"",
+      "a": "live"
+    },
+    {
+      "id": 19,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"You ___ live football.\"",
+      "a": "live"
+    },
+    {
+      "id": 20,
+      "tema": "Present Simple — afirmativa",
+      "curto": true,
+      "q": "Completa (afirmativa): \"They ___ visit in a flat.\"",
+      "a": "visit"
+    },
+    {
+      "id": 21,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"She ___ live in a flat.\"",
+      "a": "doesn't"
+    },
+    {
+      "id": 22,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"He ___ like books.\"",
+      "a": "doesn't"
+    },
+    {
+      "id": 23,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"He ___ play football.\"",
+      "a": "doesn't"
+    },
+    {
+      "id": 24,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"It ___ read football.\"",
+      "a": "doesn't"
+    },
+    {
+      "id": 25,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"He ___ do in a flat.\"",
+      "a": "doesn't"
+    },
+    {
+      "id": 26,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"It ___ go maths.\"",
+      "a": "doesn't"
+    },
+    {
+      "id": 27,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"He ___ go tennis.\"",
+      "a": "doesn't"
+    },
+    {
+      "id": 28,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"He ___ study tennis.\"",
+      "a": "doesn't"
+    },
+    {
+      "id": 29,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"It ___ like at school.\"",
+      "a": "doesn't"
+    },
+    {
+      "id": 30,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"He ___ do music.\"",
+      "a": "doesn't"
+    },
+    {
+      "id": 31,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"I ___ do tennis.\"",
+      "a": "don't"
+    },
+    {
+      "id": 32,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"They ___ do in Lisbon.\"",
+      "a": "don't"
+    },
+    {
+      "id": 33,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"We ___ like in Lisbon.\"",
+      "a": "don't"
+    },
+    {
+      "id": 34,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"You ___ visit at school.\"",
+      "a": "don't"
+    },
+    {
+      "id": 35,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"You ___ visit in a flat.\"",
+      "a": "don't"
+    },
+    {
+      "id": 36,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"We ___ study football.\"",
+      "a": "don't"
+    },
+    {
+      "id": 37,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"They ___ do tennis.\"",
+      "a": "don't"
+    },
+    {
+      "id": 38,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"I ___ go music.\"",
+      "a": "don't"
+    },
+    {
+      "id": 39,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"We ___ watch in Lisbon.\"",
+      "a": "don't"
+    },
+    {
+      "id": 40,
+      "tema": "Present Simple — negativa",
+      "curto": true,
+      "q": "Completa (negativa): \"I ___ like in Lisbon.\"",
+      "a": "don't"
+    },
+    {
+      "id": 41,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ She watch?\"",
+      "a": "Does"
+    },
+    {
+      "id": 42,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ She go?\"",
+      "a": "Does"
+    },
+    {
+      "id": 43,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ It visit?\"",
+      "a": "Does"
+    },
+    {
+      "id": 44,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ It go?\"",
+      "a": "Does"
+    },
+    {
+      "id": 45,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ He go?\"",
+      "a": "Does"
+    },
+    {
+      "id": 46,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ She study?\"",
+      "a": "Does"
+    },
+    {
+      "id": 47,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ He visit?\"",
+      "a": "Does"
+    },
+    {
+      "id": 48,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ He study?\"",
+      "a": "Does"
+    },
+    {
+      "id": 49,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ It go?\"",
+      "a": "Does"
+    },
+    {
+      "id": 50,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ He visit?\"",
+      "a": "Does"
+    },
+    {
+      "id": 51,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ We do?\"",
+      "a": "Do"
+    },
+    {
+      "id": 52,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ You read?\"",
+      "a": "Do"
+    },
+    {
+      "id": 53,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ You visit?\"",
+      "a": "Do"
+    },
+    {
+      "id": 54,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ They visit?\"",
+      "a": "Do"
+    },
+    {
+      "id": 55,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ I study?\"",
+      "a": "Do"
+    },
+    {
+      "id": 56,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ They visit?\"",
+      "a": "Do"
+    },
+    {
+      "id": 57,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ I play?\"",
+      "a": "Do"
+    },
+    {
+      "id": 58,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ We watch?\"",
+      "a": "Do"
+    },
+    {
+      "id": 59,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ We watch?\"",
+      "a": "Do"
+    },
+    {
+      "id": 60,
+      "tema": "Present Simple — interrogativa",
+      "curto": true,
+      "q": "Completa (interrogativa): \"___ They go?\"",
+      "a": "Do"
+    }
+  ],
+  "distractors": {
+    "1": [
+      "are go",
+      "is go",
+      "go"
+    ],
+    "2": [
+      "have",
+      "is have",
+      "are have"
+    ],
+    "3": [
+      "watch",
+      "are watch",
+      "is watch"
+    ],
+    "4": [
+      "have",
+      "is have",
+      "are have"
+    ],
+    "5": [
+      "is study",
+      "are study",
+      "study"
+    ],
+    "6": [
+      "is live",
+      "are live",
+      "live"
+    ],
+    "7": [
+      "is live",
+      "are live",
+      "live"
+    ],
+    "8": [
+      "play",
+      "is play",
+      "are play"
+    ],
+    "9": [
+      "is live",
+      "are live",
+      "live"
+    ],
+    "10": [
+      "is like",
+      "like",
+      "are like"
+    ],
+    "11": [
+      "are go",
+      "is go",
+      "goes"
+    ],
+    "12": [
+      "lives",
+      "is live",
+      "are live"
+    ],
+    "13": [
+      "are have",
+      "is have",
+      "has"
+    ],
+    "14": [
+      "are have",
+      "is have",
+      "has"
+    ],
+    "15": [
+      "are go",
+      "is go",
+      "goes"
+    ],
+    "16": [
+      "is like",
+      "are like",
+      "likes"
+    ],
+    "17": [
+      "are have",
+      "is have",
+      "has"
+    ],
+    "18": [
+      "lives",
+      "is live",
+      "are live"
+    ],
+    "19": [
+      "lives",
+      "is live",
+      "are live"
+    ],
+    "20": [
+      "is visit",
+      "visits",
+      "are visit"
+    ],
+    "21": [
+      "isn't",
+      "don't",
+      "aren't"
+    ],
+    "22": [
+      "isn't",
+      "don't",
+      "aren't"
+    ],
+    "23": [
+      "isn't",
+      "don't",
+      "aren't"
+    ],
+    "24": [
+      "isn't",
+      "don't",
+      "aren't"
+    ],
+    "25": [
+      "isn't",
+      "don't",
+      "aren't"
+    ],
+    "26": [
+      "isn't",
+      "don't",
+      "aren't"
+    ],
+    "27": [
+      "isn't",
+      "don't",
+      "aren't"
+    ],
+    "28": [
+      "isn't",
+      "don't",
+      "aren't"
+    ],
+    "29": [
+      "isn't",
+      "don't",
+      "aren't"
+    ],
+    "30": [
+      "isn't",
+      "don't",
+      "aren't"
+    ],
+    "31": [
+      "isn't",
+      "doesn't",
+      "aren't"
+    ],
+    "32": [
+      "isn't",
+      "doesn't",
+      "aren't"
+    ],
+    "33": [
+      "isn't",
+      "doesn't",
+      "aren't"
+    ],
+    "34": [
+      "isn't",
+      "doesn't",
+      "aren't"
+    ],
+    "35": [
+      "isn't",
+      "doesn't",
+      "aren't"
+    ],
+    "36": [
+      "isn't",
+      "doesn't",
+      "aren't"
+    ],
+    "37": [
+      "isn't",
+      "doesn't",
+      "aren't"
+    ],
+    "38": [
+      "isn't",
+      "doesn't",
+      "aren't"
+    ],
+    "39": [
+      "isn't",
+      "doesn't",
+      "aren't"
+    ],
+    "40": [
+      "isn't",
+      "doesn't",
+      "aren't"
+    ],
+    "41": [
+      "Is",
+      "Do",
+      "Has"
+    ],
+    "42": [
+      "Is",
+      "Do",
+      "Has"
+    ],
+    "43": [
+      "Is",
+      "Do",
+      "Has"
+    ],
+    "44": [
+      "Is",
+      "Do",
+      "Has"
+    ],
+    "45": [
+      "Is",
+      "Do",
+      "Has"
+    ],
+    "46": [
+      "Is",
+      "Do",
+      "Has"
+    ],
+    "47": [
+      "Is",
+      "Do",
+      "Has"
+    ],
+    "48": [
+      "Is",
+      "Do",
+      "Has"
+    ],
+    "49": [
+      "Is",
+      "Do",
+      "Has"
+    ],
+    "50": [
+      "Is",
+      "Do",
+      "Has"
+    ],
+    "51": [
+      "Does",
+      "Is",
+      "Are"
+    ],
+    "52": [
+      "Does",
+      "Is",
+      "Are"
+    ],
+    "53": [
+      "Does",
+      "Is",
+      "Are"
+    ],
+    "54": [
+      "Does",
+      "Is",
+      "Are"
+    ],
+    "55": [
+      "Does",
+      "Is",
+      "Are"
+    ],
+    "56": [
+      "Does",
+      "Is",
+      "Are"
+    ],
+    "57": [
+      "Does",
+      "Is",
+      "Are"
+    ],
+    "58": [
+      "Does",
+      "Is",
+      "Are"
+    ],
+    "59": [
+      "Does",
+      "Is",
+      "Are"
+    ],
+    "60": [
+      "Does",
+      "Is",
+      "Are"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "‘He don't like milk’ está correto.",
+      "v": false,
+      "e": "Deve ser ‘He doesn’t like milk’."
+    },
+    {
+      "t": "Usamos ‘Does’ para perguntas com ‘he/she/it’.",
+      "v": true,
+      "e": "No Present Simple, ‘Does + sujeito + verbo?’."
+    },
+    {
+      "t": "‘They doesn't live here’ está correto.",
+      "v": false,
+      "e": "Para ‘they’ usamos ‘don’t’."
+    },
+    {
+      "t": "‘She plays tennis on Mondays.’ está correto.",
+      "v": true,
+      "e": "3ª pessoa singular leva ‘-s/-es’."
+    },
+    {
+      "t": "‘Do she like pizza?’ é correto.",
+      "v": false,
+      "e": "Deve ser ‘Does she like pizza?’."
+    },
+    {
+      "t": "‘We don’t have classes on Sunday.’ está correto.",
+      "v": true,
+      "e": "Negativa com ‘don’t’ no plural."
+    },
+    {
+      "t": "‘It have four legs’ é correto.",
+      "v": false,
+      "e": "Deve ser ‘It has four legs’."
+    },
+    {
+      "t": "‘Does he go to school?’ está correto.",
+      "v": true,
+      "e": "Forma interrogativa correta."
+    },
+    {
+      "t": "‘I lives in Porto.’ é correto.",
+      "v": false,
+      "e": "Para ‘I’ usa-se base: ‘I live’."
+    },
+    {
+      "t": "‘They like music.’ é correto.",
+      "v": true,
+      "e": "Base verbal para plural."
+    },
+    {
+      "t": "‘She don’t read books.’ é correto.",
+      "v": false,
+      "e": "Para ‘she’ usa-se ‘doesn’t’."
+    },
+    {
+      "t": "‘Do they study English?’ está correto.",
+      "v": true,
+      "e": "‘Do’ para plural."
+    },
+    {
+      "t": "‘He has a bike.’ está correto.",
+      "v": true,
+      "e": "3.ª pessoa de ‘have’ é ‘has’."
+    },
+    {
+      "t": "‘Doesn’t’ significa ‘does not’.",
+      "v": true,
+      "e": "Contração correta."
+    },
+    {
+      "t": "‘We doesn't play football.’ está correto.",
+      "v": false,
+      "e": "Deveria ser ‘We don’t play football.’"
+    },
+    {
+      "t": "‘Does she goes to school?’ está correto.",
+      "v": false,
+      "e": "Depois de ‘Does’ usa-se a base: ‘go’."
+    },
+    {
+      "t": "‘It doesn’t rain in summer.’ pode estar correto.",
+      "v": true,
+      "e": "Frase negativa gramaticalmente correta."
+    },
+    {
+      "t": "‘Do you like maths?’ está correto.",
+      "v": true,
+      "e": "Pergunta correta com ‘you’."
+    },
+    {
+      "t": "‘He is play football’ está correto.",
+      "v": false,
+      "e": "No Present Simple usa-se ‘He plays football’."
+    },
+    {
+      "t": "‘They don’t go to bed late.’ está correto.",
+      "v": true,
+      "e": "Negativa correta."
+    }
+  ]
+}

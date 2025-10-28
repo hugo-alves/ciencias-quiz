@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Cidadania e Desenvolvimento 5.º — Cidadania Digital",
+    "subtitle": "Segurança online, privacidade e respeito",
+    "description": "Regras de convivência digital, passwords e pensamento crítico.",
+    "unit": "CD5_DIGI",
+    "version": "v1",
+    "footer": "Dimensão ‘Literacia dos Media e Informação’."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Senhas",
+      "curto": true,
+      "q": "O que é uma palavra‑passe forte?",
+      "a": "Conjunto longo com letras, números e símbolos."
+    },
+    {
+      "id": 2,
+      "tema": "Privacidade",
+      "curto": false,
+      "q": "Que dados não deves partilhar publicamente?",
+      "a": "Morada, escola, horários e contactos."
+    },
+    {
+      "id": 3,
+      "tema": "Respeito",
+      "curto": true,
+      "q": "O que é ciberbullying?",
+      "a": "Agressão/insulto repetido através de meios digitais."
+    },
+    {
+      "id": 4,
+      "tema": "Fontes",
+      "curto": false,
+      "q": "Como verificas uma notícia?",
+      "a": "Confirmar noutros meios credíveis e verificar data e autor."
+    },
+    {
+      "id": 5,
+      "tema": "Pegada digital",
+      "curto": true,
+      "q": "O que é pegada digital?",
+      "a": "Registo das ações online que pode permanecer no tempo."
+    },
+    {
+      "id": 6,
+      "tema": "Etiqueta",
+      "curto": false,
+      "q": "O que é netiqueta?",
+      "a": "Conjunto de regras de boa educação online."
+    },
+    {
+      "id": 7,
+      "tema": "Phishing",
+      "curto": true,
+      "q": "Como reconhecer phishing?",
+      "a": "Mensagens que pedem dados urgentes, links suspeitos, erros ortográficos."
+    },
+    {
+      "id": 8,
+      "tema": "Redes",
+      "curto": false,
+      "q": "O que fazer ao ver conteúdo impróprio?",
+      "a": "Bloquear, denunciar e informar um adulto."
+    },
+    {
+      "id": 9,
+      "tema": "Tempo de ecrã",
+      "curto": true,
+      "q": "Como gerir tempo de ecrã?",
+      "a": "Definir limites e pausas regulares."
+    },
+    {
+      "id": 10,
+      "tema": "Jogos",
+      "curto": false,
+      "q": "Que cuidados em jogos online?",
+      "a": "Não partilhar dados pessoais e usar nomes neutros."
+    },
+    {
+      "id": 11,
+      "tema": "Dispositivo",
+      "curto": true,
+      "q": "Para que serve o modo ‘duas etapas’?",
+      "a": "Adicionar verificação extra ao iniciar sessão."
+    },
+    {
+      "id": 12,
+      "tema": "Comunicação",
+      "curto": false,
+      "q": "Como discordar online com respeito?",
+      "a": "Focar ideias, evitar insultos e usar linguagem educada."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "O teu nome",
+      "123456"
+    ],
+    "2": [
+      "Cor favorita",
+      "Desporto preferido"
+    ],
+    "3": [
+      "Estudar online",
+      "Fazer uma pesquisa"
+    ],
+    "4": [
+      "Se muitos partilham é verdade",
+      "Se tem muitas imagens"
+    ],
+    "5": [
+      "Aplicações do telemóvel",
+      "Lista de amigos na escola"
+    ],
+    "6": [
+      "Idioma da internet",
+      "Programa de mensagens"
+    ],
+    "7": [
+      "Envios do professor",
+      "Convites de amigos"
+    ],
+    "8": [
+      "Comentar e partilhar",
+      "Ignorar para sempre"
+    ],
+    "9": [
+      "Usar de madrugada",
+      "Nunca desligar"
+    ],
+    "10": [
+      "Usar nome e idade reais",
+      "Aceitar pedidos de estranhos"
+    ],
+    "11": [
+      "Aumentar volume",
+      "Guardar fotos"
+    ],
+    "12": [
+      "Usar letras maiúsculas",
+      "Responder com memes agressivos"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "‘123456’ é uma password segura.",
+      "v": false,
+      "e": "É facilmente adivinhável."
+    },
+    {
+      "t": "Publicar morada online pode ser perigoso.",
+      "v": true,
+      "e": "Protege a tua privacidade."
+    },
+    {
+      "t": "Confirmar notícias em várias fontes ajuda a evitar enganos.",
+      "v": true,
+      "e": "Verificação cruzada."
+    },
+    {
+      "t": "Netiqueta significa ser educado online.",
+      "v": true,
+      "e": "Boas práticas de comunicação."
+    },
+    {
+      "t": "Phishing tenta enganar para obter dados pessoais.",
+      "v": true,
+      "e": "Desconfia de pedidos urgentes."
+    },
+    {
+      "t": "É seguro aceitar pedidos de amizade de desconhecidos.",
+      "v": false,
+      "e": "Evita contactos suspeitos."
+    },
+    {
+      "t": "Ativar autenticação em duas etapas aumenta a segurança.",
+      "v": true,
+      "e": "Requer um segundo fator de verificação."
+    },
+    {
+      "t": "A pegada digital desaparece ao apagar a app.",
+      "v": false,
+      "e": "Pode permanecer nos servidores."
+    },
+    {
+      "t": "Usar maiúsculas é visto como gritar online.",
+      "v": true,
+      "e": "Evita ‘gritar’ em conversas."
+    },
+    {
+      "t": "Fazer pausas regulares ajuda a saúde digital.",
+      "v": true,
+      "e": "Descanso para olhos e mente."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "HGP 5.º — Restauração de 1640 e Dinastia de Bragança",
+    "subtitle": "O fim da União Ibérica e a afirmação de D. João IV",
+    "description": "Fatores, acontecimentos e consequências da Restauração; guerra da Restauração e consolidação do reino.",
+    "unit": "HGP5_1640",
+    "version": "v1",
+    "footer": "Alinhado com as Aprendizagens Essenciais de HGP."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Contexto",
+      "curto": false,
+      "q": "O que foi a União Ibérica (1580‑1640)?",
+      "a": "Período em que Portugal esteve sob domínio dos Filipes de Espanha."
+    },
+    {
+      "id": 2,
+      "tema": "Restauração",
+      "curto": true,
+      "q": "Que acontecimento marca 1 de dezembro de 1640?",
+      "a": "O golpe que restaurou a independência e a aclamação de D. João IV."
+    },
+    {
+      "id": 3,
+      "tema": "Causas",
+      "curto": false,
+      "q": "Que fatores motivaram a Restauração?",
+      "a": "Aumento de impostos, perdas coloniais e descontentamento com Madrid."
+    },
+    {
+      "id": 4,
+      "tema": "Guerra",
+      "curto": true,
+      "q": "Quanto durou a Guerra da Restauração?",
+      "a": "Até 1668, com o Tratado de Lisboa."
+    },
+    {
+      "id": 5,
+      "tema": "Diplomacia",
+      "curto": false,
+      "q": "Que papel tiveram as alianças no sucesso português?",
+      "a": "Garantiram apoio externo e comércio favorável."
+    },
+    {
+      "id": 6,
+      "tema": "Fronteiras",
+      "curto": true,
+      "q": "Qual foi o impacto do conflito nas fronteiras?",
+      "a": "Consolidaram-se as fronteiras com vitórias defensivas."
+    },
+    {
+      "id": 7,
+      "tema": "Economia",
+      "curto": false,
+      "q": "Que medidas ajudaram a recuperar a economia?",
+      "a": "Promoção do comércio atlântico e reorganização fiscal."
+    },
+    {
+      "id": 8,
+      "tema": "Símbolos",
+      "curto": true,
+      "q": "Que dinastia iniciou D. João IV?",
+      "a": "Dinastia de Bragança."
+    },
+    {
+      "id": 9,
+      "tema": "Cultura",
+      "curto": false,
+      "q": "Que símbolo musical se associa à Casa de Bragança?",
+      "a": "Hino da Restauração e apoio às artes."
+    },
+    {
+      "id": 10,
+      "tema": "Consequências",
+      "curto": true,
+      "q": "Que documento reconheceu formalmente a independência?",
+      "a": "Tratado de Lisboa (1668)."
+    },
+    {
+      "id": 11,
+      "tema": "Sociedade",
+      "curto": false,
+      "q": "Que grupos sociais apoiaram a Restauração?",
+      "a": "Nobreza, clero e burguesia descontentes."
+    },
+    {
+      "id": 12,
+      "tema": "Memória",
+      "curto": true,
+      "q": "Que data é feriado nacional em Portugal ligado à Restauração?",
+      "a": "1 de dezembro."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Aliança militar igualitária",
+      "União económica com Inglaterra"
+    ],
+    "2": [
+      "A coroação de D. Manuel I",
+      "A assinatura de Zamora"
+    ],
+    "3": [
+      "Colheitas abundantes",
+      "Descoberta de ouro em Portugal"
+    ],
+    "4": [
+      "Até 1650",
+      "Até 1700"
+    ],
+    "5": [
+      "Nenhum, Portugal isolou-se",
+      "Levaram à união com França"
+    ],
+    "6": [
+      "Perderam-se territórios a norte",
+      "Foi anexado Castela"
+    ],
+    "7": [
+      "Proibição de manufaturas",
+      "Fecho de portos"
+    ],
+    "8": [
+      "Dinastia de Avis",
+      "Dinastia Filipina"
+    ],
+    "9": [
+      "Marcha Imperial",
+      "Hino de Aljubarrota"
+    ],
+    "10": [
+      "Tratado de Windsor (1386)",
+      "Tratado de Tordesilhas (1494)"
+    ],
+    "11": [
+      "Apenas camponeses",
+      "Somente estrangeiros"
+    ],
+    "12": [
+      "5 de outubro",
+      "10 de junho"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "A União Ibérica terminou em 1640.",
+      "v": true,
+      "e": "Com o golpe e aclamação de D. João IV."
+    },
+    {
+      "t": "A Guerra da Restauração terminou em 1668.",
+      "v": true,
+      "e": "Tratado de Lisboa."
+    },
+    {
+      "t": "D. João IV pertence à Dinastia de Avis.",
+      "v": false,
+      "e": "Inicia a Dinastia de Bragança."
+    },
+    {
+      "t": "As perdas coloniais durante a União Ibérica geraram descontentamento.",
+      "v": true,
+      "e": "Holandeses e ingleses tomaram posições portuguesas."
+    },
+    {
+      "t": "O 1.º de dezembro celebra a implantação da República.",
+      "v": false,
+      "e": "Celebra a Restauração; a República é de 5 de outubro."
+    },
+    {
+      "t": "Portugal permaneceu unido a Espanha após 1640.",
+      "v": false,
+      "e": "Recuperou a independência."
+    },
+    {
+      "t": "O Tratado de Tordesilhas foi assinado no século XVII.",
+      "v": false,
+      "e": "Foi em 1494 (século XV)."
+    },
+    {
+      "t": "A nobreza não participou na Restauração.",
+      "v": false,
+      "e": "Teve papel central."
+    },
+    {
+      "t": "A economia beneficiou de reorganização fiscal e comércio após 1640.",
+      "v": true,
+      "e": "Medidas de recuperação."
+    },
+    {
+      "t": "O hino da Restauração é associado simbolicamente ao período.",
+      "v": true,
+      "e": "Elemento cultural e identitário."
+    }
+  ]
+}

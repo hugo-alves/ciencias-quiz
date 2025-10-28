@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Matemática 5.º — Unidade 1",
+    "subtitle": "Números e operações: naturais, frações e decimais",
+    "description": "Cálculo, propriedades e resolução de problemas no 5.º ano.",
+    "unit": "MAT5_U1",
+    "version": "v1",
+    "footer": "Alinhado com as AE (revisão 2021) — Números, Álgebra e Dados (noções iniciais)."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Leitura de números",
+      "curto": true,
+      "q": "Escreve por extenso: 305 070.",
+      "a": "Trezentos e cinco mil e setenta."
+    },
+    {
+      "id": 2,
+      "tema": "Valor posicional",
+      "curto": false,
+      "q": "Qual é o valor da cifra 6 em 46 258?",
+      "a": "6 milhares (6 000)."
+    },
+    {
+      "id": 3,
+      "tema": "Operações",
+      "curto": true,
+      "q": "Qual é a propriedade que permite 27+15 = 15+27?",
+      "a": "Propriedade comutativa da adição."
+    },
+    {
+      "id": 4,
+      "tema": "Múltiplos e divisores",
+      "curto": false,
+      "q": "Indica um múltiplo de 9 e um divisor de 24.",
+      "a": "Múltiplo de 9: 18; divisor de 24: 6 (entre outros)."
+    },
+    {
+      "id": 5,
+      "tema": "Divisibilidade",
+      "curto": true,
+      "q": "Como sabes rapidamente se um número é divisível por 5?",
+      "a": "Se termina em 0 ou 5."
+    },
+    {
+      "id": 6,
+      "tema": "Frações equivalentes",
+      "curto": false,
+      "q": "Dá duas frações equivalentes a 3/4.",
+      "a": "6/8 e 9/12 (entre outras)."
+    },
+    {
+      "id": 7,
+      "tema": "Comparação de frações",
+      "curto": true,
+      "q": "Qual é maior: 2/3 ou 3/5?",
+      "a": "2/3 é maior (0,666… > 0,6)."
+    },
+    {
+      "id": 8,
+      "tema": "Números decimais",
+      "curto": false,
+      "q": "Escreve em decimal: 3/10.",
+      "a": "0,3."
+    },
+    {
+      "id": 9,
+      "tema": "Operações com decimais",
+      "curto": false,
+      "q": "Calcula: 2,4 + 0,75.",
+      "a": "3,15."
+    },
+    {
+      "id": 10,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Quanto é 45 × 6?",
+      "a": "270."
+    },
+    {
+      "id": 11,
+      "tema": "Divisão por 10/100",
+      "curto": true,
+      "q": "Quanto é 37,5 ÷ 10?",
+      "a": "3,75."
+    },
+    {
+      "id": 12,
+      "tema": "Problemas",
+      "curto": false,
+      "q": "Uma camisola custa 18,50 €. Compras 2. Quanto pagas?",
+      "a": "37,00 €."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Trezentos e cinquenta mil e setenta",
+      "Trinta e cinco mil e setenta",
+      "Trezentos e cinco mil e setecentos"
+    ],
+    "2": [
+      "6 centenas",
+      "6 dezenas",
+      "6 unidades"
+    ],
+    "3": [
+      "Associativa",
+      "Distributiva",
+      "Identidade"
+    ],
+    "4": [
+      "Múltiplo de 9: 7; divisor de 24: 5",
+      "Múltiplo de 9: 10; divisor de 24: 9",
+      "Múltiplo de 9: 90; divisor de 24: 7"
+    ],
+    "5": [
+      "Se a soma dos algarismos é 3",
+      "Se é par e termina em 2",
+      "Se termina em 1 ou 9"
+    ],
+    "6": [
+      "5/8 e 6/12",
+      "3/8 e 6/4",
+      "7/8 e 10/12"
+    ],
+    "7": [
+      "3/5 é maior",
+      "São iguais",
+      "Não se pode comparar"
+    ],
+    "8": [
+      "0,03",
+      "0,30",
+      "3,0"
+    ],
+    "9": [
+      "3,9",
+      "2,99",
+      "3,025"
+    ],
+    "10": [
+      "260",
+      "265",
+      "255"
+    ],
+    "11": [
+      "375",
+      "0,375",
+      "37,05"
+    ],
+    "12": [
+      "36,00 €",
+      "36,50 €",
+      "38,50 €"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Todo o número natural é também inteiro.",
+      "v": true,
+      "e": "Os naturais pertencem ao conjunto dos inteiros."
+    },
+    {
+      "t": "Se um número termina em 0, é divisível por 2 e por 5.",
+      "v": true,
+      "e": "Terminar em 0 implica ser múltiplo de 10."
+    },
+    {
+      "t": "Frações equivalentes representam a mesma quantidade.",
+      "v": true,
+      "e": "Obtêm-se multiplicando/dividindo numerador e denominador pelo mesmo número."
+    },
+    {
+      "t": "0,5 é igual a 1/3.",
+      "v": false,
+      "e": "0,5 = 1/2."
+    },
+    {
+      "t": "A propriedade associativa aplica-se à adição e à multiplicação.",
+      "v": true,
+      "e": "Permite reagrupar termos sem alterar o resultado."
+    },
+    {
+      "t": "Ao dividir por 100, desloca-se a vírgula duas casas para a esquerda.",
+      "v": true,
+      "e": "Equivalente a multiplicar por 0,01."
+    },
+    {
+      "t": "2/4 e 1/2 não são equivalentes.",
+      "v": false,
+      "e": "Ambas representam a mesma parte do todo."
+    },
+    {
+      "t": "A ordem das parcelas altera a soma.",
+      "v": false,
+      "e": "A comutativa garante que não altera."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Português 5.º — Leitura de Textos Informativos",
+    "subtitle": "Estratégias de compreensão e vocabulário",
+    "description": "Identificação de ideias principais, palavras‑chave, facto/opinião e organização textual.",
+    "unit": "PT5_LEIT_INFO",
+    "version": "v1",
+    "footer": "Complementa Leitura & Educação Literária."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Estratégias",
+      "curto": false,
+      "q": "Como encontras a ideia principal de um parágrafo?",
+      "a": "Procurando a frase‑tópico e palavras‑chave repetidas."
+    },
+    {
+      "id": 2,
+      "tema": "Facto/Opinião",
+      "curto": true,
+      "q": "Identifica a opinião: 'Portugal tem praias bonitas.' vs 'Portugal tem 10 milhões de habitantes.'",
+      "a": "'Portugal tem praias bonitas.'"
+    },
+    {
+      "id": 3,
+      "tema": "Organização",
+      "curto": false,
+      "q": "O que é um subtítulo?",
+      "a": "Elemento que divide e nomeia secções dentro de um texto."
+    },
+    {
+      "id": 4,
+      "tema": "Vocabulário",
+      "curto": true,
+      "q": "Qual a melhor estratégia para uma palavra desconhecida?",
+      "a": "Inferir pelo contexto e confirmar em dicionário."
+    },
+    {
+      "id": 5,
+      "tema": "Recursos Gráficos",
+      "curto": false,
+      "q": "Para que servem gráficos e tabelas?",
+      "a": "Apresentar dados de forma clara e comparável."
+    },
+    {
+      "id": 6,
+      "tema": "Perguntas",
+      "curto": true,
+      "q": "Que perguntas ajudam a guiar a leitura?",
+      "a": "Quem? O quê? Onde? Quando? Como? Porquê?"
+    },
+    {
+      "id": 7,
+      "tema": "Resumo",
+      "curto": false,
+      "q": "O que incluir num resumo curto?",
+      "a": "Tema, ideias principais e relações essenciais."
+    },
+    {
+      "id": 8,
+      "tema": "Coesão",
+      "curto": true,
+      "q": "Que conectores indicam causa‑efeito?",
+      "a": "porque, pois, portanto, por isso."
+    },
+    {
+      "id": 9,
+      "tema": "Títulos",
+      "curto": false,
+      "q": "O que caracteriza um bom título informativo?",
+      "a": "Claro, objetivo e fiel ao conteúdo."
+    },
+    {
+      "id": 10,
+      "tema": "Fiabilidade",
+      "curto": true,
+      "q": "Como avalias a credibilidade de um texto online?",
+      "a": "Verificando a fonte, data, autor e referências."
+    },
+    {
+      "id": 11,
+      "tema": "Inferência",
+      "curto": false,
+      "q": "O que é fazer inferências?",
+      "a": "Deduzir informação implícita com base em pistas do texto."
+    },
+    {
+      "id": 12,
+      "tema": "Esquemas",
+      "curto": true,
+      "q": "Para que serve um esquema (mapa de ideias)?",
+      "a": "Organizar a informação e relações entre conceitos."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Lendo apenas o título",
+      "Decorando o texto"
+    ],
+    "2": [
+      "Ambas são opiniões",
+      "Nenhuma é opinião"
+    ],
+    "3": [
+      "Uma legenda de imagem",
+      "Um rodapé com a fonte"
+    ],
+    "4": [
+      "Ignorar a palavra",
+      "Inventar um sentido"
+    ],
+    "5": [
+      "Decorar a página",
+      "Substituir o texto"
+    ],
+    "6": [
+      "Quantos parágrafos há?",
+      "Quanto custa o livro?"
+    ],
+    "7": [
+      "Detalhes secundários",
+      "Opiniões pessoais extensas"
+    ],
+    "8": [
+      "embora, contudo",
+      "e, ou"
+    ],
+    "9": [
+      "Criativo e misterioso apenas",
+      "Com rimas"
+    ],
+    "10": [
+      "Número de cores e imagens",
+      "Popularidade nas redes"
+    ],
+    "11": [
+      "Ler em voz alta",
+      "Traduzir o texto"
+    ],
+    "12": [
+      "Aumentar o número de páginas",
+      "Enfeitar cadernos"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Subtítulos ajudam a organizar e localizar informação.",
+      "v": true,
+      "e": "Estruturam o texto."
+    },
+    {
+      "t": "Facto é verificável; opinião é um juízo pessoal.",
+      "v": true,
+      "e": "Definição essencial."
+    },
+    {
+      "t": "As imagens nunca contribuem para a compreensão.",
+      "v": false,
+      "e": "Podem clarificar ideias."
+    },
+    {
+      "t": "Um bom resumo copia frases do texto.",
+      "v": false,
+      "e": "Deve ser com palavras próprias e conciso."
+    },
+    {
+      "t": "Conectores como ‘por isso’ indicam consequência.",
+      "v": true,
+      "e": "Marcam relação lógica."
+    },
+    {
+      "t": "A ideia principal está sempre na última frase.",
+      "v": false,
+      "e": "Pode estar no início, no meio ou implícita."
+    },
+    {
+      "t": "Avaliar a fonte aumenta a leitura crítica.",
+      "v": true,
+      "e": "Ajuda a detetar enviesamentos."
+    },
+    {
+      "t": "Tabelas e gráficos são irrelevantes em textos informativos.",
+      "v": false,
+      "e": "Sintetizam dados."
+    },
+    {
+      "t": "Inferir é adivinhar sem base textual.",
+      "v": false,
+      "e": "Exige pistas do texto."
+    },
+    {
+      "t": "Palavras‑chave ajudam a encontrar a ideia principal.",
+      "v": true,
+      "e": "Repetição e destaque sinalizam importância."
+    }
+  ]
+}

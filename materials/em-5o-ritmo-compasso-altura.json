@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Educação Musical 5.º — Ritmo, Compasso e Altura",
+    "subtitle": "Pulsação, figuras rítmicas e notas",
+    "description": "Fundamentos para leitura e prática musical em turma.",
+    "unit": "EM5_U1",
+    "version": "v1",
+    "footer": "Alinhado com AE de Educação Musical (2.º ciclo)."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Pulsação",
+      "curto": true,
+      "q": "O que é pulsação?",
+      "a": "Batida regular que sentimos numa música."
+    },
+    {
+      "id": 2,
+      "tema": "Compasso",
+      "curto": false,
+      "q": "O que indica a fórmula de compasso (ex.: 4/4)?",
+      "a": "Número de tempos por compasso e figura que vale um tempo."
+    },
+    {
+      "id": 3,
+      "tema": "Figuras",
+      "curto": true,
+      "q": "Qual figura dura mais: semínima ou mínima?",
+      "a": "Mínima."
+    },
+    {
+      "id": 4,
+      "tema": "Ritmo",
+      "curto": false,
+      "q": "O que é síncope?",
+      "a": "Acento deslocado para tempo fraco ou parte fraca do tempo."
+    },
+    {
+      "id": 5,
+      "tema": "Altura",
+      "curto": true,
+      "q": "Que notas formam a escala de Dó maior?",
+      "a": "Dó, Ré, Mi, Fá, Sol, Lá, Si."
+    },
+    {
+      "id": 6,
+      "tema": "Clave",
+      "curto": false,
+      "q": "Para que serve a clave de sol?",
+      "a": "Indicar a altura das notas na pauta (posição do Sol)."
+    },
+    {
+      "id": 7,
+      "tema": "Andamento",
+      "curto": true,
+      "q": "O que significa 'allegro'?",
+      "a": "Andamento rápido."
+    },
+    {
+      "id": 8,
+      "tema": "Dinâmica",
+      "curto": false,
+      "q": "Que indica 'forte (f)'?",
+      "a": "Tocar/cantar com intensidade alta."
+    },
+    {
+      "id": 9,
+      "tema": "Pausas",
+      "curto": true,
+      "q": "Para que serve a pausa na música?",
+      "a": "Indicar silêncio com duração específica."
+    },
+    {
+      "id": 10,
+      "tema": "Notas",
+      "curto": false,
+      "q": "Qual é a nota no 2.º espaço da pauta em clave de sol?",
+      "a": "Lá."
+    },
+    {
+      "id": 11,
+      "tema": "Tempo",
+      "curto": true,
+      "q": "O que é metrónomo?",
+      "a": "Aparelho que marca batidas regulares por minuto."
+    },
+    {
+      "id": 12,
+      "tema": "Expressão",
+      "curto": false,
+      "q": "O que é legato?",
+      "a": "Tocar/cantar ligado, sem interrupções entre notas."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Variação aleatória",
+      "Silêncio"
+    ],
+    "2": [
+      "A tonalidade",
+      "A velocidade exata em BPM"
+    ],
+    "3": [
+      "Semínima",
+      "Colcheia"
+    ],
+    "4": [
+      "Pausa longa",
+      "Aceleração do andamento"
+    ],
+    "5": [
+      "Dó, Ré, Mi, Fá#, Sol, Lá, Si",
+      "Ré, Mi, Fá, Sol, Lá, Si, Dó"
+    ],
+    "6": [
+      "Indicar o ritmo",
+      "Marcar o andamento"
+    ],
+    "7": [
+      "Andamento lento",
+      "Pausa"
+    ],
+    "8": [
+      "Tocar muito lentamente",
+      "Tocar sem ritmo"
+    ],
+    "9": [
+      "Apagar notas",
+      "Mudar de tonalidade"
+    ],
+    "10": [
+      "Mi",
+      "Dó"
+    ],
+    "11": [
+      "Instrumento de cordas",
+      "Símbolo de dinâmica"
+    ],
+    "12": [
+      "Tocar destacado",
+      "Tocar muito forte"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "A semínima dura dois tempos em compasso 4/4.",
+      "v": false,
+      "e": "Em 4/4, semínima vale 1 tempo."
+    },
+    {
+      "t": "A clave de sol posiciona a nota Sol na 2.ª linha.",
+      "v": true,
+      "e": "Referência para leitura."
+    },
+    {
+      "t": "‘Forte’ indica tocar mais alto (intenso).",
+      "v": true,
+      "e": "É um sinal de dinâmica."
+    },
+    {
+      "t": "Síncope é aceleração do andamento.",
+      "v": false,
+      "e": "É deslocação de acento."
+    },
+    {
+      "t": "‘Allegro’ significa lento.",
+      "v": false,
+      "e": "Significa rápido."
+    },
+    {
+      "t": "Pausas também têm duração definida.",
+      "v": true,
+      "e": "Como as figuras de som."
+    },
+    {
+      "t": "Legato significa destacado.",
+      "v": false,
+      "e": "Destacado é ‘staccato’."
+    },
+    {
+      "t": "Escala de Dó maior tem sustenidos por regra.",
+      "v": false,
+      "e": "É natural: sem acidentes."
+    },
+    {
+      "t": "O metrónomo mede BPM (batidas por minuto).",
+      "v": true,
+      "e": "Ajuda a manter o andamento."
+    },
+    {
+      "t": "4/4 tem quatro tempos por compasso.",
+      "v": true,
+      "e": "Cada semínima vale um tempo."
+    }
+  ]
+}

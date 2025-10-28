@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Ciências Naturais 5.º — Unidade 4",
+    "subtitle": "Sustentabilidade, resíduos e energias",
+    "description": "Gestão de recursos, reciclagem, eficiência energética e proteção da biodiversidade.",
+    "unit": "CN5_U4",
+    "version": "v1",
+    "footer": "Alinhado com as Aprendizagens Essenciais."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Reciclagem",
+      "curto": true,
+      "q": "Em que contentor colocas garrafas de vidro?",
+      "a": "No vidrão (verde)."
+    },
+    {
+      "id": 2,
+      "tema": "Resíduos",
+      "curto": false,
+      "q": "O que é a regra dos 3R?",
+      "a": "Reduzir, Reutilizar e Reciclar."
+    },
+    {
+      "id": 3,
+      "tema": "Energia",
+      "curto": false,
+      "q": "Dá dois exemplos de energias renováveis.",
+      "a": "Solar e eólica (entre outras: hídrica, geotérmica)."
+    },
+    {
+      "id": 4,
+      "tema": "Água",
+      "curto": true,
+      "q": "Indica uma medida para poupar água em casa.",
+      "a": "Tomar duches curtos e fechar a torneira ao escovar os dentes."
+    },
+    {
+      "id": 5,
+      "tema": "Biodiversidade",
+      "curto": false,
+      "q": "Porque é importante proteger as espécies nativas?",
+      "a": "Mantêm o equilíbrio dos ecossistemas e serviços ambientais."
+    },
+    {
+      "id": 6,
+      "tema": "Resíduos",
+      "curto": true,
+      "q": "O que é composto orgânico?",
+      "a": "Material biodegradável de origem vegetal/animal."
+    },
+    {
+      "id": 7,
+      "tema": "Energia",
+      "curto": false,
+      "q": "Como podes melhorar a eficiência energética em casa?",
+      "a": "Usar lâmpadas LED e desligar aparelhos em ‘standby’."
+    },
+    {
+      "id": 8,
+      "tema": "Consumo",
+      "curto": true,
+      "q": "O que significa consumo responsável?",
+      "a": "Escolher produtos duráveis, locais e com menos embalagens."
+    },
+    {
+      "id": 9,
+      "tema": "Clima",
+      "curto": false,
+      "q": "Que gás contribui para o efeito de estufa?",
+      "a": "Dióxido de carbono (CO₂)."
+    },
+    {
+      "id": 10,
+      "tema": "Recursos",
+      "curto": false,
+      "q": "Qual a diferença entre recursos renováveis e não renováveis?",
+      "a": "Renováveis regeneram-se; não renováveis esgotam-se a curto/médio prazo."
+    },
+    {
+      "id": 11,
+      "tema": "Resíduos",
+      "curto": true,
+      "q": "Onde colocas embalagens de plástico e metal?",
+      "a": "No ecoponto amarelo."
+    },
+    {
+      "id": 12,
+      "tema": "Cidadania",
+      "curto": false,
+      "q": "O que são espécies invasoras?",
+      "a": "Espécies introduzidas que causam impactos negativos nos ecossistemas."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "No ecoponto amarelo",
+      "No contentor azul"
+    ],
+    "2": [
+      "Recolher, Repor e Reagir",
+      "Revisar, Redigir e Repetir"
+    ],
+    "3": [
+      "Petróleo e carvão",
+      "Gás natural e urânio"
+    ],
+    "4": [
+      "Lavar o carro com mangueira diariamente",
+      "Deixar torneiras a pingar"
+    ],
+    "5": [
+      "Aumentam o lixo",
+      "Reduzem a fertilidade do solo"
+    ],
+    "6": [
+      "Plástico",
+      "Vidro"
+    ],
+    "7": [
+      "Deixar luzes sempre acesas",
+      "Aquecer a casa com portas/janelas abertas"
+    ],
+    "8": [
+      "Comprar o mais barato sempre",
+      "Mudar de telemóvel todos os meses"
+    ],
+    "9": [
+      "Oxigénio",
+      "Argónio"
+    ],
+    "10": [
+      "Ambos nunca se esgotam",
+      "Não há diferença"
+    ],
+    "11": [
+      "No azul",
+      "No verde"
+    ],
+    "12": [
+      "Espécies nativas protegidas",
+      "Plantas em extinção"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "O vidro pode ser reciclado muitas vezes.",
+      "v": true,
+      "e": "É 100% reciclável."
+    },
+    {
+      "t": "A energia solar é não renovável.",
+      "v": false,
+      "e": "É renovável."
+    },
+    {
+      "t": "Reciclar é menos importante do que reduzir e reutilizar.",
+      "v": false,
+      "e": "Ideal é primeiro reduzir e reutilizar; reciclar é também essencial."
+    },
+    {
+      "t": "O desperdício alimentar contribui para emissões de gases com efeito de estufa.",
+      "v": true,
+      "e": "Resíduos orgânicos em aterro geram metano."
+    },
+    {
+      "t": "Andar a pé ou de bicicleta reduz a pegada ecológica.",
+      "v": true,
+      "e": "Menos emissões e mais saúde."
+    },
+    {
+      "t": "Deitar óleos usados no lava-loiça é correto.",
+      "v": false,
+      "e": "Deve ser entregue em oleões."
+    },
+    {
+      "t": "Comprar local pode reduzir emissões de transporte.",
+      "v": true,
+      "e": "Menos quilómetros percorridos."
+    },
+    {
+      "t": "As espécies invasoras nunca prejudicam ecossistemas.",
+      "v": false,
+      "e": "Podem competir com nativas e alterar habitats."
+    },
+    {
+      "t": "Plástico no ecoponto azul é a opção correta.",
+      "v": false,
+      "e": "Plástico vai para amarelo; azul é para papel/cartão."
+    },
+    {
+      "t": "Desligar aparelhos da tomada evita consumos ‘fantasma’.",
+      "v": true,
+      "e": "Reduz o consumo em standby."
+    }
+  ]
+}

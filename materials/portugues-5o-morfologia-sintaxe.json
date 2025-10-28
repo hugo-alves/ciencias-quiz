@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Português 5.º — Morfologia e Sintaxe",
+    "subtitle": "Classes de palavras e funções na frase",
+    "description": "Reconhecimento de classes e noções de sujeito, predicado e complementos.",
+    "unit": "PT5_MORF",
+    "version": "v1",
+    "footer": "Coerente com as AE de Português (2.º ciclo)."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Classes",
+      "curto": true,
+      "q": "Identifica a classe: 'rápido' em 'corre rápido'.",
+      "a": "Advérbio."
+    },
+    {
+      "id": 2,
+      "tema": "Classes",
+      "curto": false,
+      "q": "O que é um determinante?",
+      "a": "Palavra que acompanha o nome indicando género/número/posse."
+    },
+    {
+      "id": 3,
+      "tema": "Funções",
+      "curto": true,
+      "q": "Qual é o sujeito: 'As crianças brincam no pátio'.",
+      "a": "As crianças."
+    },
+    {
+      "id": 4,
+      "tema": "Funções",
+      "curto": false,
+      "q": "Identifica o complemento direto: 'O João leu o livro.'",
+      "a": "o livro."
+    },
+    {
+      "id": 5,
+      "tema": "Concordância",
+      "curto": true,
+      "q": "Escolhe a forma correta: 'os caderno(s) azul( ___ )'.",
+      "a": "os cadernos azuis"
+    },
+    {
+      "id": 6,
+      "tema": "Classes",
+      "curto": false,
+      "q": "O que é um pronome pessoal?",
+      "a": "Palavra que substitui o nome (eu, tu, ele...)."
+    },
+    {
+      "id": 7,
+      "tema": "Conjunções",
+      "curto": true,
+      "q": "Indica uma conjunção coordenativa aditiva.",
+      "a": "e; bem como; não só... mas também."
+    },
+    {
+      "id": 8,
+      "tema": "Preposições",
+      "curto": false,
+      "q": "O que exprimem as preposições?",
+      "a": "Relações de sentido (lugar, tempo, causa)."
+    },
+    {
+      "id": 9,
+      "tema": "Classes",
+      "curto": true,
+      "q": "Identifica a classe: 'feliz' em 'rapaz feliz'.",
+      "a": "Adjetivo."
+    },
+    {
+      "id": 10,
+      "tema": "Frase",
+      "curto": false,
+      "q": "Que é uma frase simples?",
+      "a": "Tem apenas uma oração."
+    },
+    {
+      "id": 11,
+      "tema": "Funções",
+      "curto": true,
+      "q": "Qual é o predicado: 'A Ana estudou muito.'",
+      "a": "estudou muito."
+    },
+    {
+      "id": 12,
+      "tema": "Classes",
+      "curto": false,
+      "q": "O que é um verbo?",
+      "a": "Palavra que exprime ação, estado ou fenómeno."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Adjetivo",
+      "Verbo"
+    ],
+    "2": [
+      "Palavra que substitui o nome",
+      "Palavra que exprime ação"
+    ],
+    "3": [
+      "brincam",
+      "no pátio"
+    ],
+    "4": [
+      "O João",
+      "leu"
+    ],
+    "5": [
+      "os cadernos azul",
+      "os caderno azuis"
+    ],
+    "6": [
+      "Palavra que liga orações",
+      "Palavra que nomeia seres"
+    ],
+    "7": [
+      "porque",
+      "embora"
+    ],
+    "8": [
+      "Qualidades do nome",
+      "Modos da ação"
+    ],
+    "9": [
+      "Advérbio",
+      "Nome"
+    ],
+    "10": [
+      "Tem várias orações",
+      "Não tem verbo"
+    ],
+    "11": [
+      "A Ana",
+      "muito"
+    ],
+    "12": [
+      "Palavra que substitui o nome",
+      "Palavra invariável que liga termos"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Determinantes e pronomes são a mesma coisa.",
+      "v": false,
+      "e": "Têm funções diferentes."
+    },
+    {
+      "t": "O sujeito é o elemento de quem se diz algo.",
+      "v": true,
+      "e": "Concorda com o verbo."
+    },
+    {
+      "t": "Advérbios modificam verbos, adjetivos ou outros advérbios.",
+      "v": true,
+      "e": "Ex.: muito, bem, depressa."
+    },
+    {
+      "t": "Uma frase simples tem mais do que uma oração.",
+      "v": false,
+      "e": "Tem apenas uma."
+    },
+    {
+      "t": "Conjunções coordenativas ligam termos de igual função.",
+      "v": true,
+      "e": "Ex.: e, mas, ou."
+    },
+    {
+      "t": "O complemento direto responde a ‘quem?’ em todos os casos.",
+      "v": false,
+      "e": "Tipicamente ‘o quê?’ em relação ao verbo transitivo."
+    },
+    {
+      "t": "Os adjetivos concordam em género e número com o nome.",
+      "v": true,
+      "e": "Ex.: menina alta / meninos altos."
+    },
+    {
+      "t": "Preposições indicam relações (lugar/tempo/causa).",
+      "v": true,
+      "e": "Ex.: em, de, para."
+    },
+    {
+      "t": "Todo advérbio termina em ‘-mente’.",
+      "v": false,
+      "e": "Há advérbios como ‘bem’, ‘mal’, ‘aqui’."
+    },
+    {
+      "t": "O predicado é tudo o que não é sujeito.",
+      "v": true,
+      "e": "Estrutura típica: sujeito + predicado."
+    }
+  ]
+}

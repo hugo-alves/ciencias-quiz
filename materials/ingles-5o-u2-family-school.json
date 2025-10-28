@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Inglês 5.º Ano — Unidade 2",
+    "subtitle": "Família, escola e rotinas — 'to have got', 'there is/are', possessive 's",
+    "description": "Prática comunicativa (nível A1): informação pessoal, casa/escola, objetos e rotinas.",
+    "unit": "U2",
+    "version": "v1",
+    "footer": "Baseado nas Aprendizagens Essenciais de Inglês do 5.º ano."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Have got",
+      "curto": true,
+      "q": "Completa: \"I ___ two brothers.\"",
+      "a": "have got"
+    },
+    {
+      "id": 2,
+      "tema": "Have got",
+      "curto": true,
+      "q": "Como se escreve a forma negativa de \"She has got\"?",
+      "a": "She hasn’t got"
+    },
+    {
+      "id": 3,
+      "tema": "There is/There are",
+      "curto": false,
+      "q": "Escreve uma frase com \"There is\" sobre a tua sala de aula.",
+      "a": "There is a whiteboard in my classroom."
+    },
+    {
+      "id": 4,
+      "tema": "There is/There are",
+      "curto": true,
+      "q": "Qual é a forma plural?",
+      "a": "There are"
+    },
+    {
+      "id": 5,
+      "tema": "Possessive 's",
+      "curto": false,
+      "q": "Transforma para mostrar posse: \"the book of Maria\".",
+      "a": "Maria’s book."
+    },
+    {
+      "id": 6,
+      "tema": "Rotinas",
+      "curto": true,
+      "q": "Escreve: \"Eu acordo às 7:00\" (em inglês).",
+      "a": "I wake up at seven o’clock."
+    },
+    {
+      "id": 7,
+      "tema": "Família",
+      "curto": false,
+      "q": "Diz em inglês: \"O meu pai chama‑se João e a minha mãe chama‑se Ana.\"",
+      "a": "My father’s name is João and my mother’s name is Ana."
+    },
+    {
+      "id": 8,
+      "tema": "Preposições de lugar",
+      "curto": true,
+      "q": "Qual a preposição correta? \"The book is ___ the table\".",
+      "a": "on"
+    },
+    {
+      "id": 9,
+      "tema": "Vocabulário — Casa",
+      "curto": false,
+      "q": "Diz em inglês três divisões da casa.",
+      "a": "Kitchen, bedroom, bathroom."
+    },
+    {
+      "id": 10,
+      "tema": "Perguntas",
+      "curto": false,
+      "q": "Faz uma pergunta adequada para obter idade de alguém.",
+      "a": "How old are you?"
+    },
+    {
+      "id": 11,
+      "tema": "Escola",
+      "curto": true,
+      "q": "Completa: \"My favourite subject is ___\".",
+      "a": "English (ou outro)."
+    },
+    {
+      "id": 12,
+      "tema": "Ortografia",
+      "curto": true,
+      "q": "Escreve o plural de \"box\".",
+      "a": "boxes"
+    }
+  ],
+  "distractors": {
+    "1": [
+      "has got",
+      "am got",
+      "got"
+    ],
+    "2": [
+      "She don’t has got",
+      "She isn’t got",
+      "She hasn’t"
+    ],
+    "3": [
+      "There are a whiteboard…",
+      "There is two desks…",
+      "Is there a whiteboard in my classroom."
+    ],
+    "4": [
+      "There is",
+      "There am",
+      "There be"
+    ],
+    "5": [
+      "Marias book",
+      "Marias’ book",
+      "The Maria’s book"
+    ],
+    "6": [
+      "I wakes up at seven o’clock.",
+      "I wake at seven hours.",
+      "I get up at seven o’clock am o’clock."
+    ],
+    "7": [
+      "My father name is João and my mother name is Ana.",
+      "My father is João and my mother Ana is name.",
+      "The name of my father’s João and the name my mother’s Ana."
+    ],
+    "8": [
+      "in",
+      "at",
+      "under (se a frase disser 'em cima')"
+    ],
+    "9": [
+      "Garden, window, fridge",
+      "Coat, pencil, bag",
+      "Bus, train, plane"
+    ],
+    "10": [
+      "How are you old?",
+      "What old are you?",
+      "How years do you have?"
+    ],
+    "11": [
+      "is Maths are",
+      "it’s favourite subject English",
+      "My favourite is subject English"
+    ],
+    "12": [
+      "boxs",
+      "boxies",
+      "boxe"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "‘There are’ usa‑se para plural.",
+      "v": true,
+      "e": "Para singular usa‑se ‘There is’."
+    },
+    {
+      "t": "‘She hasn’t got’ é a forma negativa correta de ‘She has got’.",
+      "v": true,
+      "e": "Contração de ‘has not’."
+    },
+    {
+      "t": "Em inglês, pergunta de idade: ‘How old are you?’",
+      "v": true,
+      "e": "Estrutura correta para pedir a idade."
+    },
+    {
+      "t": "O possessivo 's coloca‑se após o possuidor (ex.: Maria’s book).",
+      "v": true,
+      "e": "Marca posse."
+    },
+    {
+      "t": "‘On’ significa ‘em cima de’ (com contacto).",
+      "v": true,
+      "e": "Ex.: on the table."
+    },
+    {
+      "t": "O plural de ‘box’ é ‘boxs’.",
+      "v": false,
+      "e": "Acrescenta‑se ‘-es’: ‘boxes’."
+    },
+    {
+      "t": "‘I wake up at seven o’clock’ está correto.",
+      "v": true,
+      "e": "Frase no presente simples."
+    },
+    {
+      "t": "‘There is a desks’ está correto.",
+      "v": false,
+      "e": "Deve concordar: ‘There are desks’ ou ‘There is a desk’."
+    }
+  ]
+}

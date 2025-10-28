@@ -1,0 +1,1309 @@
+{
+  "metadata": {
+    "title": "Matemática 5.º — Mega Drills",
+    "subtitle": "100 questões de cálculo, frações e decimais",
+    "description": "Prática intensiva para consolidar competências fundamentais.",
+    "unit": "MAT5_DRILLS100",
+    "version": "v1",
+    "footer": "Alinhado com Aprendizagens Essenciais — 2.º ciclo."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 754 + 214",
+      "a": "968"
+    },
+    {
+      "id": 2,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 125 + 859",
+      "a": "984"
+    },
+    {
+      "id": 3,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 381 + 350",
+      "a": "731"
+    },
+    {
+      "id": 4,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 328 + 242",
+      "a": "570"
+    },
+    {
+      "id": 5,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 854 + 204",
+      "a": "1058"
+    },
+    {
+      "id": 6,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 792 + 858",
+      "a": "1650"
+    },
+    {
+      "id": 7,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 658 + 189",
+      "a": "847"
+    },
+    {
+      "id": 8,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 704 + 532",
+      "a": "1236"
+    },
+    {
+      "id": 9,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 132 + 130",
+      "a": "262"
+    },
+    {
+      "id": 10,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 195 + 323",
+      "a": "518"
+    },
+    {
+      "id": 11,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 338 + 617",
+      "a": "955"
+    },
+    {
+      "id": 12,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 716 + 127",
+      "a": "843"
+    },
+    {
+      "id": 13,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 674 + 303",
+      "a": "977"
+    },
+    {
+      "id": 14,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 833 + 765",
+      "a": "1598"
+    },
+    {
+      "id": 15,
+      "tema": "Adição",
+      "curto": true,
+      "q": "Calcula: 818 + 658",
+      "a": "1476"
+    },
+    {
+      "id": 16,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 629 − 325",
+      "a": "304"
+    },
+    {
+      "id": 17,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 703 − 659",
+      "a": "44"
+    },
+    {
+      "id": 18,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 484 − 106",
+      "a": "378"
+    },
+    {
+      "id": 19,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 977 − 263",
+      "a": "714"
+    },
+    {
+      "id": 20,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 914 − 532",
+      "a": "382"
+    },
+    {
+      "id": 21,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 548 − 384",
+      "a": "164"
+    },
+    {
+      "id": 22,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 359 − 320",
+      "a": "39"
+    },
+    {
+      "id": 23,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 981 − 444",
+      "a": "537"
+    },
+    {
+      "id": 24,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 304 − 194",
+      "a": "110"
+    },
+    {
+      "id": 25,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 589 − 199",
+      "a": "390"
+    },
+    {
+      "id": 26,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 567 − 452",
+      "a": "115"
+    },
+    {
+      "id": 27,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 818 − 370",
+      "a": "448"
+    },
+    {
+      "id": 28,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 847 − 244",
+      "a": "603"
+    },
+    {
+      "id": 29,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 670 − 649",
+      "a": "21"
+    },
+    {
+      "id": 30,
+      "tema": "Subtração",
+      "curto": true,
+      "q": "Calcula: 487 − 327",
+      "a": "160"
+    },
+    {
+      "id": 31,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 7 × 11",
+      "a": "77"
+    },
+    {
+      "id": 32,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 10 × 12",
+      "a": "120"
+    },
+    {
+      "id": 33,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 19 × 8",
+      "a": "152"
+    },
+    {
+      "id": 34,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 15 × 6",
+      "a": "90"
+    },
+    {
+      "id": 35,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 17 × 4",
+      "a": "68"
+    },
+    {
+      "id": 36,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 6 × 6",
+      "a": "36"
+    },
+    {
+      "id": 37,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 18 × 7",
+      "a": "126"
+    },
+    {
+      "id": 38,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 7 × 6",
+      "a": "42"
+    },
+    {
+      "id": 39,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 19 × 4",
+      "a": "76"
+    },
+    {
+      "id": 40,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 12 × 7",
+      "a": "84"
+    },
+    {
+      "id": 41,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 13 × 8",
+      "a": "104"
+    },
+    {
+      "id": 42,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 8 × 8",
+      "a": "64"
+    },
+    {
+      "id": 43,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 11 × 6",
+      "a": "66"
+    },
+    {
+      "id": 44,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 16 × 7",
+      "a": "112"
+    },
+    {
+      "id": 45,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 17 × 4",
+      "a": "68"
+    },
+    {
+      "id": 46,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 15 × 5",
+      "a": "75"
+    },
+    {
+      "id": 47,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 14 × 6",
+      "a": "84"
+    },
+    {
+      "id": 48,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 8 × 10",
+      "a": "80"
+    },
+    {
+      "id": 49,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 12 × 7",
+      "a": "84"
+    },
+    {
+      "id": 50,
+      "tema": "Multiplicação",
+      "curto": true,
+      "q": "Calcula: 16 × 11",
+      "a": "176"
+    },
+    {
+      "id": 51,
+      "tema": "Divisão",
+      "curto": true,
+      "q": "Calcula: 120 ÷ 5",
+      "a": "24"
+    },
+    {
+      "id": 52,
+      "tema": "Divisão",
+      "curto": true,
+      "q": "Calcula: 36 ÷ 2",
+      "a": "18"
+    },
+    {
+      "id": 53,
+      "tema": "Divisão",
+      "curto": true,
+      "q": "Calcula: 48 ÷ 2",
+      "a": "24"
+    },
+    {
+      "id": 54,
+      "tema": "Divisão",
+      "curto": true,
+      "q": "Calcula: 168 ÷ 8",
+      "a": "21"
+    },
+    {
+      "id": 55,
+      "tema": "Divisão",
+      "curto": true,
+      "q": "Calcula: 51 ÷ 3",
+      "a": "17"
+    },
+    {
+      "id": 56,
+      "tema": "Divisão",
+      "curto": true,
+      "q": "Calcula: 264 ÷ 11",
+      "a": "24"
+    },
+    {
+      "id": 57,
+      "tema": "Divisão",
+      "curto": true,
+      "q": "Calcula: 175 ÷ 5",
+      "a": "35"
+    },
+    {
+      "id": 58,
+      "tema": "Divisão",
+      "curto": true,
+      "q": "Calcula: 264 ÷ 8",
+      "a": "33"
+    },
+    {
+      "id": 59,
+      "tema": "Divisão",
+      "curto": true,
+      "q": "Calcula: 80 ÷ 4",
+      "a": "20"
+    },
+    {
+      "id": 60,
+      "tema": "Divisão",
+      "curto": true,
+      "q": "Calcula: 76 ÷ 4",
+      "a": "19"
+    },
+    {
+      "id": 61,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 9/12 multiplicando ambos por 4.",
+      "a": "36/48"
+    },
+    {
+      "id": 62,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 7/12 multiplicando ambos por 5.",
+      "a": "35/60"
+    },
+    {
+      "id": 63,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 6/8 multiplicando ambos por 3.",
+      "a": "18/24"
+    },
+    {
+      "id": 64,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 9/11 multiplicando ambos por 2.",
+      "a": "18/22"
+    },
+    {
+      "id": 65,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 1/3 multiplicando ambos por 3.",
+      "a": "3/9"
+    },
+    {
+      "id": 66,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 3/10 multiplicando ambos por 2.",
+      "a": "6/20"
+    },
+    {
+      "id": 67,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 7/11 multiplicando ambos por 5.",
+      "a": "35/55"
+    },
+    {
+      "id": 68,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 9/11 multiplicando ambos por 2.",
+      "a": "18/22"
+    },
+    {
+      "id": 69,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 2/11 multiplicando ambos por 4.",
+      "a": "8/44"
+    },
+    {
+      "id": 70,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 6/7 multiplicando ambos por 4.",
+      "a": "24/28"
+    },
+    {
+      "id": 71,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 7/9 multiplicando ambos por 5.",
+      "a": "35/45"
+    },
+    {
+      "id": 72,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 1/6 multiplicando ambos por 3.",
+      "a": "3/18"
+    },
+    {
+      "id": 73,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 9/10 multiplicando ambos por 4.",
+      "a": "36/40"
+    },
+    {
+      "id": 74,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 9/12 multiplicando ambos por 3.",
+      "a": "27/36"
+    },
+    {
+      "id": 75,
+      "tema": "Frações",
+      "curto": false,
+      "q": "Dá uma fração equivalente a 3/9 multiplicando ambos por 3.",
+      "a": "9/27"
+    },
+    {
+      "id": 76,
+      "tema": "Frações",
+      "curto": true,
+      "q": "Qual é maior: 1/2 ou 3/4?",
+      "a": "3/4"
+    },
+    {
+      "id": 77,
+      "tema": "Frações",
+      "curto": true,
+      "q": "Qual é maior: 2/3 ou 3/5?",
+      "a": "2/3"
+    },
+    {
+      "id": 78,
+      "tema": "Frações",
+      "curto": true,
+      "q": "Qual é maior: 3/5 ou 1/2?",
+      "a": "3/5"
+    },
+    {
+      "id": 79,
+      "tema": "Frações",
+      "curto": true,
+      "q": "Qual é maior: 1/4 ou 2/5?",
+      "a": "2/5"
+    },
+    {
+      "id": 80,
+      "tema": "Frações",
+      "curto": true,
+      "q": "Qual é maior: 5/8 ou 3/4?",
+      "a": "3/4"
+    },
+    {
+      "id": 81,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 7,9 + 0,72",
+      "a": "8,62"
+    },
+    {
+      "id": 82,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 1,0 + 0,81",
+      "a": "1,81"
+    },
+    {
+      "id": 83,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 5,1 + 0,67",
+      "a": "5,77"
+    },
+    {
+      "id": 84,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 1,2 + 0,19",
+      "a": "1,39"
+    },
+    {
+      "id": 85,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 5,6 + 0,44",
+      "a": "6,04"
+    },
+    {
+      "id": 86,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 4,0 + 0,12",
+      "a": "4,12"
+    },
+    {
+      "id": 87,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 4,0 + 0,77",
+      "a": "4,77"
+    },
+    {
+      "id": 88,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 2,0 + 0,15",
+      "a": "2,15"
+    },
+    {
+      "id": 89,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 7,2 + 0,13",
+      "a": "7,33"
+    },
+    {
+      "id": 90,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 7,8 + 0,21",
+      "a": "8,01"
+    },
+    {
+      "id": 91,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 3,31 − 1,78",
+      "a": "1,53"
+    },
+    {
+      "id": 92,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 6,86 − 1,50",
+      "a": "5,36"
+    },
+    {
+      "id": 93,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 3,69 − 0,77",
+      "a": "2,92"
+    },
+    {
+      "id": 94,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 7,40 − 1,65",
+      "a": "5,75"
+    },
+    {
+      "id": 95,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 6,33 − 0,64",
+      "a": "5,69"
+    },
+    {
+      "id": 96,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 7,52 − 1,96",
+      "a": "5,56"
+    },
+    {
+      "id": 97,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 9,06 − 0,61",
+      "a": "8,45"
+    },
+    {
+      "id": 98,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 9,30 − 0,89",
+      "a": "8,41"
+    },
+    {
+      "id": 99,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 6,08 − 1,81",
+      "a": "4,27"
+    },
+    {
+      "id": 100,
+      "tema": "Decimais",
+      "curto": true,
+      "q": "Calcula: 8,65 − 1,05",
+      "a": "7,60"
+    }
+  ],
+  "distractors": {
+    "1": [
+      "978",
+      "969",
+      "967"
+    ],
+    "2": [
+      "983",
+      "994",
+      "985"
+    ],
+    "3": [
+      "741",
+      "732",
+      "730"
+    ],
+    "4": [
+      "571",
+      "580",
+      "569"
+    ],
+    "5": [
+      "1057",
+      "1059",
+      "1068"
+    ],
+    "6": [
+      "1649",
+      "1651",
+      "1660"
+    ],
+    "7": [
+      "857",
+      "846",
+      "848"
+    ],
+    "8": [
+      "1246",
+      "1237",
+      "1235"
+    ],
+    "9": [
+      "263",
+      "261",
+      "272"
+    ],
+    "10": [
+      "528",
+      "519",
+      "517"
+    ],
+    "11": [
+      "956",
+      "965",
+      "954"
+    ],
+    "12": [
+      "842",
+      "844",
+      "853"
+    ],
+    "13": [
+      "978",
+      "987",
+      "976"
+    ],
+    "14": [
+      "1608",
+      "1599",
+      "1597"
+    ],
+    "15": [
+      "1477",
+      "1486",
+      "1475"
+    ],
+    "16": [
+      "305",
+      "294",
+      "303"
+    ],
+    "17": [
+      "43",
+      "45",
+      "34"
+    ],
+    "18": [
+      "377",
+      "368",
+      "379"
+    ],
+    "19": [
+      "715",
+      "704",
+      "713"
+    ],
+    "20": [
+      "381",
+      "383",
+      "372"
+    ],
+    "21": [
+      "154",
+      "163",
+      "165"
+    ],
+    "22": [
+      "29",
+      "38",
+      "40"
+    ],
+    "23": [
+      "527",
+      "536",
+      "538"
+    ],
+    "24": [
+      "111",
+      "100",
+      "109"
+    ],
+    "25": [
+      "391",
+      "380",
+      "389"
+    ],
+    "26": [
+      "116",
+      "105",
+      "114"
+    ],
+    "27": [
+      "449",
+      "438",
+      "447"
+    ],
+    "28": [
+      "604",
+      "593",
+      "602"
+    ],
+    "29": [
+      "11",
+      "20",
+      "22"
+    ],
+    "30": [
+      "159",
+      "161",
+      "150"
+    ],
+    "31": [
+      "88",
+      "84",
+      "70"
+    ],
+    "32": [
+      "110",
+      "132",
+      "130"
+    ],
+    "33": [
+      "133",
+      "171",
+      "160"
+    ],
+    "34": [
+      "105",
+      "75",
+      "96"
+    ],
+    "35": [
+      "51",
+      "72",
+      "85"
+    ],
+    "36": [
+      "30",
+      "42"
+    ],
+    "37": [
+      "144",
+      "108",
+      "133"
+    ],
+    "38": [
+      "35",
+      "48",
+      "49"
+    ],
+    "39": [
+      "57",
+      "80",
+      "95"
+    ],
+    "40": [
+      "72",
+      "96",
+      "91"
+    ],
+    "41": [
+      "117",
+      "112",
+      "91"
+    ],
+    "42": [
+      "56",
+      "72"
+    ],
+    "43": [
+      "77",
+      "72",
+      "55"
+    ],
+    "44": [
+      "128",
+      "96",
+      "119"
+    ],
+    "45": [
+      "51",
+      "72",
+      "85"
+    ],
+    "46": [
+      "90",
+      "80",
+      "60"
+    ],
+    "47": [
+      "90",
+      "98",
+      "70"
+    ],
+    "48": [
+      "88",
+      "90",
+      "72"
+    ],
+    "49": [
+      "72",
+      "96",
+      "91"
+    ],
+    "50": [
+      "187",
+      "192",
+      "160"
+    ],
+    "51": [
+      "26",
+      "23",
+      "25"
+    ],
+    "52": [
+      "17",
+      "19",
+      "20"
+    ],
+    "53": [
+      "26",
+      "23",
+      "25"
+    ],
+    "54": [
+      "23",
+      "20",
+      "22"
+    ],
+    "55": [
+      "16",
+      "19",
+      "18"
+    ],
+    "56": [
+      "26",
+      "23",
+      "25"
+    ],
+    "57": [
+      "37",
+      "34",
+      "36"
+    ],
+    "58": [
+      "32",
+      "35",
+      "34"
+    ],
+    "59": [
+      "21",
+      "19",
+      "22"
+    ],
+    "60": [
+      "21",
+      "18",
+      "20"
+    ],
+    "61": [
+      "36/16",
+      "9/48",
+      "13/48"
+    ],
+    "62": [
+      "35/17",
+      "7/60",
+      "12/60"
+    ],
+    "63": [
+      "6/24",
+      "18/11",
+      "9/24"
+    ],
+    "64": [
+      "11/22",
+      "9/22",
+      "18/13"
+    ],
+    "65": [
+      "4/9",
+      "1/9",
+      "3/6"
+    ],
+    "66": [
+      "5/20",
+      "6/12",
+      "3/20"
+    ],
+    "67": [
+      "12/55",
+      "35/16",
+      "7/55"
+    ],
+    "68": [
+      "11/22",
+      "9/22",
+      "18/13"
+    ],
+    "69": [
+      "2/44",
+      "8/15",
+      "6/44"
+    ],
+    "70": [
+      "6/28",
+      "24/11",
+      "10/28"
+    ],
+    "71": [
+      "35/14",
+      "7/45",
+      "12/45"
+    ],
+    "72": [
+      "4/18",
+      "1/18",
+      "3/9"
+    ],
+    "73": [
+      "9/40",
+      "36/14",
+      "13/40"
+    ],
+    "74": [
+      "12/36",
+      "9/36",
+      "27/15"
+    ],
+    "75": [
+      "3/27",
+      "9/12",
+      "6/27"
+    ],
+    "76": [
+      "São iguais",
+      "1/2",
+      "Não se pode comparar"
+    ],
+    "77": [
+      "3/5",
+      "São iguais",
+      "Não se pode comparar"
+    ],
+    "78": [
+      "São iguais",
+      "1/2",
+      "Não se pode comparar"
+    ],
+    "79": [
+      "São iguais",
+      "1/4",
+      "Não se pode comparar"
+    ],
+    "80": [
+      "São iguais",
+      "5/8",
+      "Não se pode comparar"
+    ],
+    "81": [
+      "8,60",
+      "8,72",
+      "8,52"
+    ],
+    "82": [
+      "1,80",
+      "1,91",
+      "1,71"
+    ],
+    "83": [
+      "5,87",
+      "5,67",
+      "5,80"
+    ],
+    "84": [
+      "1,29",
+      "1,40",
+      "1,49"
+    ],
+    "85": [
+      "6,00",
+      "6,14",
+      "5,94"
+    ],
+    "86": [
+      "4,02",
+      "4,10",
+      "4,22"
+    ],
+    "87": [
+      "4,80",
+      "4,87",
+      "4,67"
+    ],
+    "88": [
+      "2,25",
+      "2,05",
+      "2,10"
+    ],
+    "89": [
+      "7,30",
+      "7,43",
+      "7,23"
+    ],
+    "90": [
+      "8,00",
+      "7,91",
+      "8,11"
+    ],
+    "91": [
+      "1,54",
+      "1,52",
+      "1,63"
+    ],
+    "92": [
+      "5,37",
+      "5,46",
+      "5,35"
+    ],
+    "93": [
+      "2,91",
+      "3,02",
+      "2,93"
+    ],
+    "94": [
+      "5,74",
+      "5,85",
+      "5,76"
+    ],
+    "95": [
+      "5,68",
+      "5,79",
+      "5,70"
+    ],
+    "96": [
+      "5,66",
+      "5,57",
+      "5,55"
+    ],
+    "97": [
+      "8,46",
+      "8,55",
+      "8,44"
+    ],
+    "98": [
+      "8,40",
+      "8,42",
+      "8,51"
+    ],
+    "99": [
+      "4,37",
+      "4,26",
+      "4,28"
+    ],
+    "100": [
+      "7,61",
+      "7,70",
+      "7,59"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Se um número termina em 0, é divisível por 2 e por 5.",
+      "v": true,
+      "e": "Terminar em 0 implica ser múltiplo de 10."
+    },
+    {
+      "t": "Frações equivalentes representam a mesma quantidade.",
+      "v": true,
+      "e": "Ex.: 1/2 = 2/4."
+    },
+    {
+      "t": "A comutativa aplica-se à adição e à multiplicação.",
+      "v": true,
+      "e": "A ordem dos termos não altera o resultado."
+    },
+    {
+      "t": "0,25 é igual a 1/3.",
+      "v": false,
+      "e": "0,25 = 1/4."
+    },
+    {
+      "t": "Se um número termina em 5, é sempre par.",
+      "v": false,
+      "e": "Terminar em 5 indica múltiplo de 5 e ímpar."
+    },
+    {
+      "t": "16 × 18 = 288",
+      "v": true,
+      "e": "Produto correto."
+    },
+    {
+      "t": "16 + 18 = 39",
+      "v": false,
+      "e": "A soma correta é 34."
+    },
+    {
+      "t": "5 × 9 = 45",
+      "v": true,
+      "e": "Produto correto."
+    },
+    {
+      "t": "5 + 9 = 16",
+      "v": false,
+      "e": "A soma correta é 14."
+    },
+    {
+      "t": "4 × 12 = 48",
+      "v": true,
+      "e": "Produto correto."
+    },
+    {
+      "t": "4 + 12 = 17",
+      "v": false,
+      "e": "A soma correta é 16."
+    },
+    {
+      "t": "20 × 19 = 380",
+      "v": true,
+      "e": "Produto correto."
+    },
+    {
+      "t": "20 + 19 = 41",
+      "v": false,
+      "e": "A soma correta é 39."
+    },
+    {
+      "t": "20 × 9 = 180",
+      "v": true,
+      "e": "Produto correto."
+    },
+    {
+      "t": "20 + 9 = 30",
+      "v": false,
+      "e": "A soma correta é 29."
+    },
+    {
+      "t": "4 × 3 = 12",
+      "v": true,
+      "e": "Produto correto."
+    },
+    {
+      "t": "4 + 3 = 9",
+      "v": false,
+      "e": "A soma correta é 7."
+    },
+    {
+      "t": "4 × 3 = 12",
+      "v": true,
+      "e": "Produto correto."
+    },
+    {
+      "t": "4 + 3 = 10",
+      "v": false,
+      "e": "A soma correta é 7."
+    }
+  ]
+}

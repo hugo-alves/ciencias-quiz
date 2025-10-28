@@ -194,128 +194,10 @@
     <p class="subtitle">Selecione o conteúdo que deseja estudar</p>
   </div>
 
-  <div class="section">
-    <h2 class="section-title">Português 5.º ano</h2>
-    <div class="content-list">
-      <div class="content-card" onclick="loadQuiz('portugues-5o-oralidade.json')">
-        <div class="content-info">
-          <h2>Oralidade & Interação</h2>
-          <p>Debates, escuta ativa e apresentações guiadas • 4 cartões • v1</p>
-        </div>
-        <div>
-          <span class="badge">Português</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
-
-      <div class="content-card" onclick="loadQuiz('portugues-5o-leitura.json')">
-        <div class="content-info">
-          <h2>Leitura & Educação Literária</h2>
-          <p>Estratégias de compreensão, poesia e obras recomendadas • 4 cartões • v1</p>
-        </div>
-        <div>
-          <span class="badge">Português</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
-
-      <div class="content-card" onclick="loadQuiz('portugues-5o-escrita-gramatica.json')">
-        <div class="content-info">
-          <h2>Escrita & Gramática</h2>
-          <p>Processo de revisão, pontuação e classes de palavras • 4 cartões • v1</p>
-        </div>
-        <div>
-          <span class="badge">Português</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2 class="section-title">História e Geografia de Portugal 5.º ano</h2>
-    <div class="content-list">
-      <div class="content-card" onclick="loadQuiz('hgp-5o-territorio.json')">
-        <div class="content-info">
-          <h2>Portugal: Território e Paisagens</h2>
-          <p>Localização, relevo e organização administrativa • 4 cartões • v1</p>
-        </div>
-        <div>
-          <span class="badge">HGP</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
-
-      <div class="content-card" onclick="loadQuiz('hgp-5o-formacao-reino.json')">
-        <div class="content-info">
-          <h2>Formação do Reino</h2>
-          <p>Reconquista, Tratado de Zamora e primeiras Cortes • 4 cartões • v1</p>
-        </div>
-        <div>
-          <span class="badge">HGP</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
-
-      <div class="content-card" onclick="loadQuiz('hgp-5o-expansao.json')">
-        <div class="content-info">
-          <h2>Expansão e Vida Quotidiana</h2>
-          <p>Viagens oceânicas, comércio atlântico e Restauração • 4 cartões • v1</p>
-        </div>
-        <div>
-          <span class="badge">HGP</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2 class="section-title">Outros Conteúdos Disponíveis</h2>
-    <div class="content-list">
-      <div class="content-card" onclick="loadQuiz('ciencias-u1-content.json')">
-        <div class="content-info">
-          <h2>Ciências Naturais 5.º — Unidade 1</h2>
-          <p>A Terra, planeta especial • 34 cartões • Versão estrita v2</p>
-        </div>
-        <div>
-          <span class="badge">Ciências</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
-
-      <div class="content-card" onclick="loadQuiz('example-historia.json')">
-        <div class="content-info">
-          <h2>História 5.º — Unidade 1</h2>
-          <p>A Península Ibérica na Europa e no Mundo • 10 cartões • Exemplo</p>
-        </div>
-        <div>
-          <span class="badge">História</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
-
-      <div class="content-card" onclick="loadQuiz('historia 5.json')">
-        <div class="content-info">
-          <h2>História e Geografia de Portugal 5.º — Unidade 1 (completa)</h2>
-          <p>A presença romana, invasão muçulmana e Reconquista Cristã • 22 cartões</p>
-        </div>
-        <div>
-          <span class="badge">História</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
-
-      <div class="content-card" onclick="loadQuiz('ingles.json')">
-        <div class="content-info">
-          <h2>Inglês 5.º — Unidade 1</h2>
-          <p>Verbo to be, pronomes pessoais, vocabulário e informação pessoal • 50 cartões • v1</p>
-        </div>
-        <div>
-          <span class="badge">Inglês</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
+  <!-- Quiz content will be dynamically loaded here -->
+  <div id="quizContainer">
+    <div style="text-align: center; padding: 2rem; color: var(--muted);">
+      <p>⏳ A carregar conteúdos disponíveis...</p>
     </div>
   </div>
 
@@ -364,7 +246,153 @@
 
 <script>
 function loadQuiz(contentFile) {
-  window.location.href = `quiz-template.html?content=${encodeURIComponent(contentFile)}`;
+  window.location.href = `quiz-template.html?content=materials/${encodeURIComponent(contentFile)}`;
+}
+
+// Dynamically load all quizzes from materials folder
+async function loadAvailableQuizzes() {
+  const container = document.getElementById('quizContainer');
+
+  try {
+    // Load the index of available files
+    const indexResponse = await fetch('materials/index.json');
+    if (!indexResponse.ok) throw new Error('Could not load quiz index');
+    const quizFiles = await indexResponse.json();
+
+    // Fetch metadata for all quizzes
+    const quizData = await Promise.all(
+      quizFiles.map(async (filename) => {
+        try {
+          const response = await fetch(`materials/${filename}`);
+          if (!response.ok) return null;
+          const data = await response.json();
+          return {
+            filename,
+            metadata: data.metadata,
+            cardCount: data.cards ? data.cards.length : 0,
+            trueFalseCount: data.trueFalse ? data.trueFalse.length : 0
+          };
+        } catch (error) {
+          console.error(`Error loading ${filename}:`, error);
+          return null;
+        }
+      })
+    );
+
+    // Filter out failed loads
+    const validQuizzes = quizData.filter(q => q !== null);
+
+    if (validQuizzes.length === 0) {
+      container.innerHTML = '<div style="text-align: center; padding: 2rem; color: var(--muted);"><p>Nenhum conteúdo disponível</p></div>';
+      return;
+    }
+
+    // Group quizzes by subject (extracted from metadata or inferred from title)
+    const grouped = groupQuizzesBySubject(validQuizzes);
+
+    // Render grouped quizzes
+    container.innerHTML = '';
+    for (const [subject, quizzes] of Object.entries(grouped)) {
+      const section = createSection(subject, quizzes);
+      container.appendChild(section);
+    }
+
+  } catch (error) {
+    console.error('Error loading quizzes:', error);
+    container.innerHTML = `
+      <div style="text-align: center; padding: 2rem; color: var(--muted);">
+        <p>⚠️ Erro ao carregar conteúdos</p>
+        <p style="font-size: 0.9rem;">${error.message}</p>
+      </div>
+    `;
+  }
+}
+
+function groupQuizzesBySubject(quizzes) {
+  const groups = {};
+
+  for (const quiz of quizzes) {
+    let subject = 'Outros Conteúdos';
+    const title = quiz.metadata.title.toLowerCase();
+
+    // Infer subject from title
+    if (title.includes('português')) {
+      subject = 'Português 5.º ano';
+    } else if (title.includes('hgp') || title.includes('história e geografia')) {
+      subject = 'História e Geografia de Portugal 5.º ano';
+    } else if (title.includes('ciências')) {
+      subject = 'Ciências Naturais';
+    } else if (title.includes('inglês')) {
+      subject = 'Inglês';
+    } else if (title.includes('história')) {
+      subject = 'História';
+    }
+
+    if (!groups[subject]) {
+      groups[subject] = [];
+    }
+    groups[subject].push(quiz);
+  }
+
+  return groups;
+}
+
+function createSection(title, quizzes) {
+  const section = document.createElement('div');
+  section.className = 'section';
+
+  const sectionTitle = document.createElement('h2');
+  sectionTitle.className = 'section-title';
+  sectionTitle.textContent = title;
+
+  const contentList = document.createElement('div');
+  contentList.className = 'content-list';
+
+  for (const quiz of quizzes) {
+    const card = createQuizCard(quiz);
+    contentList.appendChild(card);
+  }
+
+  section.appendChild(sectionTitle);
+  section.appendChild(contentList);
+
+  return section;
+}
+
+function createQuizCard(quiz) {
+  const card = document.createElement('div');
+  card.className = 'content-card';
+  card.onclick = () => loadQuiz(quiz.filename);
+
+  // Extract badge/subject from title
+  let badgeText = 'Quiz';
+  const title = quiz.metadata.title.toLowerCase();
+  if (title.includes('português')) badgeText = 'Português';
+  else if (title.includes('hgp')) badgeText = 'HGP';
+  else if (title.includes('ciências')) badgeText = 'Ciências';
+  else if (title.includes('inglês')) badgeText = 'Inglês';
+  else if (title.includes('história')) badgeText = 'História';
+
+  // Build description
+  let description = quiz.metadata.subtitle || quiz.metadata.description || '';
+  // Strip HTML tags for display
+  description = description.replace(/<[^>]*>/g, '');
+  // Add card count and version info
+  const version = quiz.metadata.version ? ` • ${quiz.metadata.version}` : '';
+  description += ` • ${quiz.cardCount} cartões${version}`;
+
+  card.innerHTML = `
+    <div class="content-info">
+      <h2>${quiz.metadata.title}</h2>
+      <p>${description}</p>
+    </div>
+    <div>
+      <span class="badge">${badgeText}</span>
+      <span class="arrow">→</span>
+    </div>
+  `;
+
+  return card;
 }
 
 function loadCustomQuiz() {
@@ -377,65 +405,9 @@ function loadCustomQuiz() {
     alert('O ficheiro deve ter extensão .json');
     return;
   }
-  loadQuiz(path);
+  // For custom input, try materials folder first, then root
+  window.location.href = `quiz-template.html?content=materials/${encodeURIComponent(path)}`;
 }
-
-// File upload handler
-document.getElementById('fileUpload').addEventListener('change', function(e) {
-  const file = e.target.files[0];
-  if (!file) return;
-  
-  const status = document.getElementById('uploadStatus');
-  status.textContent = '⏳ A carregar...';
-  
-  const reader = new FileReader();
-  reader.onload = function(event) {
-    try {
-      const data = JSON.parse(event.target.result);
-      
-      // Validate JSON structure
-      if (!data.metadata || !data.cards || !data.distractors || !data.trueFalse) {
-        throw new Error('JSON inválido: faltam campos obrigatórios');
-      }
-      
-      // Store in localStorage temporarily
-      const timestamp = Date.now();
-      const storageKey = `uploaded_quiz_${timestamp}`;
-      localStorage.setItem(storageKey, event.target.result);
-      
-      status.innerHTML = `<span style="color: var(--accent);">✓ File carregado!</span>`;
-      
-      // Show a button to load it
-      setTimeout(() => {
-        const loadBtn = document.createElement('button');
-        loadBtn.textContent = '▶️ Abrir Quiz Carregado';
-        loadBtn.style.width = '100%';
-        loadBtn.style.marginTop = '0.5rem';
-        loadBtn.onclick = () => {
-          // Pass the data to quiz-template via localStorage key
-          window.location.href = `quiz-template.html?from_storage=${storageKey}`;
-        };
-        status.appendChild(loadBtn);
-      }, 500);
-      
-    } catch (error) {
-      status.innerHTML = `<span style="color: #ef4444;">✗ Erro: ${error.message}</span>`;
-    }
-  };
-  
-  reader.onerror = function() {
-    status.innerHTML = '<span style="color: #ef4444;">✗ Erro ao ler ficheiro</span>';
-  };
-  
-  reader.readAsText(file);
-});
-
-// Allow Enter key in input
-document.getElementById('customPath').addEventListener('keypress', function(e) {
-  if (e.key === 'Enter') {
-    loadCustomQuiz();
-  }
-});
 
 // Theme toggle functionality
 function toggleTheme() {
@@ -451,14 +423,76 @@ function toggleTheme() {
   }
 }
 
-// Initialize theme on load
+// Initialize everything on page load
 document.addEventListener('DOMContentLoaded', function() {
+  // Load available quizzes
+  loadAvailableQuizzes();
+
+  // Initialize theme
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme === 'kids') {
     document.body.setAttribute('data-theme', 'kids');
   }
 
+  // Setup theme toggle button
   document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+
+  // Setup file upload handler
+  document.getElementById('fileUpload').addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    const status = document.getElementById('uploadStatus');
+    status.textContent = '⏳ A carregar...';
+
+    const reader = new FileReader();
+    reader.onload = function(event) {
+      try {
+        const data = JSON.parse(event.target.result);
+
+        // Validate JSON structure
+        if (!data.metadata || !data.cards || !data.distractors || !data.trueFalse) {
+          throw new Error('JSON inválido: faltam campos obrigatórios');
+        }
+
+        // Store in localStorage temporarily
+        const timestamp = Date.now();
+        const storageKey = `uploaded_quiz_${timestamp}`;
+        localStorage.setItem(storageKey, event.target.result);
+
+        status.innerHTML = `<span style="color: var(--accent);">✓ File carregado!</span>`;
+
+        // Show a button to load it
+        setTimeout(() => {
+          const loadBtn = document.createElement('button');
+          loadBtn.textContent = '▶️ Abrir Quiz Carregado';
+          loadBtn.style.width = '100%';
+          loadBtn.style.marginTop = '0.5rem';
+          loadBtn.onclick = () => {
+            // Pass the data to quiz-template via localStorage key
+            window.location.href = `quiz-template.html?from_storage=${storageKey}`;
+          };
+          status.appendChild(loadBtn);
+        }, 500);
+
+      } catch (error) {
+        status.innerHTML = `<span style="color: #ef4444;">✗ Erro: ${error.message}</span>`;
+      }
+    };
+
+    reader.onerror = function() {
+      status.innerHTML = '<span style="color: #ef4444;">✗ Erro ao ler ficheiro</span>';
+    };
+
+    reader.readAsText(file);
+  });
+
+  // Allow Enter key in custom path input
+  document.getElementById('customPath').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      loadCustomQuiz();
+    }
+  });
 });
 </script>
 </body>

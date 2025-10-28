@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Educação Física 5.º — Regras e Segurança",
+    "subtitle": "Jogos coletivos, aquecimento e fair play",
+    "description": "Conhecimentos essenciais para prática segura e cooperativa.",
+    "unit": "EF5_U1",
+    "version": "v1",
+    "footer": "Conteúdos teóricos em formato de quiz."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Aquecimento",
+      "curto": true,
+      "q": "Por que aquecer antes da aula?",
+      "a": "Aumenta a temperatura muscular e previne lesões."
+    },
+    {
+      "id": 2,
+      "tema": "Alongamento",
+      "curto": false,
+      "q": "Quando realizar alongamentos mais demorados?",
+      "a": "No final, na volta à calma."
+    },
+    {
+      "id": 3,
+      "tema": "Regras — Basquetebol",
+      "curto": true,
+      "q": "Quantos passos podes dar sem driblar?",
+      "a": "No máximo dois após agarrar a bola."
+    },
+    {
+      "id": 4,
+      "tema": "Regras — Andebol",
+      "curto": false,
+      "q": "Quantos passos pode dar um jogador com a bola na mão sem driblar?",
+      "a": "Até três passos."
+    },
+    {
+      "id": 5,
+      "tema": "Regras — Futebol",
+      "curto": true,
+      "q": "O que é fora de jogo?",
+      "a": "Estar adiantado em relação à bola e penúltimo adversário no momento do passe."
+    },
+    {
+      "id": 6,
+      "tema": "Segurança",
+      "curto": false,
+      "q": "O que deves usar para evitar escorregões em pavilhão?",
+      "a": "Ténis limpos e adequados."
+    },
+    {
+      "id": 7,
+      "tema": "Cooperação",
+      "curto": true,
+      "q": "O que é fair play?",
+      "a": "Respeito pelas regras e pelos adversários."
+    },
+    {
+      "id": 8,
+      "tema": "Hidratação",
+      "curto": false,
+      "q": "Quando deves beber água?",
+      "a": "Antes, durante e depois do exercício."
+    },
+    {
+      "id": 9,
+      "tema": "Respiração",
+      "curto": true,
+      "q": "Como respirar numa corrida moderada?",
+      "a": "Ritmada pelo nariz e boca, mantendo postura ereta."
+    },
+    {
+      "id": 10,
+      "tema": "Etiqueta",
+      "curto": false,
+      "q": "O que fazer após um choque acidental?",
+      "a": "Ajudar o colega e pedir desculpa."
+    },
+    {
+      "id": 11,
+      "tema": "Primeiros socorros",
+      "curto": true,
+      "q": "Quem deve ser informado em caso de lesão?",
+      "a": "Professor/treinador imediatamente."
+    },
+    {
+      "id": 12,
+      "tema": "Espaço",
+      "curto": false,
+      "q": "Por que arrumar o material no final?",
+      "a": "Para segurança e conservação do espaço."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Para cansar logo",
+      "Para correr mais devagar"
+    ],
+    "2": [
+      "Antes de sprintar",
+      "Durante o jogo"
+    ],
+    "3": [
+      "Nenhum",
+      "Quantos quiseres"
+    ],
+    "4": [
+      "Dois passos",
+      "Quatro passos"
+    ],
+    "5": [
+      "Demorar a repor a bola",
+      "Tocar com a mão"
+    ],
+    "6": [
+      "Chinelos",
+      "Meias sem ténis"
+    ],
+    "7": [
+      "Ganhar a qualquer custo",
+      "Gritar com o árbitro"
+    ],
+    "8": [
+      "Apenas no fim",
+      "Nunca durante"
+    ],
+    "9": [
+      "Prender a respiração",
+      "Só pela boca sempre"
+    ],
+    "10": [
+      "Ignorar",
+      "Rir alto"
+    ],
+    "11": [
+      "Colegas apenas",
+      "Ninguém"
+    ],
+    "12": [
+      "Para acabar a aula mais tarde",
+      "Para sujar menos os ténis"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Aquecimento reduz risco de lesão.",
+      "v": true,
+      "e": "Prepara corpo e mente."
+    },
+    {
+      "t": "No andebol são permitidos 3 passos sem drible.",
+      "v": true,
+      "e": "Regra básica."
+    },
+    {
+      "t": "Fair play implica respeito pelas regras e colegas.",
+      "v": true,
+      "e": "Comportamento desportivo."
+    },
+    {
+      "t": "Beber água só no final evita caimbras.",
+      "v": false,
+      "e": "Hidratação deve ser contínua."
+    },
+    {
+      "t": "No basquetebol podes correr com a bola sem driblar.",
+      "v": false,
+      "e": "É ‘andar’ e é falta."
+    },
+    {
+      "t": "No futebol, tocar com a mão é sempre falta para todos.",
+      "v": false,
+      "e": "O guarda-redes pode usar as mãos na área."
+    },
+    {
+      "t": "Alongamentos prolongados são mais indicados na volta à calma.",
+      "v": true,
+      "e": "Após esforço muscular."
+    },
+    {
+      "t": "Ténis adequados ajudam a prevenir escorregões.",
+      "v": true,
+      "e": "Aderência e apoio."
+    },
+    {
+      "t": "Ignorar colegas magoados é aceitável em competição.",
+      "v": false,
+      "e": "Segurança em primeiro lugar."
+    },
+    {
+      "t": "Arrumar material faz parte das regras de segurança.",
+      "v": true,
+      "e": "Evita quedas e danos."
+    }
+  ]
+}

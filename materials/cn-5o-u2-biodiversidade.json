@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Ciências Naturais 5.º — Unidade 2",
+    "subtitle": "Unidade na diversidade dos seres vivos",
+    "description": "Biodiversidade, classificação, células e relações nos ecossistemas — alinhado com AE (5.º ano).",
+    "unit": "CN5_U2",
+    "version": "v1",
+    "footer": "Conteúdo inspirado nas AE da DGE (2.º ciclo)."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Características comuns",
+      "curto": false,
+      "q": "Indica duas características comuns a todos os seres vivos.",
+      "a": "Têm células e realizam funções vitais (nutrição, relação e reprodução)."
+    },
+    {
+      "id": 2,
+      "tema": "Célula",
+      "curto": true,
+      "q": "O que é a célula?",
+      "a": "É a unidade básica estrutural e funcional de todos os seres vivos."
+    },
+    {
+      "id": 3,
+      "tema": "Classificação",
+      "curto": false,
+      "q": "Como se distinguem vertebrados e invertebrados?",
+      "a": "Vertebrados possuem coluna vertebral; invertebrados não a possuem."
+    },
+    {
+      "id": 4,
+      "tema": "Cadeias alimentares",
+      "curto": true,
+      "q": "Quem são produtores numa cadeia alimentar?",
+      "a": "Seres autotróficos (plantas e algas) que produzem matéria orgânica pela fotossíntese."
+    },
+    {
+      "id": 5,
+      "tema": "Consumidores",
+      "curto": false,
+      "q": "Dá um exemplo de consumidor primário e um de consumidor secundário.",
+      "a": "Coelho (primário, herbívoro) e raposa (secundário, carnívoro)."
+    },
+    {
+      "id": 6,
+      "tema": "Adaptações",
+      "curto": true,
+      "q": "O que é uma adaptação?",
+      "a": "Caraterística que aumenta a probabilidade de sobrevivência e reprodução num ambiente."
+    },
+    {
+      "id": 7,
+      "tema": "Ecossistema",
+      "curto": false,
+      "q": "Define ecossistema.",
+      "a": "Conjunto formado pelos seres vivos (comunidade) e pelo meio físico (biótopo) e as relações entre ambos."
+    },
+    {
+      "id": 8,
+      "tema": "Microscopia",
+      "curto": false,
+      "q": "Que cuidados de segurança deves ter ao usar um microscópio?",
+      "a": "Transportar com as duas mãos, não tocar nas lentes, usar lâmpada com supervisão e arrumar limpo e coberto."
+    },
+    {
+      "id": 9,
+      "tema": "Biodiversidade",
+      "curto": true,
+      "q": "Indica duas razões para proteger a biodiversidade.",
+      "a": "Manutenção de ecossistemas equilibrados e fornecimento de recursos (alimentos, medicamentos)."
+    },
+    {
+      "id": 10,
+      "tema": "Decompositores",
+      "curto": true,
+      "q": "Qual o papel dos decompositores?",
+      "a": "Transformam matéria orgânica em simples nutrientes, reciclando-os no ecossistema."
+    },
+    {
+      "id": 11,
+      "tema": "Seres vivos e meio",
+      "curto": false,
+      "q": "Como influenciam os fatores abióticos a distribuição dos seres vivos?",
+      "a": "Luz, temperatura, água e solo condicionam habitats e abundância das espécies."
+    },
+    {
+      "id": 12,
+      "tema": "Fluxo de energia",
+      "curto": false,
+      "q": "Porque dizemos que a energia flui e a matéria circula nos ecossistemas?",
+      "a": "Energia entra como luz e dissipa-se; a matéria é reciclada pelos ciclos biogeoquímicos."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Apenas respiram",
+      "Apenas se movem",
+      "Não têm células"
+    ],
+    "2": [
+      "Uma molécula de água",
+      "Um conjunto de órgãos",
+      "Um tecido específico do coração"
+    ],
+    "3": [
+      "Vertebrados têm asas, invertebrados não",
+      "Vertebrados vivem em terra, invertebrados na água",
+      "Vertebrados são sempre maiores"
+    ],
+    "4": [
+      "Animais que caçam",
+      "Fungos que decompõem",
+      "Microrganismos patogénicos"
+    ],
+    "5": [
+      "Lobo (primário) e erva (secundário)",
+      "Águia (primário) e trigo (secundário)",
+      "Cogumelo (primário) e minhoca (secundário)"
+    ],
+    "6": [
+      "Um hábito temporário",
+      "Um comportamento aprendido num dia",
+      "Qualquer característica sem função"
+    ],
+    "7": [
+      "Apenas o conjunto de plantas de um local",
+      "Só o meio físico sem seres vivos",
+      "Somente os animais de uma floresta"
+    ],
+    "8": [
+      "Limpar lentes com papel áspero",
+      "Transportar com uma mão",
+      "Mexer nas lâminas sem supervisão"
+    ],
+    "9": [
+      "Porque todas as espécies são inúteis",
+      "Para reduzir serviços dos ecossistemas",
+      "Para eliminar equilíbrio natural"
+    ],
+    "10": [
+      "Produzem energia solar",
+      "Comem apenas produtores",
+      "Fixam azoto atmosférico sempre"
+    ],
+    "11": [
+      "Os fatores abióticos não influenciam",
+      "Apenas a sorte determina a distribuição",
+      "A presença de humanos é o único fator"
+    ],
+    "12": [
+      "A energia e a matéria desaparecem",
+      "A matéria entra e não sai",
+      "A energia circula eternamente sem perdas"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Todos os seres vivos são constituídos por células.",
+      "v": true,
+      "e": "Mesmo os unicelulares possuem pelo menos uma célula."
+    },
+    {
+      "t": "Os produtores realizam fotossíntese.",
+      "v": true,
+      "e": "Produzem matéria orgânica a partir de água, dióxido de carbono e luz."
+    },
+    {
+      "t": "Decompositores retiram nutrientes do ciclo da matéria.",
+      "v": false,
+      "e": "Pelo contrário, reciclam a matéria e devolvem nutrientes ao solo."
+    },
+    {
+      "t": "A energia dissipa-se ao longo dos níveis tróficos.",
+      "v": true,
+      "e": "Parte é libertada como calor em cada transferência."
+    },
+    {
+      "t": "Vertebrados e invertebrados distinguem-se pela presença de coluna vertebral.",
+      "v": true,
+      "e": "É o critério básico desta distinção."
+    },
+    {
+      "t": "O ecossistema inclui apenas seres vivos.",
+      "v": false,
+      "e": "Inclui também o meio físico e as relações entre ambos."
+    },
+    {
+      "t": "As adaptações aumentam a sobrevivência num ambiente.",
+      "v": true,
+      "e": "São características vantajosas selecionadas ao longo do tempo."
+    },
+    {
+      "t": "A observação microscópica requer cuidados de segurança e conservação.",
+      "v": true,
+      "e": "Protege o equipamento e os utilizadores."
+    }
+  ]
+}

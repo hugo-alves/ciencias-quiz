@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Educação Visual 5.º — Elementos da Linguagem Visual",
+    "subtitle": "Linha, forma, cor e textura; composição e simetria",
+    "description": "Conceitos básicos e regras simples de composição visual.",
+    "unit": "EV5_U1",
+    "version": "v1",
+    "footer": "Alinhado com AE de Educação Visual (2.º ciclo)."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Linha",
+      "curto": true,
+      "q": "O que é uma linha?",
+      "a": "Traço contínuo que define contornos e direções."
+    },
+    {
+      "id": 2,
+      "tema": "Forma",
+      "curto": false,
+      "q": "Diferencia forma geométrica de orgânica.",
+      "a": "Geométrica tem contornos regulares (quadrado, triângulo); orgânica é irregular."
+    },
+    {
+      "id": 3,
+      "tema": "Cor",
+      "curto": true,
+      "q": "Quais são as cores primárias aditivas na luz?",
+      "a": "Vermelho, verde e azul (RGB)."
+    },
+    {
+      "id": 4,
+      "tema": "Cor",
+      "curto": false,
+      "q": "O que é contraste de cores?",
+      "a": "Diferença acentuada que cria destaque visual."
+    },
+    {
+      "id": 5,
+      "tema": "Textura",
+      "curto": true,
+      "q": "Textura visual é…",
+      "a": "Aspeto que sugere tato (lisa, rugosa) sem relevo real."
+    },
+    {
+      "id": 6,
+      "tema": "Composição",
+      "curto": false,
+      "q": "O que é eixo de simetria?",
+      "a": "Linha que divide a figura em duas partes sobreponíveis."
+    },
+    {
+      "id": 7,
+      "tema": "Equilíbrio",
+      "curto": true,
+      "q": "Composição equilibrada significa…",
+      "a": "Distribuição harmoniosa de elementos no espaço."
+    },
+    {
+      "id": 8,
+      "tema": "Cor",
+      "curto": false,
+      "q": "Cores complementares são…",
+      "a": "Cores opostas no círculo cromático (ex.: azul/laranja)."
+    },
+    {
+      "id": 9,
+      "tema": "Perspetiva",
+      "curto": true,
+      "q": "O que é ponto de fuga?",
+      "a": "Ponto onde as linhas paralelas parecem encontrar-se."
+    },
+    {
+      "id": 10,
+      "tema": "Técnicas",
+      "curto": false,
+      "q": "Qual técnica cria manchas transparentes?",
+      "a": "Aguarela."
+    },
+    {
+      "id": 11,
+      "tema": "Materiais",
+      "curto": true,
+      "q": "O que é ‘grafite’?",
+      "a": "Material de desenho dos lápis, de tom cinzento."
+    },
+    {
+      "id": 12,
+      "tema": "Ritmo",
+      "curto": false,
+      "q": "Ritmo visual cria-se por…",
+      "a": "Repetição e variação de elementos."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "Um ponto colorido",
+      "Apenas uma sombra"
+    ],
+    "2": [
+      "Ambas são sempre irregulares",
+      "Geométrica é sempre curva"
+    ],
+    "3": [
+      "Ciano, magenta, amarelo",
+      "Preto, branco, cinzento"
+    ],
+    "4": [
+      "Mistura de texturas",
+      "Igualdade de tons"
+    ],
+    "5": [
+      "Sempre relevo físico",
+      "Apenas cor"
+    ],
+    "6": [
+      "Linha imaginária das sombras",
+      "Ângulo de 90°"
+    ],
+    "7": [
+      "Acumular tudo à esquerda",
+      "Colocar cores ao acaso"
+    ],
+    "8": [
+      "Tons vizinhos",
+      "Cores pastéis"
+    ],
+    "9": [
+      "Ponto mais iluminado",
+      "Centro do papel"
+    ],
+    "10": [
+      "Grafite",
+      "Colagem"
+    ],
+    "11": [
+      "Tinta acrílica",
+      "Giz de óleo"
+    ],
+    "12": [
+      "Apenas uma linha contínua",
+      "Apagar contrastes"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Cores complementares criam contraste forte.",
+      "v": true,
+      "e": "Estão em lados opostos do círculo cromático."
+    },
+    {
+      "t": "Textura visual não tem relevo físico.",
+      "v": true,
+      "e": "É ‘sugerida’ ao olhar."
+    },
+    {
+      "t": "Um quadrado tem um eixo de simetria.",
+      "v": false,
+      "e": "Tem quatro eixos de simetria."
+    },
+    {
+      "t": "Aguarela permite transparências e sobreposições.",
+      "v": true,
+      "e": "Secagem rápida e diluição em água."
+    },
+    {
+      "t": "Equilíbrio visual exige distribuição ponderada dos elementos.",
+      "v": true,
+      "e": "Evita pesos concentrados."
+    },
+    {
+      "t": "Ponto de fuga é usado na perspetiva para simular profundidade.",
+      "v": true,
+      "e": "Linhas convergem no ponto."
+    },
+    {
+      "t": "Ciano, magenta e amarelo são primárias da luz.",
+      "v": false,
+      "e": "São primárias da síntese subtrativa (tintas)."
+    },
+    {
+      "t": "Formas orgânicas são sempre regulares.",
+      "v": false,
+      "e": "Têm contornos irregulares."
+    },
+    {
+      "t": "Ritmo visual surge só com linhas curvas.",
+      "v": false,
+      "e": "Repetição/variação de qualquer elemento."
+    },
+    {
+      "t": "A simetria axial divide a figura em partes sobreponíveis.",
+      "v": true,
+      "e": "Definição de eixo de simetria."
+    }
+  ]
+}

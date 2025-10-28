@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Português 5.º — Ortografia e Pontuação",
+    "subtitle": "Acentuação, grafemas e uso de vírgula/ponto",
+    "description": "Consolidação de regras de escrita e sinalização do discurso.",
+    "unit": "PT5_ORTO",
+    "version": "v1",
+    "footer": "Coerente com as AE de Português (2.º ciclo)."
+  },
+  "cards": [
+    {
+      "id": 1,
+      "tema": "Acentuação",
+      "curto": true,
+      "q": "Assinala a opção correta: 'pássaro' ou 'passaro'?",
+      "a": "pássaro"
+    },
+    {
+      "id": 2,
+      "tema": "Grafemas",
+      "curto": false,
+      "q": "Quando se usa 'ç' em vez de 'ss'?",
+      "a": "Antes de a, o, u (ex.: 'cansaço')."
+    },
+    {
+      "id": 3,
+      "tema": "Pontuação",
+      "curto": false,
+      "q": "Quando usar vírgula numa enumeração?",
+      "a": "Para separar elementos equivalentes (ex.: maçãs, peras e uvas)."
+    },
+    {
+      "id": 4,
+      "tema": "Discurso Direto",
+      "curto": true,
+      "q": "Que sinal introduz a fala de uma personagem?",
+      "a": "Travessão (—) ou aspas."
+    },
+    {
+      "id": 5,
+      "tema": "Acentuação",
+      "curto": true,
+      "q": "Qual está correta: 'matemática' ou 'matematica'?",
+      "a": "matemática"
+    },
+    {
+      "id": 6,
+      "tema": "Pontuação",
+      "curto": false,
+      "q": "Quando usar dois‑pontos?",
+      "a": "Antes de enumerações, citações ou explicações."
+    },
+    {
+      "id": 7,
+      "tema": "Grafemas",
+      "curto": true,
+      "q": "Escolhe a grafia correta: 'exceção' / 'exeção'?",
+      "a": "exceção"
+    },
+    {
+      "id": 8,
+      "tema": "Maiúsculas",
+      "curto": false,
+      "q": "Quando usar maiúscula inicial?",
+      "a": "Em nomes próprios e início de frase."
+    },
+    {
+      "id": 9,
+      "tema": "Pontuação",
+      "curto": true,
+      "q": "Que sinal termina uma pergunta?",
+      "a": "Ponto de interrogação (?)."
+    },
+    {
+      "id": 10,
+      "tema": "Acentuação",
+      "curto": false,
+      "q": "Qual a regra para 'avó' vs 'avo'?",
+      "a": "'avó' é oxítona com acento; 'avo' existe apenas como forma do verbo 'aviar'."
+    },
+    {
+      "id": 11,
+      "tema": "Hífen",
+      "curto": true,
+      "q": "Como se escreve: 'bem‑vindo' ou 'bem vindo'?",
+      "a": "bem‑vindo (com hífen)."
+    },
+    {
+      "id": 12,
+      "tema": "Pontuação",
+      "curto": false,
+      "q": "Onde colocar vírgulas no vocativo?",
+      "a": "Antes e/ou depois do vocativo (ex.: 'Pedro, vem cá.')."
+    }
+  ],
+  "distractors": {
+    "1": [
+      "passaro",
+      "pásaro"
+    ],
+    "2": [
+      "Antes de e e i",
+      "No início de palavra sempre"
+    ],
+    "3": [
+      "Entre sujeito e predicado",
+      "Nunca em listas"
+    ],
+    "4": [
+      "Dois-pontos apenas",
+      "Ponto e vírgula"
+    ],
+    "5": [
+      "matematíca",
+      "matemàtica"
+    ],
+    "6": [
+      "Sempre que termina parágrafo",
+      "Antes de qualquer verbo"
+    ],
+    "7": [
+      "exeção",
+      "excessão"
+    ],
+    "8": [
+      "Em todas as palavras longas",
+      "Nunca em meses"
+    ],
+    "9": [
+      "Ponto de exclamação (!)",
+      "Ponto final (.)"
+    ],
+    "10": [
+      "Ambas são sempre corretas",
+      "Nenhuma leva acento"
+    ],
+    "11": [
+      "bem vindo",
+      "bem–vindo (travessão)"
+    ],
+    "12": [
+      "Entre verbo e complemento",
+      "Nunca se usa no vocativo"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Usa-se vírgula para separar os itens de uma lista.",
+      "v": true,
+      "e": "Ex.: maçãs, peras e uvas."
+    },
+    {
+      "t": "Não se usam letras maiúsculas em nomes próprios.",
+      "v": false,
+      "e": "Nomes próprios iniciam com maiúscula."
+    },
+    {
+      "t": "O hífen liga certos prefixos: 'bem‑', 'ex‑', 'vice‑'.",
+      "v": true,
+      "e": "Conforme o Acordo Ortográfico."
+    },
+    {
+      "t": "Dois‑pontos servem para introduzir enumeração ou citação.",
+      "v": true,
+      "e": "Sinaliza explicitação."
+    },
+    {
+      "t": "Coloca-se vírgula entre sujeito e predicado por regra.",
+      "v": false,
+      "e": "Regra geral: não separar sujeito do predicado."
+    },
+    {
+      "t": "As palavras 'pássaro' e 'passaro' significam o mesmo e ambas estão corretas.",
+      "v": false,
+      "e": "'pássaro' é a forma correta."
+    },
+    {
+      "t": "O ponto de interrogação usa-se apenas em frases exclamativas.",
+      "v": false,
+      "e": "Usa-se em perguntas."
+    },
+    {
+      "t": "A acentuação indica, entre outros, a sílaba tónica.",
+      "v": true,
+      "e": "Ajuda a leitura correta."
+    },
+    {
+      "t": "Travessão (—) pode introduzir a fala no discurso direto.",
+      "v": true,
+      "e": "Uso comum em narrativa."
+    },
+    {
+      "t": "Meses do ano escrevem-se sempre com maiúscula em português europeu.",
+      "v": false,
+      "e": "Escrevem-se com minúscula."
+    }
+  ]
+}
