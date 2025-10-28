@@ -1,0 +1,728 @@
+{
+  "metadata": {
+    "title": "Ciências Naturais 5.º — Unidade 1 (Versão alternativa)",
+    "subtitle": "A Terra como planeta especial e os seus materiais",
+    "description": "Atmosfera, hidrosfera, geosfera e biosfera; rochas, minerais, solo e recursos naturais. Versão alternativa com perguntas reescritas.",
+    "unit": "CN5_U1",
+    "version": "v4-alt-2025-10-28",
+    "footer": "Conteúdo para estudo, alinhado com as Aprendizagens Essenciais."
+  },
+  "cards": [
+    {
+      "id": 101,
+      "tema": "A Terra",
+      "curto": false,
+      "q": "Indica quatro condições que tornam a Terra habitável.",
+      "a": "Distância adequada ao Sol, presença de água nos três estados, atmosfera protetora e reguladora, e superfície sólida/solo com nutrientes."
+    },
+    {
+      "id": 102,
+      "tema": "A Terra",
+      "curto": true,
+      "q": "Como é que a distância da Terra ao Sol favorece a existência de água líquida?",
+      "a": "Mantém temperaturas moderadas, compatíveis com água líquida e com a vida."
+    },
+    {
+      "id": 103,
+      "tema": "A Terra",
+      "curto": true,
+      "q": "Enumera os quatro grandes subsistemas do planeta.",
+      "a": "Atmosfera, hidrosfera, geosfera e biosfera."
+    },
+    {
+      "id": 104,
+      "tema": "Hidrosfera",
+      "curto": false,
+      "q": "Define hidrosfera e dá dois exemplos de reservatórios de água.",
+      "a": "Conjunto de todas as águas do planeta, como oceanos e mares, rios e lagos, aquíferos, gelo e vapor de água."
+    },
+    {
+      "id": 105,
+      "tema": "Hidrosfera",
+      "curto": true,
+      "q": "Em que estados físicos pode existir a água?",
+      "a": "Sólido, líquido e gasoso."
+    },
+    {
+      "id": 106,
+      "tema": "Hidrosfera",
+      "curto": true,
+      "q": "O que é a evaporação?",
+      "a": "Passagem de líquido a gasoso."
+    },
+    {
+      "id": 107,
+      "tema": "Hidrosfera",
+      "curto": true,
+      "q": "O que é a condensação?",
+      "a": "Passagem de gasoso a líquido."
+    },
+    {
+      "id": 108,
+      "tema": "Hidrosfera",
+      "curto": true,
+      "q": "O que é a fusão (no caso da água)?",
+      "a": "Passagem de sólido a líquido."
+    },
+    {
+      "id": 109,
+      "tema": "Hidrosfera",
+      "curto": true,
+      "q": "O que é a solidificação?",
+      "a": "Passagem de líquido a sólido."
+    },
+    {
+      "id": 110,
+      "tema": "Hidrosfera",
+      "curto": true,
+      "q": "O que é a sublimação?",
+      "a": "Passagem direta de sólido a gasoso."
+    },
+    {
+      "id": 111,
+      "tema": "Hidrosfera",
+      "curto": false,
+      "q": "Descreve o ciclo da água, mencionando as suas principais etapas.",
+      "a": "Evaporação → condensação → precipitação → escoamento superficial e infiltração."
+    },
+    {
+      "id": 112,
+      "tema": "Hidrosfera",
+      "curto": false,
+      "q": "Refere três funções da água nos seres vivos.",
+      "a": "Age como solvente e meio de transporte de substâncias, regula a temperatura corporal e serve de meio para reações; é também habitat de inúmeros organismos."
+    },
+    {
+      "id": 113,
+      "tema": "Águas",
+      "curto": false,
+      "q": "Define água doce e aponta dois locais onde ocorre.",
+      "a": "Água com baixa salinidade; ocorre em rios, ribeiras, lagos e aquíferos."
+    },
+    {
+      "id": 114,
+      "tema": "Águas",
+      "curto": false,
+      "q": "O que caracteriza a água do mar?",
+      "a": "Elevada salinidade; encontra‑se em mares e oceanos."
+    },
+    {
+      "id": 115,
+      "tema": "Águas",
+      "curto": false,
+      "q": "Explica o que é água salobra e indica um ambiente típico onde surge.",
+      "a": "Mistura de água doce e salgada; é típica de estuários e sapais."
+    },
+    {
+      "id": 116,
+      "tema": "Águas",
+      "curto": true,
+      "q": "Como se designam as zonas de contacto entre ambientes terrestres e aquáticos? Dá dois exemplos.",
+      "a": "Ambientes de transição; exemplos: estuários e sapais."
+    },
+    {
+      "id": 117,
+      "tema": "Atmosfera",
+      "curto": true,
+      "q": "Define atmosfera.",
+      "a": "Camada gasosa que envolve a Terra."
+    },
+    {
+      "id": 118,
+      "tema": "Atmosfera",
+      "curto": false,
+      "q": "Indica a composição média do ar seco à superfície.",
+      "a": "Azoto ~78%, oxigénio ~21% e outros gases (CO₂, vapor de água e gases raros)."
+    },
+    {
+      "id": 119,
+      "tema": "Atmosfera",
+      "curto": false,
+      "q": "Apresenta três papéis essenciais da atmosfera para a vida.",
+      "a": "Permite a respiração, protege das radiações UV (camada de ozono) e regula a temperatura através do efeito de estufa natural; também possibilita a meteorologia."
+    },
+    {
+      "id": 120,
+      "tema": "Atmosfera",
+      "curto": true,
+      "q": "Indica duas propriedades do ar.",
+      "a": "O ar ocupa espaço, tem massa e exerce pressão."
+    },
+    {
+      "id": 121,
+      "tema": "Geosfera",
+      "curto": true,
+      "q": "Define geosfera.",
+      "a": "Parte sólida da Terra: rochas, minerais e o solo."
+    },
+    {
+      "id": 122,
+      "tema": "Geosfera",
+      "curto": false,
+      "q": "O que são rochas e que propriedade observável podes referir?",
+      "a": "Rochas são materiais sólidos da geosfera; podem observar‑se propriedades como dureza relativa, cor e granulação."
+    },
+    {
+      "id": 123,
+      "tema": "Geosfera",
+      "curto": false,
+      "q": "Explica como se forma o solo e a sua importância nos ecossistemas.",
+      "a": "Forma‑se pela meteorização das rochas e pela adição de matéria orgânica; é essencial para as plantas e muitos outros seres vivos."
+    },
+    {
+      "id": 124,
+      "tema": "Geosfera",
+      "curto": true,
+      "q": "Indica uma ação para prevenir a erosão do solo.",
+      "a": "Manter cobertura vegetal, fazer terraceamento/curvas de nível ou usar práticas agrícolas sustentáveis."
+    },
+    {
+      "id": 125,
+      "tema": "Biosfera",
+      "curto": false,
+      "q": "Define biosfera.",
+      "a": "Conjunto de todos os seres vivos e das zonas onde a vida existe."
+    },
+    {
+      "id": 126,
+      "tema": "Biosfera",
+      "curto": false,
+      "q": "Explica a dependência da biosfera em relação às outras esferas.",
+      "a": "Os seres vivos dependem do ar (atmosfera), da água (hidrosfera) e do solo/rochas (geosfera)."
+    },
+    {
+      "id": 127,
+      "tema": "Ambientes",
+      "curto": true,
+      "q": "Indica dois exemplos de ambientes terrestres.",
+      "a": "Florestas, montanhas, desertos e planícies."
+    },
+    {
+      "id": 128,
+      "tema": "Ambientes",
+      "curto": true,
+      "q": "Indica dois exemplos de ambientes aquáticos.",
+      "a": "Rios, lagos, oceanos e lagoas."
+    },
+    {
+      "id": 129,
+      "tema": "Ambientes",
+      "curto": false,
+      "q": "Caracteriza os ambientes de transição.",
+      "a": "Apresentam variação de salinidade e influência das marés, com organismos adaptados a essas condições (ex.: estuários e sapais)."
+    },
+    {
+      "id": 130,
+      "tema": "Ambientes",
+      "curto": false,
+      "q": "Refere quatro fatores abióticos que variam entre ambientes.",
+      "a": "Luz, temperatura, água/salinidade e tipo de solo/rocha."
+    },
+    {
+      "id": 131,
+      "tema": "Síntese",
+      "curto": true,
+      "q": "Que planeta tem vida confirmada?",
+      "a": "A Terra."
+    },
+    {
+      "id": 132,
+      "tema": "Síntese",
+      "curto": true,
+      "q": "Em que estados existe a água e como circula no planeta?",
+      "a": "Existe em sólido, líquido e gasoso, e circula no ciclo da água."
+    },
+    {
+      "id": 133,
+      "tema": "Síntese",
+      "curto": true,
+      "q": "Porque é essencial a atmosfera para os seres vivos?",
+      "a": "Protege das radiações nocivas, permite a respiração e ajuda a regular a temperatura do planeta."
+    },
+    {
+      "id": 134,
+      "tema": "Síntese",
+      "curto": true,
+      "q": "Que fornece a geosfera aos ecossistemas terrestres?",
+      "a": "Rochas e solo, que servem de base e suporte à vida terrestre."
+    },
+    {
+      "id": 135,
+      "tema": "Condições da vida",
+      "curto": false,
+      "q": "Indica três condições que favorecem a existência de vida na Terra.",
+      "a": "Água líquida abundante, atmosfera adequada e temperatura média amena."
+    },
+    {
+      "id": 136,
+      "tema": "Subsistemas",
+      "curto": true,
+      "q": "Quais são os quatro principais subsistemas da Terra?",
+      "a": "Geosfera, hidrosfera, atmosfera e biosfera."
+    },
+    {
+      "id": 137,
+      "tema": "Rochas e minerais",
+      "curto": false,
+      "q": "Distingue mineral de rocha.",
+      "a": "Mineral é uma substância natural com composição e propriedades definidas; rocha é um agregado de um ou mais minerais."
+    },
+    {
+      "id": 138,
+      "tema": "Tipos de rochas",
+      "curto": true,
+      "q": "Dá um exemplo de cada grupo de rochas: magmáticas, sedimentares e metamórficas.",
+      "a": "Granito (magmática), arenito ou calcário (sedimentar) e mármore ou quartzito (metamórfica)."
+    },
+    {
+      "id": 139,
+      "tema": "Solo",
+      "curto": false,
+      "q": "Quais são os componentes do solo e como se forma?",
+      "a": "Inclui matéria mineral, matéria orgânica, água, ar e organismos; forma‑se pela meteorização das rochas e pela ação de seres vivos."
+    },
+    {
+      "id": 140,
+      "tema": "Água",
+      "curto": true,
+      "q": "Resume o ciclo hidrológico.",
+      "a": "Circulação contínua da água entre superfície e atmosfera: evaporação, condensação, precipitação e escoamento/infiltração."
+    },
+    {
+      "id": 141,
+      "tema": "Ar",
+      "curto": false,
+      "q": "Quais são os gases mais abundantes no ar?",
+      "a": "Azoto (c. 78%), oxigénio (c. 21%) e outros em menor percentagem (argónio, dióxido de carbono, vapor de água…)."
+    },
+    {
+      "id": 142,
+      "tema": "Recursos",
+      "curto": false,
+      "q": "Indica a importância das rochas, dos minerais e do solo para as atividades humanas.",
+      "a": "Fornecem matérias‑primas (construção, metais, energia), sustentam a agricultura e influenciam paisagens e a ocupação humana."
+    },
+    {
+      "id": 143,
+      "tema": "Sustentabilidade",
+      "curto": true,
+      "q": "Aponta duas medidas de proteção do solo contra a erosão.",
+      "a": "Manter cobertura vegetal/matas e usar terraceamento/curvas de nível (entre outras práticas)."
+    },
+    {
+      "id": 144,
+      "tema": "Trabalho de campo",
+      "curto": false,
+      "q": "Numa saída de campo para estudar rochas e solos, que registos deves fazer?",
+      "a": "Localização, fotografias/desenhos, tipo de rocha/solo, cores, textura, presença de água/vegetação e impactos humanos."
+    },
+    {
+      "id": 145,
+      "tema": "Ambientes",
+      "curto": true,
+      "q": "Exemplifica um ambiente aquático e um terrestre.",
+      "a": "Ambiente aquático: estuário do Tejo. Terrestre: planície alentejana."
+    },
+    {
+      "id": 146,
+      "tema": "Poluição",
+      "curto": false,
+      "q": "Indica efeitos da poluição atmosférica na saúde e no ambiente.",
+      "a": "Pode causar problemas respiratórios, favorecer chuva ácida, agravar o efeito de estufa e provocar danos em ecossistemas."
+    }
+  ],
+  "distractors": {
+    "101": [
+      "Porque está muito perto do Sol, sem atmosfera e sem necessidade de água.",
+      "Porque não precisa de água líquida nem de atmosfera para existir vida.",
+      "Porque o solo e as rochas não influenciam a existência de vida."
+    ],
+    "102": [
+      "Porque impede a precipitação e torna os rios sempre de água salgada.",
+      "Porque elimina a necessidade de atmosfera protetora.",
+      "Porque garante que a Terra não tem variações de temperatura."
+    ],
+    "103": [
+      "Vento, água, rochas e seres vivos.",
+      "Hidrosfera, Geosfera e Atmosfera (apenas três esferas).",
+      "Ambientes terrestres, aquáticos e de transição."
+    ],
+    "104": [
+      "Parte sólida da Terra: rochas, minerais e o solo.",
+      "Camada gasosa que envolve a Terra.",
+      "Conjunto de todos os seres vivos e as zonas onde a vida existe."
+    ],
+    "105": [
+      "Fusão, condensação e evaporação.",
+      "Sólido, líquido e precipitação.",
+      "Evaporação, condensação e precipitação."
+    ],
+    "106": [
+      "Passagem de gasoso a líquido.",
+      "Queda de água sob a forma de precipitação.",
+      "Passagem de líquido a sólido."
+    ],
+    "107": [
+      "Passagem de líquido a gasoso.",
+      "Passagem de sólido a líquido.",
+      "Queda de água sob a forma de precipitação."
+    ],
+    "108": [
+      "Passagem de líquido a sólido.",
+      "Passagem direta de sólido a gasoso.",
+      "Passagem de gasoso a líquido."
+    ],
+    "109": [
+      "Passagem de sólido a líquido.",
+      "Passagem de líquido a gasoso.",
+      "Queda de água sob a forma de precipitação."
+    ],
+    "110": [
+      "Passagem de gasoso a líquido.",
+      "Passagem de líquido a sólido.",
+      "Passagem de sólido a líquido."
+    ],
+    "111": [
+      "Condensação → evaporação → precipitação → infiltração.",
+      "Precipitação → infiltração → evaporação (e termina aqui).",
+      "Evaporação → precipitação → condensação → escoamento."
+    ],
+    "112": [
+      "A água não transporta substâncias nem regula a temperatura.",
+      "A água só é importante como habitat; não tem outras funções.",
+      "A água não é solvente e não participa no ciclo da água."
+    ],
+    "113": [
+      "Água com elevada salinidade; mares e oceanos.",
+      "Mistura de água doce e salgada; estuários e sapais.",
+      "Água sem sais dissolvidos; mar aberto."
+    ],
+    "114": [
+      "Água com baixa salinidade; rios, ribeiras e lagos.",
+      "Mistura de água doce e salgada; estuários e sapais.",
+      "Água sem sal; oceano e mar."
+    ],
+    "115": [
+      "Água com baixa salinidade; rios e lagos.",
+      "Água com elevada salinidade; mares e oceanos.",
+      "Água doce que se transforma em salgada nos rios."
+    ],
+    "116": [
+      "Zonas de mar aberto longe da costa.",
+      "Zonas secas do deserto sem influência de marés.",
+      "Zonas apenas terrestres (florestas e montanhas)."
+    ],
+    "117": [
+      "Parte sólida da Terra (rochas e solo).",
+      "Conjunto de todas as águas do planeta.",
+      "Conjunto de todos os seres vivos e os seus habitats."
+    ],
+    "118": [
+      "Oxigénio ~78%, azoto ~21% e outros gases.",
+      "Azoto ~70%, oxigénio ~29% e outros gases.",
+      "Azoto ~80%, oxigénio ~19% e outros gases."
+    ],
+    "119": [
+      "Aumenta as radiações perigosas e impede a respiração.",
+      "Não influencia a temperatura nem a meteorologia.",
+      "Serve apenas para formar vento, sem outras funções."
+    ],
+    "120": [
+      "O ar não ocupa espaço nem exerce pressão.",
+      "O ar tem apenas temperatura; não tem massa.",
+      "O ar só existe acima das nuvens."
+    ],
+    "121": [
+      "Camada gasosa que envolve a Terra.",
+      "Conjunto de todas as águas do planeta.",
+      "Conjunto de todos os seres vivos e as zonas onde vivem."
+    ],
+    "122": [
+      "Materiais gasosos da atmosfera; propriedades como pressão e vento.",
+      "Materiais líquidos dos mares e rios; propriedades como salinidade.",
+      "Materiais vivos da biosfera; propriedades como respiração."
+    ],
+    "123": [
+      "Forma-se pela solidificação da água do mar; não depende de rochas.",
+      "É produzido diretamente pelas plantas, sem meteorização.",
+      "Não resulta da meteorização; é apenas areia acumulada."
+    ],
+    "124": [
+      "Remover a vegetação para acelerar a erosão.",
+      "Usar o solo sem limites, pois não se degrada.",
+      "Aumentar a erosão para renovar rapidamente o solo."
+    ],
+    "125": [
+      "Camada gasosa que envolve a Terra.",
+      "Conjunto de todas as águas do planeta.",
+      "Parte sólida da Terra (rochas e solo)."
+    ],
+    "126": [
+      "Os seres vivos não dependem das outras esferas.",
+      "Dependem apenas da atmosfera; não precisam de água nem de solo.",
+      "Dependem só da hidrosfera; o ar e o solo não são necessários."
+    ],
+    "127": [
+      "Rios, lagos, oceanos e lagoas.",
+      "Estuários e sapais.",
+      "Mar aberto e zona costeira."
+    ],
+    "128": [
+      "Florestas, montanhas, desertos e planícies.",
+      "Planícies e montanhas.",
+      "Estuários e sapais (apenas)."
+    ],
+    "129": [
+      "Ausência de variação de salinidade e de marés.",
+      "Zonas apenas terrestres sem influência do mar.",
+      "Zonas apenas marinhas longe da costa."
+    ],
+    "130": [
+      "Vento, nuvens e precipitação.",
+      "Pressão do ar, oxigénio e dióxido de carbono.",
+      "Rochas, seres vivos e energia solar."
+    ],
+    "131": [
+      "Existem vários planetas com vida confirmada.",
+      "Não se sabe se existe vida em qualquer planeta, incluindo a Terra.",
+      "A existência de vida não depende de água nem de atmosfera."
+    ],
+    "132": [
+      "Existe em sólido e líquido; não existe em gasoso.",
+      "Circula sem mudanças de estado (sem evaporação nem condensação).",
+      "Só existe como líquido e move-se apenas nos rios."
+    ],
+    "133": [
+      "Porque aumenta as radiações perigosas e impede a respiração.",
+      "Porque não influencia a temperatura do planeta.",
+      "Porque apenas permite vento; não tem outras funções."
+    ],
+    "134": [
+      "Água doce e salgada — base dos ecossistemas.",
+      "Ar atmosférico — único suporte dos ecossistemas terrestres.",
+      "Solo não tem importância para as plantas."
+    ],
+    "135": [
+      "Ausência total de água",
+      "Temperaturas extremas constantes",
+      "Falta de atmosfera"
+    ],
+    "136": [
+      "Litosfera, criosfera e magnetosfera apenas",
+      "Só geosfera e hidrosfera",
+      "Troposfera, estratosfera e mesosfera"
+    ],
+    "137": [
+      "Rochas são sempre líquidas",
+      "Minerais são rochas derretidas",
+      "Rochas e minerais são sinónimos"
+    ],
+    "138": [
+      "Basalto (sedimentar), calcário (metamórfica), quartzito (magmática)",
+      "Apenas granito em todas as categorias",
+      "Areia (metamórfica), granito (sedimentar), calcário (magmática)"
+    ],
+    "139": [
+      "Forma-se apenas por erupções vulcânicas",
+      "É composto só por pedras grandes",
+      "Não tem organismos vivos"
+    ],
+    "140": [
+      "Processo apenas subterrâneo",
+      "Movimento da água só nos rios",
+      "Fluxo único do mar para a terra"
+    ],
+    "141": [
+      "Oxigénio 90% e hidrogénio 10%",
+      "Apenas dióxido de carbono",
+      "Azoto 50%, hélio 50%"
+    ],
+    "142": [
+      "São inúteis para a economia",
+      "Servem apenas para decoração",
+      "Impedem a agricultura"
+    ],
+    "143": [
+      "Remover toda a vegetação",
+      "Arar encostas muito inclinadas",
+      "Dragagem de solos férteis sem controlo"
+    ],
+    "144": [
+      "Apenas a temperatura do ar",
+      "Somente a direção do vento",
+      "Número de carros vistos"
+    ],
+    "145": [
+      "Ambiente aquático: montanha; terrestre: oceano",
+      "Ambiente aquático: deserto; terrestre: mar alto",
+      "Ambiente aquático: céu; terrestre: nuvens"
+    ],
+    "146": [
+      "Aumenta a biodiversidade",
+      "Melhora a visibilidade urbana",
+      "Reduz o efeito de estufa"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "A água existente nas calotes polares faz parte da hidrosfera.",
+      "v": true,
+      "e": "Inclui gelo (calotes e glaciares)."
+    },
+    {
+      "t": "A maior parte do ar é oxigénio.",
+      "v": false,
+      "e": "O gás mais abundante é o azoto (~78%)."
+    },
+    {
+      "t": "O ar ocupa espaço e por isso pode ser comprimido.",
+      "v": true,
+      "e": "Uma das propriedades do ar."
+    },
+    {
+      "t": "A precipitação é uma etapa do ciclo da água.",
+      "v": true,
+      "e": "Surge após a condensação do vapor de água."
+    },
+    {
+      "t": "A geosfera corresponde à parte sólida do planeta.",
+      "v": true,
+      "e": "Inclui rochas, minerais e o solo."
+    },
+    {
+      "t": "Rios e lagos contêm água com elevada salinidade.",
+      "v": false,
+      "e": "Têm água doce (baixa salinidade)."
+    },
+    {
+      "t": "A camada de ozono absorve parte da radiação ultravioleta do Sol.",
+      "v": true,
+      "e": "Ajuda a proteger os seres vivos."
+    },
+    {
+      "t": "O solo resulta apenas de areia acumulada pelo vento.",
+      "v": false,
+      "e": "Forma‑se por meteorização e matéria orgânica."
+    },
+    {
+      "t": "Em estuários a salinidade pode variar com as marés.",
+      "v": true,
+      "e": "São ambientes de transição."
+    },
+    {
+      "t": "A sublimação é a passagem direta de líquido a gasoso.",
+      "v": false,
+      "e": "É a passagem direta de sólido a gasoso."
+    },
+    {
+      "t": "A condensação forma nuvens a partir do vapor de água.",
+      "v": true,
+      "e": "O vapor arrefece e condensa em gotículas."
+    },
+    {
+      "t": "Na Natureza, a maioria das plantas depende do solo para fixação e nutrientes.",
+      "v": true,
+      "e": "O solo fornece suporte e nutrientes."
+    },
+    {
+      "t": "A Terra é o único planeta com vida confirmada.",
+      "v": true,
+      "e": "Até ao momento, não há confirmação noutros planetas."
+    },
+    {
+      "t": "O dióxido de carbono é um dos gases com efeito de estufa.",
+      "v": true,
+      "e": "Contribui para o efeito de estufa natural."
+    },
+    {
+      "t": "Água salobra é mais doce do que a água dos rios.",
+      "v": false,
+      "e": "Tem salinidade intermédia entre doce e salgada."
+    },
+    {
+      "t": "Ambientes de transição são zonas apenas terrestres, sem influência marinha.",
+      "v": false,
+      "e": "Têm influência conjunta terrestre e marinha."
+    },
+    {
+      "t": "A vegetação protege o solo contra a erosão.",
+      "v": true,
+      "e": "As raízes fixam o solo e reduzem o escoamento."
+    },
+    {
+      "t": "Os seres vivos da biosfera dependem de água, ar e solo.",
+      "v": true,
+      "e": "Interagem com hidrosfera, atmosfera e geosfera."
+    },
+    {
+      "t": "Rochas e minerais são conceitos iguais.",
+      "v": false,
+      "e": "Mineral é uma substância; rocha é um agregado de minerais."
+    },
+    {
+      "t": "A fusão ocorre quando o gelo passa a água líquida.",
+      "v": true,
+      "e": "Mudança de estado de sólido para líquido."
+    },
+    {
+      "t": "Todos os gases do ar têm a mesma proporção em qualquer local e momento.",
+      "v": false,
+      "e": "O vapor de água varia bastante."
+    },
+    {
+      "t": "A água no ciclo hidrológico circula entre oceanos, atmosfera e continentes.",
+      "v": true,
+      "e": "Inclui escoamento e infiltração."
+    },
+    {
+      "t": "A atmosfera é irrelevante para a meteorologia.",
+      "v": false,
+      "e": "Fenómenos meteorológicos ocorrem na atmosfera."
+    },
+    {
+      "t": "O efeito de estufa natural ajuda a manter a Terra com temperatura adequada.",
+      "v": true,
+      "e": "Sem ele, a Terra seria muito mais fria."
+    },
+    {
+      "t": "A água só existe na forma líquida no planeta.",
+      "v": false,
+      "e": "Existe também como gelo e vapor de água."
+    },
+    {
+      "t": "O solo contém matéria orgânica e organismos vivos.",
+      "v": true,
+      "e": "Inclui húmus, microrganismos e pequenos animais."
+    },
+    {
+      "t": "As marés não influenciam a vida nos sapais.",
+      "v": false,
+      "e": "A vida nos sapais está adaptada ao regime de marés."
+    },
+    {
+      "t": "Os minerais têm composição e propriedades características.",
+      "v": true,
+      "e": "Cada mineral tem composição e estrutura próprias."
+    },
+    {
+      "t": "O ar não tem massa.",
+      "v": false,
+      "e": "O ar tem massa e exerce pressão."
+    },
+    {
+      "t": "A infiltração é a passagem da água do solo para camadas subterrâneas.",
+      "v": true,
+      "e": "Pode alimentar aquíferos."
+    },
+    {
+      "t": "Os ecossistemas terrestres não dependem da geosfera.",
+      "v": false,
+      "e": "Dependem do solo e das rochas como suporte."
+    },
+    {
+      "t": "A poluição do ar pode piorar doenças respiratórias.",
+      "v": true,
+      "e": "Afeta a saúde humana."
+    }
+  ]
+}
