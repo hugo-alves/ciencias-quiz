@@ -1,0 +1,592 @@
+{
+  "metadata": {
+    "title": "Ciências Naturais 5.º — Biomas (Deck completo)",
+    "subtitle": "Clima, vegetação, adaptações e conservação",
+    "description": "Deck para estudo dos principais biomas terrestres e aquáticos, com foco no bioma mediterrânico em Portugal.",
+    "unit": "CN5_BIOMAS",
+    "version": "v1-2025-10-28",
+    "footer": "Conteúdo para 5.º ano (PT‑PT), alinhado com AE."
+  },
+  "cards": [
+    {
+      "id": 201,
+      "tema": "Conceitos de Bioma",
+      "curto": true,
+      "q": "O que é um bioma?",
+      "a": "Grande região do planeta com clima, solos, plantas e animais característicos."
+    },
+    {
+      "id": 202,
+      "tema": "Conceitos de Bioma",
+      "curto": true,
+      "q": "Quais são três fatores que ajudam a definir um bioma?",
+      "a": "Clima (temperatura e precipitação), tipo de solo e vegetação dominante."
+    },
+    {
+      "id": 203,
+      "tema": "Conceitos de Bioma",
+      "curto": false,
+      "q": "Explica a relação entre clima e vegetação num bioma.",
+      "a": "O clima condiciona a quantidade de água e a temperatura, o que determina que plantas conseguem sobreviver e dominar a paisagem."
+    },
+    {
+      "id": 204,
+      "tema": "Fatores Climáticos",
+      "curto": true,
+      "q": "Que dois elementos do clima são mais usados para distinguir biomas?",
+      "a": "Temperatura média e precipitação."
+    },
+    {
+      "id": 205,
+      "tema": "Fatores Climáticos",
+      "curto": false,
+      "q": "Como a latitude influencia os biomas?",
+      "a": "Latitudes baixas recebem mais energia solar (biomas quentes e húmidos); latitudes altas recebem menos (biomas frios e secos)."
+    },
+    {
+      "id": 206,
+      "tema": "Fatores Climáticos",
+      "curto": true,
+      "q": "De que forma a altitude pode alterar um bioma?",
+      "a": "Aumenta a altitude, diminui a temperatura; podem surgir biomas de clima mais frio em montanhas."
+    },
+    {
+      "id": 207,
+      "tema": "Biomas do Mundo",
+      "curto": true,
+      "q": "Indica três biomas terrestres principais.",
+      "a": "Floresta tropical, deserto e tundra (entre outros como savana, taiga, pradaria)."
+    },
+    {
+      "id": 208,
+      "tema": "Biomas do Mundo",
+      "curto": false,
+      "q": "Onde se localizam, em geral, os desertos subtropicais?",
+      "a": "Próximo dos trópicos (cerca de 20–30° de latitude), em zonas de ar seco descendente."
+    },
+    {
+      "id": 209,
+      "tema": "Biomas do Mundo",
+      "curto": true,
+      "q": "Que bioma domina regiões muito frias com solos gelados grande parte do ano?",
+      "a": "Tundra."
+    },
+    {
+      "id": 210,
+      "tema": "Biomas do Mundo",
+      "curto": true,
+      "q": "Como é a vegetação típica das pradarias/estepes?",
+      "a": "Predominam ervas altas ou baixas, poucas árvores devido a pouca água/incêndios."
+    },
+    {
+      "id": 211,
+      "tema": "Floresta Tropical",
+      "curto": false,
+      "q": "Caracteriza o clima e a biodiversidade da floresta tropical húmida.",
+      "a": "Clima quente e muito chuvoso todo o ano; biodiversidade elevadíssima com muitas espécies de plantas e animais."
+    },
+    {
+      "id": 212,
+      "tema": "Deserto",
+      "curto": true,
+      "q": "Que característica climática define o deserto?",
+      "a": "Muito baixa precipitação anual."
+    },
+    {
+      "id": 213,
+      "tema": "Savana",
+      "curto": true,
+      "q": "Qual é a paisagem típica da savana?",
+      "a": "Ervas altas com algumas árvores dispersas."
+    },
+    {
+      "id": 214,
+      "tema": "Taiga (Floresta Boreal)",
+      "curto": false,
+      "q": "Que tipo de árvores domina a taiga e porquê?",
+      "a": "Coníferas (pinheiros, abetos) adaptadas a frio e neve, com folhas em forma de agulha que perdem menos água."
+    },
+    {
+      "id": 215,
+      "tema": "Tundra",
+      "curto": true,
+      "q": "O que é o permafrost na tundra?",
+      "a": "Solo que se mantém gelado todo o ano, descongelando só a camada superficial no verão."
+    },
+    {
+      "id": 216,
+      "tema": "Pradaria/Estepe",
+      "curto": false,
+      "q": "Indica duas adaptações comuns das plantas de pradaria.",
+      "a": "Raízes profundas para alcançar água e crescimento rápido após incêndios."
+    },
+    {
+      "id": 217,
+      "tema": "Bioma Mediterrânico",
+      "curto": true,
+      "q": "Que tipo de clima está associado ao bioma mediterrânico?",
+      "a": "Verões quentes e secos; invernos suaves e chuvosos."
+    },
+    {
+      "id": 218,
+      "tema": "Bioma Mediterrânico",
+      "curto": false,
+      "q": "Dá dois exemplos de plantas típicas do mediterrânico em Portugal.",
+      "a": "Sobreiro e azinheira (também medronheiro, esteva, pinheiro‑manso, oliveira)."
+    },
+    {
+      "id": 219,
+      "tema": "Bioma Mediterrânico",
+      "curto": true,
+      "q": "Que folha é típica em muitas plantas mediterrânicas e porquê?",
+      "a": "Folhas pequenas e coriáceas (ou com cutícula espessa) para reduzir perda de água."
+    },
+    {
+      "id": 220,
+      "tema": "Adaptações",
+      "curto": true,
+      "q": "Dá um exemplo de adaptação de animais do deserto.",
+      "a": "Atividade noturna e poupança de água (urina concentrada)."
+    },
+    {
+      "id": 221,
+      "tema": "Adaptações",
+      "curto": true,
+      "q": "Que adaptação ajuda os cactos a sobreviver no deserto?",
+      "a": "Armazenam água nos caules e têm espinhos no lugar de folhas."
+    },
+    {
+      "id": 222,
+      "tema": "Adaptações",
+      "curto": false,
+      "q": "Como as plantas da tundra suportam o frio e o vento?",
+      "a": "Crescem baixas junto ao solo e têm ciclos de vida curtos no verão."
+    },
+    {
+      "id": 223,
+      "tema": "Adaptações",
+      "curto": true,
+      "q": "Que estratégia ajuda as plantas mediterrânicas a resistir ao verão seco?",
+      "a": "Raízes profundas e folhas com cutícula espessa."
+    },
+    {
+      "id": 224,
+      "tema": "Impactos e Conservação",
+      "curto": false,
+      "q": "Refere duas ameaças humanas aos biomas.",
+      "a": "Desflorestação, poluição, sobrepastoreio, introdução de espécies invasoras e alterações climáticas."
+    },
+    {
+      "id": 225,
+      "tema": "Impactos e Conservação",
+      "curto": true,
+      "q": "Porque é importante proteger os biomas?",
+      "a": "Mantêm a biodiversidade, fornecem recursos e regulam o clima e a água."
+    },
+    {
+      "id": 226,
+      "tema": "Impactos e Conservação",
+      "curto": false,
+      "q": "Dá dois exemplos de ações que ajudam a conservar biomas.",
+      "a": "Criação de áreas protegidas, reflorestação e uso sustentável dos recursos."
+    },
+    {
+      "id": 227,
+      "tema": "Biomas Aquáticos",
+      "curto": true,
+      "q": "Indica dois grandes tipos de biomas aquáticos.",
+      "a": "Água doce (rios, lagos) e marinho (oceanos, zonas costeiras)."
+    },
+    {
+      "id": 228,
+      "tema": "Biomas Aquáticos",
+      "curto": false,
+      "q": "O que condiciona a vida nos biomas marinhos costeiros?",
+      "a": "Variação de salinidade, marés, luz e nutrientes."
+    },
+    {
+      "id": 229,
+      "tema": "Mapas de Biomas",
+      "curto": true,
+      "q": "Que informação lês num mapa de biomas do mundo?",
+      "a": "A distribuição geográfica dos principais biomas do planeta."
+    },
+    {
+      "id": 230,
+      "tema": "Mapas de Biomas",
+      "curto": false,
+      "q": "Como podes relacionar um clima com o bioma esperado numa região?",
+      "a": "Se o clima é quente e chuvoso, espera‑se floresta tropical; se é seco, desertos; se é frio extremo, tundra, etc."
+    },
+    {
+      "id": 231,
+      "tema": "Síntese",
+      "curto": true,
+      "q": "Qual é a ligação entre latitude e temperatura média?",
+      "a": "Maior latitude, menor temperatura média anual."
+    },
+    {
+      "id": 232,
+      "tema": "Síntese",
+      "curto": true,
+      "q": "Qual o bioma com maior biodiversidade terrestre?",
+      "a": "Floresta tropical húmida."
+    },
+    {
+      "id": 233,
+      "tema": "Síntese",
+      "curto": false,
+      "q": "Explica porque várias espécies endémicas estão em risco quando um bioma é destruído.",
+      "a": "Porque só existem naquela região; a perda de habitat reduz populações e pode levar à extinção."
+    },
+    {
+      "id": 234,
+      "tema": "Comparações",
+      "curto": true,
+      "q": "Que bioma tem chuvas irregulares e estação seca marcada: savana ou floresta tropical?",
+      "a": "Savana."
+    },
+    {
+      "id": 235,
+      "tema": "Comparações",
+      "curto": true,
+      "q": "Em qual bioma é mais provável encontrar cactos: deserto ou taiga?",
+      "a": "Deserto."
+    },
+    {
+      "id": 236,
+      "tema": "Comparações",
+      "curto": false,
+      "q": "Porque as árvores são raras nas pradarias, comparando com florestas?",
+      "a": "Água limitada e incêndios frequentes dificultam o crescimento de árvores."
+    },
+    {
+      "id": 237,
+      "tema": "Portugal",
+      "curto": true,
+      "q": "O montado de sobro insere‑se em que bioma?",
+      "a": "Bioma mediterrânico."
+    },
+    {
+      "id": 238,
+      "tema": "Portugal",
+      "curto": false,
+      "q": "Indica uma razão ecológica para valorizar o montado de sobro.",
+      "a": "Suporta elevada biodiversidade e protege o solo da erosão, além de recursos como a cortiça."
+    }
+  ],
+  "distractors": {
+    "201": [
+      "Pequeno lago com peixes",
+      "Cidade com muitos prédios",
+      "Um único ecossistema isolado"
+    ],
+    "202": [
+      "Fusos horários, altitude das nuvens e cor do céu",
+      "Número de habitantes e PIB",
+      "Velocidade do vento e marés"
+    ],
+    "203": [
+      "As plantas mudam o clima em poucos dias",
+      "A vegetação decide onde chove",
+      "Não existe relação entre clima e plantas"
+    ],
+    "204": [
+      "Pressão atmosférica e direção do vento",
+      "Fases da Lua e nebulosidade",
+      "Horas de sol e cor das nuvens"
+    ],
+    "205": [
+      "A latitude não tem qualquer efeito",
+      "Latitudes altas são sempre desérticas por causa do vento",
+      "Latitudes baixas são sempre montanhosas"
+    ],
+    "206": [
+      "A altitude aquece o ar, criando florestas tropicais",
+      "A altitude muda os oceanos de lugar",
+      "A altitude não muda nada nos biomas"
+    ],
+    "207": [
+      "Recifes de coral, marés e dunas",
+      "Lago urbano, parque infantil, quinta",
+      "Planeta, continente e país"
+    ],
+    "208": [
+      "Apenas no Polo Norte",
+      "Exclusivamente junto ao equador",
+      "Unicamente no meio dos oceanos"
+    ],
+    "209": [
+      "Savana",
+      "Floresta tropical",
+      "Pradaria temperada"
+    ],
+    "210": [
+      "Florestas densas de árvores altas",
+      "Só cactos",
+      "Apenas musgos e líquenes"
+    ],
+    "211": [
+      "Clima frio e seco; baixa biodiversidade",
+      "Clima com pouca chuva e muita areia",
+      "Clima com neve todo o ano"
+    ],
+    "212": [
+      "Temperaturas sempre negativas",
+      "Ventos constantes de ciclone",
+      "Humidade altíssima todo o ano"
+    ],
+    "213": [
+      "Floresta fechada",
+      "Só areia e dunas",
+      "Gelo permanente"
+    ],
+    "214": [
+      "Árvores de fruto tropicais por causa do calor",
+      "Cactos devido à seca extrema",
+      "Palmeiras por causa das praias"
+    ],
+    "215": [
+      "Areia muito quente",
+      "Gelo apenas dentro de cavernas",
+      "Lama que nunca congela"
+    ],
+    "216": [
+      "Folhas gigantes cheias de água como cactos",
+      "Raízes aéreas a voar",
+      "Precisam de sombra permanente"
+    ],
+    "217": [
+      "Verões frios e chuvosos; invernos quentes",
+      "Chuva intensa todo o ano",
+      "Neve permanente"
+    ],
+    "218": [
+      "Gelo perene e líquenes polares",
+      "Mangais e palmeiras de selva húmida",
+      "Cactos gigantes de deserto frio"
+    ],
+    "219": [
+      "Folhas gigantes para evaporar mais água",
+      "Folhas transparentes para apanhar vento",
+      "Sem folhas porque não precisam"
+    ],
+    "220": [
+      "Vivem debaixo de gelo",
+      "Respiram debaixo de água",
+      "Produzem chuva"
+    ],
+    "221": [
+      "Raízes voadoras",
+      "Flores que derretem o gelo",
+      "Caules de gelo puro"
+    ],
+    "222": [
+      "Crescem muito altas para apanhar mais vento",
+      "Guardam fogo nas raízes",
+      "Vivem debaixo de água"
+    ],
+    "223": [
+      "Folhas muito finas e sem cutícula",
+      "Dependem de gelo derretido",
+      "Solos sempre encharcados"
+    ],
+    "224": [
+      "Aumento natural de montanhas",
+      "Rotação da Terra",
+      "Fases da Lua"
+    ],
+    "225": [
+      "Servem só para turismo",
+      "Para criar mais deserto",
+      "Para aumentar tempestades"
+    ],
+    "226": [
+      "Cortar todas as árvores",
+      "Poluir para fertilizar rios",
+      "Queimar vegetação todos os verões"
+    ],
+    "227": [
+      "Deserto e tundra",
+      "Floresta tropical e taiga",
+      "Pradaria e savana"
+    ],
+    "228": [
+      "Cor das nuvens",
+      "Altura dos prédios",
+      "Fases do calendário escolar"
+    ],
+    "229": [
+      "O trânsito das cidades",
+      "A população por país",
+      "As placas tectónicas ativas"
+    ],
+    "230": [
+      "Climas quentes produzem só gelo",
+      "Climas secos geram selvas densas",
+      "Climas frios criam savanas altas"
+    ],
+    "231": [
+      "Maior latitude, maior temperatura",
+      "Latitude não se relaciona com temperatura",
+      "Latitude muda só a cor do céu"
+    ],
+    "232": [
+      "Deserto frio",
+      "Tundra",
+      "Pradaria"
+    ],
+    "233": [
+      "Porque podem viver em qualquer lugar",
+      "Porque crescem mais com poluição",
+      "Porque a destruição cria mais alimento"
+    ],
+    "234": [
+      "Floresta tropical",
+      "Tundra",
+      "Taiga"
+    ],
+    "235": [
+      "Taiga",
+      "Tundra",
+      "Floresta tropical"
+    ],
+    "236": [
+      "O solo é feito de pedra lisa",
+      "As árvores fogem do vento",
+      "As raízes não funcionam em planícies"
+    ],
+    "237": [
+      "Taiga",
+      "Tundra",
+      "Deserto subtropical"
+    ],
+    "238": [
+      "Produz neve no verão",
+      "Aumenta a salinidade do mar",
+      "Faz chover todos os dias"
+    ]
+  },
+  "trueFalse": [
+    {
+      "t": "Biomas são grandes áreas com clima e vida típicos.",
+      "v": true,
+      "e": "Definição simples de bioma."
+    },
+    {
+      "t": "A precipitação e a temperatura ajudam a distinguir biomas.",
+      "v": true,
+      "e": "Fatores climáticos principais."
+    },
+    {
+      "t": "Os desertos são definidos por temperaturas altas, não pela falta de chuva.",
+      "v": false,
+      "e": "O critério central é a baixa precipitação."
+    },
+    {
+      "t": "Na savana há ervas e poucas árvores dispersas.",
+      "v": true,
+      "e": "Paisagem característica."
+    },
+    {
+      "t": "A taiga é dominada por coníferas adaptadas ao frio.",
+      "v": true,
+      "e": "Pinheiros, abetos."
+    },
+    {
+      "t": "O permafrost é típico da tundra.",
+      "v": true,
+      "e": "Solo permanentemente gelado."
+    },
+    {
+      "t": "A floresta tropical tem baixa biodiversidade.",
+      "v": false,
+      "e": "Tem biodiversidade muito elevada."
+    },
+    {
+      "t": "Pradarias têm muitas árvores altas devido à água abundante.",
+      "v": false,
+      "e": "Poucas árvores; dominam ervas."
+    },
+    {
+      "t": "O bioma mediterrânico tem verões secos e invernos chuvosos.",
+      "v": true,
+      "e": "Clima típico do Mediterrâneo."
+    },
+    {
+      "t": "Cactos armazenam água nos caules.",
+      "v": true,
+      "e": "Adaptação ao deserto."
+    },
+    {
+      "t": "Animais do deserto são muitas vezes noturnos.",
+      "v": true,
+      "e": "Para evitar calor extremo."
+    },
+    {
+      "t": "A latitude não influencia a distribuição dos biomas.",
+      "v": false,
+      "e": "Influencia a energia solar recebida."
+    },
+    {
+      "t": "Maior altitude tende a significar temperaturas mais baixas.",
+      "v": true,
+      "e": "Gradiente térmico vertical."
+    },
+    {
+      "t": "Os biomas marinhos não existem porque o mar é igual em todo o lado.",
+      "v": false,
+      "e": "Existem biomas aquáticos com condições diferentes."
+    },
+    {
+      "t": "Espécies endémicas só existem numa região específica.",
+      "v": true,
+      "e": "Vulneráveis à perda de habitat."
+    },
+    {
+      "t": "Desflorestação e poluição podem ameaçar biomas.",
+      "v": true,
+      "e": "Impactos humanos."
+    },
+    {
+      "t": "Reflorestar e criar áreas protegidas ajudam a conservar biomas.",
+      "v": true,
+      "e": "Medidas de conservação."
+    },
+    {
+      "t": "O montado de sobro é irrelevante para a biodiversidade.",
+      "v": false,
+      "e": "É habitat valioso em Portugal."
+    },
+    {
+      "t": "Na tundra, as plantas crescem baixas para evitar o vento e o frio.",
+      "v": true,
+      "e": "Adaptação comum."
+    },
+    {
+      "t": "A floresta tropical localiza‑se sobretudo em latitudes altas.",
+      "v": false,
+      "e": "Predomina em latitudes baixas (próximo do equador)."
+    },
+    {
+      "t": "Pradarias podem sofrer incêndios naturais que renovam a vegetação.",
+      "v": true,
+      "e": "Parte da dinâmica ecológica."
+    },
+    {
+      "t": "No mediterrânico, muitas plantas têm folhas espessas e coriáceas.",
+      "v": true,
+      "e": "Reduzem perda de água."
+    },
+    {
+      "t": "Os desertos ocorrem apenas em África.",
+      "v": false,
+      "e": "Existem desertos em vários continentes."
+    },
+    {
+      "t": "Os biomas ajudam a compreender onde vivem certos animais e plantas.",
+      "v": true,
+      "e": "Ligam clima, solo e vida."
+    }
+  ]
+}
