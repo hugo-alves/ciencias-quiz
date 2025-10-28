@@ -43,9 +43,16 @@ const firebaseConfig = {
 
 ## Step 4: Add Config to Quiz App
 
-1. Open `firebase-config.js` file in your quiz project (created by this setup)
-2. Replace the placeholder config with YOUR config from Step 2
-3. Save the file
+1. **Copy the template file:**
+   ```bash
+   cp firebase-config.example.js firebase-config.js
+   ```
+
+2. Open `firebase-config.js` in your editor
+3. Replace the placeholder values with YOUR config from Step 2
+4. Save the file
+
+**Note:** `firebase-config.js` is git-ignored for security. Never commit actual credentials to the repository.
 
 ## Step 5: Set Security Rules
 
